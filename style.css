@@ -1761,3 +1761,273 @@ button:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* PREMIUM MOTION / 3D SYSTEMS FIELD */
+:root {
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+  --field-opacity: 1;
+  --field-vignette: rgba(247, 248, 251, 0.34);
+  --glass-surface: rgba(255, 255, 255, 0.84);
+}
+
+.dark-theme {
+  --field-opacity: 0.86;
+  --field-vignette: rgba(11, 18, 32, 0.48);
+  --glass-surface: rgba(17, 26, 44, 0.78);
+}
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, var(--bg-primary) 0%, color-mix(in srgb, var(--bg-primary) 86%, transparent) 38%, var(--field-vignette) 100%),
+    linear-gradient(180deg, color-mix(in srgb, var(--bg-primary) 94%, transparent) 0%, transparent 42%, var(--bg-primary) 100%);
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.42;
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--line) 58%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--line) 58%, transparent) 1px, transparent 1px);
+  background-size: 88px 88px;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 44%, #000 100%);
+}
+
+.systems-3d {
+  position: absolute;
+  inset: -6% -14% -10% 18%;
+  z-index: 0;
+  width: 96%;
+  height: 112%;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate3d(3%, 0, 0) scale(1.02);
+  transition: opacity 900ms var(--ease-premium), transform 1200ms var(--ease-premium);
+}
+
+.systems-3d-ready .systems-3d {
+  opacity: var(--field-opacity);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+.systems-3d-fallback .systems-3d {
+  display: none;
+}
+
+.hero-grid {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-intro,
+.profile-box {
+  transform-style: preserve-3d;
+}
+
+.hero-intro {
+  transition: transform 900ms var(--ease-premium), opacity 900ms var(--ease-premium);
+}
+
+body:not(.is-loaded) .hero-intro {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+}
+
+.availability-tag,
+.proof-metric,
+.profile-box,
+.philosophy-card,
+.timeline-item,
+.project-card,
+.skills-category-box,
+.contact-card {
+  backface-visibility: hidden;
+}
+
+.profile-box,
+.philosophy-card,
+.project-card,
+.skills-category-box {
+  position: relative;
+  overflow: hidden;
+  transform: perspective(1100px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)) translateY(0);
+  transition:
+    transform 520ms var(--ease-premium),
+    border-color 420ms var(--ease-premium),
+    box-shadow 520ms var(--ease-premium),
+    background-color 420ms var(--ease-premium);
+}
+
+.profile-box {
+  background-color: var(--glass-surface);
+  background-image: linear-gradient(180deg, color-mix(in srgb, var(--bg-secondary) 22%, transparent), transparent);
+  backdrop-filter: blur(24px) saturate(1.18);
+  -webkit-backdrop-filter: blur(24px) saturate(1.18);
+}
+
+.profile-box::after,
+.philosophy-card::after,
+.project-card::after,
+.skills-category-box::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 420ms var(--ease-premium);
+  background:
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      color-mix(in srgb, var(--accent) 9%, transparent) 46%,
+      transparent 100%
+    );
+}
+
+.profile-box:hover,
+.philosophy-card:hover,
+.project-card:hover,
+.skills-category-box:hover {
+  border-color: color-mix(in srgb, var(--accent) 28%, var(--line));
+  box-shadow: 0 28px 80px color-mix(in srgb, var(--text-primary) 13%, transparent);
+}
+
+.profile-box:hover::after,
+.philosophy-card:hover::after,
+.project-card:hover::after,
+.skills-category-box:hover::after {
+  opacity: 1;
+}
+
+.btn,
+.theme-btn,
+.profile-links a {
+  transition:
+    transform 320ms var(--ease-premium),
+    border-color 320ms var(--ease-premium),
+    background-color 320ms var(--ease-premium),
+    color 320ms var(--ease-premium),
+    box-shadow 320ms var(--ease-premium);
+}
+
+.btn:hover,
+.theme-btn:hover,
+.profile-links a:hover {
+  transform: translateY(-2px);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 26px, 0);
+  transition:
+    opacity 760ms var(--ease-premium) var(--reveal-delay, 0ms),
+    transform 760ms var(--ease-premium) var(--reveal-delay, 0ms);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.timeline-item.reveal {
+  transform: translate3d(0, 18px, 0);
+}
+
+.timeline-item.reveal.is-visible {
+  transform: translate3d(0, 0, 0);
+}
+
+.system-visual {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 8%, transparent), transparent 42%),
+    linear-gradient(180deg, var(--bg-secondary), var(--bg-primary));
+}
+
+.node {
+  box-shadow: 0 0 0 7px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.signal-line {
+  opacity: 0.72;
+}
+
+@media (max-width: 1024px) {
+  .systems-3d {
+    inset: 0 -24% auto 8%;
+    width: 118%;
+    height: 64%;
+    opacity: 0;
+  }
+
+  .hero::before {
+    background:
+      linear-gradient(180deg, color-mix(in srgb, var(--bg-primary) 86%, transparent) 0%, var(--bg-primary) 78%),
+      linear-gradient(90deg, color-mix(in srgb, var(--bg-primary) 86%, transparent), var(--bg-primary));
+  }
+
+  .hero::after {
+    mask-image: linear-gradient(180deg, #000 0%, transparent 68%);
+  }
+}
+
+@media (max-width: 768px) {
+  .systems-3d {
+    inset: 96px -38% auto -18%;
+    width: 154%;
+    height: 520px;
+  }
+
+  .hero-grid {
+    gap: 42px;
+  }
+
+  .profile-box,
+  .philosophy-card,
+  .project-card,
+  .skills-category-box {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .systems-3d {
+    inset: 108px -54% auto -34%;
+    width: 184%;
+    height: 470px;
+  }
+
+  .hero::after {
+    background-size: 64px 64px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .systems-3d {
+    display: none;
+  }
+
+  .reveal,
+  .reveal.is-visible,
+  body:not(.is-loaded) .hero-intro,
+  .profile-box,
+  .philosophy-card,
+  .project-card,
+  .skills-category-box {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

@@ -42,6 +42,7 @@
 
   <!-- Hero Section -->
   <section class="hero" id="about">
+    <canvas id="systems-3d" class="systems-3d" aria-hidden="true"></canvas>
     <div class="container hero-grid">
       <div class="hero-intro">
         <div class="availability-tag">
@@ -569,6 +570,197 @@
       langToggle.textContent = 'PL';
       document.documentElement.lang = 'en';
     }
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const revealTargets = document.querySelectorAll(
+      '.hero-intro, .profile-box, .proof-metric, .philosophy-card, .timeline-item, .project-card, .skills-category-box, .contact-card'
+    );
+
+    requestAnimationFrame(() => body.classList.add('is-loaded'));
+
+    revealTargets.forEach((element, index) => {
+      element.classList.add('reveal');
+      element.style.setProperty('--reveal-delay', `${Math.min(index * 55, 360)}ms`);
+    });
+
+    if (prefersReducedMotion.matches) {
+      revealTargets.forEach((element) => element.classList.add('is-visible'));
+    } else {
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.18, rootMargin: '0px 0px -8% 0px' });
+
+      revealTargets.forEach((element) => revealObserver.observe(element));
+    }
+
+    const tactileTargets = document.querySelectorAll('.profile-box, .philosophy-card, .project-card, .skills-category-box');
+
+    tactileTargets.forEach((card) => {
+      card.addEventListener('pointermove', (event) => {
+        const rect = card.getBoundingClientRect();
+        const x = (event.clientX - rect.left) / rect.width;
+        const y = (event.clientY - rect.top) / rect.height;
+        card.style.setProperty('--pointer-x', `${x * 100}%`);
+        card.style.setProperty('--pointer-y', `${y * 100}%`);
+        card.style.setProperty('--tilt-x', `${(0.5 - y) * 5}deg`);
+        card.style.setProperty('--tilt-y', `${(x - 0.5) * 5}deg`);
+      });
+
+      card.addEventListener('pointerleave', () => {
+        card.style.removeProperty('--pointer-x');
+        card.style.removeProperty('--pointer-y');
+        card.style.removeProperty('--tilt-x');
+        card.style.removeProperty('--tilt-y');
+      });
+    });
+
+    async function initSystemsField() {
+      const canvas = document.getElementById('systems-3d');
+      if (!canvas || prefersReducedMotion.matches) {
+        body.classList.add('systems-3d-fallback');
+        return;
+      }
+
+      try {
+        const THREE = await import('https://unpkg.com/three@0.160.0/build/three.module.js');
+        const scene = new THREE.Scene();
+        const renderer = new THREE.WebGLRenderer({
+          canvas,
+          alpha: true,
+          antialias: true,
+          powerPreference: 'high-performance',
+          preserveDrawingBuffer: true
+        });
+        const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
+        const network = new THREE.Group();
+        const pointer = new THREE.Vector2(0, 0);
+        const clock = new THREE.Clock();
+        const isDark = () => body.classList.contains('dark-theme');
+        const nodes = [
+          [-3.2, 1.1, -1.2], [-2.2, -0.7, 0.3], [-1.0, 1.8, 0.6],
+          [0.2, -1.1, -0.4], [1.2, 1.1, 0.9], [2.2, -0.3, -0.8],
+          [3.0, 1.5, 0.2], [3.7, -1.2, 0.7], [-3.8, -1.7, 0.5]
+        ];
+
+        scene.add(network);
+        camera.position.set(0, 0, 7.2);
+
+        const nodeGeometry = new THREE.SphereGeometry(0.075, 20, 20);
+        const pointMaterial = new THREE.PointsMaterial({
+          color: 0x2563eb,
+          size: 0.052,
+          transparent: true,
+          opacity: 0.58
+        });
+        const cloudGeometry = new THREE.BufferGeometry();
+        const cloudVertices = [];
+
+        for (let i = 0; i < 280; i += 1) {
+          const angle = i * 0.82;
+          const radius = 1.4 + (i % 34) * 0.078;
+          cloudVertices.push(
+            Math.cos(angle) * radius,
+            Math.sin(angle * 0.72) * 1.7 + Math.cos(i * 0.19) * 0.28,
+            Math.sin(angle) * radius * 0.28
+          );
+        }
+
+        cloudGeometry.setAttribute('position', new THREE.Float32BufferAttribute(cloudVertices, 3));
+        const pointCloud = new THREE.Points(cloudGeometry, pointMaterial);
+        network.add(pointCloud);
+
+        const nodeMeshes = nodes.map((coords, index) => {
+          const material = new THREE.MeshBasicMaterial({
+            color: index % 3 === 0 ? 0x14b8a6 : 0x2563eb,
+            transparent: true,
+            opacity: 0.95
+          });
+          const mesh = new THREE.Mesh(nodeGeometry, material);
+          mesh.position.set(coords[0], coords[1], coords[2]);
+          network.add(mesh);
+          return mesh;
+        });
+
+        const linePositions = [];
+        const links = [[0, 1], [0, 2], [1, 3], [2, 4], [3, 4], [4, 5], [5, 6], [5, 7], [3, 8], [1, 8]];
+        links.forEach(([start, end]) => {
+          linePositions.push(...nodes[start], ...nodes[end]);
+        });
+
+        const lineGeometry = new THREE.BufferGeometry();
+        lineGeometry.setAttribute('position', new THREE.Float32BufferAttribute(linePositions, 3));
+        const lineMaterial = new THREE.LineBasicMaterial({
+          color: 0x2563eb,
+          transparent: true,
+          opacity: 0.34
+        });
+        const lineSegments = new THREE.LineSegments(lineGeometry, lineMaterial);
+        network.add(lineSegments);
+
+        const resize = () => {
+          const rect = canvas.parentElement.getBoundingClientRect();
+          const width = Math.max(rect.width, 1);
+          const height = Math.max(rect.height, 1);
+          renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+          renderer.setSize(width, height, false);
+          camera.aspect = width / height;
+          camera.position.z = width < 720 ? 8.8 : 7.2;
+          network.scale.setScalar(width < 720 ? 0.78 : 1);
+          camera.updateProjectionMatrix();
+        };
+
+        const updateTheme = () => {
+          const dark = isDark();
+          pointMaterial.color.set(dark ? 0x60a5fa : 0x2563eb);
+          pointMaterial.opacity = dark ? 0.62 : 0.5;
+          lineMaterial.color.set(dark ? 0x7dd3fc : 0x2563eb);
+          lineMaterial.opacity = dark ? 0.36 : 0.3;
+          nodeMeshes.forEach((mesh, index) => {
+            mesh.material.color.set(index % 3 === 0 ? (dark ? 0x5eead4 : 0x0f766e) : (dark ? 0x93c5fd : 0x2563eb));
+            mesh.material.opacity = dark ? 0.95 : 0.86;
+          });
+        };
+
+        const onPointerMove = (event) => {
+          pointer.x = (event.clientX / window.innerWidth - 0.5) * 2;
+          pointer.y = (event.clientY / window.innerHeight - 0.5) * 2;
+        };
+
+        window.addEventListener('resize', resize);
+        window.addEventListener('pointermove', onPointerMove, { passive: true });
+        themeToggle.addEventListener('click', updateTheme);
+        resize();
+        updateTheme();
+        body.classList.add('systems-3d-ready');
+        window.__systems3DReady = true;
+        window.__systems3DFrameCount = 0;
+
+        const animate = () => {
+          const elapsed = clock.getElapsedTime();
+          network.rotation.y = elapsed * 0.055 + pointer.x * 0.12;
+          network.rotation.x = -0.08 + pointer.y * 0.06;
+          pointCloud.rotation.z = elapsed * 0.018;
+          nodeMeshes.forEach((mesh, index) => {
+            mesh.scale.setScalar(1 + Math.sin(elapsed * 1.6 + index) * 0.18);
+          });
+          renderer.render(scene, camera);
+          window.__systems3DFrameCount += 1;
+          requestAnimationFrame(animate);
+        };
+
+        animate();
+      } catch (error) {
+        console.warn('Systems field unavailable', error);
+        body.classList.add('systems-3d-fallback');
+      }
+    }
+
+    initSystemsField();
   </script>
 </body>
 </html>
