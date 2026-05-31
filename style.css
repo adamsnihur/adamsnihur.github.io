@@ -2038,6 +2038,12 @@ body:not(.is-loaded) .hero-intro {
   object-fit: contain;
 }
 
+.experience-logo-emblem img {
+  height: 54px;
+  max-width: 72px;
+  margin: -4px 0 -6px;
+}
+
 .experience-logo-card strong,
 .experience-logo-wordmark strong {
   color: var(--text-primary);
