@@ -1973,6 +1973,100 @@ body:not(.is-loaded) .hero-intro {
   opacity: 0.72;
 }
 
+.experience-logos {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.28fr);
+  gap: 28px;
+  align-items: stretch;
+  margin: 0 0 42px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--bg-secondary) 82%, transparent);
+}
+
+.experience-logos-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.experience-logos-copy p {
+  max-width: 34ch;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.56;
+}
+
+.experience-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.experience-logo-card {
+  display: flex;
+  min-height: 132px;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-primary);
+  padding: 18px;
+  transition:
+    transform 420ms var(--ease-premium),
+    border-color 420ms var(--ease-premium),
+    box-shadow 420ms var(--ease-premium);
+}
+
+.experience-logo-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--accent) 32%, var(--line));
+  box-shadow: 0 18px 48px color-mix(in srgb, var(--text-primary) 10%, transparent);
+}
+
+.experience-logo-card img {
+  display: block;
+  width: auto;
+  max-width: 96px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.experience-logo-card strong,
+.experience-logo-wordmark strong {
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 1.02rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.experience-logo-wordmark strong {
+  font-size: 1.18rem;
+}
+
+.experience-logo-card span {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.experience-logo-card.reveal {
+  transform: translate3d(0, 18px, 0);
+}
+
+.experience-logo-card.reveal.is-visible {
+  transform: translate3d(0, 0, 0);
+}
+
 @media (max-width: 1024px) {
   .systems-3d {
     inset: 0 -24% auto 8%;
@@ -2009,6 +2103,14 @@ body:not(.is-loaded) .hero-intro {
   .skills-category-box {
     transform: translateY(0);
   }
+
+  .experience-logos {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-logo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 480px) {
@@ -2020,6 +2122,18 @@ body:not(.is-loaded) .hero-intro {
 
   .hero::after {
     background-size: 64px 64px;
+  }
+
+  .experience-logos {
+    padding: 16px;
+  }
+
+  .experience-logo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-logo-card {
+    min-height: 108px;
   }
 }
 
@@ -2034,6 +2148,7 @@ body:not(.is-loaded) .hero-intro {
   .profile-box,
   .philosophy-card,
   .project-card,
+  .experience-logo-card,
   .skills-category-box {
     opacity: 1 !important;
     transform: none !important;

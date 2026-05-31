@@ -205,6 +205,34 @@
         <h2 class="lang-en">PROFESSIONAL EXPERIENCE</h2>
       </div>
 
+      <div class="experience-logos" aria-label="Selected organizations and platforms">
+        <div class="experience-logos-copy">
+          <span class="nav-accent">Selected context</span>
+          <p class="lang-pl">Organizacje i platformy, w których przekładałem procesy, dane i operacje na działające systemy.</p>
+          <p class="lang-en">Organizations and platforms where I translated processes, data, and operations into working systems.</p>
+        </div>
+        <div class="experience-logo-grid">
+          <div class="experience-logo-card">
+            <img src="assets/brands/gsk.svg" alt="GSK logo" width="88" height="40" loading="lazy" decoding="async">
+            <strong>GSK</strong>
+            <span>Global pharma operations</span>
+          </div>
+          <div class="experience-logo-card">
+            <img src="assets/brands/orange.svg" alt="Orange logo" width="44" height="44" loading="lazy" decoding="async">
+            <strong>Orange Polska</strong>
+            <span>B2B telco and cloud sales</span>
+          </div>
+          <div class="experience-logo-card experience-logo-wordmark">
+            <strong>Sprinklr</strong>
+            <span>Enterprise SaaS platform</span>
+          </div>
+          <div class="experience-logo-card experience-logo-wordmark">
+            <strong>Royal Ballet</strong>
+            <span>Touring operations</span>
+          </div>
+        </div>
+      </div>
+
       <div class="timeline">
         <!-- GSK Analyst -->
         <div class="timeline-item">
@@ -573,7 +601,7 @@
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     const revealTargets = document.querySelectorAll(
-      '.hero-intro, .profile-box, .proof-metric, .philosophy-card, .timeline-item, .project-card, .skills-category-box, .contact-card'
+      '.hero-intro, .profile-box, .proof-metric, .philosophy-card, .experience-logo-card, .timeline-item, .project-card, .skills-category-box, .contact-card'
     );
 
     requestAnimationFrame(() => body.classList.add('is-loaded'));
