@@ -69,6 +69,36 @@
 <span class="toc-page">Tekst główny</span>
 </li>
 <li class="toc-item">
+<span class="toc-name"><a href="#cz-ii-wspczesne-odmiany-border-collie--wstp">Część II: Współczesne odmiany Border Collie – Wstęp</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Tekst główny</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#uytkowe-vs-wystawowe-anatomia-popdy-i-psychika">Rozdział 11: Użytkowe vs. Wystawowe: Anatomia, popędy i psychika</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Rozdział 11</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#odmiany-szaty-i-umaszczenia-paleta-barw-i-wzorw">Rozdział 12: Odmiany szaty i umaszczenia: Paleta barw i wzorów</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Rozdział 12</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#genetyka-umaszcze-i-niebezpieczestwo-double-merle">Rozdział 13: Genetyka umaszczeń i niebezpieczeństwo Double Merle</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Rozdział 13</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#zdrowie-i-predyspozycje-genetyczne-cea-tns-mdr1-i-inne-schorzenia">Rozdział 14: Zdrowie i predyspozycje genetyczne: CEA, TNS, MDR1 i inne schorzenia</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Rozdział 14</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#podsumowanie-czci-ii-wyzwania-wspczesnej-hodowli">Podsumowanie Części II: Wyzwania współczesnej hodowli</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Tekst główny</span>
+</li>
+<li class="toc-item">
 <span class="toc-name"><a href="#bibliografia-naukowa-i-historyczna">Bibliografia naukowa i historyczna</a></span>
 <span class="toc-dots"></span>
 <span class="toc-page">Literatura</span>
@@ -417,6 +447,222 @@ W XXI wieku rola Border Collie uległa znacznemu poszerzeniu. Choć wciąż pozo
 Jednak ten spektakularny sukces niesie za sobą poważne wyzwania. Globalna popularność rasy sprawia, że coraz więcej psów trafia do rąk osób nieprzygotowanych na specyficzne wymagania Border Collie. Bez odpowiedniej stymulacji umysłowej i pracy pasterskiej lub sportowej, te wysoce reaktywne psy mogą wykazywać poważne problemy behawioralne. 
 
 Zadaniem współczesnych hodowców i miłośników rasy jest dbanie o to, aby w pogoni za sukcesami wystawowymi czy popularnością medialną nie zatracić tego, co najważniejsze – unikalnego umysłu Border Collie, który rodził się w chłodnych mgłach i na wymagających wzgórzach Border Country. Prawdziwe dziedzictwo tej rasy leży nie w wyglądzie zewnętrznym, ale w jej niebywałej inteligencji i pasji do pracy z człowiekiem.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="cz-ii-wspczesne-odmiany-border-collie--wstp">Część II: Współczesne odmiany Border Collie – Wstęp</span>
+
+<p class="chapter-start">W</p>spółczesna populacja Border Collie charakteryzuje się niezwykłym bogactwem fenotypowym oraz wyraźną polaryzacją kierunków hodowlanych. Choć rasa ta ma wspólnego przodka w postaci Old Hempa, to w ciągu XX i XXI wieku uległa ona głębokiemu zróżnicowaniu pod wpływem zróżnicowanych oczekiwań hodowców, właścicieli oraz organizacji kynologicznych. Część II monografii poświęcona jest analizie tego, jak Border Collie wygląda i funkcjonuje w dzisiejszym świecie, ze szczególnym uwzględnieniem podziałów użytkowych, bogactwa szaty i umaszczenia, genetyki barw oraz współczesnych wyzwań zdrowotnych.
+
+Główne obszary zróżnicowania współczesnego Border Collie można podzielić na trzy obszary:
+
+- **Dywersyfikacja użytkowa:** Rozłam między liniami pracującymi a psami selekcjonowanymi pod kątem sukcesów na wystawach piękności (eksterier).
+- **Zróżnicowanie morfologiczne:** Szeroka gama umaszczeń (od klasycznego czarno-białego do marmurkowatości) oraz typów okrywy włosowej (rough i smooth).
+- **Zdrowie i profilaktyka:** Rozwój badań DNA pozwalający na wykrywanie i eliminację groźnych chorób dziedzicznych obciążających rasę.
+
+Zrozumienie tych mechanizmów jest kluczowe dla każdego, kto pragnie świadomie hodować lub pracować z tą wyjątkową rasą psów. W kolejnych rozdziałach przyjrzymy się szczegółowo każdemu z tych aspektów.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="uytkowe-vs-wystawowe-anatomia-popdy-i-psychika">Rozdział 11: Użytkowe vs. Wystawowe: Anatomia, popędy i psychika</span>
+
+<p class="chapter-start">R</p>ozdział między psami z linii użytkowych (*working lines*) a psami z linii wystawowych (*show lines*) jest najbardziej widoczną cechą współczesnej populacji Border Collie. Choć oficjalnie stanowią one jedną rasę według standardów takich organizacji jak FCI czy AKC, w rzeczywistości reprezentują one dwie odmienne filozofie hodowlane, co bezpośrednio przekłada się na ich anatomię, zachowanie i psychikę.
+
+## Różnice anatomiczne i budowa ciała
+
+Selekcja pod kątem sukcesów na wystawach piękności oraz precyzyjnych kryteriów estetycznych ukształtowała psa o odmiennej mechanice ruchu niż pies pracujący przy stadach:
+
+- **Show Line (Eksterier):** Psy te charakteryzują się zwartą, mocną, bardziej krępą kośćcem. Ich głowy są szersze, z wyraźniej zaznaczonym stopem. Klatka piersiowa jest głęboka i szeroka, co w ringu daje wrażenie stabilności. Szata jest niezwykle obfita, długa, z bogatym podszerstkiem i imponującą kryzą. Ruch w ringu musi być płynny, z długim wykrokiem w kłusie.
+- **Working Line (Użytki):** Budowa ciała tych psów jest zoptymalizowana pod kątem prędkości, zwinności i wytrzymałości. Są one lżejsze, bardziej smukłe, z dłuższymi kończynami. Ich głowy są węższe, z łagodniejszym stopem. Okrywa włosowa jest zazwyczaj znacznie krótsza i mniej obfita, co minimalizuje przyczepianie się rzepów i błota podczas pracy w terenie. Ich ruch nie musi być efektownym kłusem; zamiast tego wykazują niesamowity instynktowny galop i umiejętność błyskawicznych zwrotów.
+
+## Różnice behawioralne i popędy
+
+Najgłębsze różnice leżą jednak w sferze psychicznej i neurobehawioralnej. Border Collie użytkowy i wystawowy reagują na bodźce w zupełnie inny sposób:
+
+- **Work Drive (Popęd pracy):** U psów użytkowych popęd pasterski jest na skrajnie wysokim poziomie. Psy te potrzebują ciągłego ukierunkowania swojej energii na zadanie. Wykazują silną potrzebę kontrolowania ruchu (zaganiania). U psów wystawowych popęd ten został celowo stłumiony, aby uczynić je łatwiejszymi psami domowymi. Wystawowy Border Collie często nie wykazuje instynktu pasterskiego w obecności owiec lub jest on szczątkowy.
+- **Reaktywność i próg pobudzenia:** Psy użytkowe mają niezwykle niski próg pobudzenia – reagują ułamkiem sekundy na najdrobniejszy ruch owcy czy gest pasterza. Są wysoce wrażliwe na bodźce dźwiękowe i wzrokowe. Psy wystawowe charakteryzują się wyższym progiem reaktywności, są bardziej zrównoważone, mniej lękliwe w tłumie i łatwiej przystosowują się do miejskiego zgiełku.
+- **Eye (Oko) i Crouch (Czajenie):** Typowy pracujący Border Collie porusza się w sposób czający, z mocno obniżonym tyłem i skupionym spojrzeniem. Psy wystawowe w ringu poruszają się z wysoko podniesioną głową i dumną postawą, co uniemożliwia im efektywną pracę z trudnymi owcami, ale prezentuje się elegancko na ringu wystawowym.
+
+Poniższa tabela przedstawia porównanie cech w syntetycznej formie:
+
+<table class="academic-table">
+<thead>
+<tr>
+<th>Cecha</th>
+<th>Linia Użytkowa (Working Line)</th>
+<th>Linia Wystawowa (Show Line)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Budowa ciała</strong></td>
+<td>Lekka, zwinna, wydłużona, o długich łapach</td>
+<td>Mocna, zwarta, z głęboką klatką piersiową</td>
+</tr>
+<tr>
+<td><strong>Szata i podszerstek</strong></td>
+<td>Krótka/średnia, rzadka, łatwa w pielęgnacji</td>
+<td>Długa, obfita, puszysta, z bogatym kołnierzem</td>
+</tr>
+<tr>
+<td><strong>Reaktywność</strong></td>
+<td>Bardzo wysoka, błyskawiczne reakcje na bodźce</td>
+<td>Umiarkowana, bardziej stabilna psychicznie</td>
+</tr>
+<tr>
+<td><strong>Instynkt pasterski</strong></td>
+<td>Ekstremalnie silny, trudny do kontrolowania bez pracy</td>
+<td>Umiarkowany lub słaby, łatwiejszy do wyciszenia</td>
+</tr>
+<tr>
+<td><strong>Rejestr</strong></td>
+<td>Głównie ISDS (International Sheep Dog Society)</td>
+<td>FCI, AKC (Kluby kynologiczne eksterieru)</td>
+</tr>
+</tbody>
+</table>
+
+Rozdźwięk ten rodzi pytania o przyszłość rasy. Hodowcy użytkowi ostrzegają, że selekcja wystawowa niszczy dziedzictwo Old Hempa, zamieniając najinteligentniejszego psa pracującego świata w kolejną ozdobną zabawkę wystawową.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="odmiany-szaty-i-umaszczenia-paleta-barw-i-wzorw">Rozdział 12: Odmiany szaty i umaszczenia: Paleta barw i wzorów</span>
+
+<p class="chapter-start">B</p>order Collie jest jedną z najbardziej zróżnicowanych fenotypowo ras pod względem umaszczenia i struktury szaty. Choć klasyczny wizerunek czarno-białego psa z białym kołnierzem dominuje w świadomości społecznej, standardy rasy akceptują niemal wszystkie kolory i wzory, o ile biały kolor nie przeważa w umaszczeniu. To bogactwo jest efektem zachowania szerokiej puli genetycznej przez pasterzy, dla których kolor psa był cechą całkowicie drugorzędną.
+
+## Typy okrywy włosowej: Rough vs. Smooth
+
+Zgodnie z klasyfikacją kynologiczną, Border Collie występują w dwóch odmianach okrywy włosowej:
+
+- **Rough (Długowłosy / półdługowłosy):** Jest to odmiana najbardziej powszechna. Włos okrywowy jest gęsty, o średniej twardości, podszerstek jest miękki i wełnisty. U psów tej odmiany tworzy się charakterystyczna grzywa na szyi, "portki" na udach oraz obfite pióro na ogonie.
+- **Smooth (Krótkowłosy):** Włos na całym ciele jest krótki, przylegający i gęsty. Podszerstek jest równie gęsty jak u odmiany długowłosej, co zapewnia psu pełną ochronę przed wilgocią i chłodem. Odmiana ta jest niezwykle popularna wśród pasterzy pracujących (Working Lines) ze względu na łatwość utrzymania – do krótkiej sierści nie przyczepiają się nasiona roślin i gałęzie.
+
+<div class="illustration-container">
+<img src="images/smooth_coat.png" alt="Smooth coat Border Collie working">
+<div class="illustration-caption">Rycina przedstawiająca krótkowłosą odmianę (smooth coat) Border Collie podczas pracy na zboczu wzgórza.</div>
+</div>
+
+## Podstawowe umaszczenia
+
+Paleta barw Border Collie opiera się na kombinacjach pigmentów eumelaniny (czarny/brązowy) oraz feomelaniny (czerwony/żółty):
+
+- **Czarno-białe (Black and White):** Klasyczne, najczęściej spotykane umaszczenie.
+- **Tricolor (Trójkolorowe):** Czarno-białe z wyraźnymi podpalanymi (rudymi) znaczeniami nad oczami, na policzkach oraz na łapach.
+- **Czekoladowe (Chocolate / Brown):** Głęboki brąz z białymi znaczeniami. Nos i brzegi powiek są brązowe, a oczy często mają jasnobursztynowy odcień.
+- **Niebieskie (Blue):** Rozjaśniony czarny dający odcień stalowoszary lub łupkowy. Nos i oczy są dopasowane do koloru sierści.
+- **Lilac (Liliowe):** Rzadkie, luksusowe umaszczenie będące wynikiem jednoczesnego rozjaśnienia i czekoladowego koloru podstawowego. Daje to unikalny odcień ciepłego, beżowo-szarego z różowym połyskiem.
+- **Red (Saddleback / Australijski Czerwony / ee-Red):** Jasnożółty, piaskowy lub rudy kolor (feomelanina), w którym pigment czarny jest całkowicie zablokowany. Pies ma czarny lub brązowy nos i jasne oczy.
+
+## Wzory marmurkowe (Merle)
+
+Umaszczenie marmurkowe to nie osobny kolor, lecz wzór powstały w wyniku działania genu Merle, który częściowo rozjaśnia podstawowy pigment:
+
+- **Blue Merle (Niebieski marmurkowy):** Podstawowy kolor czarny zostaje rozjaśniony do srebrzysto-niebieskich plam na czarnym tle. Często występują niebieskie oczy (całkowicie lub częściowo).
+- **Red Merle (Czekoladowy marmurkowy):** Rozjaśnienie pigmentu czekoladowego dające plamy o barwie mlecznej czekolady i beżu na jasnobrązowym tle.
+
+Bogactwo to sprawia, że każdy Border Collie jest unikalny pod względem wyglądu, co stanowi miłą odmianę od wielu mocno ujednoliconych ras wystawowych.
+
+<div class="illustration-container">
+<img src="images/coat_varieties.png" alt="Comparison of Border Collie Types">
+<div class="illustration-caption">Rycina przedstawiająca porównanie odmiany długowłosej czarno-białej (po lewej) oraz odmiany marmurkowej blue merle (po prawej).</div>
+</div>
+
+<div style="page-break-after: always;"></div>
+
+# <span id="genetyka-umaszcze-i-niebezpieczestwo-double-merle">Rozdział 13: Genetyka umaszczeń i niebezpieczeństwo Double Merle</span>
+
+<p class="chapter-start">Z</p>łożoność genetyczna umaszczeń Border Collie to klasyczny przykład interakcji różnych loci genowych dziedziczonych zgodnie z prawami Mendla. Choć różnorodność ta zachwyca miłośników rasy, wiąże się z nią jedno z najpoważniejszych zagrożeń zdrowotnych w kynologii – syndrom Double Merle. Odpowiedzialne planowanie skojarzeń wymaga od hodowcy głębokiej wiedzy z zakresu genetyki molekularnej.
+
+## Główne loci genów umaszczenia
+
+Umaszczenie Border Collie kontrolowane jest przez kilka kluczowych genów:
+
+- **Locus B (Brown):** Odpowiada za syntezę pigmentu czarnego (dominujący allel `B`) lub brązowego/czekoladowego (recesywny allel `b`). Aby pies był czekoladowy, musi odziedziczyć zestaw `bb`.
+- **Locus D (Dilution):** Odpowiada za gęstość upakowania pigmentu. Dominujący allel `D` daje pełny kolor, natomiast recesywny `d` powoduje rozjaśnienie. Pies o genotype `dd` i umaszczeniu czarnym staje się niebieski (Blue), a czekoladowy `bb dd` staje się liliowy (Lilac).
+- **Locus E (Extension):** Kontroluje produkcję czarnego pigmentu. Recesywny homozygotyczny układ `ee` blokuje produkcję eumelaniny, przez co pies ma wyłącznie żółty/rudy pigment feomelaniny (umaszczenie ee-red lub australijskie czerwone).
+- **Locus M (Merle):** Gen odpowiedzialny za marmurkowatość. Jest to mutacja w genie PMEL17. Allel `M` (merle) jest niepełnie dominujący nad allelem `m` (brak merle / jednolity). Pies o genotypie `Mm` jest klasycznym, zdrowym marmurkiem.
+
+## Zjawisko Double Merle (MM) i jego konsekwencje
+
+Problem pojawia się w przypadku skojarzenia ze sobą dwóch psów o umaszczeniu marmurkowym (`Mm` $\times$ `Mm`). Zgodnie z rozkładem statystycznym:
+
+- 25% potomstwa odziedziczy genotyp `mm` (psy o jednolitym umaszczeniu - zdrowe).
+- 50% potomstwa odziedziczy genotyp `Mm` (psy marmurkowe - zdrowe).
+- **25% potomstwa odziedziczy genotyp `MM` (Double Merle / podwójny marmurek).**
+
+Genotyp `MM` niesie za sobą katastrofalne skutki dla zdrowia szczeniąt. Brak pigmentu melaniny w kluczowych strukturach zarodka podczas rozwoju płodowego prowadzi do poważnych wad rozwojowych narządów zmysłów:
+
+- **Głuchota:** Komórki rzęsate w uchu wewnętrznym (ślimaku) wymagają melanocytów do prawidłowego funkcjonowania. Ich brak powoduje obumarcie tych komórek w pierwszych tygodniach życia, prowadząc do trwałej, obustronnej głuchoty.
+- **Ślepota i wady wzroku:** Brak pigmentu w naczyniówce i siatkówce oka prowadzi do poważnych wad anatomicznych, takich jak małoocze (microphthalmia), zniekształcenie źrenicy (corectopia), zaćma wrodzona oraz całkowita ślepota.
+- **Umaszczenie "białe":** Psy te charakteryzują się niemal całkowicie białym umaszczeniem, różowym nosem i jasnoniebieskimi oczami o nieregularnym kształcie źrenic.
+
+## Zasady etyki hodowlanej
+
+Ze względu na wysokie prawdopodobieństwo urodzenia kalekich szczeniąt, wszystkie odpowiedzialne organizacje kynologiczne (w tym ISDS oraz FCI) bezwzględnie zakazują skojarzeń dwóch psów marmurkowych (`Merle` $\times$ `Merle`). 
+
+Etyczna hodowla wymaga:
+
+- **Kojarzenia psów marmurkowych wyłącznie z psami o jednolitym umaszczeniu** (`Mm` $\times$ `mm`), co daje 50% zdrowych marmurków i 50% zdrowych psów jednolicie umaszczonych, całkowicie eliminując ryzyko powstania Double Merle.
+- **Badania genetycznego w kierunku genu Merle** u psów o umaszczeniu ee-red przed dopuszczeniem do rozrodu. Gen ee-red potrafi zamaskować obecność marmurka (pies jest fenotypowo czerwony, ale genetycznie niesie allel `M` – tzw. ukryty marmer/phantom merle), co stwarza ryzyko przypadkowego skojarzenia `Merle` $\times$ `Merle`.
+
+Zrozumienie genetyki barw u Border Collie to nie tylko wiedza teoretyczna, ale przede wszystkim narzędzie ochrony zdrowia i dobrostanu rasy przed nieodpowiedzialnymi praktykami hodowlanymi.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="zdrowie-i-predyspozycje-genetyczne-cea-tns-mdr1-i-inne-schorzenia">Rozdział 14: Zdrowie i predyspozycje genetyczne: CEA, TNS, MDR1 i inne schorzenia</span>
+
+<p class="chapter-start">M</p>imo że Border Collie uchodzi za rasę odporną i długowieczną, intensywny rozwój hodowli w XX wieku doprowadził do ujawnienia się szeregu chorób dziedzicznych. Dzięki postępom biologii molekularnej hodowcy dysponują dziś komercyjnymi testami DNA, które pozwalają na identyfikację nosicieli wadliwych genów i zapobieganie narodzinom chorych psów. Kluczowe znaczenie ma zrozumienie mechanizmów dziedziczenia najpoważniejszych schorzeń.
+
+## Anomalie Oczne: CEA i inne wady wzroku
+
+Najbardziej znaną i powszechną chorobą oczu w rasie jest **Anomalia Oczu Collie (CEA - Collie Eye Anomaly)**:
+
+- Jest to wrodzona, dziedziczona autosomalnie recesywnie wada rozwojowa naczyniówki i siatkówki oka.
+- Powoduje niedorozwój naczyniówki (choroid hypoplasia), co w ciężkich przypadkach prowadzi do odwarstwienia siatkówki, wylewów krwi do wnętrza oka i trwałej ślepoty.
+- Dzięki testom DNA można zidentyfikować nosicieli (psy o genotypie `Carrier` – posiadające jeden wadliwy i jeden zdrowy gen), którzy sami nie chorują, ale mogą przekazać wadę potomstwu.
+
+Inne schorzenia okulistyczne to jaskra pierwotna (Primary Angle Closure Glaucoma) oraz postępujący zanik siatkówki (PRA).
+
+## Syndrom Uwięzionych Neutrofili (TNS)
+
+**Syndrom Uwięzionych Neutrofili (TNS - Trapped Neutrophil Syndrome)** to unikalne i śmiertelne schorzenie immunologiczne występujące u Border Collie:
+
+- Jest to choroba dziedziczona autosomalnie recesywnie.
+- Organizm psa produkuje białe krwinki (neutrofile) w szpiku kostnym, lecz nie jest w stanie uwolnić ich do krwiobiegu z powodu defektu białka transportującego.
+- Szczenięta cierpią na chroniczny brak odporności, co prowadzi do nawracających infekcji bakteryjnych, zahamowania wzrostu i zgonu w wieku od kilku tygodni do kilku miesięcy. Testy DNA są jedyną metodą wykluczenia nosicieli z hodowli.
+
+## Neuropatia Czuciowa (SN) oraz Hipertermia Złośliwa (MH)
+
+- **Sensory Neuropathy (SN - Neuropatia czuciowa):** Ciężkie schorzenie neurologiczne, w którym dochodzi do degeneracji włókien nerwowych odpowiedzialnych za odczuwanie bólu i temperatury. Psy dotknięte tą chorobą samookaleczają się (np. obgryzają własne łapy), ponieważ nie odczuwają bólu. Dziedziczenie ma charakter autosomalny recesywny.
+- **Malignant Hyperthermia (MH - Hipertermia złośliwa):** Zagrażająca życiu reakcja na powszechnie stosowane środki znieczulenia ogólnego (np. halotan). Powoduje gwałtowny wzrost temperatury ciała, sztywność mięśni i niewydolność wielonarządową.
+
+## Mutacja genu MDR1 (nadwrażliwość na leki)
+
+Wielkim zagrożeniem dla Border Collie jest **mutacja genu MDR1 (Multi-Drug Resistance gene)**:
+
+- Gen ten koduje glikoproteinę P, która działa jako bariera krew-mózg, uniemożliwiając przedostawanie się toksyn i leków do ośrodkowego układu nerwowego.
+- Psy z mutacją genu MDR1 (zwłaszcza homozygoty mutanty `-/-`) wykazują ekstremalną nadwrażliwość na popularne leki weterynaryjne, w tym iwermektynę (stosowaną w preparatach odrobaczających), loperamid (lek przeciwbiegunkowy) oraz niektóre anestetyki.
+- Podanie tych substancji psu o statusie `-/-` prowadzi do ciężkiego zatrucia neurologicznego, śpiączki i śmierci. Hodowcy i weterynarze muszą bezwzględnie znać status MDR1 pacjenta.
+
+## Dysplazja stawów biodrowych i łokciowych
+
+Podobnie jak inne rasy aktywne, Border Collie są podatne na dysplazję stawów biodrowych (HD) i łokciowych (ED). Jest to schorzenie wieloczynnikowe (poligeniczne), na którego rozwój wpływ ma zarówno genetyka, jak i warunki środowiskowe (zbyt intensywny trening szczenięcia, nieprawidłowa dieta). Wycofanie z hodowli psów z dysplazją (weryfikowane zdjęciami RTG) jest podstawowym wymogiem zdrowotnym we wszystkich klubach kynologicznych.
+
+Świadoma i nowoczesna hodowla Border Collie opiera się na pełnym profilowaniu genetycznym rodziców w celu eliminacji nosicielstwa chorób recesywnych, co gwarantuje rodzenie zdrowych i silnych psów pracujących i sportowych.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="podsumowanie-czci-ii-wyzwania-wspczesnej-hodowli">Podsumowanie Części II: Wyzwania współczesnej hodowli</span>
+
+<p class="chapter-start">B</p>ogactwo współczesnego Border Collie – zarówno pod względem umaszczeń, jak i różnorodności kierunków użytkowych – to ogromny atut, ale i wyzwanie odpowiedzialności hodowlanej. Przejście od dawnej, prostej selekcji pasterskiej opartej wyłącznie na sprawności użytkowej do skomplikowanej kynologii współczesnej (wystawy, badania genetyczne, sporty) wymaga od dzisiejszych hodowców wszechstronnej wiedzy naukowej i etycznego podejścia.
+
+Podsumowując współczesne odmiany Border Collie, należy podkreślić trzy kluczowe wnioski:
+
+- **Potrzeba zachowania równowagi:** Rozdźwięk między liniami Show a Working niesie ryzyko utraty unikalnych cech psychicznych rasy. Wyzwaniem jest hodowanie psów wystawowych o zrównoważonym charakterze oraz dbanie o to, by linie użytkowe nie były marginalizowane.
+- **Rygor genetyczny barw:** Różnorodność kolorystyczna nie może stać się celem samym w sobie kosztem zdrowia. Etyczne kojarzenia (eliminacja skojarzeń Merle-Merle) i profilaktyka Double Merle to absolutny priorytet.
+- **Świadome badania DNA:** Testowanie rodziców pod kątem CEA, TNS, SN i mutacji MDR1 pozwala na planowanie zdrowych miotów i całkowitą eliminację śmiertelnych i okaleczających schorzeń dziedzicznych.
+
+Tylko dzięki takiemu wielokierunkowemu podejściu możliwe jest zachowanie Border Collie w pełni sił fizycznych i psychicznych. W kolejnej, III Części monografii przyjrzymy się metodom szkolenia i pracy z tą rasą – jak spożytkować ich niebywały potencjał umysłowy i popęd pracy w codziennej praktyce treningowej.
 
 <div style="page-break-after: always;"></div>
 
