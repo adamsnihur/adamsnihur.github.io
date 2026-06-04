@@ -99,6 +99,31 @@
 <span class="toc-page">Tekst główny</span>
 </li>
 <li class="toc-item">
+<span class="toc-name"><a href="#cz-iii-trening-i-szkolenie--wstp">Część III: Trening i szkolenie – Wstęp</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Tekst główny</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#metodyka-szkolenia-pasterskiego-herding">Rozdział 17: Metodyka szkolenia pasterskiego (Herding)</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Rozdział 17</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#border-collie-w-sportach-kynologicznych-agility-obedience-i-frisbee">Rozdział 18: Border Collie w sportach kynologicznych: Agility, Obedience i Frisbee</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Rozdział 18</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#najczstsze-bdy-szkoleniowe-i-zaburzenia-behawioralne-brak-off-switch">Rozdział 19: Najczęstsze błędy szkoleniowe i zaburzenia behawioralne: Brak "off-switch"</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Rozdział 19</span>
+</li>
+<li class="toc-item">
+<span class="toc-name"><a href="#podsumowanie-monografii-trzy-wymiary-border-collie">Podsumowanie monografii: Trzy wymiary Border Collie</a></span>
+<span class="toc-dots"></span>
+<span class="toc-page">Tekst główny</span>
+</li>
+<li class="toc-item">
 <span class="toc-name"><a href="#bibliografia-naukowa-i-historyczna">Bibliografia naukowa i historyczna</a></span>
 <span class="toc-dots"></span>
 <span class="toc-page">Literatura</span>
@@ -663,6 +688,143 @@ Podsumowując współczesne odmiany Border Collie, należy podkreślić trzy klu
 - **Świadome badania DNA:** Testowanie rodziców pod kątem CEA, TNS, SN i mutacji MDR1 pozwala na planowanie zdrowych miotów i całkowitą eliminację śmiertelnych i okaleczających schorzeń dziedzicznych.
 
 Tylko dzięki takiemu wielokierunkowemu podejściu możliwe jest zachowanie Border Collie w pełni sił fizycznych i psychicznych. W kolejnej, III Części monografii przyjrzymy się metodom szkolenia i pracy z tą rasą – jak spożytkować ich niebywały potencjał umysłowy i popęd pracy w codziennej praktyce treningowej.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="cz-iii-trening-i-szkolenie--wstp">Część III: Trening i szkolenie – Wstęp</span>
+
+<p class="chapter-start">N</p>iebywałe zdolności kognitywne oraz ekstremalny popęd pracy (*work drive*) czynią z Border Collie psa o unikalnych wymaganiach szkoleniowych. Metody tradycyjne, oparte na przymusie i mechanicznym powtarzaniu ćwiczeń, w przypadku tej rasy nie tylko zawodzą, ale mogą prowadzić do poważnych zaburzeń behawioralnych. Trening Border Collie wymaga od przewodnika głębokiego zrozumienia psychologii psa, precyzji w dawkowaniu bodźców oraz umiejętności kontrolowania silnych instynktów pasterskich.
+
+Część III monografii poświęcona jest analizie metodyki pracy z tą rasą:
+
+- **Szkolenie pasterskie (Herding):** Tradycyjne metody kierowania instynktem psa na pastwisku i zawodach ISDS.
+- **Sporty kynologiczne:** Wykorzystanie popędu łupu i motywacji w takich dyscyplinach jak agility, obedience czy dogfrisbee.
+- **Profilaktyka behawioralna:** Analiza błędów szkoleniowych, zjawiska przebodźcowania oraz treningu wyciszenia i odpoczynku (off-switch).
+
+Border Collie uczy się niezwykle szybko – niestety oznacza to, że równie szybko uczy się błędów i niepożądanych zachowań. Sukces szkoleniowy zależy od tego, czy przewodnik potrafi stać się dla psa jasnym, przewidywalnym liderem, potrafiącym przekierować jego inteligencję na konstruktywne zadania.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="metodyka-szkolenia-pasterskiego-herding">Rozdział 17: Metodyka szkolenia pasterskiego (Herding)</span>
+
+<p class="chapter-start">T</p>rening pasterski to najbardziej naturalna i zarazem najbardziej wymagająca forma aktywności dla Border Collie. Celem szkolenia nie jest nauczenie psa pasienia (ponieważ instynkt ten jest wrodzony), lecz poddanie tego instynktu pełnej kontroli przewodnika. Proces ten polega na precyzyjnym modelowaniu odległości, kierunków i siły presji wywieranej przez psa na owce, przy użyciu tradycyjnego systemu komend i gwizdków.
+
+## Fazy szkolenia pasterskiego
+
+Szkolenie młodego psa przebiega etapowo, przechodząc od kontrolowanego środowiska do pracy na otwartej przestrzeni:
+
+1. **Szkolenie na sucho (Posłuszeństwo podstawowe):** Zanim pies zobaczy owce, musi bezbłędnie reagować na komendy zatrzymania (waruj/stój) oraz przywołania, nawet przy silnych rozproszeniach.
+2. **Praca w Round Penie (Okrągłym wybiegu):** Pierwszy kontakt z owcami odbywa się w ciasnej, okrągłej zagrodzie (średnica ok. 15-20 metrów). Okrągły kształt uniemożliwia owcom ucieczkę w kąty i pozwala psu na naturalne okrążanie stada (flankowanie). Przewodnik kontroluje pozycję psa za pomocą długiej tyczki pasterskiej, blokując próby zbyt bliskiego podejścia i uczenia psa podgryzania.
+3. **Flankowanie i balans:** Pies uczy się poruszać szerokim łukiem wokół owiec, wyczuwając tzw. strefę ucieczki stada (ang. *flight zone*). Jeśli wejdzie zbyt głęboko, owce uciekną w popłochu; jeśli będzie zbyt daleko, straci nad nimi kontrolę. Idealny balans to punkt, w którym owce poruszają się spokojnie w kierunku przewodnika.
+4. **Przejście na otwarte pastwisko:** Gdy pies potrafi kontrolować stado w round penie, przenosi się go na otwarty teren, gdzie dystans pracy rośnie z kilkunastu metrów do kilkuset metrów.
+
+## Tradycyjne komendy kierunkowe i gwizdane
+
+W międzynarodowym sporcie pasterskim pod patronatem ISDS stosuje się jednolity system komend słownych oraz odpowiadających im gwizdków. Gwizdek pasterski (wykonany z metalu lub plastiku) pozwala na wydawanie czystych tonów słyszalnych dla psa na odległość ponad kilometra, co jest niemożliwe przy użyciu ludzkiego głosu.
+
+Podstawowe komendy kierunkowe obejmują:
+
+- **Come Bye (w lewo):** Nakazuje psu poruszanie się łukiem w lewo wokół stada (zgodnie z ruchem wskazówek zegara).
+- **Away to Me (w prawo):** Nakazuje psu ruch w prawo (przeciwnie do ruchu wskazówek zegara).
+- **Lie Down (waruj) lub Stand (stój):** Komenda zatrzymania psa. Natychmiastowe zatrzymanie w miejscu jest najważniejszym elementem bezpieczeństwa stada.
+- **Walk On (idź naprzód):** Nakazuje psu powolne, pewne zbliżanie się do owiec po linii prostej w celu wywarcia presji.
+- **Look Back (spójrz w tył):** Zaawansowana komenda nakazująca psu odwrócenie się od obecnego stada, zlokalizowanie innej grupy owiec w oddali i pobiegnięcie po nie.
+
+Precyzyjna kontrola nad tymi elementami pozwala pasterzowi na sterowanie psem na odległość z dokładnością do kilkunastu centymetrów, co czyni Border Collie najbardziej efektywnym narzędziem do zarządzania inwentarzem w nowoczesnym rolnictwie wielkoobszarowym.
+
+<div class="video-wrapper">
+<div class="video-container">
+<video autoplay loop muted playsinline>
+<source src="animations/HerdingCommandsScene_m.mp4" type="video/mp4">
+Twój browser nie obsługuje wideo.
+</video>
+</div>
+<div class="print-fallback">
+<h4>Cyfrowy suplement: Komendy kierunkowe w pracy pasterskiej</h4>
+<p>W wersji cyfrowej opracowania w tym miejscu znajduje się animacja przedstawiająca ruch psa pasterskiego na komendy flankowania wokół stada owiec: „Come Bye” (ruch w lewo, zgodnie z ruchem wskazówek zegara) oraz „Away to Me” (ruch w prawo, przeciwnie do ruchu wskazówek zegara). Obie komendy są kluczem do precyzyjnego pozycjonowania psa pasterskiego względem stada.</p>
+</div>
+<div class="video-caption">Wizualizacja komend kierunkowych flankowania w tradycyjnym treningu pasterskim Border Collie.</div>
+</div>
+
+<div style="page-break-after: always;"></div>
+
+# <span id="border-collie-w-sportach-kynologicznych-agility-obedience-i-frisbee">Rozdział 18: Border Collie w sportach kynologicznych: Agility, Obedience i Frisbee</span>
+
+<p class="chapter-start">N</p>iezwykła zwinność, szybkość reakcji oraz wysoki współczynnik chęci współpracy z człowiekiem (*will to please*) uczyniły z Border Collie niekwestionowanego króla nowoczesnych sportów kynologicznych. W dyscyplinach takich jak agility czy obedience rasa ta zdominowała najwyższe klasy rozgrywkowe do tego stopnia, że w wielu krajach wprowadza się oddzielne klasyfikacje (np. "Border Collie" i "Non-Border Collie"), aby dać szanse reprezentantom innych ras.
+
+## Agility: Królestwo prędkości i precyzji
+
+Agility to sport polegający na pokonaniu przez psa toru przeszkód (strefowych, skokowych i tuneli) w jak najkrótszym czasie i bez błędów, kierowanego wyłącznie gestami i głosem przewodnika:
+
+- **Atuty rasy:** Niskie zawieszenie środka ciężkości, elastyczność kręgosłupa oraz zdolność do błyskawicznego przyspieszania i hamowania przed przeszkodami.
+- **Wymagania treningowe:** Trening opiera się na budowaniu doskonałej komunikacji i świadomości ciała psa. Border Collie musi nauczyć się czytać mowę ciała przewodnika przy prędkościach przekraczających 5-6 m/s. Kluczem jest precyzja prowadzenia, ponieważ drobny ruch ramieniem może skierować psa na niewłaściwą przeszkodę.
+
+<div class="illustration-container">
+<img src="images/agility.png" alt="Leaping Border Collie in agility">
+<div class="illustration-caption">Rycina przedstawiająca Border Collie pokonującego przeszkodę skokową na torze agility.</div>
+</div>
+
+## Obedience: Perfekcja posłuszeństwa sportowego
+
+Obedience to dyscyplina sprawdzająca precyzję wykonania skomplikowanych ćwiczeń posłuszeństwa (np. aportowanie kierunkowe, wysyłanie do kwadratu, chodzenie przy nodze, identyfikacja zapachowa przedmiotów):
+
+- **Zdolności kognitywne:** Wyjątkowa pamięć robocza Border Collie pozwala im na szybkie zapamiętywanie złożonych sekwencji zadań.
+- **Styl wykonania:** Rasa ta wyróżnia się tzw. "aktywnym chodzeniem przy nodze" – pies wpatruje się w twarz przewodnika z pełnym zaangażowaniem, poruszając się sprężyście i utrzymując idealny kontakt wzrokowy. Trening opiera się na pozytywnym wzmocnieniu (nagradzanie zabawką lub smakołykiem) w celu utrzymania wysokiej motywacji i entuzjazmu podczas precyzyjnej pracy.
+
+## Dogfrisbee: Dynamika i popęd łupu
+
+Dogfrisbee polega na chwytaniu przez psa dysków rzucanych przez przewodnika w różnych konfiguracjach (np. dystansowe - distance, czy akrobatyczne - freestyle):
+
+- **Popęd łupu (Prey Drive):** Border Collie wykazują silny, łatwo przekierowywany popęd łupu na dyski plastikowe.
+- **Akrobatyka:** W konkurencjach freestyle psy wykonują spektakularne ewolucje, odbijając się od ciała przewodnika (ang. *vaults*) w celu przechwycenia dysku w locie. Trening wymaga dbałości o stawy psa – uczy się go bezpiecznych lądowań na cztery łapy, aby uniknąć kontuzji kręgosłupa i barków.
+
+Sukces w sportach kynologicznych z Border Collie wymaga jednak od przewodnika opanowania emocji psa. Te wysoce reaktywne zwierzęta łatwo ulegają tzw. "przejściu w stan wysokiej ekscytacji" (ang. *high arousal*), co może prowadzić do utraty precyzji, szczekania z frustracji lub gryzienia przeszkód. Kluczem do sukcesu sportowego jest zrównoważony trening, łączący dynamiczną pracę z nauką samokontroli i wyciszenia.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="najczstsze-bdy-szkoleniowe-i-zaburzenia-behawioralne-brak-off-switch">Rozdział 19: Najczęstsze błędy szkoleniowe i zaburzenia behawioralne: Brak "off-switch"</span>
+
+<p class="chapter-start">M</p>imo ogromnego potencjału intelektualnego, Border Collie jest rasą niezwykle trudną w prowadzeniu, szczególnie dla osób niedoświadczonych. Ich wrażliwość sensoryczna oraz skrajna reaktywność sprawiają, że błędy w szkoleniu i codziennej opiece mogą szybko doprowadzić do poważnych zaburzeń behawioralnych. Najczęstszym problemem nie jest brak chęci do pracy, lecz nieumiejętność radzenia sobie z emocjami i brak wbudowanego mechanizmu wyciszenia.
+
+## Przebodźcowanie i mit "zmęczenia fizycznego"
+
+Najbardziej powszechnym błędem popełnianym przez właścicieli Border Collie jest przekonanie, że psa tego należy przede wszystkim „wybiegać”:
+
+- Właściciele organizują psu wielogodzinne sesje rzucania piłki, biegania przy rowerze czy aportowania dysków, wierząc, że zmęczony fizycznie pies będzie spokojny w domu.
+- **Konsekwencje:** Taki trening buduje u psa ekstremalną kondycję fizyczną, jednocześnie stale utrzymując jego układ współczulny w stanie pobudzenia (zalew kortyzolu i adrenaliny). Pies staje się "uzależniony" od adrenaliny, a jego próg reakcji na bodźce drastycznie spada. Zamiast spokojnego psa, właściciel otrzymuje sfrustrowanego sportowca o sile maratończyka, który nie potrafi odpoczywać.
+- **Rozwiązanie:** Border Collie potrzebuje stymulacji umysłowej (węszenie, rozwiązywanie problemów, precyzyjne posłuszeństwo) połączonej z celową nauką odpoczynku.
+
+## Brak mechanizmu "off-switch" i nauka relaksu
+
+Tradycyjne psy pasterskie na farmach pracowały intensywnie przez kilka godzin, a resztę dnia spędzały w kojcach lub stodołach, regenerując siły. Współczesne psy domowe są stale narażone na bodźce miejskie i domowe (hałas, ruch, obecność domowników), co przy ich reaktywności uniemożliwia im samodzielne przejście w stan snu.
+
+Nauka wyciszenia (tzw. *off-switch*) to najważniejszy element szkolenia szczenięcia:
+
+- **Trening klatkowy (Crate Training):** Klatka kennelowa, wprowadzona w sposób pozytywny, staje się dla Border Collie bezpieczną "jaskinią", w której pies jest odizolowany od bodźców zewnętrznych. Pomaga mu to wyciszyć układ nerwowy i ułatwia zapadnięcie w głęboki sen (dorosły pies potrzebuje od 14 do 16 godzin snu na dobę).
+- **Protokół relaksacyjny (np. protokół dr Karen Overall):** Systematyczny trening nagradzania psa za spokojne leżenie na kocyku w obecności coraz trudniejszych rozproszeń. Pies uczy się, że bierność i spokój są równie opłacalne jak aktywność fizyczna.
+
+## Zachowania obsesyjno-kompulsywne (OCD)
+
+Gdy silny instynkt pasterski i popęd pracy nie znajdą ujścia w ukierunkowanym treningu, ulegają one wypaczeniu. Border Collie bez pracy zaczyna zaspokajać swoje potrzeby pasterskie na obiektach zastępczych, co prowadzi do groźnych zaburzeń:
+
+- **Zaganiające zachowania kompulsywne:** Pies zagania ruchome obiekty: samochody, rowerzystów, biegaczy, a nawet biegające dzieci. Zachowanie to opiera się na instynkcie podchodu i czajenia się. Jest skrajnie niebezpieczne (ryzyko wpadnięcia pod samochód lub ugryzienia dziecka w piętę w celu zatrzymania go).
+- **Obsesje wzrokowe:** Łapanie cieni, wpatrywanie się godzinami w plamy światła, gonienie laserów czy polowanie na kropelki wody. Wynika to z niekontrolowanego popędu wpatrywania się (*eye*), który ulega patologicznej fiksacji.
+
+Uniknięcie tych problemów wymaga od przewodnika zrozumienia, że inteligencja Border Collie to miecz obosieczny. Praca z tą rasą to nie tylko nauka sztuczek i sportów biegowych, ale przede wszystkim codzienna praca nad samokontrolą, emocjami i umiejętnością wyłączenia silnika pasterskiego na rzecz regeneracji i spokoju.
+
+<div style="page-break-after: always;"></div>
+
+# <span id="podsumowanie-monografii-trzy-wymiary-border-collie">Podsumowanie monografii: Trzy wymiary Border Collie</span>
+
+<p class="chapter-start">B</p>order Collie to rasa trójwymiarowa, której pełne zrozumienie wymaga spojrzenia przez pryzmat jej **historii**, **genetyki** oraz **metodyki pracy**. Żaden z tych elementów nie funkcjonuje w izolacji – współczesny pies sportowy czy pracujący to bezpośredni rezultat presji selekcyjnej Cheviot Hills, puli genowej Old Hempa oraz wypracowanych przez pokolenia pasterzy metod komunikacji na pastwisku.
+
+Synteza tych trzech filarów prowadzi do kluczowych wniosków:
+
+- **Ewolucyjny sukces użytkowości:** Border Collie dowodzi, że najtrwalsze, najzdrowsze i najbardziej pożądane cechy psów pasterskich powstają wtedy, gdy jedynym kryterium hodowlanym jest wydajność i inteligencja użytkowa.
+- **Odpowiedzialność hodowlana:** Współczesne zróżnicowanie barw i kierunków hodowli (Show vs. Working) stwarza nowe wyzwania. Ochrona unikalnej psychiki psa pasterskiego oraz restrykcyjne badania genetyczne to klucz do przetrwania rasy bez utraty jej tożsamości.
+- **Harmonia w treningu:** Wybitny umysł Border Collie wymaga przewodnika świadomego ich specyfiki. Odpowiedni trening to nie tylko stymulacja popędów, ale przede wszystkim nauka równowagi, wyciszenia i odpoczynku.
+
+Pozostając wiernym dziedzictwu Border Country, współczesny człowiek ma obowiązek chronić ten fascynujący umysł pasterski. Niezależnie od tego, czy Border Collie pracuje przy stadzie owiec w Northumberland, pokonuje tor agility w hali sportowej, czy bierze udział w badaniach nad kognicją zwierząt – jego inteligencja, pasja i oddanie człowiekowi pozostają jednym z najwspanialszych zjawisk w świecie udomowionych zwierząt.
 
 <div style="page-break-after: always;"></div>
 
