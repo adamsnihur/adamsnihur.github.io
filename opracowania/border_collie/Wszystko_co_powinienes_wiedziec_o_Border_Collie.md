@@ -825,22 +825,43 @@ Zanim pies zostanie wprowadzony do stada owiec, musi opanować absolutne posłus
 
 Pierwszy kontakt z owcami odbywa się w kontrolowanym środowisku okrągłego wybiegu (Round Pen) o średnicy 15-18 metrów. Okrągła konstrukcja zapobiega blokowaniu się owiec w narożnikach i ułatwia psu płynne okrążanie stada.
 
-```
-                  [ ROUND PEN SETUP ]
-                  
-                       (Godzina 12)
-                          [PIES]
-                            ↓
-                        ╭───────╮
-                      ╭─│ Owce  │─╮
-                     ╭  ╰───────╯  ╮
-                     │             │
-              (Lewo) │   [Pasterz] │ (Prawo)
-            Come Bye │ (Godzina 6) │ Away to Me
-                     ╰             ╯
-                      ╰─       ───╯
-                        ╰───────╯
-```
+<svg class="svg-diagram" viewBox="0 0 500 500" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .fence { fill: none; stroke: #475569; stroke-width: 4; stroke-dasharray: 6, 6; }
+    .ground { fill: #FAF9F6; }
+    .label { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 600; text-anchor: middle; }
+    .label-title { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .label-sub { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13px; font-style: italic; fill: #64748B; text-anchor: middle; }
+    .arrow { fill: none; stroke: #0D9488; stroke-width: 3; stroke-dasharray: 5, 5; }
+    .node-dog { fill: #0D9488; stroke: #0F766E; stroke-width: 2; }
+    .node-handler { fill: #5B21B6; stroke: #4C1D95; stroke-width: 2; }
+    .node-sheep { fill: #64748B; stroke: #475569; stroke-width: 2; }
+  </style>
+  <rect width="500" height="500" rx="8" class="ground"/>
+  <circle cx="250" cy="250" r="210" class="fence" />
+  <circle cx="250" cy="220" r="30" class="node-sheep" fill-opacity="0.2"/>
+  <circle cx="235" cy="210" r="8" fill="#FFF" stroke="#475569"/>
+  <circle cx="250" cy="230" r="10" fill="#FFF" stroke="#475569"/>
+  <circle cx="265" cy="215" r="9" fill="#FFF" stroke="#475569"/>
+  <text x="250" y="224" class="label" fill="#1E293B" font-size="12px">Owce</text>
+  <circle cx="250" cy="360" r="16" class="node-handler"/>
+  <text x="250" y="395" class="label" fill="#5B21B6">Pasterz / Przewodnik</text>
+  <text x="250" y="412" class="label-sub">(Godzina 6)</text>
+  <circle cx="250" cy="80" r="14" class="node-dog"/>
+  <text x="250" y="55" class="label" fill="#0D9488">Pies (w balansie)</text>
+  <text x="250" y="40" class="label-sub">(Godzina 12)</text>
+  <path d="M 210,80 A 170,170 0 0,0 90,230" class="arrow" stroke="#0D9488"/>
+  <path d="M 90,230 L 85,220 M 90,230 L 100,225" stroke="#0D9488" stroke-width="3" fill="none"/>
+  <text x="120" y="150" class="label" fill="#0D9488" text-anchor="end">Come Bye</text>
+  <text x="120" y="168" class="label-sub" text-anchor="end">(Ruch w lewo)</text>
+  <path d="M 290,80 A 170,170 0 0,1 410,230" class="arrow" stroke="#0D9488"/>
+  <path d="M 410,230 L 415,220 M 410,230 L 400,225" stroke="#0D9488" stroke-width="3" fill="none"/>
+  <text x="380" y="150" class="label" fill="#0D9488" text-anchor="start">Away to Me</text>
+  <text x="380" y="168" class="label-sub" text-anchor="start">(Ruch w prawo)</text>
+  <line x1="250" y1="94" x2="250" y2="344" stroke="#64748B" stroke-width="1.5" stroke-dasharray="8,4" />
+  <text x="260" y="290" class="label-sub" text-anchor="start" font-size="11px">Oś balansu</text>
+  <text x="250" y="465" class="label-title">SCHEMAT PRACY W OKRĄGŁEJ ZAGRODZIE (ROUND PEN)</text>
+</svg>
 
 ### Metodyka pracy w zagrodzie:
 1. **Wprowadzenie i asekuracja:** Przewodnik wchodzi do round penu wraz z psem na długiej lince treningowej. Pies ma naturalną tendencję do bezpośredniego ataku na owce. Zadaniem przewodnika jest zablokowanie tej próby i skierowanie energii psa na ruch okrężny.
@@ -881,15 +902,38 @@ Skakanie przez tyczki w agility nie jest dla psa czynnością naturalną – wym
 - **Konstrukcja ćwiczeń:** Wykorzystuje się sekwencje niskich przeszkód ustawionych w stałych odległościach (np. 2.5–3.5 metra). Zmieniając dystans i wysokość tyczek, przewodnik zmusza psa do skracania lub wydłużania kroku galopu bez utraty prędkości.
 - **Plyometryka:** Ćwiczenia budują siłę eksplozywną mięśni czworogłowych oraz elastyczność ścięgien, co minimalizuje obciążenie stawów skokowych i nadgarstkowych podczas lądowania.
 
-```
-                      [ TRAJEKTORIA LOTU ]
-                      
-                        Odbicie optymalne
-                               ╭──╮
-                              ╭    ╮
-                             ╭      ╮
-      Take-off point ──────> ──[ przeszkoda ]── <────── Lądowanie
-```
+<svg class="svg-diagram" viewBox="0 0 600 250" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ground-line { stroke: #475569; stroke-width: 3; }
+    .traj-curve { fill: none; stroke: #0D9488; stroke-width: 3; stroke-dasharray: 6, 4; }
+    .hurdle-post { fill: #5B21B6; stroke: #4C1D95; stroke-width: 1.5; }
+    .hurdle-bar { stroke: #5B21B6; stroke-width: 5; stroke-linecap: round; }
+    .hurdle-stripe { stroke: #FFF; stroke-width: 5; }
+    .label-svg { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+    .label-title-svg { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .label-sub-svg { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 12px; font-style: italic; fill: #64748B; }
+    .point-dot { fill: #0D9488; stroke: #FFF; stroke-width: 2; }
+  </style>
+  <rect width="600" height="250" rx="8" fill="#FAF9F6"/>
+  <line x1="50" y1="200" x2="550" y2="200" class="ground-line"/>
+  <path d="M 120,200 Q 300,30 480,200" class="traj-curve"/>
+  <rect x="290" y="110" width="6" height="90" class="hurdle-post"/>
+  <rect x="304" y="110" width="6" height="90" class="hurdle-post"/>
+  <line x1="285" y1="125" x2="315" y2="125" class="hurdle-bar"/>
+  <line x1="295" y1="125" x2="305" y2="125" class="hurdle-stripe"/>
+  <circle cx="120" cy="200" r="6" class="point-dot"/>
+  <text x="120" y="222" class="label-svg" text-anchor="middle">Punkt Odbicia</text>
+  <text x="120" y="238" class="label-sub-svg" text-anchor="middle">(Take-off point)</text>
+  <circle cx="480" cy="200" r="6" class="point-dot"/>
+  <text x="480" y="222" class="label-svg" text-anchor="middle">Punkt Lądowania</text>
+  <text x="480" y="238" class="label-sub-svg" text-anchor="middle">(Landing point)</text>
+  <circle cx="300" cy="115" r="5" class="point-dot"/>
+  <text x="300" y="90" class="label-svg" text-anchor="middle" fill="#0D9488">Szczyt Trajektorii (Apex)</text>
+  <text x="300" y="74" class="label-sub-svg" text-anchor="middle">Odbicie optymalne i oszczędność czasu</text>
+  <path d="M 220,135 Q 240,125 260,122" fill="none" stroke="#0D9488" stroke-width="1.5"/>
+  <polygon points="260,122 252,118 255,126" fill="#0D9488"/>
+  <text x="300" y="30" class="label-title-svg">BIOMECHANIKA SKOKU I OPTYMALNA TRAJEKTORIA LOTU</text>
+</svg>
 
 ## Metodyka pokonywania przeszkód strefowych
 
@@ -938,14 +982,38 @@ Prawidłowy handling wymaga od przewodnika doskonałej kondycji fizycznej oraz p
 
 Klasyczne chodzenie przy nodze w obedience klasy mistrzowskiej wymaga, aby pies poruszał się w stałej pozycji względem lewej nogi przewodnika (łopatka psa na wysokości kolana człowieka), utrzymując ciągły kontakt wzrokowy, patrząc pionowo w górę na twarz przewodnika.
 
-```
-                      [ POZYCJA PRZY NODZE ]
-                      
-                             [Pasterz]
-                           (Noga lewa)
-                            [ Łopatka ]
-                            [  Pies   ]  <── Kąt wpatrywania się: 90°
-```
+<svg class="svg-diagram" viewBox="0 0 500 300" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-rec { fill: #FAF9F6; }
+    .footprint { fill: #5B21B6; fill-opacity: 0.2; stroke: #5B21B6; stroke-width: 2; }
+    .dog-shape { fill: #0D9488; fill-opacity: 0.2; stroke: #0D9488; stroke-width: 2; }
+    .gaze-line { fill: none; stroke: #0D9488; stroke-width: 2; stroke-dasharray: 4, 3; }
+    .gaze-arrow { fill: #0D9488; }
+    .alignment-line { fill: none; stroke: #475569; stroke-width: 1.5; stroke-dasharray: 8, 4; }
+    .text-title { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .text-label { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+    .text-sub { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 12px; font-style: italic; fill: #64748B; }
+  </style>
+  <rect width="500" height="300" rx="8" class="bg-rec"/>
+  <text x="250" y="30" class="text-title">GEOMETRIA POZYCJI PRZY NODZE (HEELWORK)</text>
+  <ellipse cx="270" cy="150" rx="20" ry="45" class="footprint" />
+  <text x="270" y="154" class="text-label" fill="#5B21B6" text-anchor="middle">Lewa Noga</text>
+  <text x="270" y="215" class="text-sub" text-anchor="middle">Przewodnik</text>
+  <rect x="130" y="120" width="60" height="110" rx="15" class="dog-shape" />
+  <ellipse cx="160" cy="105" rx="12" ry="18" fill="#0D9488" fill-opacity="0.4" stroke="#0D9488" stroke-width="2"/>
+  <text x="160" y="175" class="text-label" fill="#0D9488" text-anchor="middle">Pies</text>
+  <text x="160" y="250" class="text-sub" text-anchor="middle">Oś kręgosłupa równoległa</text>
+  <line x1="100" y1="145" x2="340" y2="145" class="alignment-line" />
+  <circle cx="160" cy="145" r="5" fill="#475569" stroke="#FFF" stroke-width="1.5"/>
+  <text x="105" y="135" class="text-sub">Linia ramion (łopatka)</text>
+  <path d="M 160,105 Q 160,70 260,70" class="gaze-line" />
+  <polygon points="260,70 252,66 254,74" class="gaze-arrow" />
+  <text x="165" y="62" class="text-label" fill="#0D9488">Kąt wzroku ~90° (kontakt wzrokowy)</text>
+  <text x="165" y="78" class="text-sub">Pies patrzy bezpośrednio w twarz</text>
+  <rect x="235" y="248" width="240" height="40" rx="4" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="245" y="264" class="text-sub" font-size="11px" font-weight="bold">Kryterium oceny:</text>
+  <text x="245" y="278" class="text-sub" font-size="11px">Brak odstawania zadu i fiksacja na twarzy.</text>
+</svg>
 
 Aby pies poruszał się sprężyście, nie deptał przewodnika i zachowywał idealny tor ruchu przy zwrotach i chodzie w tył, kluczowy jest trening **świadomości zadu (ang. *rear-end awareness*)**:
 
@@ -1003,17 +1071,38 @@ Akrobatyczne skoki w dogfrisbee generują ogromne przeciążenia podczas lądowa
 - **Optymalizacja rzutu:** Przewodnik odpowiada za bezpieczeństwo psa. Rzut pod ewolucję typu *vault* musi być stabilny, zawieszony w powietrzu (ang. *hover*), dający psu czas na kalkulację punktu odbicia i lądowania. Rzuty rotujące pionowo lub zbyt niskie są niebezpieczne.
 - **Używanie dysków bezpiecznych:** Stosuje się wyłącznie elastyczne dyski z tworzyw sztucznych przeznaczone dla psów (np. z gumy jaw-z lub elastycznego polimeru), które nie pękają w pysku i nie ranią dziąseł.
 
-```
-                      [ MECHANIKA LĄDOWANIA ]
-                      
-                          Trajektoria lotu
-                             ╭──────╮
-                            ╭        ╮
-                           ╭          ↓
-                        [CHWYT]     Lądowanie na 4 łapy
-                                    (Przednie amortyzują,
-                                     tylne lądują płasko)
-```
+<svg class="svg-diagram" viewBox="0 0 600 250" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ground-line-frisbee { stroke: #475569; stroke-width: 3; }
+    .frisbee-traj { fill: none; stroke: #5B21B6; stroke-width: 2; stroke-dasharray: 4, 4; }
+    .dog-traj { fill: none; stroke: #0D9488; stroke-width: 3; }
+    .disc { fill: #5B21B6; stroke: #4C1D95; stroke-width: 1; }
+    .label-f { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+    .label-title-f { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .label-sub-f { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 12px; font-style: italic; fill: #64748B; }
+    .dot-f { fill: #0D9488; stroke: #FFF; stroke-width: 2; }
+    .vector-arrow { fill: none; stroke: #E11D48; stroke-width: 2; }
+    .vector-head { fill: #E11D48; }
+  </style>
+  <rect width="600" height="250" rx="8" fill="#FAF9F6"/>
+  <text x="300" y="30" class="label-title-f">BIOMECHANIKA BEZPIECZNEGO LĄDOWANIA (FOUR-PAW LANDING)</text>
+  <line x1="50" y1="200" x2="550" y2="200" class="ground-line-frisbee"/>
+  <path d="M 80,160 Q 250,60 450,110" class="frisbee-traj"/>
+  <ellipse cx="330" cy="85" rx="14" ry="4" class="disc"/>
+  <text x="330" y="72" class="label-sub-f" text-anchor="middle">Trajektoria dysku (Hover)</text>
+  <path d="M 180,200 Q 280,50 460,200" class="dog-traj"/>
+  <circle cx="180" cy="200" r="5" class="dot-f"/>
+  <text x="180" y="220" class="label-f" text-anchor="middle">Wybicie</text>
+  <circle cx="330" cy="85" r="6" class="dot-f"/>
+  <text x="330" y="110" class="label-f" text-anchor="middle" fill="#0D9488">PUNKT CHWYTU</text>
+  <text x="330" y="126" class="label-sub-f" text-anchor="middle">Dysk chwytany w locie poziomym</text>
+  <circle cx="460" cy="200" r="5" class="dot-f"/>
+  <text x="470" y="220" class="label-f" text-anchor="start">Lądowanie na 4 łapy</text>
+  <text x="470" y="236" class="label-sub-f" text-anchor="start">Przednie łapy amortyzują siłę uderzenia</text>
+  <path d="M 440,150 L 440,190" class="vector-arrow"/>
+  <polygon points="440,190 436,182 444,182" class="vector-head"/>
+  <text x="430" y="165" class="label-sub-f" text-anchor="end" fill="#E11D48">Amortyzacja</text>
+</svg>
 
 ## Flyball: Sztafeta szybkościowa
 
@@ -1057,14 +1146,22 @@ Praca węchowa u Border Collie ma ogromne znaczenie terapeutyczne. Z punktu widz
 - **Stymulacja nerwu błędnego:** Proces aktywnego, głębokiego węszenia stymuluje układ przywspółczulny (parasympatyczny) poprzez nerw błędny, co obniża tętno, ciśnienie krwi oraz poziom kortyzolu we krwi.
 - **Zmęczenie psychiczne (*Mental Fatigue*):** Analiza zapachów w opuszce węchowej mózgu wymaga ogromnego nakładu energii metabolicznej. 15 minut intensywnego węszenia męczy psa bardziej niż godzinny bieg, nie obciążając przy tym stawów i nie pobudzając układu współczulnego do produkcji adrenaliny.
 
-```
-                      [ MECHANIZM WYCISZENIA ]
-                      
-         Węszenie (Nosework) ──> Nerw błędny ──> Układ przywspółczulny
-                                                       │
-                                                       ↓
-                                           Obniżenie tętna i stresu
-```
+<div class="flow-container">
+<div class="flow-step">
+<div class="flow-step-title">Krok I - Węszenie (Nosework)</div>
+<div class="flow-step-desc">Aktywność węchowa stymuluje wysiłek umysłowy i pobudza receptor węchowy.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok II - Nerw Błędny</div>
+<div class="flow-step-desc">Stymulacja nerwu błędnego aktywuje przywspółczulny układ nerwowy.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok III - Układ Przywspółczulny</div>
+<div class="flow-step-desc">Spadek poziomu kortyzolu i tętna, wyciszenie emocjonalne (off-switch).</div>
+</div>
+</div>
 
 ### Metodyka wprowadzania zapachu:
 - **Metoda sparowania (ang. *pairing*):** Ukryty zapach (np. cynamon na patyczku kosmetycznym w metalowej puszce) kładzie się bezpośrednio obok smakołyka. Pies szuka jedzenia i jednocześnie wdycha zapach.
@@ -1096,17 +1193,22 @@ Niezrealizowany popęd pasterski i brak stymulacji poznawczej u Border Collie wy
 - **Gonienie ruchomych obiektów (samochody, rowery, dzieci):** Jest to wypaczona próba pasienia stada zastępczego. Pies czai się, kładzie na widok zbliżającego się obiektu, a następnie rusza w pogoń, próbując zablokować ruch (często podgryzając koła lub nogi rowerzysty/dziecka). Zachowanie to niesie ryzyko śmierci pod kołami pojazdu.
 - **Obsesje świetlne i cieniowe:** Gonienie plam światła, cieni, refleksów na ścianie lub światełek lasera. Jest to patologiczna fiksacja na mikroruchach wzrokowych. Zabawa laserem jest u Border Collie zakazana – brak możliwości fizycznego pochwycenia celu (frustracja braku domknięcia łańcucha łowieckiego) drastycznie niszczy stabilność psychiczną psa i prowadzi do trwałych uszkodzeń poznawczych.
 
-```
-                      [ PĘTLA FIKSACJI LASEREM ]
-                      
-           Brak domknięcia łańcucha (brak chwycenia łupu)
-                                │
-                                ↓
-                 Gwałtowny wzrost frustracji
-                                │
-                                ↓
-             Obsesyjne szukanie plamy (shadow chasing)
-```
+<div class="flow-container">
+<div class="flow-step">
+<div class="flow-step-title">Krok I - Brak Domknięcia Łańcucha</div>
+<div class="flow-step-desc">Pies goni plamę światła (lasera), lecz nie może jej pochwycić w pysk, co blokuje zaspokojenie instynktu łowieckiego.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok II - Wzrost Frustracji</div>
+<div class="flow-step-desc">Brak fizycznej nagrody i domknięcia sekwencji wyzwala gwałtowny skok neuroprzekaźników stresu w mózgu.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok III - Utrwalona Kompulsja</div>
+<div class="flow-step-desc">Pies rozwija zachowanie obsesyjne – nieustannie poszukuje cieni, odbić i plam świetlnych (shadow chasing).</div>
+</div>
+</div>
 
 ## Protokoły desensytyzacji i przeciwwarunkowania (DS/CC)
 
@@ -1132,15 +1234,28 @@ Protokół relaksacyjny to ustrukturyzowany, 15-dniowy program szkoleniowy mają
 - **Kryteria nagradzania:** Przewodnik podaje smakołyk tylko wtedy, gdy pies leży spokojnie, ma rozluźnione mięśnie (np. biodro ułożone na boku, brak napięcia w uszach i pysku), oddycha miarowo i nie wpatruje się intensywnie w przewodnika.
 - **Stopniowanie trudności:** Każdy dzień zawiera listę zadań (np. przewodnik klaszcze w dłonie, robi krok w tył, znika za drzwiami na 3 sekundy, wydaje nietypowy dźwięk). Jeśli pies wykaże napięcie lub wstanie, przewodnik cofa się do poprzedniego, łatwiejszego kroku.
 
-```
-                      [ WYBÓR POZYCJI RELAKSU ]
-                      
-         Napięta (Sfokusowana)                  Rozluźniona (Akceptowalna)
-              /\                                          /\
-             (  )  <── Uszy napięte,                     (  )  <── Uszy luźne,
-            /  /       ciało gotowe                     /  /       biodro na boku,
-           /  /        do startu                       (  )        spokojny oddech
-```
+<div class="comparison-container">
+<div class="comparison-card tense">
+<div class="comparison-title">Pozycja Napięta (Sfokusowana)</div>
+<ul class="comparison-list">
+<li><strong>Uszy:</strong> Stojące, skierowane w przód, nasłuchujące najmniejszych dźwięków.</li>
+<li><strong>Wzrok:</strong> Intensywna fiksacja wzrokowa (tzw. "oko") na przewodniku lub bodźcach.</li>
+<li><strong>Szyja i głowa:</strong> Uniesione w gotowości do natychmiastowej reakcji ruchowej.</li>
+<li><strong>Ciało i łapy:</strong> Spięte, ułożone w tzw. "sfinxa" lub kucnięcie gotowe do startu.</li>
+<li><strong>Oddech:</strong> Krótki, spłycony, wstrzymywany w oczekiwaniu na komendę.</li>
+</ul>
+</div>
+<div class="comparison-card relaxed">
+<div class="comparison-title">Pozycja Rozluźniona (Akceptowalna)</div>
+<ul class="comparison-list">
+<li><strong>Uszy:</strong> Luźne, oklapnięte na boki, bez reakcji na neutralne odgłosy.</li>
+<li><strong>Wzrok:</strong> Rozproszony, zrelaksowany, oczy półprzymknięte, brak wpatrywania.</li>
+<li><strong>Szyja i głowa:</strong> Oparte swobodnie na ziemi, kocyku lub boku ciała.</li>
+<li><strong>Ciało i łapy:</strong> Biodro ułożone płasko na boku (kończyny bez napięcia).</li>
+<li><strong>Oddech:</strong> Głęboki, miarowy, z przepony (widoczne westchnięcia).</li>
+</ul>
+</div>
+</div>
 
 ## Trening klatkowy (Crate Training) jako narzędzie regulacji emocjonalnej
 
@@ -1273,21 +1388,24 @@ Analiza naukowa i praktyczna prezentowana w niniejszej monografii prowadzi do kl
 - **Różnorodność i odpowiedzialność (Filar Genetyczny):** Współczesne bogactwo umaszczeń (w tym marmurkowatość) oraz podział na linie użytkowe (*working*) i wystawowe (*show*) stwarza nowe wyzwania hodowlane. Badania przesiewowe DNA (w kierunku CEA, TNS, MDR1) oraz restrykcyjne unikanie kojarzeń osobników z genem merle (Double Merle) to bezwzględny obowiązek etyczny współczesnego hodowcy.
 - **Precyzja i równowaga (Filar Szkoleniowy):** Wybitny aparat kognitywny Border Collie wymaga od przewodnika precyzji sygnałów oraz wdrożenia ustrukturyzowanych metod pracy (pastwiskowej, sportowej czy węchowej). Kluczem do sukcesu nie jest jednak nieustanna stymulacja popędowa, lecz wypracowanie mechanizmu wyciszenia (*off-switch*), dbałość o propriocepcję, rozgrzewkę oraz ochronę młodego kośćca przed zamknięciem płytek wzrostowych.
 
-```
-                      [ FILARY BORDER COLLIE ]
-                      
-                  ┌──────────────────────────────┐
-                  │    INTELIGENCJA UŻYTKOWA     │
-                  │   (Old Hemp, Border Country) │
-                  └──────────────┬───────────────┘
-                                 │
-            ┌────────────────────┴────────────────────┐
-            ▼                                         ▼
-┌────────────────────────┐                ┌────────────────────────┐
-│   BIOLOGIA GENETYCZNA  │                │ METODYKA SZKOLENIOWA   │
-│ (CEA, Merle, Morfologia│                │(Herding, Sports, Off-  │
-└────────────────────────┘                └────────────────────────┘
-```
+<div class="tree-container">
+<div class="tree-root">
+Inteligencja Użytkowa
+<div style="font-size: 0.8em; font-weight: normal; margin-top: 4px; text-transform: none; letter-spacing: 0;">Fundament rasy (Old Hemp &amp; Border Country)</div>
+</div>
+<div class="tree-branch-line"></div>
+<div class="tree-split-line"></div>
+<div class="tree-children">
+<div class="tree-child">
+<div class="tree-child-title">Biologia Genetyczna</div>
+<p class="tree-child-desc">Badania przesiewowe DNA (CEA, TNS, MDR1), profilaktyka stawowa, selekcja użytkowa merle i kontrola chorób dziedzicznych.</p>
+</div>
+<div class="tree-child">
+<div class="tree-child-title">Metodyka Szkoleniowa</div>
+<p class="tree-child-desc">Praca użytkowa, sporty kynologiczne (agility, obedience, frisbee), propriocepcja oraz budowanie wyciszenia (off-switch).</p>
+</div>
+</div>
+</div>
 
 Pozostając wiernym dziedzictwu Border Country, współczesny człowiek ma obowiązek chronić ten fascynujący umysł pasterski. Niezależnie od tego, czy Border Collie pracuje przy stadzie owiec w Northumberland, pokonuje tor agility, odnajduje próbki zapachowe w noseworku, czy bierze udział w zaawansowanych badaniach kognitywnych – jego pasja, zwinność i oddanie człowiekowi pozostają jednym z najwspanialszych zjawisk w świecie udomowionych zwierząt.
 

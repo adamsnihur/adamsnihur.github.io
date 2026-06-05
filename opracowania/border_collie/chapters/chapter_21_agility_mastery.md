@@ -10,15 +10,38 @@ Skakanie przez tyczki w agility nie jest dla psa czynnością naturalną – wym
 - **Konstrukcja ćwiczeń:** Wykorzystuje się sekwencje niskich przeszkód ustawionych w stałych odległościach (np. 2.5–3.5 metra). Zmieniając dystans i wysokość tyczek, przewodnik zmusza psa do skracania lub wydłużania kroku galopu bez utraty prędkości.
 - **Plyometryka:** Ćwiczenia budują siłę eksplozywną mięśni czworogłowych oraz elastyczność ścięgien, co minimalizuje obciążenie stawów skokowych i nadgarstkowych podczas lądowania.
 
-```
-                      [ TRAJEKTORIA LOTU ]
-                      
-                        Odbicie optymalne
-                               ╭──╮
-                              ╭    ╮
-                             ╭      ╮
-      Take-off point ──────> ──[ przeszkoda ]── <────── Lądowanie
-```
+<svg class="svg-diagram" viewBox="0 0 600 250" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ground-line { stroke: #475569; stroke-width: 3; }
+    .traj-curve { fill: none; stroke: #0D9488; stroke-width: 3; stroke-dasharray: 6, 4; }
+    .hurdle-post { fill: #5B21B6; stroke: #4C1D95; stroke-width: 1.5; }
+    .hurdle-bar { stroke: #5B21B6; stroke-width: 5; stroke-linecap: round; }
+    .hurdle-stripe { stroke: #FFF; stroke-width: 5; }
+    .label-svg { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+    .label-title-svg { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .label-sub-svg { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 12px; font-style: italic; fill: #64748B; }
+    .point-dot { fill: #0D9488; stroke: #FFF; stroke-width: 2; }
+  </style>
+  <rect width="600" height="250" rx="8" fill="#FAF9F6"/>
+  <line x1="50" y1="200" x2="550" y2="200" class="ground-line"/>
+  <path d="M 120,200 Q 300,30 480,200" class="traj-curve"/>
+  <rect x="290" y="110" width="6" height="90" class="hurdle-post"/>
+  <rect x="304" y="110" width="6" height="90" class="hurdle-post"/>
+  <line x1="285" y1="125" x2="315" y2="125" class="hurdle-bar"/>
+  <line x1="295" y1="125" x2="305" y2="125" class="hurdle-stripe"/>
+  <circle cx="120" cy="200" r="6" class="point-dot"/>
+  <text x="120" y="222" class="label-svg" text-anchor="middle">Punkt Odbicia</text>
+  <text x="120" y="238" class="label-sub-svg" text-anchor="middle">(Take-off point)</text>
+  <circle cx="480" cy="200" r="6" class="point-dot"/>
+  <text x="480" y="222" class="label-svg" text-anchor="middle">Punkt Lądowania</text>
+  <text x="480" y="238" class="label-sub-svg" text-anchor="middle">(Landing point)</text>
+  <circle cx="300" cy="115" r="5" class="point-dot"/>
+  <text x="300" y="90" class="label-svg" text-anchor="middle" fill="#0D9488">Szczyt Trajektorii (Apex)</text>
+  <text x="300" y="74" class="label-sub-svg" text-anchor="middle">Odbicie optymalne i oszczędność czasu</text>
+  <path d="M 220,135 Q 240,125 260,122" fill="none" stroke="#0D9488" stroke-width="1.5"/>
+  <polygon points="260,122 252,118 255,126" fill="#0D9488"/>
+  <text x="300" y="30" class="label-title-svg">BIOMECHANIKA SKOKU I OPTYMALNA TRAJEKTORIA LOTU</text>
+</svg>
 
 ## Metodyka pokonywania przeszkód strefowych
 

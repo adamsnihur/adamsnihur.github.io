@@ -23,17 +23,38 @@ Akrobatyczne skoki w dogfrisbee generują ogromne przeciążenia podczas lądowa
 - **Optymalizacja rzutu:** Przewodnik odpowiada za bezpieczeństwo psa. Rzut pod ewolucję typu *vault* musi być stabilny, zawieszony w powietrzu (ang. *hover*), dający psu czas na kalkulację punktu odbicia i lądowania. Rzuty rotujące pionowo lub zbyt niskie są niebezpieczne.
 - **Używanie dysków bezpiecznych:** Stosuje się wyłącznie elastyczne dyski z tworzyw sztucznych przeznaczone dla psów (np. z gumy jaw-z lub elastycznego polimeru), które nie pękają w pysku i nie ranią dziąseł.
 
-```
-                      [ MECHANIKA LĄDOWANIA ]
-                      
-                          Trajektoria lotu
-                             ╭──────╮
-                            ╭        ╮
-                           ╭          ↓
-                        [CHWYT]     Lądowanie na 4 łapy
-                                    (Przednie amortyzują,
-                                     tylne lądują płasko)
-```
+<svg class="svg-diagram" viewBox="0 0 600 250" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ground-line-frisbee { stroke: #475569; stroke-width: 3; }
+    .frisbee-traj { fill: none; stroke: #5B21B6; stroke-width: 2; stroke-dasharray: 4, 4; }
+    .dog-traj { fill: none; stroke: #0D9488; stroke-width: 3; }
+    .disc { fill: #5B21B6; stroke: #4C1D95; stroke-width: 1; }
+    .label-f { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+    .label-title-f { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .label-sub-f { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 12px; font-style: italic; fill: #64748B; }
+    .dot-f { fill: #0D9488; stroke: #FFF; stroke-width: 2; }
+    .vector-arrow { fill: none; stroke: #E11D48; stroke-width: 2; }
+    .vector-head { fill: #E11D48; }
+  </style>
+  <rect width="600" height="250" rx="8" fill="#FAF9F6"/>
+  <text x="300" y="30" class="label-title-f">BIOMECHANIKA BEZPIECZNEGO LĄDOWANIA (FOUR-PAW LANDING)</text>
+  <line x1="50" y1="200" x2="550" y2="200" class="ground-line-frisbee"/>
+  <path d="M 80,160 Q 250,60 450,110" class="frisbee-traj"/>
+  <ellipse cx="330" cy="85" rx="14" ry="4" class="disc"/>
+  <text x="330" y="72" class="label-sub-f" text-anchor="middle">Trajektoria dysku (Hover)</text>
+  <path d="M 180,200 Q 280,50 460,200" class="dog-traj"/>
+  <circle cx="180" cy="200" r="5" class="dot-f"/>
+  <text x="180" y="220" class="label-f" text-anchor="middle">Wybicie</text>
+  <circle cx="330" cy="85" r="6" class="dot-f"/>
+  <text x="330" y="110" class="label-f" text-anchor="middle" fill="#0D9488">PUNKT CHWYTU</text>
+  <text x="330" y="126" class="label-sub-f" text-anchor="middle">Dysk chwytany w locie poziomym</text>
+  <circle cx="460" cy="200" r="5" class="dot-f"/>
+  <text x="470" y="220" class="label-f" text-anchor="start">Lądowanie na 4 łapy</text>
+  <text x="470" y="236" class="label-sub-f" text-anchor="start">Przednie łapy amortyzują siłę uderzenia</text>
+  <path d="M 440,150 L 440,190" class="vector-arrow"/>
+  <polygon points="440,190 436,182 444,182" class="vector-head"/>
+  <text x="430" y="165" class="label-sub-f" text-anchor="end" fill="#E11D48">Amortyzacja</text>
+</svg>
 
 ## Flyball: Sztafeta szybkościowa
 

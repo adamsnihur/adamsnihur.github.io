@@ -11,15 +11,28 @@ Protokół relaksacyjny to ustrukturyzowany, 15-dniowy program szkoleniowy mają
 - **Kryteria nagradzania:** Przewodnik podaje smakołyk tylko wtedy, gdy pies leży spokojnie, ma rozluźnione mięśnie (np. biodro ułożone na boku, brak napięcia w uszach i pysku), oddycha miarowo i nie wpatruje się intensywnie w przewodnika.
 - **Stopniowanie trudności:** Każdy dzień zawiera listę zadań (np. przewodnik klaszcze w dłonie, robi krok w tył, znika za drzwiami na 3 sekundy, wydaje nietypowy dźwięk). Jeśli pies wykaże napięcie lub wstanie, przewodnik cofa się do poprzedniego, łatwiejszego kroku.
 
-```
-                      [ WYBÓR POZYCJI RELAKSU ]
-                      
-         Napięta (Sfokusowana)                  Rozluźniona (Akceptowalna)
-              /\                                          /\
-             (  )  <── Uszy napięte,                     (  )  <── Uszy luźne,
-            /  /       ciało gotowe                     /  /       biodro na boku,
-           /  /        do startu                       (  )        spokojny oddech
-```
+<div class="comparison-container">
+<div class="comparison-card tense">
+<div class="comparison-title">Pozycja Napięta (Sfokusowana)</div>
+<ul class="comparison-list">
+<li><strong>Uszy:</strong> Stojące, skierowane w przód, nasłuchujące najmniejszych dźwięków.</li>
+<li><strong>Wzrok:</strong> Intensywna fiksacja wzrokowa (tzw. "oko") na przewodniku lub bodźcach.</li>
+<li><strong>Szyja i głowa:</strong> Uniesione w gotowości do natychmiastowej reakcji ruchowej.</li>
+<li><strong>Ciało i łapy:</strong> Spięte, ułożone w tzw. "sfinxa" lub kucnięcie gotowe do startu.</li>
+<li><strong>Oddech:</strong> Krótki, spłycony, wstrzymywany w oczekiwaniu na komendę.</li>
+</ul>
+</div>
+<div class="comparison-card relaxed">
+<div class="comparison-title">Pozycja Rozluźniona (Akceptowalna)</div>
+<ul class="comparison-list">
+<li><strong>Uszy:</strong> Luźne, oklapnięte na boki, bez reakcji na neutralne odgłosy.</li>
+<li><strong>Wzrok:</strong> Rozproszony, zrelaksowany, oczy półprzymknięte, brak wpatrywania.</li>
+<li><strong>Szyja i głowa:</strong> Oparte swobodnie na ziemi, kocyku lub boku ciała.</li>
+<li><strong>Ciało i łapy:</strong> Biodro ułożone płasko na boku (kończyny bez napięcia).</li>
+<li><strong>Oddech:</strong> Głęboki, miarowy, z przepony (widoczne westchnięcia).</li>
+</ul>
+</div>
+</div>
 
 ## Trening klatkowy (Crate Training) jako narzędzie regulacji emocjonalnej
 

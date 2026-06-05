@@ -21,17 +21,22 @@ Niezrealizowany popęd pasterski i brak stymulacji poznawczej u Border Collie wy
 - **Gonienie ruchomych obiektów (samochody, rowery, dzieci):** Jest to wypaczona próba pasienia stada zastępczego. Pies czai się, kładzie na widok zbliżającego się obiektu, a następnie rusza w pogoń, próbując zablokować ruch (często podgryzając koła lub nogi rowerzysty/dziecka). Zachowanie to niesie ryzyko śmierci pod kołami pojazdu.
 - **Obsesje świetlne i cieniowe:** Gonienie plam światła, cieni, refleksów na ścianie lub światełek lasera. Jest to patologiczna fiksacja na mikroruchach wzrokowych. Zabawa laserem jest u Border Collie zakazana – brak możliwości fizycznego pochwycenia celu (frustracja braku domknięcia łańcucha łowieckiego) drastycznie niszczy stabilność psychiczną psa i prowadzi do trwałych uszkodzeń poznawczych.
 
-```
-                      [ PĘTLA FIKSACJI LASEREM ]
-                      
-           Brak domknięcia łańcucha (brak chwycenia łupu)
-                                │
-                                ↓
-                 Gwałtowny wzrost frustracji
-                                │
-                                ↓
-             Obsesyjne szukanie plamy (shadow chasing)
-```
+<div class="flow-container">
+<div class="flow-step">
+<div class="flow-step-title">Krok I - Brak Domknięcia Łańcucha</div>
+<div class="flow-step-desc">Pies goni plamę światła (lasera), lecz nie może jej pochwycić w pysk, co blokuje zaspokojenie instynktu łowieckiego.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok II - Wzrost Frustracji</div>
+<div class="flow-step-desc">Brak fizycznej nagrody i domknięcia sekwencji wyzwala gwałtowny skok neuroprzekaźników stresu w mózgu.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok III - Utrwalona Kompulsja</div>
+<div class="flow-step-desc">Pies rozwija zachowanie obsesyjne – nieustannie poszukuje cieni, odbić i plam świetlnych (shadow chasing).</div>
+</div>
+</div>
 
 ## Protokoły desensytyzacji i przeciwwarunkowania (DS/CC)
 

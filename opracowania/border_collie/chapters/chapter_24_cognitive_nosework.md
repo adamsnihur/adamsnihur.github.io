@@ -25,14 +25,22 @@ Praca węchowa u Border Collie ma ogromne znaczenie terapeutyczne. Z punktu widz
 - **Stymulacja nerwu błędnego:** Proces aktywnego, głębokiego węszenia stymuluje układ przywspółczulny (parasympatyczny) poprzez nerw błędny, co obniża tętno, ciśnienie krwi oraz poziom kortyzolu we krwi.
 - **Zmęczenie psychiczne (*Mental Fatigue*):** Analiza zapachów w opuszce węchowej mózgu wymaga ogromnego nakładu energii metabolicznej. 15 minut intensywnego węszenia męczy psa bardziej niż godzinny bieg, nie obciążając przy tym stawów i nie pobudzając układu współczulnego do produkcji adrenaliny.
 
-```
-                      [ MECHANIZM WYCISZENIA ]
-                      
-         Węszenie (Nosework) ──> Nerw błędny ──> Układ przywspółczulny
-                                                       │
-                                                       ↓
-                                           Obniżenie tętna i stresu
-```
+<div class="flow-container">
+<div class="flow-step">
+<div class="flow-step-title">Krok I - Węszenie (Nosework)</div>
+<div class="flow-step-desc">Aktywność węchowa stymuluje wysiłek umysłowy i pobudza receptor węchowy.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok II - Nerw Błędny</div>
+<div class="flow-step-desc">Stymulacja nerwu błędnego aktywuje przywspółczulny układ nerwowy.</div>
+</div>
+<div class="flow-arrow">➔</div>
+<div class="flow-step">
+<div class="flow-step-title">Krok III - Układ Przywspółczulny</div>
+<div class="flow-step-desc">Spadek poziomu kortyzolu i tętna, wyciszenie emocjonalne (off-switch).</div>
+</div>
+</div>
 
 ### Metodyka wprowadzania zapachu:
 - **Metoda sparowania (ang. *pairing*):** Ukryty zapach (np. cynamon na patyczku kosmetycznym w metalowej puszce) kładzie się bezpośrednio obok smakołyka. Pies szuka jedzenia i jednocześnie wdycha zapach.

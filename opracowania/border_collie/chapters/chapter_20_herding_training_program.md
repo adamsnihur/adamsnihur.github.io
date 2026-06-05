@@ -15,22 +15,43 @@ Zanim pies zostanie wprowadzony do stada owiec, musi opanować absolutne posłus
 
 Pierwszy kontakt z owcami odbywa się w kontrolowanym środowisku okrągłego wybiegu (Round Pen) o średnicy 15-18 metrów. Okrągła konstrukcja zapobiega blokowaniu się owiec w narożnikach i ułatwia psu płynne okrążanie stada.
 
-```
-                  [ ROUND PEN SETUP ]
-                  
-                       (Godzina 12)
-                          [PIES]
-                            ↓
-                        ╭───────╮
-                      ╭─│ Owce  │─╮
-                     ╭  ╰───────╯  ╮
-                     │             │
-              (Lewo) │   [Pasterz] │ (Prawo)
-            Come Bye │ (Godzina 6) │ Away to Me
-                     ╰             ╯
-                      ╰─       ───╯
-                        ╰───────╯
-```
+<svg class="svg-diagram" viewBox="0 0 500 500" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .fence { fill: none; stroke: #475569; stroke-width: 4; stroke-dasharray: 6, 6; }
+    .ground { fill: #FAF9F6; }
+    .label { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 600; text-anchor: middle; }
+    .label-title { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .label-sub { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13px; font-style: italic; fill: #64748B; text-anchor: middle; }
+    .arrow { fill: none; stroke: #0D9488; stroke-width: 3; stroke-dasharray: 5, 5; }
+    .node-dog { fill: #0D9488; stroke: #0F766E; stroke-width: 2; }
+    .node-handler { fill: #5B21B6; stroke: #4C1D95; stroke-width: 2; }
+    .node-sheep { fill: #64748B; stroke: #475569; stroke-width: 2; }
+  </style>
+  <rect width="500" height="500" rx="8" class="ground"/>
+  <circle cx="250" cy="250" r="210" class="fence" />
+  <circle cx="250" cy="220" r="30" class="node-sheep" fill-opacity="0.2"/>
+  <circle cx="235" cy="210" r="8" fill="#FFF" stroke="#475569"/>
+  <circle cx="250" cy="230" r="10" fill="#FFF" stroke="#475569"/>
+  <circle cx="265" cy="215" r="9" fill="#FFF" stroke="#475569"/>
+  <text x="250" y="224" class="label" fill="#1E293B" font-size="12px">Owce</text>
+  <circle cx="250" cy="360" r="16" class="node-handler"/>
+  <text x="250" y="395" class="label" fill="#5B21B6">Pasterz / Przewodnik</text>
+  <text x="250" y="412" class="label-sub">(Godzina 6)</text>
+  <circle cx="250" cy="80" r="14" class="node-dog"/>
+  <text x="250" y="55" class="label" fill="#0D9488">Pies (w balansie)</text>
+  <text x="250" y="40" class="label-sub">(Godzina 12)</text>
+  <path d="M 210,80 A 170,170 0 0,0 90,230" class="arrow" stroke="#0D9488"/>
+  <path d="M 90,230 L 85,220 M 90,230 L 100,225" stroke="#0D9488" stroke-width="3" fill="none"/>
+  <text x="120" y="150" class="label" fill="#0D9488" text-anchor="end">Come Bye</text>
+  <text x="120" y="168" class="label-sub" text-anchor="end">(Ruch w lewo)</text>
+  <path d="M 290,80 A 170,170 0 0,1 410,230" class="arrow" stroke="#0D9488"/>
+  <path d="M 410,230 L 415,220 M 410,230 L 400,225" stroke="#0D9488" stroke-width="3" fill="none"/>
+  <text x="380" y="150" class="label" fill="#0D9488" text-anchor="start">Away to Me</text>
+  <text x="380" y="168" class="label-sub" text-anchor="start">(Ruch w prawo)</text>
+  <line x1="250" y1="94" x2="250" y2="344" stroke="#64748B" stroke-width="1.5" stroke-dasharray="8,4" />
+  <text x="260" y="290" class="label-sub" text-anchor="start" font-size="11px">Oś balansu</text>
+  <text x="250" y="465" class="label-title">SCHEMAT PRACY W OKRĄGŁEJ ZAGRODZIE (ROUND PEN)</text>
+</svg>
 
 ### Metodyka pracy w zagrodzie:
 1. **Wprowadzenie i asekuracja:** Przewodnik wchodzi do round penu wraz z psem na długiej lince treningowej. Pies ma naturalną tendencję do bezpośredniego ataku na owce. Zadaniem przewodnika jest zablokowanie tej próby i skierowanie energii psa na ruch okrężny.

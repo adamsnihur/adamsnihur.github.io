@@ -6,14 +6,38 @@
 
 Klasyczne chodzenie przy nodze w obedience klasy mistrzowskiej wymaga, aby pies poruszał się w stałej pozycji względem lewej nogi przewodnika (łopatka psa na wysokości kolana człowieka), utrzymując ciągły kontakt wzrokowy, patrząc pionowo w górę na twarz przewodnika.
 
-```
-                      [ POZYCJA PRZY NODZE ]
-                      
-                             [Pasterz]
-                           (Noga lewa)
-                            [ Łopatka ]
-                            [  Pies   ]  <── Kąt wpatrywania się: 90°
-```
+<svg class="svg-diagram" viewBox="0 0 500 300" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-rec { fill: #FAF9F6; }
+    .footprint { fill: #5B21B6; fill-opacity: 0.2; stroke: #5B21B6; stroke-width: 2; }
+    .dog-shape { fill: #0D9488; fill-opacity: 0.2; stroke: #0D9488; stroke-width: 2; }
+    .gaze-line { fill: none; stroke: #0D9488; stroke-width: 2; stroke-dasharray: 4, 3; }
+    .gaze-arrow { fill: #0D9488; }
+    .alignment-line { fill: none; stroke: #475569; stroke-width: 1.5; stroke-dasharray: 8, 4; }
+    .text-title { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: bold; fill: #5B21B6; text-anchor: middle; }
+    .text-label { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 600; fill: #1E293B; }
+    .text-sub { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 12px; font-style: italic; fill: #64748B; }
+  </style>
+  <rect width="500" height="300" rx="8" class="bg-rec"/>
+  <text x="250" y="30" class="text-title">GEOMETRIA POZYCJI PRZY NODZE (HEELWORK)</text>
+  <ellipse cx="270" cy="150" rx="20" ry="45" class="footprint" />
+  <text x="270" y="154" class="text-label" fill="#5B21B6" text-anchor="middle">Lewa Noga</text>
+  <text x="270" y="215" class="text-sub" text-anchor="middle">Przewodnik</text>
+  <rect x="130" y="120" width="60" height="110" rx="15" class="dog-shape" />
+  <ellipse cx="160" cy="105" rx="12" ry="18" fill="#0D9488" fill-opacity="0.4" stroke="#0D9488" stroke-width="2"/>
+  <text x="160" y="175" class="text-label" fill="#0D9488" text-anchor="middle">Pies</text>
+  <text x="160" y="250" class="text-sub" text-anchor="middle">Oś kręgosłupa równoległa</text>
+  <line x1="100" y1="145" x2="340" y2="145" class="alignment-line" />
+  <circle cx="160" cy="145" r="5" fill="#475569" stroke="#FFF" stroke-width="1.5"/>
+  <text x="105" y="135" class="text-sub">Linia ramion (łopatka)</text>
+  <path d="M 160,105 Q 160,70 260,70" class="gaze-line" />
+  <polygon points="260,70 252,66 254,74" class="gaze-arrow" />
+  <text x="165" y="62" class="text-label" fill="#0D9488">Kąt wzroku ~90° (kontakt wzrokowy)</text>
+  <text x="165" y="78" class="text-sub">Pies patrzy bezpośrednio w twarz</text>
+  <rect x="235" y="248" width="240" height="40" rx="4" fill="#FFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="245" y="264" class="text-sub" font-size="11px" font-weight="bold">Kryterium oceny:</text>
+  <text x="245" y="278" class="text-sub" font-size="11px">Brak odstawania zadu i fiksacja na twarzy.</text>
+</svg>
 
 Aby pies poruszał się sprężyście, nie deptał przewodnika i zachowywał idealny tor ruchu przy zwrotach i chodzie w tył, kluczowy jest trening **świadomości zadu (ang. *rear-end awareness*)**:
 
