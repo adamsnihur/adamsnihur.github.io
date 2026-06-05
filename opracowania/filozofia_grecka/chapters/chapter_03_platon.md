@@ -442,17 +442,4 @@ Kluczowe modyfikacje w *Prawach* obejmują:
 -   Wprowadzenie preambuł (*prooimia*) do praw - prawa nie mogą być jedynie suchymi nakazami połączonymi z groźbą kary. Muszą być poprzedzone racjonalnym wyjaśnieniem, dlaczego dane prawo jest słuszne, co ma wychowywać i przekonywać obywateli do posłuszeństwa.
 -   Zastąpienie królów-filozofów przez skomplikowany system urzędów, z Radą Nocną (**nykterinos syllogos - νυκτερινὸς σύλλογος**) na czele. Rada ta, obradująca przed świtem, skupia najmądrzejszych obywateli i czuwa nad filozoficznym uzasadnieniem prawodawstwa.
 -   Wprowadzenie surowej religii państwowej. Platon uznaje ateizm i bezbożność za przestępstwa polityczne, zagrażające stabilności państwa. Za szerzenie bezbożności połączonej z praktykami magicznymi grozi kara śmierci, co stanowi paradoksalne domkniecie biografii Platona, którego mistrz został skazany pod zarzutem bezbożności.
-
 Platoński projekt polityczny, rozpięty między idealizmem Kallipolis a surowym realizmem Magnezji, pozostaje jednym z najbardziej prowokujących i wpływowych dokumentów w historii myśli politycznej.
-
----
-
-### Bibliografia naukowa (wybór)
-
-1. Cornford, F. M., *Plato's Cosmology: The Timaeus of Plato*, London 1937.
-2. Havelock, E. A., *Preface to Plato*, Cambridge Mass. 1963.
-3. Patočka, J., *Platon i Europa*, Warszawa 2004.
-4. Reale, G., *Historia filozofii starożytnej*, t. II: *Platon i Arystoteles*, przeł. E. I. Zieliński, Lublin 1996.
-5. Strauss, L., *The City and Man*, Chicago 1964.
-6. Tatarkiewicz, W., *Historia filozofii*, t. I, Warszawa 2009.
-7. Vlastos, G., *Platonic Studies*, Princeton 1981.

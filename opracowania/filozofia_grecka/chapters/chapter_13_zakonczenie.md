@@ -240,7 +240,7 @@ Przeprowadzona w niniejszej monografii analiza drogi rozwojowej myśli greckiej 
 
 Przyszłość zachodniej tradycji intelektualnej zależy zatem od naszej zdolności do podjęcia ciągłego, krytycznego i twórczego dialogu z greckim dziedzictwem. Dialog ten nie może jednak przybrać formy nostalgicznego, muzealnego konserwatyzmu, który dąży do bezkrytycznego kopiowania antycznych form życia społecznego czy dogmatycznego zamrożenia pojęć w ich dawnych sformułowaniach. Taka postawa byłaby głęboko sprzeczna z samym duchem greckiej filozofii, która u swych źródeł była przecież rewolucyjnym, odważnym i bezkompromisowym pytaniem o prawdę, kwestionującym zastane mity, tradycje i autorytety polityczne. Sokratejska gotowość do pójścia za argumentem tam, dokąd on prowadzi, bez względu na konsekwencje, jest zaprzeczeniem wszelkiego dogmatyzmu.
 
-Właściwą metodą odniesienia do Grecji jest to, co w teologii i filozofii określa się mianem *ressourcement* - powrotem do źródeł w celu zaczerpnienia z nich nowej energii poznawczej i moralnej do stawienia czoła współczesnym wyzwaniom. Powinniśmy dążyć do twórczej *anastazy* (ἀνάστασις) - zmartwychwstania i odnowienia greckich kategorii w nowym kontekście historycznym, kulturowym i technologicznym. Anastaza ta nie jest rekonstrukcją przeszłości, lecz jej twórczą projekcją w przyszłość.
+Właściwą metodą odniesienia do Grecji jest to, co w teologii i filozofii określa się mianem *ressourcement* - powrotem do źródeł w celu zaczerpnięcia z nich nowej energii poznawczej i moralnej do stawienia czoła współczesnym wyzwaniom. Powinniśmy dążyć do twórczej *anastazy* (ἀνάστασις) - zmartwychwstania i odnowienia greckich kategorii w nowym kontekście historycznym, kulturowym i technologicznym. Anastaza ta nie jest rekonstrukcją przeszłości, lecz jej twórczą projekcją w przyszłość.
 
 Anastaza ta wymaga od nas:
 
@@ -268,24 +268,3 @@ Tylko pod tym warunkiem - poprzez twórcze i krytyczne ożywienie helleńskiego 
 [11] Platon, *Państwo*, VI, 511b-c, s. 228-229.  
 [12] Tamże, 508b-c, s. 224-225.  
 [13] Tamże, VIII, 562a-569c, s. 320-335.  
-
-### Bibliografia
-
-1. Arystoteles, *Etyka nikomachejska*, tłum. D. Gromska, PWN, Warszawa 2007.  
-2. Arystoteles, *Fizyka*, tłum. K. Leśniak, PWN, Warszawa 2010.  
-3. Arystoteles, *Polityka*, tłum. L. Piotrowicz, PWN, Warszawa 2004.  
-4. Cyceron, Marek Tulliusz, *O państwie. O prawach*, tłum. I. Żółtowska, Kęty 1999.  
-5. Derrida, Jacques, *O gramatologii*, tłum. P. Pieniążek, Wydawnictwo KR, Warszawa 1999.  
-6. Gadamer, Hans-Georg, *Prawda i metoda. Zarys hermeneutyki filozoficznej*, tłum. B. Baran, PWN, Warszawa 2004.  
-7. Heidegger, Martin, *Budować, mieszkać, myśleć. Eseje wybrane*, tłum. K. Michalski, Czytelnik, Warszawa 1977.  
-8. Heidegger, Martin, *Bycie i czas*, tłum. B. Baran, PWN, Warszawa 1994.  
-9. Heraklit z Efezu, [w:] *Filozofia przedplatońska*, red. J. Legowicz, PWN, Warszawa 1968.  
-10. MacIntyre, Alasdair, *Dziedzictwo cnoty. Studium z teorii moralności*, tłum. A. Chmielewski, PWN, Warszawa 1996.  
-11. Platon, *Państwo*, tłum. W. Witwicki, PWN, Warszawa 1958.  
-12. Platon, *Prawa*, tłum. M. Maykowska, PWN, Warszawa 1960.  
-13. Schmitt, Carl, *Nomos Ziemi w prawie międzynarodowym jus publicum Europaeum*, tłum. R. Cichocki, Oficyna Wydawnicza Wyższej Szkoły Handlu i Prawa, Warszawa 2005.  
-14. Tomasz z Akwinu, *Suma teologiczna*, tłum. i oprac. O. S. Swieżawski, Veritas, Londyn 1963.  
-15. Filon z Aleksandrii, *Pisma*, tłum. zbiorowe, PAX, Warszawa 1986.  
-16. Searle, John, *Umysł, mózg i nauka*, tłum. J. Bobryk, PWN, Warszawa 1995.  
-17. Nietzsche, Friedrich, *Tako rzecze Zaratustra*, tłum. W. Berent, Warszawa 1990.  
-18. Bostrom, Nick, *Superinteligencja. Scenariusze, zagrożenia, strategie*, tłum. J. Szajbert, Helion, Gliwice 2016.  

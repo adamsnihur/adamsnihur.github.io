@@ -25,6 +25,45 @@ Ostatecznej syntezy mechanistycznego obrazu świata dokonał Isaac Newton w *Phi
 
 Ta radykalna przebudowa obrazu świata wywołała głęboki kryzys epistemologiczny. Jeśli bowiem świat, w którym żyjemy na co dzień - pełen barw, zapachów i celowych dążeń - jest jedynie subiektywną iluzją, a rzeczywistość w swej głębi stanowi bezbarwny, geometryczny mechanizm rządzony prawami matematyki, to przed filozofią stanęło dramatyczne wyzwanie: w jaki sposób ludzki umysł, posługujący się zmysłami, może uzyskać pewną i adekwatną wiedzę o tej obiektywnej rzeczywistości? Dawne autorytety teologiczne i scholastyczne straciły swą wiarygodność, co zrodziło palące zapotrzebowanie na nową metodę poznawczą, która mogłaby zagwarantować niepodważalne fundamenty dla nowojotnej nauki. W odpowiedzi na ten kryzys ukształtowały się dwa główne nurty nowożytnej teorii poznania: racjonalizm, poszukujący pewności w apriorycznych strukturach rozumu, oraz empiryzm, upatrujący źródła wszelkiej wiedzy w zmysłowym doświadczeniu.
 
+<svg viewBox="0 0 800 380" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 14px; fill: #1A303A; text-anchor: middle; letter-spacing: 1px; }
+.svg-subtitle { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #8C2D19; text-anchor: middle; }
+.box-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #FFF; text-anchor: middle; letter-spacing: 0.5px; }
+.box-text { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #26211C; }
+.box-bold { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #26211C; }
+.synthesis-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #FFF; text-anchor: middle; letter-spacing: 0.5px; }
+.synthesis-text { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13px; fill: #FFF; font-style: italic; text-anchor: middle; }
+</style>
+<rect width="800" height="380" fill="#FFF" />
+<text x="400" y="30" class="svg-title">NOWOŻYTNY DWUPODZIAŁ EPISTEMOLOGICZNY I SYNTEZA KANTA</text>
+<text x="400" y="48" class="svg-subtitle">Drogi poznania: od opozycji racjonalizm-empiryzm do krytycyzmu</text>
+<rect x="50" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#1A303A" stroke-width="2" />
+<path d="M50,75 h280 v30 h-280 z" fill="#1A303A" />
+<text x="190" y="95" class="box-title">RACJONALIZM (A PRIORI)</text>
+<text x="70" y="130" class="box-bold">Przedstawiciele:</text><text x="175" y="130" class="box-text">Descartes, Spinoza, Leibniz</text>
+<text x="70" y="155" class="box-bold">Źródło poznania:</text><text x="180" y="155" class="box-text">Czysty intelekt, idee wrodzone</text>
+<text x="70" y="180" class="box-bold">Metoda:</text><text x="125" y="180" class="box-text">Dedukcja (matematyczna pewność)</text>
+<text x="70" y="205" class="box-bold">Kryterium:</text><text x="135" y="205" class="box-text">Jasność i wyraźność (idea clara...)</text>
+<text x="70" y="230" class="box-bold">Metafora:</text><text x="130" y="230" class="box-text">Umysł jako aktywny architekt (struktura)</text>
+<rect x="470" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#8C2D19" stroke-width="2" />
+<path d="M470,75 h280 v30 h-280 z" fill="#8C2D19" />
+<text x="610" y="95" class="box-title">EMPIRYZM (A POSTERIORI)</text>
+<text x="490" y="130" class="box-bold">Przedstawiciele:</text><text x="595" y="130" class="box-text">Locke, Berkeley, Hume</text>
+<text x="490" y="155" class="box-bold">Źródło poznania:</text><text x="600" y="155" class="box-text">Doświadczenie zmysłowe (sensation)</text>
+<text x="490" y="180" class="box-bold">Metoda:</text><text x="545" y="180" class="box-text">Indukcja, obserwacja eksperymentalna</text>
+<text x="490" y="205" class="box-bold">Kryterium:</text><text x="555" y="205" class="box-text">Zbieżność z wrażeniem zmysłowym</text>
+<text x="490" y="230" class="box-bold">Metafora:</text><text x="550" y="230" class="box-text">Umysł jako czysta karta (tabula rasa)</text>
+<path d="M220,245 L350,290" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="350,290 341,285 344,293" fill="#B58A3D" />
+<path d="M580,245 L450,290" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="450,290 456,293 459,285" fill="#B58A3D" />
+<rect x="230" y="280" width="340" height="70" rx="6" fill="#1A303A" stroke="#B58A3D" stroke-width="2" />
+<text x="400" y="300" class="synthesis-title">SYNTEZA KANTA: KRYTYCYZM TRANSCENDENTALNY</text>
+<text x="400" y="320" class="synthesis-text">„Myśli bez treści są puste, naoczności bez pojęć są ślepe”</text>
+<text x="400" y="338" class="synthesis-text">Aktywność podmiotu kształtująca formę doświadczenia zmysłowego</text>
+</svg>
+
 ---
 
 ### 2. René Descartes i poszukiwanie niepodważalnego fundamentu
@@ -362,7 +401,7 @@ W ten sposób Kant dokonuje ostatecznej, monumentalnej syntezy nowożytnego prze
 
 ---
 
-### Bibliografia i Przypisy
+### Przypisy
 
 [^1]: Galileo Galilei, *Il Saggiatore*, Roma 1623, s. 48.
 [^2]: Baruch Spinoza, *Etyka w porządku geometrycznym wyłożona*, tłum. I. Myślicki, Warszawa 1954, Część I, Definicja III.

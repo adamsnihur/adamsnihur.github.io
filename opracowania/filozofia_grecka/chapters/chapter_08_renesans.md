@@ -406,24 +406,10 @@ W ten sposób odrodzenie myśli greckiej w filozofii renesansu nie było jedynie
 
 ---
 
-### Bibliografia i Przypisy
+### Przypisy
 
 [1] Giovanni Pico della Mirandola, *Oratio de hominis dignitate*, [w:] *Filozofia włoskiego renesansu*, wybór i tłum. J. Domański, Warszawa 1967, s. 120-121 (parafraza i adaptacja terminologiczna).
 
 [2] Giovanni Pico della Mirandola, *Conclusiones cabalisticae*, [w:] *Conclusiones nongentae*, Rzym 1486 (Concl. 900).
 
 [3] Thomas More, *Utopia*, tłum. K. Abgarowicz, Warszawa 1954, s. 78.
-
-- Bruni, L., *Wybór pism humanistycznych*, tłum. i oprac. J. Domański, Wrocław 1953.
-- Copenhaver, B. P., Schmitt, C. B., *Renaissance Philosophy*, Oxford 1992.
-- Domański, J., *Początki humanizmu*, Warszawa 2001.
-- Erasmus Roterodamus, *Moriae encomium*, Basel 1511.
-- Ficino, M., *Theologia Platonica de immortalitate animorum*, Florence 1482.
-- Garin, E., *Filozofia odrodzenia*, tłum. K. Żaboklicki, Warszawa 1969.
-- Kristeller, P. O., *Renaissance Thought and Its Sources*, New York 1979.
-- Kuczyńska, A., *Filozofia i sztuka Marsilia Ficina*, Warszawa 1974.
-- Lipsius, J., *De constantia libri duo*, Antwerp 1584.
-- Montaigne, M. de, *Essais*, Bordeaux 1580.
-- Pomponazzi, P., *De immortalitate animae*, Bologna 1516.
-- Swieżawski, S., *Dzieje filozofii europejskiej w XV wieku*, t. 1-6, Warszawa 1974-1983.
-- Valla, L., *De voluptate*, Rome 1431.

@@ -26,6 +26,56 @@ Eleacki radykalizm logiczny zmusił późniejszych przyrodnikow (pluralistów ta
 
 Założenie o poznawalności kosmosu za pomocą ludzkiego intelektu (*nous*) stało się fundamentalnym aksjomatem zachodniej nauki. Grecy wierzyli, że istnieje izomorfizm między strukturą wszechświata a strukturą ludzkiego rozumu: kosmiczny *logos* odpowiada ludzkiemu *logosowi*. W ten sposób zrodziła się epistemologiczna śmiałość, która pozwoliła odrzucić lęk przed chaosem i podjąć próbę racjonalnej rekonstrukcji mechanizmów rządzących przyrodą.
 
+<svg viewBox="0 0 800 220" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #1A303A; text-anchor: middle; letter-spacing: 0.5px; }
+.step-num { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #B58A3D; text-anchor: middle; }
+.step-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 12px; fill: #1A303A; text-anchor: middle; }
+.step-desc { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 11px; fill: #26211C; text-anchor: middle; }
+.arrow { stroke: #B58A3D; stroke-width: 2; fill: none; }
+</style>
+<rect width="800" height="220" fill="#FFF" />
+<text x="400" y="25" class="svg-title">EWOLUCJA JOŃSKIEJ REFLEKSJI NAD ARCHÉ (VI-V w. p.n.e.)</text>
+<rect x="15" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="80" y="75" class="step-num">VI w. p.n.e.</text>
+<text x="80" y="95" class="step-title">TALES</text>
+<text x="80" y="118" class="step-desc">Arché = WODA (Hydor)</text>
+<text x="80" y="133" class="step-desc">Fizyczny monizm,</text>
+<text x="80" y="148" class="step-desc">stany skupienia</text>
+<path d="M145,110 L167,110" class="arrow" />
+<polygon points="172,110 163,106 163,114" fill="#B58A3D" />
+<rect x="175" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="240" y="75" class="step-num">ok. 610-546 p.n.e.</text>
+<text x="240" y="95" class="step-title">ANAKSYMANDER</text>
+<text x="240" y="118" class="step-desc">Arché = BEZKRES</text>
+<text x="240" y="133" class="step-desc">Apeiron. Równowaga</text>
+<text x="240" y="148" class="step-desc">przeciwieństw, prawo</text>
+<path d="M305,110 L327,110" class="arrow" />
+<polygon points="332,110 323,106 323,114" fill="#B58A3D" />
+<rect x="335" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="400" y="75" class="step-num">ok. 585-528 p.n.e.</text>
+<text x="400" y="95" class="step-title">ANAKSYMENES</text>
+<text x="400" y="118" class="step-desc">Arché = POWIETRZE</text>
+<text x="400" y="133" class="step-desc">Aer. Rozrzedzanie</text>
+<text x="400" y="148" class="step-desc">i zagęszczanie (ilość)</text>
+<path d="M465,110 L487,110" class="arrow" />
+<polygon points="492,110 483,106 483,114" fill="#B58A3D" />
+<rect x="495" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#8C2D19" stroke-width="1.5" />
+<text x="560" y="75" class="step-num">ok. 535-475 p.n.e.</text>
+<text x="560" y="95" class="step-title">HERAKLIT</text>
+<text x="560" y="118" class="step-desc">Arché = LOGOS / OGIEŃ</text>
+<text x="560" y="133" class="step-desc">Wieczna zmiana,</text>
+<text x="560" y="148" class="step-desc">jedność w walce</text>
+<path d="M625,110 L647,110" class="arrow" />
+<polygon points="652,110 643,106 643,114" fill="#B58A3D" />
+<rect x="655" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#8C2D19" stroke-width="1.5" />
+<text x="720" y="75" class="step-num">ok. 515-450 p.n.e.</text>
+<text x="720" y="95" class="step-title">PARMENIDES</text>
+<text x="720" y="118" class="step-desc">Arché = BYT (To On)</text>
+<text x="720" y="133" class="step-desc">Tożsamość, stałość,</text>
+<text x="720" y="148" class="step-desc">rygor logiczny</text>
+</svg>
+
 ## 2. Pitagorejczycy i Platon: matematyzacja ontologii i przyrody
 
 Koncepcja, że u podłoża fizycznego świata leżą struktury matematyczne, jest jednym z najważniejszych wkładów antyku do nowożytnej nauki. Tradycja ta wywodzi się bezpośrednio od Pitagorasa z Samos (ok. 570-495 p.n.e.) i jego następców, a swój filozoficzny apogeum osiągnęła w pismach Platona.

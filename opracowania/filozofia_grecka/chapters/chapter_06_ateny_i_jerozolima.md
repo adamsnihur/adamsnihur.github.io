@@ -2,6 +2,43 @@
 
 Rozpatrując ten proces z perspektywy historii idei, należy dostrzec, że zderzenie to nie miało charakteru wyłącznie akademickiego. Było to spotkanie dwóch odmiennych struktur egzystencjalnych: greckiego dążenia do kontemplacji kosmicznego ładu (*theoria*) oraz hebrajskiego posłuszeństwa wobec głosu Boga objawiającego się w historii (*pistis*, szacunek dla Tory). Grecy poszukiwali wiecznych zasad rzeczywistości (*arche*) za pomocą autonomicznego rozumu (*logos*), podczas gdy Żydzi i pierwsi chrześcijanie opierali się na fakcie historycznego Objawienia i interwencji Boga w losy narodu wybranego. Próba harmonizacji tych dwóch odmiennych podejść zrodziła chrześcijańską teologię - dyscyplinę, która posługując się greckim instrumentarium pojęciowym, usiłowała wyrazić prawdy przekraczające dotychczasowe horyzonty metafizyczne hellenizmu.
 
+<svg viewBox="0 0 800 360" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 14px; fill: #1A303A; text-anchor: middle; letter-spacing: 1px; }
+.svg-subtitle { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #8C2D19; text-anchor: middle; }
+.pillar-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #FFF; text-anchor: middle; letter-spacing: 0.5px; }
+.node-text { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #26211C; }
+.node-bold { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #26211C; }
+.synthesis-text { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13px; fill: #FFF; font-style: italic; text-anchor: middle; }
+</style>
+<rect width="800" height="360" fill="#FFF" />
+<text x="400" y="30" class="svg-title">KONFRONTACJA I SYNTEZA PARADYGMATÓW</text>
+<text x="400" y="48" class="svg-subtitle">Ateny (Logos) kontra Jerozolima (Pistis) w chrześcijańskiej syntezie</text>
+<rect x="50" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#1A303A" stroke-width="2" />
+<path d="M50,75 h280 v30 h-280 z" fill="#1A303A" />
+<text x="190" y="95" class="pillar-title">ATENY (GRECKI LOGOS)</text>
+<text x="70" y="130" class="node-bold">Metoda:</text><text x="130" y="130" class="node-text">Autonomiczny rozum (Logos)</text>
+<text x="70" y="155" class="node-bold">Cel poznańczy:</text><text x="175" y="155" class="node-text">Teoria, kontemplacja kosmosu</text>
+<text x="70" y="180" class="node-bold">Absolut:</text><text x="130" y="180" class="node-text">Bezosobowa arche / Pierwszy Poruszyciel</text>
+<text x="70" y="205" class="node-bold">Etyka:</text><text x="115" y="205" class="node-text">Samodoskonalenie (Arete), cnota rozumu</text>
+<text x="70" y="230" class="node-bold">Czas:</text><text x="115" y="230" class="node-text">Cykliczny, wieczny powrót kosmosu</text>
+<rect x="470" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#8C2D19" stroke-width="2" />
+<path d="M470,75 h280 v30 h-280 z" fill="#8C2D19" />
+<text x="610" y="95" class="pillar-title">JEROZOLIMA (HEBRAJSKA PISTIS)</text>
+<text x="490" y="130" class="node-bold">Metoda:</text><text x="550" y="130" class="node-text">Posłuszeństwo, wiara (Pistis) i Tora</text>
+<text x="490" y="155" class="node-bold">Cel poznańczy:</text><text x="595" y="155" class="node-text">Objawienie, słuchanie słowa Boga</text>
+<text x="490" y="180" class="node-bold">Absolut:</text><text x="550" y="180" class="node-text">Bóg osobowy (JHVH), Stwórca i Ojciec</text>
+<text x="490" y="205" class="node-bold">Etyka:</text><text x="535" y="205" class="node-text">Przestrzeganie Przymierza, miłość bliźniego</text>
+<text x="490" y="230" class="node-bold">Czas:</text><text x="535" y="230" class="node-text">Linearny, historia zbawienia (Eschaton)</text>
+<path d="M220,245 L360,285" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="360,285 351,280 354,288" fill="#B58A3D" />
+<path d="M580,245 L440,285" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="440,285 446,288 449,280" fill="#B58A3D" />
+<rect x="250" y="275" width="300" height="60" rx="6" fill="#1A303A" stroke="#B58A3D" stroke-width="2" />
+<text x="400" y="298" class="synthesis-text">SYNTEZA PATRYSTYCZNO-SCHOLASTYCZNA</text>
+<text x="400" y="318" class="synthesis-text">Platonizacja objawienia / Chrześcijańska metafizyka bytu</text>
+</svg>
+
 ### 1. Historyczne i teologiczne tło spotkania: Septuaginta i przesunięcia pojęciowe
 
 Punktem wyjścia dla spotkania myśli helleńskiej z judaizmem była dynamiczna rzeczywistość diaspory żydowskiej w okresie hellenistycznym, ze szczególnym uwzględnieniem Aleksandrii. Założona przez Aleksandra Wielkiego w 331 roku p.n.e. metropolia egipska stała się najważniejszym tyglem kulturowym starożytnego świata, miejscem, w którym tradycje Wschodu spotkały się z nauką, literaturą i filozofią grecką. Dla tamtejszej, w dużej mierze zhellenizowanej społeczności żydowskiej, która traciła znajomość języka hebrajskiego, koniecznością stało się przełożenie Pisma Świętego na język grecki - ówczesną *koine*. Tak narodziła się Septuaginta (LXX), tłumaczona sukcesywnie od III wieku p.n.e. Legendarny opis tego procesu, zawarty w *Liście Pseudo-Arysteasza*, przedstawiający siedemdziesięciu dwóch uczonych pracujących niezależnie na wyspie Faros i tworzących identyczne tłumaczenia, odzwierciedla głębokie przekonanie wspólnoty o boskim natchnieniu i autorytatywnym charakterze tego przekładu [^2].

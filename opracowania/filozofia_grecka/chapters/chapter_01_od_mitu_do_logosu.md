@@ -578,22 +578,3 @@ Spór Heraklita z eleatami zdefiniował fundamentalny problem ontologiczny, z kt
 Pitagorejski matematyzm przeniósł ciężar dociekań z materialnego podłoża na formalną i geometryczną strukturę świata, antycypując metodologię współczesnych nauk przyrodniczych. Z kolei atomizm Demokryta połączył eleackie wymogi niezmienności bytu z empiryczną koniecznością ruchu, tworząc pierwszy, spójny system materializmu mechanistycznego.
 
 Zadając pytania o strukturę materii, naturę przestrzeni i czasu, granice zmysłów i rozumu oraz powszechność praw przyrody, presokratycy nie tylko stworzyli terminologiczne i konceptualne instrumentarium filozofii starożytnej, ale sformułowali pytania, które do dziś napędzają rozwój nauki i refleksji humanistycznej. To w ich fragmentarycznych pismach rodziła się idea wszechświata jako zrozumiałe dla ludzkiego rozumu, uporządkowanego kosmosu.
-
----
-
-### Bibliografia
-
-1. Arystoteles, *Metafizyka*, tłum. K. Leśniak, Wydawnictwo Naukowe PWN, Warszawa 2009.
-2. Arystoteles, *O duszy*, tłum. P. Siwek, Wydawnictwo Naukowe PWN, Warszawa 2010.
-3. Arystoteles, *Fizyka*, tłum. K. Leśniak, Wydawnictwo Naukowe PWN, Warszawa 2010.
-4. Diogenes Laertios, *Żywoty i poglądy słynnych filozofów*, tłum. W. Olszewski, B. Kupis, Wydawnictwo Naukowe PWN, Warszawa 2006.
-5. Diels H., Kranz W., *Die Fragmente der Vorsokratiker*, Weidmann, Berlin 1951-1952 (DK).
-6. Kirk G. S., Raven J. E., Schofield M., *Filozofia przedsokratejska. Studium krytyczne z wyborem tekstów*, tłum. J. Lang, Wydawnictwo Naukowe PWN, Warszawa 1999.
-7. Reale G., *Historia filozofii starożytnej*, t. I: *Od początków do Sokratesa*, tłum. E. I. Zieliński, Wydawnictwo KUL, Lublin 2008.
-8. Symplicjusz, *In Aristotelis Physica commentaria*, ed. H. Diels, Commentaria in Aristotelem Graeca, t. IX-X, Berlin 1882-1895.
-9. Tatarkiewicz W., *Historia filozofii*, t. I, Wydawnictwo Naukowe PWN, Warszawa 2009.
-10. Wesoły M., *Heraklit w świetle najnowszych badań*, "Przegląd Filozoficzny - Nowa Seria", nr 4 (60), 2006, s. 85-104.
-11. Legowicz J., *Historia filozofii starożytnej Grecji i Rzymu*, Państwowe Wydawnictwo Naukowe, Warszawa 1986.
-12. Guthrie W. K. C., *A History of Greek Philosophy*, Vol. I: *The Earlier Presocratics and the Pythagoreans*, Cambridge University Press, Cambridge 1962.
-13. Guthrie W. K. C., *A History of Greek Philosophy*, Vol. II: *The Presocratic Tradition from Parmenides to Democritus*, Cambridge University Press, Cambridge 1965.
-14. Barnes J., *The Presocratic Philosophers*, Routledge, London-New York 1982.

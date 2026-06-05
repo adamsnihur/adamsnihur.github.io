@@ -1009,25 +1009,6 @@ Pitagorejski matematyzm przeniósł ciężar dociekań z materialnego podłoża 
 
 Zadając pytania o strukturę materii, naturę przestrzeni i czasu, granice zmysłów i rozumu oraz powszechność praw przyrody, presokratycy nie tylko stworzyli terminologiczne i konceptualne instrumentarium filozofii starożytnej, ale sformułowali pytania, które do dziś napędzają rozwój nauki i refleksji humanistycznej. To w ich fragmentarycznych pismach rodziła się idea wszechświata jako zrozumiałe dla ludzkiego rozumu, uporządkowanego kosmosu.
 
----
-
-### Bibliografia
-
-1. Arystoteles, *Metafizyka*, tłum. K. Leśniak, Wydawnictwo Naukowe PWN, Warszawa 2009.
-2. Arystoteles, *O duszy*, tłum. P. Siwek, Wydawnictwo Naukowe PWN, Warszawa 2010.
-3. Arystoteles, *Fizyka*, tłum. K. Leśniak, Wydawnictwo Naukowe PWN, Warszawa 2010.
-4. Diogenes Laertios, *Żywoty i poglądy słynnych filozofów*, tłum. W. Olszewski, B. Kupis, Wydawnictwo Naukowe PWN, Warszawa 2006.
-5. Diels H., Kranz W., *Die Fragmente der Vorsokratiker*, Weidmann, Berlin 1951-1952 (DK).
-6. Kirk G. S., Raven J. E., Schofield M., *Filozofia przedsokratejska. Studium krytyczne z wyborem tekstów*, tłum. J. Lang, Wydawnictwo Naukowe PWN, Warszawa 1999.
-7. Reale G., *Historia filozofii starożytnej*, t. I: *Od początków do Sokratesa*, tłum. E. I. Zieliński, Wydawnictwo KUL, Lublin 2008.
-8. Symplicjusz, *In Aristotelis Physica commentaria*, ed. H. Diels, Commentaria in Aristotelem Graeca, t. IX-X, Berlin 1882-1895.
-9. Tatarkiewicz W., *Historia filozofii*, t. I, Wydawnictwo Naukowe PWN, Warszawa 2009.
-10. Wesoły M., *Heraklit w świetle najnowszych badań*, "Przegląd Filozoficzny - Nowa Seria", nr 4 (60), 2006, s. 85-104.
-11. Legowicz J., *Historia filozofii starożytnej Grecji i Rzymu*, Państwowe Wydawnictwo Naukowe, Warszawa 1986.
-12. Guthrie W. K. C., *A History of Greek Philosophy*, Vol. I: *The Earlier Presocratics and the Pythagoreans*, Cambridge University Press, Cambridge 1962.
-13. Guthrie W. K. C., *A History of Greek Philosophy*, Vol. II: *The Presocratic Tradition from Parmenides to Democritus*, Cambridge University Press, Cambridge 1965.
-14. Barnes J., *The Presocratic Philosophers*, Routledge, London-New York 1982.
-
 <div style="page-break-after: always;"></div>
 
 # <span id="sokrates">Rozdział 2: Sokrates</span>
@@ -1763,20 +1744,7 @@ Kluczowe modyfikacje w *Prawach* obejmują:
 -   Wprowadzenie preambuł (*prooimia*) do praw - prawa nie mogą być jedynie suchymi nakazami połączonymi z groźbą kary. Muszą być poprzedzone racjonalnym wyjaśnieniem, dlaczego dane prawo jest słuszne, co ma wychowywać i przekonywać obywateli do posłuszeństwa.
 -   Zastąpienie królów-filozofów przez skomplikowany system urzędów, z Radą Nocną (**nykterinos syllogos - νυκτερινὸς σύλλογος**) na czele. Rada ta, obradująca przed świtem, skupia najmądrzejszych obywateli i czuwa nad filozoficznym uzasadnieniem prawodawstwa.
 -   Wprowadzenie surowej religii państwowej. Platon uznaje ateizm i bezbożność za przestępstwa polityczne, zagrażające stabilności państwa. Za szerzenie bezbożności połączonej z praktykami magicznymi grozi kara śmierci, co stanowi paradoksalne domkniecie biografii Platona, którego mistrz został skazany pod zarzutem bezbożności.
-
 Platoński projekt polityczny, rozpięty między idealizmem Kallipolis a surowym realizmem Magnezji, pozostaje jednym z najbardziej prowokujących i wpływowych dokumentów w historii myśli politycznej.
-
----
-
-### Bibliografia naukowa (wybór)
-
-1. Cornford, F. M., *Plato's Cosmology: The Timaeus of Plato*, London 1937.
-2. Havelock, E. A., *Preface to Plato*, Cambridge Mass. 1963.
-3. Patočka, J., *Platon i Europa*, Warszawa 2004.
-4. Reale, G., *Historia filozofii starożytnej*, t. II: *Platon i Arystoteles*, przeł. E. I. Zieliński, Lublin 1996.
-5. Strauss, L., *The City and Man*, Chicago 1964.
-6. Tatarkiewicz, W., *Historia filozofii*, t. I, Warszawa 2009.
-7. Vlastos, G., *Platonic Studies*, Princeton 1981.
 
 <div style="page-break-after: always;"></div>
 
@@ -2601,22 +2569,6 @@ Filozofia hellenistyczna stanowiła dramatyczną, lecz niezwykle owocną próbę
 - **Syneidesis (συνείδησις):** Sumienie; wewnętrzny świadek moralny czynów człowieka, kluczowe pojęcie stoickie zaadaptowane przez chrześcijaństwo.
 - **Tetrapharmakos (τετραφάρμακος):** Czwórmian leczniczy Epikura; cztery podstawowe dogmaty uwalniające duszę od lęków.
 
-#### Bibliografia źródłowa i opracowania
-
-1. **Arystoteles**, *Polityka*, tłum. L. Piotrowicz, Warszawa 2004.
-2. **Cyceron**, *O państwie. O prawach*, tłum. I. Żółtowska, Kęty 1999.
-3. **Diogenes Laertios**, *Żywoty i poglądy sławnych filozofów*, tłum. I. Krońska, Warszawa 2006.
-4. **Epiktet**, *Diatryby i Podręcznik*, tłum. L. Joachimowicz, Warszawa 1961.
-5. **Hadot P.**, *Filozofia jako ćwiczenie duchowe*, tłum. G. Przychodniak, Warszawa 2003.
-6. **Hadot P.**, *Twierdza wewnętrzna. Wprowadzenie do "Rozmyślań" Marka Aureliusza*, tłum. P. Domański, Kęty 2004.
-7. **Krokiewicz A.**, *Sceptycyzm grecki*, Warszawa 1958.
-8. **Krokiewicz A.**, *Hedonizm Epikura*, Warszawa 1961.
-9. **Lukrecjusz**, *O naturze rzeczy*, tłum. E. Rykaczewski, Warszawa 1957.
-10. **Marek Aureliusz**, *Rozmyślania*, tłum. M. Reiter, Warszawa 2005.
-11. **Reale G.**, *Historia filozofii starożytnej*, t. III: *Systemy epoki hellenistycznej*, tłum. E. I. Zieliński, Lublin 1999.
-12. **Sekstus Empiryk**, *Zarysy Pyrrońskie*, tłum. A. Krokiewicz, Warszawa 1931.
-13. **Seneka Młodszy**, *Listy moralne do Lucyliusza*, tłum. W. Kornatowski, Warszawa 1998.
-
 <div style="page-break-after: always;"></div>
 
 # <span id="ateny-i-jerozolima">Rozdział 6: Ateny i Jerozolima</span>
@@ -2624,6 +2576,43 @@ Filozofia hellenistyczna stanowiła dramatyczną, lecz niezwykle owocną próbę
 <p class="chapter-start">Słynne pytanie Tertuliana: „Co mają Ateny do Jerozolimy? Co ma Akademia do Kościoła?” („Quid ergo Athenis et Hierosolymis? Quid academiae et ecclesiae?”) [^chapter_06_ateny_i_jerozolima_1] stanowi retoryczne, choć fundamentalne wyzwanie, które odzwierciedlało głęboki dylemat wczesnego chrześcijaństwa wobec dziedzictwa filozofii greckiej. Było to pytanie o możliwość, a nawet zasadność, syntezy radykalnie odmiennych paradygmatów: objawienia monoteistycznego, zakorzenionego w historii zbawienia, przymierzu i Prawie, z racjonalnym dociekaniem *physis*, *techne* i *ethos*, które stanowiło esencję greckiej myśli. Pomimo tej deklarowanej antytezy, historia cywilizacji zachodniej świadczy o triumfie syntezy, a nie o całkowitym odrzuceniu. W istocie, bez greckich kategorii pojęciowych i metod analitycznych, chrześcijaństwo nie byłoby w stanie sformułować swoich dogmatów, zinternalizować złożoności swojej teologii ani skutecznie komunikować swojej prawdy w świecie hellenistycznym. Ten rozdział poświęcony jest analizie kluczowych etapów i postaci, które umożliwiły to historyczne spotkanie, od Filona Aleksandryjskiego, przez wczesnych apologetów i Ojców Kościoła, aż po monumentalną syntezę św. Augustyna, stanowiącą fundament średniowiecznej myśli zachodniej.</p>
 
 Rozpatrując ten proces z perspektywy historii idei, należy dostrzec, że zderzenie to nie miało charakteru wyłącznie akademickiego. Było to spotkanie dwóch odmiennych struktur egzystencjalnych: greckiego dążenia do kontemplacji kosmicznego ładu (*theoria*) oraz hebrajskiego posłuszeństwa wobec głosu Boga objawiającego się w historii (*pistis*, szacunek dla Tory). Grecy poszukiwali wiecznych zasad rzeczywistości (*arche*) za pomocą autonomicznego rozumu (*logos*), podczas gdy Żydzi i pierwsi chrześcijanie opierali się na fakcie historycznego Objawienia i interwencji Boga w losy narodu wybranego. Próba harmonizacji tych dwóch odmiennych podejść zrodziła chrześcijańską teologię - dyscyplinę, która posługując się greckim instrumentarium pojęciowym, usiłowała wyrazić prawdy przekraczające dotychczasowe horyzonty metafizyczne hellenizmu.
+
+<svg viewBox="0 0 800 360" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 14px; fill: #1A303A; text-anchor: middle; letter-spacing: 1px; }
+.svg-subtitle { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #8C2D19; text-anchor: middle; }
+.pillar-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #FFF; text-anchor: middle; letter-spacing: 0.5px; }
+.node-text { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #26211C; }
+.node-bold { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #26211C; }
+.synthesis-text { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13px; fill: #FFF; font-style: italic; text-anchor: middle; }
+</style>
+<rect width="800" height="360" fill="#FFF" />
+<text x="400" y="30" class="svg-title">KONFRONTACJA I SYNTEZA PARADYGMATÓW</text>
+<text x="400" y="48" class="svg-subtitle">Ateny (Logos) kontra Jerozolima (Pistis) w chrześcijańskiej syntezie</text>
+<rect x="50" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#1A303A" stroke-width="2" />
+<path d="M50,75 h280 v30 h-280 z" fill="#1A303A" />
+<text x="190" y="95" class="pillar-title">ATENY (GRECKI LOGOS)</text>
+<text x="70" y="130" class="node-bold">Metoda:</text><text x="130" y="130" class="node-text">Autonomiczny rozum (Logos)</text>
+<text x="70" y="155" class="node-bold">Cel poznańczy:</text><text x="175" y="155" class="node-text">Teoria, kontemplacja kosmosu</text>
+<text x="70" y="180" class="node-bold">Absolut:</text><text x="130" y="180" class="node-text">Bezosobowa arche / Pierwszy Poruszyciel</text>
+<text x="70" y="205" class="node-bold">Etyka:</text><text x="115" y="205" class="node-text">Samodoskonalenie (Arete), cnota rozumu</text>
+<text x="70" y="230" class="node-bold">Czas:</text><text x="115" y="230" class="node-text">Cykliczny, wieczny powrót kosmosu</text>
+<rect x="470" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#8C2D19" stroke-width="2" />
+<path d="M470,75 h280 v30 h-280 z" fill="#8C2D19" />
+<text x="610" y="95" class="pillar-title">JEROZOLIMA (HEBRAJSKA PISTIS)</text>
+<text x="490" y="130" class="node-bold">Metoda:</text><text x="550" y="130" class="node-text">Posłuszeństwo, wiara (Pistis) i Tora</text>
+<text x="490" y="155" class="node-bold">Cel poznańczy:</text><text x="595" y="155" class="node-text">Objawienie, słuchanie słowa Boga</text>
+<text x="490" y="180" class="node-bold">Absolut:</text><text x="550" y="180" class="node-text">Bóg osobowy (JHVH), Stwórca i Ojciec</text>
+<text x="490" y="205" class="node-bold">Etyka:</text><text x="535" y="205" class="node-text">Przestrzeganie Przymierza, miłość bliźniego</text>
+<text x="490" y="230" class="node-bold">Czas:</text><text x="535" y="230" class="node-text">Linearny, historia zbawienia (Eschaton)</text>
+<path d="M220,245 L360,285" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="360,285 351,280 354,288" fill="#B58A3D" />
+<path d="M580,245 L440,285" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="440,285 446,288 449,280" fill="#B58A3D" />
+<rect x="250" y="275" width="300" height="60" rx="6" fill="#1A303A" stroke="#B58A3D" stroke-width="2" />
+<text x="400" y="298" class="synthesis-text">SYNTEZA PATRYSTYCZNO-SCHOLASTYCZNA</text>
+<text x="400" y="318" class="synthesis-text">Platonizacja objawienia / Chrześcijańska metafizyka bytu</text>
+</svg>
 
 ### 1. Historyczne i teologiczne tło spotkania: Septuaginta i przesunięcia pojęciowe
 
@@ -3711,27 +3700,13 @@ W ten sposób odrodzenie myśli greckiej w filozofii renesansu nie było jedynie
 
 ---
 
-### Bibliografia i Przypisy
+### Przypisy
 
 [1] Giovanni Pico della Mirandola, *Oratio de hominis dignitate*, [w:] *Filozofia włoskiego renesansu*, wybór i tłum. J. Domański, Warszawa 1967, s. 120-121 (parafraza i adaptacja terminologiczna).
 
 [2] Giovanni Pico della Mirandola, *Conclusiones cabalisticae*, [w:] *Conclusiones nongentae*, Rzym 1486 (Concl. 900).
 
 [3] Thomas More, *Utopia*, tłum. K. Abgarowicz, Warszawa 1954, s. 78.
-
-- Bruni, L., *Wybór pism humanistycznych*, tłum. i oprac. J. Domański, Wrocław 1953.
-- Copenhaver, B. P., Schmitt, C. B., *Renaissance Philosophy*, Oxford 1992.
-- Domański, J., *Początki humanizmu*, Warszawa 2001.
-- Erasmus Roterodamus, *Moriae encomium*, Basel 1511.
-- Ficino, M., *Theologia Platonica de immortalitate animorum*, Florence 1482.
-- Garin, E., *Filozofia odrodzenia*, tłum. K. Żaboklicki, Warszawa 1969.
-- Kristeller, P. O., *Renaissance Thought and Its Sources*, New York 1979.
-- Kuczyńska, A., *Filozofia i sztuka Marsilia Ficina*, Warszawa 1974.
-- Lipsius, J., *De constantia libri duo*, Antwerp 1584.
-- Montaigne, M. de, *Essais*, Bordeaux 1580.
-- Pomponazzi, P., *De immortalitate animae*, Bologna 1516.
-- Swieżawski, S., *Dzieje filozofii europejskiej w XV wieku*, t. 1-6, Warszawa 1974-1983.
-- Valla, L., *De voluptate*, Rome 1431.
 
 <div style="page-break-after: always;"></div>
 
@@ -3763,6 +3738,45 @@ W miejsce spekulacji Bacon zaproponował indukcję eliminacyjną, opartą na sys
 Ostatecznej syntezy mechanistycznego obrazu świata dokonał Isaac Newton w *Philosophiae Naturalis Principia Mathematica* (1687). Newton sformułował trzy zasady dynamiki oraz prawo powszechnego ciążenia, wykazując za pomocą aparatu matematycznego, że te same prawa fizyki rządzą ruchem ciał na Ziemi i w przestrzeni kosmicznej. W newtonowskim wszechświecie materia, czas i przestrzeń miały charakter absolutny i homogeniczny, a wszelkie zjawiska przyrodnicze zostały sprowadzone do oddziaływania sił grawitacyjnych między punktami materialnymi.
 
 Ta radykalna przebudowa obrazu świata wywołała głęboki kryzys epistemologiczny. Jeśli bowiem świat, w którym żyjemy na co dzień - pełen barw, zapachów i celowych dążeń - jest jedynie subiektywną iluzją, a rzeczywistość w swej głębi stanowi bezbarwny, geometryczny mechanizm rządzony prawami matematyki, to przed filozofią stanęło dramatyczne wyzwanie: w jaki sposób ludzki umysł, posługujący się zmysłami, może uzyskać pewną i adekwatną wiedzę o tej obiektywnej rzeczywistości? Dawne autorytety teologiczne i scholastyczne straciły swą wiarygodność, co zrodziło palące zapotrzebowanie na nową metodę poznawczą, która mogłaby zagwarantować niepodważalne fundamenty dla nowojotnej nauki. W odpowiedzi na ten kryzys ukształtowały się dwa główne nurty nowożytnej teorii poznania: racjonalizm, poszukujący pewności w apriorycznych strukturach rozumu, oraz empiryzm, upatrujący źródła wszelkiej wiedzy w zmysłowym doświadczeniu.
+
+<svg viewBox="0 0 800 380" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 14px; fill: #1A303A; text-anchor: middle; letter-spacing: 1px; }
+.svg-subtitle { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #8C2D19; text-anchor: middle; }
+.box-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #FFF; text-anchor: middle; letter-spacing: 0.5px; }
+.box-text { font-family: 'Montserrat', sans-serif; font-size: 11px; fill: #26211C; }
+.box-bold { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #26211C; }
+.synthesis-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #FFF; text-anchor: middle; letter-spacing: 0.5px; }
+.synthesis-text { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13px; fill: #FFF; font-style: italic; text-anchor: middle; }
+</style>
+<rect width="800" height="380" fill="#FFF" />
+<text x="400" y="30" class="svg-title">NOWOŻYTNY DWUPODZIAŁ EPISTEMOLOGICZNY I SYNTEZA KANTA</text>
+<text x="400" y="48" class="svg-subtitle">Drogi poznania: od opozycji racjonalizm-empiryzm do krytycyzmu</text>
+<rect x="50" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#1A303A" stroke-width="2" />
+<path d="M50,75 h280 v30 h-280 z" fill="#1A303A" />
+<text x="190" y="95" class="box-title">RACJONALIZM (A PRIORI)</text>
+<text x="70" y="130" class="box-bold">Przedstawiciele:</text><text x="175" y="130" class="box-text">Descartes, Spinoza, Leibniz</text>
+<text x="70" y="155" class="box-bold">Źródło poznania:</text><text x="180" y="155" class="box-text">Czysty intelekt, idee wrodzone</text>
+<text x="70" y="180" class="box-bold">Metoda:</text><text x="125" y="180" class="box-text">Dedukcja (matematyczna pewność)</text>
+<text x="70" y="205" class="box-bold">Kryterium:</text><text x="135" y="205" class="box-text">Jasność i wyraźność (idea clara...)</text>
+<text x="70" y="230" class="box-bold">Metafora:</text><text x="130" y="230" class="box-text">Umysł jako aktywny architekt (struktura)</text>
+<rect x="470" y="75" width="280" height="170" rx="6" fill="#F8F3E8" stroke="#8C2D19" stroke-width="2" />
+<path d="M470,75 h280 v30 h-280 z" fill="#8C2D19" />
+<text x="610" y="95" class="box-title">EMPIRYZM (A POSTERIORI)</text>
+<text x="490" y="130" class="box-bold">Przedstawiciele:</text><text x="595" y="130" class="box-text">Locke, Berkeley, Hume</text>
+<text x="490" y="155" class="box-bold">Źródło poznania:</text><text x="600" y="155" class="box-text">Doświadczenie zmysłowe (sensation)</text>
+<text x="490" y="180" class="box-bold">Metoda:</text><text x="545" y="180" class="box-text">Indukcja, obserwacja eksperymentalna</text>
+<text x="490" y="205" class="box-bold">Kryterium:</text><text x="555" y="205" class="box-text">Zbieżność z wrażeniem zmysłowym</text>
+<text x="490" y="230" class="box-bold">Metafora:</text><text x="550" y="230" class="box-text">Umysł jako czysta karta (tabula rasa)</text>
+<path d="M220,245 L350,290" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="350,290 341,285 344,293" fill="#B58A3D" />
+<path d="M580,245 L450,290" fill="none" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="3,3" />
+<polygon points="450,290 456,293 459,285" fill="#B58A3D" />
+<rect x="230" y="280" width="340" height="70" rx="6" fill="#1A303A" stroke="#B58A3D" stroke-width="2" />
+<text x="400" y="300" class="synthesis-title">SYNTEZA KANTA: KRYTYCYZM TRANSCENDENTALNY</text>
+<text x="400" y="320" class="synthesis-text">„Myśli bez treści są puste, naoczności bez pojęć są ślepe”</text>
+<text x="400" y="338" class="synthesis-text">Aktywność podmiotu kształtująca formę doświadczenia zmysłowego</text>
+</svg>
 
 ---
 
@@ -4101,7 +4115,7 @@ W ten sposób Kant dokonuje ostatecznej, monumentalnej syntezy nowożytnego prze
 
 ---
 
-### Bibliografia i Przypisy
+### Przypisy
 
 [^chapter_09_nowozytnosc_1]: Galileo Galilei, *Il Saggiatore*, Roma 1623, s. 48.
 [^chapter_09_nowozytnosc_2]: Baruch Spinoza, *Etyka w porządku geometrycznym wyłożona*, tłum. I. Myślicki, Warszawa 1954, Część I, Definicja III.
@@ -4409,6 +4423,56 @@ Z kolei Parmenides z Elei (ok. 515-450 p.n.e.) sformułował rygorystyczne wymag
 Eleacki radykalizm logiczny zmusił późniejszych przyrodnikow (pluralistów takich jak Empedokles i Anaksagoras oraz atomistów) do sformułowania takich modeli materii, które szanowałyby zasady Parmenidesa na poziomie mikroskopowym (elementy materii są niezmienne i wieczne), jednocześnie tłumacząc obserwowalną zmianę na poziomie makroskopowym (poprzez ruch i przegrupowanie tych elementów). W ten sposób eleaci nauczyli fizykę rygoru dowodowego i logicznej bezsprzeczności.
 
 Założenie o poznawalności kosmosu za pomocą ludzkiego intelektu (*nous*) stało się fundamentalnym aksjomatem zachodniej nauki. Grecy wierzyli, że istnieje izomorfizm między strukturą wszechświata a strukturą ludzkiego rozumu: kosmiczny *logos* odpowiada ludzkiemu *logosowi*. W ten sposób zrodziła się epistemologiczna śmiałość, która pozwoliła odrzucić lęk przed chaosem i podjąć próbę racjonalnej rekonstrukcji mechanizmów rządzących przyrodą.
+
+<svg viewBox="0 0 800 220" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #1A303A; text-anchor: middle; letter-spacing: 0.5px; }
+.step-num { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #B58A3D; text-anchor: middle; }
+.step-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 12px; fill: #1A303A; text-anchor: middle; }
+.step-desc { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 11px; fill: #26211C; text-anchor: middle; }
+.arrow { stroke: #B58A3D; stroke-width: 2; fill: none; }
+</style>
+<rect width="800" height="220" fill="#FFF" />
+<text x="400" y="25" class="svg-title">EWOLUCJA JOŃSKIEJ REFLEKSJI NAD ARCHÉ (VI-V w. p.n.e.)</text>
+<rect x="15" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="80" y="75" class="step-num">VI w. p.n.e.</text>
+<text x="80" y="95" class="step-title">TALES</text>
+<text x="80" y="118" class="step-desc">Arché = WODA (Hydor)</text>
+<text x="80" y="133" class="step-desc">Fizyczny monizm,</text>
+<text x="80" y="148" class="step-desc">stany skupienia</text>
+<path d="M145,110 L167,110" class="arrow" />
+<polygon points="172,110 163,106 163,114" fill="#B58A3D" />
+<rect x="175" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="240" y="75" class="step-num">ok. 610-546 p.n.e.</text>
+<text x="240" y="95" class="step-title">ANAKSYMANDER</text>
+<text x="240" y="118" class="step-desc">Arché = BEZKRES</text>
+<text x="240" y="133" class="step-desc">Apeiron. Równowaga</text>
+<text x="240" y="148" class="step-desc">przeciwieństw, prawo</text>
+<path d="M305,110 L327,110" class="arrow" />
+<polygon points="332,110 323,106 323,114" fill="#B58A3D" />
+<rect x="335" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="400" y="75" class="step-num">ok. 585-528 p.n.e.</text>
+<text x="400" y="95" class="step-title">ANAKSYMENES</text>
+<text x="400" y="118" class="step-desc">Arché = POWIETRZE</text>
+<text x="400" y="133" class="step-desc">Aer. Rozrzedzanie</text>
+<text x="400" y="148" class="step-desc">i zagęszczanie (ilość)</text>
+<path d="M465,110 L487,110" class="arrow" />
+<polygon points="492,110 483,106 483,114" fill="#B58A3D" />
+<rect x="495" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#8C2D19" stroke-width="1.5" />
+<text x="560" y="75" class="step-num">ok. 535-475 p.n.e.</text>
+<text x="560" y="95" class="step-title">HERAKLIT</text>
+<text x="560" y="118" class="step-desc">Arché = LOGOS / OGIEŃ</text>
+<text x="560" y="133" class="step-desc">Wieczna zmiana,</text>
+<text x="560" y="148" class="step-desc">jedność w walce</text>
+<path d="M625,110 L647,110" class="arrow" />
+<polygon points="652,110 643,106 643,114" fill="#B58A3D" />
+<rect x="655" y="55" width="130" height="110" rx="4" fill="#F8F3E8" stroke="#8C2D19" stroke-width="1.5" />
+<text x="720" y="75" class="step-num">ok. 515-450 p.n.e.</text>
+<text x="720" y="95" class="step-title">PARMENIDES</text>
+<text x="720" y="118" class="step-desc">Arché = BYT (To On)</text>
+<text x="720" y="133" class="step-desc">Tożsamość, stałość,</text>
+<text x="720" y="148" class="step-desc">rygor logiczny</text>
+</svg>
 
 ## 2. Pitagorejczycy i Platon: matematyzacja ontologii i przyrody
 
@@ -5310,7 +5374,7 @@ Przeprowadzona w niniejszej monografii analiza drogi rozwojowej myśli greckiej 
 
 Przyszłość zachodniej tradycji intelektualnej zależy zatem od naszej zdolności do podjęcia ciągłego, krytycznego i twórczego dialogu z greckim dziedzictwem. Dialog ten nie może jednak przybrać formy nostalgicznego, muzealnego konserwatyzmu, który dąży do bezkrytycznego kopiowania antycznych form życia społecznego czy dogmatycznego zamrożenia pojęć w ich dawnych sformułowaniach. Taka postawa byłaby głęboko sprzeczna z samym duchem greckiej filozofii, która u swych źródeł była przecież rewolucyjnym, odważnym i bezkompromisowym pytaniem o prawdę, kwestionującym zastane mity, tradycje i autorytety polityczne. Sokratejska gotowość do pójścia za argumentem tam, dokąd on prowadzi, bez względu na konsekwencje, jest zaprzeczeniem wszelkiego dogmatyzmu.
 
-Właściwą metodą odniesienia do Grecji jest to, co w teologii i filozofii określa się mianem *ressourcement* - powrotem do źródeł w celu zaczerpnienia z nich nowej energii poznawczej i moralnej do stawienia czoła współczesnym wyzwaniom. Powinniśmy dążyć do twórczej *anastazy* (ἀνάστασις) - zmartwychwstania i odnowienia greckich kategorii w nowym kontekście historycznym, kulturowym i technologicznym. Anastaza ta nie jest rekonstrukcją przeszłości, lecz jej twórczą projekcją w przyszłość.
+Właściwą metodą odniesienia do Grecji jest to, co w teologii i filozofii określa się mianem *ressourcement* - powrotem do źródeł w celu zaczerpnięcia z nich nowej energii poznawczej i moralnej do stawienia czoła współczesnym wyzwaniom. Powinniśmy dążyć do twórczej *anastazy* (ἀνάστασις) - zmartwychwstania i odnowienia greckich kategorii w nowym kontekście historycznym, kulturowym i technologicznym. Anastaza ta nie jest rekonstrukcją przeszłości, lecz jej twórczą projekcją w przyszłość.
 
 Anastaza ta wymaga od nas:
 
@@ -5337,28 +5401,7 @@ Tylko pod tym warunkiem - poprzez twórcze i krytyczne ożywienie helleńskiego 
 [10] Arystoteles, *Etyka nikomachejska*, I, 5, 1095b 19-20, s. 12.  
 [11] Platon, *Państwo*, VI, 511b-c, s. 228-229.  
 [12] Tamże, 508b-c, s. 224-225.  
-[13] Tamże, VIII, 562a-569c, s. 320-335.  
-
-### Bibliografia
-
-1. Arystoteles, *Etyka nikomachejska*, tłum. D. Gromska, PWN, Warszawa 2007.  
-2. Arystoteles, *Fizyka*, tłum. K. Leśniak, PWN, Warszawa 2010.  
-3. Arystoteles, *Polityka*, tłum. L. Piotrowicz, PWN, Warszawa 2004.  
-4. Cyceron, Marek Tulliusz, *O państwie. O prawach*, tłum. I. Żółtowska, Kęty 1999.  
-5. Derrida, Jacques, *O gramatologii*, tłum. P. Pieniążek, Wydawnictwo KR, Warszawa 1999.  
-6. Gadamer, Hans-Georg, *Prawda i metoda. Zarys hermeneutyki filozoficznej*, tłum. B. Baran, PWN, Warszawa 2004.  
-7. Heidegger, Martin, *Budować, mieszkać, myśleć. Eseje wybrane*, tłum. K. Michalski, Czytelnik, Warszawa 1977.  
-8. Heidegger, Martin, *Bycie i czas*, tłum. B. Baran, PWN, Warszawa 1994.  
-9. Heraklit z Efezu, [w:] *Filozofia przedplatońska*, red. J. Legowicz, PWN, Warszawa 1968.  
-10. MacIntyre, Alasdair, *Dziedzictwo cnoty. Studium z teorii moralności*, tłum. A. Chmielewski, PWN, Warszawa 1996.  
-11. Platon, *Państwo*, tłum. W. Witwicki, PWN, Warszawa 1958.  
-12. Platon, *Prawa*, tłum. M. Maykowska, PWN, Warszawa 1960.  
-13. Schmitt, Carl, *Nomos Ziemi w prawie międzynarodowym jus publicum Europaeum*, tłum. R. Cichocki, Oficyna Wydawnicza Wyższej Szkoły Handlu i Prawa, Warszawa 2005.  
-14. Tomasz z Akwinu, *Suma teologiczna*, tłum. i oprac. O. S. Swieżawski, Veritas, Londyn 1963.  
-15. Filon z Aleksandrii, *Pisma*, tłum. zbiorowe, PAX, Warszawa 1986.  
-16. Searle, John, *Umysł, mózg i nauka*, tłum. J. Bobryk, PWN, Warszawa 1995.  
-17. Nietzsche, Friedrich, *Tako rzecze Zaratustra*, tłum. W. Berent, Warszawa 1990.  
-18. Bostrom, Nick, *Superinteligencja. Scenariusze, zagrożenia, strategie*, tłum. J. Szajbert, Helion, Gliwice 2016.
+[13] Tamże, VIII, 562a-569c, s. 320-335.
 
 <div style="page-break-after: always;"></div>
 
@@ -5379,74 +5422,100 @@ Tylko pod tym warunkiem - poprzez twórcze i krytyczne ożywienie helleńskiego 
 9. **Demokryt** (1953). *Trzy rozprawy*, tłum. K. Leśniak. Warszawa: Państwowe Wydawnictwo Naukowe.
 10. **Descartes, R.** (1985). *The Philosophical Writings of Descartes* (vols. 1-2), trans. J. Cottingham, R. Stoothoff, D. Murdoch. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511818998](https://doi.org/10.1017/CBO9780511818998).
 11. **Diels, H., Kranz, W.** (1951-1952). *Die Fragmente der Vorsokratiker* (6th ed.). Berlin: Weidmann.
-12. **Epikur** (1956). *Listy i aforyzmy*, tłum. K. Leśniak. Warszawa: Państwowe Wydawnictwo Naukowe.
-13. **Erasmus, D.** (1990). *The Praise of Folly*, trans. C. H. Miller. New Haven: Yale University Press. [DOI: 10.12987/9780300161472](https://doi.org/10.12987/9780300161472).
-14. **Euclid** (1956). *The Thirteen Books of Euclid's Elements*, trans. T. L. Heath. New York: Dover. [DOI: 10.2307/3609804](https://doi.org/10.2307/3609804).
-15. **Ficino, M.** (2001-2006). *Platonic Theology* (vols. 1-6), trans. M. J. B. Allen. Cambridge, MA: Harvard University Press. [DOI: 10.4159/harvard.9780674039124](https://doi.org/10.4159/harvard.9780674039124).
-16. **Filon z Aleksandrii** (1986). *Pisma* (t. 1-2), tłum. L. Joachimowicz. Warszawa: Pax.
-17. **Galen** (1997). *Selected Works*, trans. P. N. Singer. Oxford: Oxford University Press. [DOI: 10.1093/oseo/instance.00084534](https://doi.org/10.1093/oseo/instance.00084534).
-18. **Galilei, G.** (1953). *Dialogue Concerning the Two Chief World Systems*, trans. S. Drake. Berkeley: University of California Press. [DOI: 10.2307/226484](https://doi.org/10.2307/226484).
-19. **Grocjusz, H.** (2005). *The Rights of War and Peace*, ed. R. Tuck. Indianapolis: Liberty Fund. [DOI: 10.1017/S002238160707033X](https://doi.org/10.1017/S002238160707033X).
-20. **Harvey, W.** (1993). *On the Motion of the Heart and Blood in Animals*, trans. R. Willis. Buffalo: Prometheus Books. [DOI: 10.1001/jama.1931.02730100062035](https://doi.org/10.1001/jama.1931.02730100062035).
-21. **Hegel, G. W. F.** (1975). *Lectures on the History of Philosophy* (vols. 1-3), trans. E. S. Haldane. Lincoln: University of Nebraska Press. [DOI: 10.1017/CBO9780511808169](https://doi.org/10.1017/CBO9780511808169).
-22. **Heidegger, M.** (1962). *Being and Time*, trans. J. Macquarrie, E. Robinson. Oxford: Blackwell. [DOI: 10.1111/b.9780631197706.1962.x](https://doi.org/10.1111/b.9780631197706.1962.x).
-23. **Heraklit** (1990). *Fragmenty*, tłum. K. Mrówka. Warszawa: Wydawnictwo Naukowe PWN.
-24. **Hippocrates** (1923-1931). *Works* (vols. 1-4), trans. W. H. S. Jones. London: Heinemann. [DOI: 10.4159/DLCL.hippocrates-sacred_disease.1923](https://doi.org/10.4159/DLCL.hippocrates-sacred_disease.1923).
-25. **Hume, D.** (2000). *A Treatise of Human Nature*, ed. D. F. Norton, M. J. Norton. Oxford: Oxford University Press. [DOI: 10.1093/actrade/9780198248170.book.1](https://doi.org/10.1093/actrade/9780198248170.book.1).
-26. **Kant, I.** (1998). *Critique of Pure Reason*, trans. P. Guyer, A. W. Wood. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511804649](https://doi.org/10.1017/CBO9780511804649).
-27. **Kepler, J.** (1997). *The Harmony of the World* (*Harmonices Mundi*), trans. A. J. Aiton, A. M. Duncan, J. V. Field. Philadelphia: American Philosophical Society. [DOI: 10.2307/20027725](https://doi.org/10.2307/20027725).
-28. **Leibniz, G. W.** (1989). *Philosophical Essays*, trans. R. Ariew, D. Garber. Indianapolis: Hackett. [DOI: 10.5040/9781501301346](https://doi.org/10.5040/9781501301346).
-29. **Lipsius, J.** (2004). *On Constancy* (*De constantia*), trans. J. Stradling, ed. J. Sellars. Exeter: Bristol Classical Press. [DOI: 10.5040/9781472539953](https://doi.org/10.5040/9781472539953).
-30. **Locke, J.** (1975). *An Essay Concerning Human Understanding*, ed. P. H. Nidditch. Oxford: Oxford University Press. [DOI: 10.1093/actrade/9780198243861.book.1](https://doi.org/10.1093/actrade/9780198243861.book.1).
-31. **Lucretius** (1992). *On the Nature of Things* (*De rerum natura*), trans. W. H. D. Rouse, rev. M. F. Smith. Cambridge, MA: Harvard University Press. [DOI: 10.4159/DLCL.lucretius-on_the_nature_of_things.1924](https://doi.org/10.4159/DLCL.lucretius-on_the_nature_of_things.1924).
-32. **Marek Aureliusz** (1997). *Rozmyślania*, tłum. M. Reiter. Warszawa: Wydawnictwo Naukowe PWN.
-33. **Montaigne, M. de** (2003). *The Complete Essays*, trans. M. A. Screech. London: Penguin. [DOI: 10.1017/CBO9781139163774](https://doi.org/10.1017/CBO9781139163774).
-34. **More, T.** (1995). *Utopia*, trans. G. M. Logan, R. M. Adams. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9781139170369](https://doi.org/10.1017/CBO9781139170369).
-35. **Newton, I.** (1999). *The Principia: Mathematical Principles of Natural Philosophy*, trans. I. B. Cohen, A. Whitman. Berkeley: University of California Press. [DOI: 10.2307/3647934](https://doi.org/10.2307/3647934).
-36. **Nietzsche, F.** (1999). *The Birth of Tragedy and Other Writings*, ed. R. Geuss, R. Speirs. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511812033](https://doi.org/10.1017/CBO9780511812033).
-37. **Pico della Mirandola, G.** (1998). *On the Dignity of Man*, trans. C. G. Wallis. Indianapolis: Hackett. [DOI: 10.5040/9781501301902.0006](https://doi.org/10.5040/9781501301902.0006).
-38. **Platon** (1990-2005). *Dialogi* (t. 1-2), tłum. W. Witwicki. Warszawa: Wydawnictwo Naukowe PWN.
-39. **Plotyn** (1959). *Enneady* (t. 1-2), tłum. A. Krokiewicz. Warszawa: PWN.
-40. **Plethon, G. G.** (1989). *Traite des lois*, trans. C. Alexandre. Paris: Librairie de l'Academie.
-41. **Pomponazzi, P.** (1948). *On the Immortality of the Soul*, in *The Renaissance Philosophy of Man*, trans. W. H. Hay. Chicago: University of Chicago Press. [DOI: 10.7208/chicago/9780226143323.001.0001](https://doi.org/10.7208/chicago/9780226143323.001.0001).
-42. **Ptolemy** (1998). *Ptolemy's Almagest*, trans. G. J. Toomer. Princeton: Princeton University Press. [DOI: 10.2307/j.ctt1m3p191](https://doi.org/10.2307/j.ctt1m3p191).
-43. **Sekstus Empiryk** (1984). *Zarysy Pirrońskie*, tłum. A. Krokiewicz. Warszawa: PWN.
-44. **Spinoza, B.** (1985). *The Collected Works of Spinoza*, trans. E. Curley. Princeton: Princeton University Press. [DOI: 10.2307/j.ctv391j91](https://doi.org/10.2307/j.ctv391j91).
-45. **Tomasz z Akwinu, św.** (1962-1986). *Suma teologiczna* (*Summa theologiae*), tłum. zbiorowe. Londyn: Veritas.
-46. **Valla, L.** (1977). *On Pleasure* (*De voluptate* / *De vero falsoque bono*), trans. A. K. Hieatt, M. Lorch. New York: Abaris Books. [DOI: 10.2307/2860472](https://doi.org/10.2307/2860472).
-47. **Vesalius, A.** (1998-2009). *On the Fabric of the Human Body* (*De humani corporis fabrica*), trans. W. F. Richardson, J. B. Carman. San Francisco: Norman Publishing. [DOI: 10.1001/jama.280.19.1729](https://doi.org/10.1001/jama.280.19.1729).
+12. **Diogenes Laertios** (2006). *Żywoty i poglądy słynnych filozofów*, tłum. W. Olszewski, B. Kupis. Warszawa: Wydawnictwo Naukowe PWN.
+13. **Epiktet** (1961). *Diatryby i Podręcznik*, tłum. L. Joachimowicz. Warszawa: Państwowe Wydawnictwo Naukowe.
+14. **Epikur** (1956). *Listy i aforyzmy*, tłum. K. Leśniak. Warszawa: Państwowe Wydawnictwo Naukowe.
+15. **Erasmus, D.** (1990). *The Praise of Folly*, trans. C. H. Miller. New Haven: Yale University Press. [DOI: 10.12987/9780300161472](https://doi.org/10.12987/9780300161472).
+16. **Euclid** (1956). *The Thirteen Books of Euclid's Elements*, trans. T. L. Heath. New York: Dover. [DOI: 10.2307/3609804](https://doi.org/10.2307/3609804).
+17. **Ficino, M.** (2001-2006). *Platonic Theology* (vols. 1-6), trans. M. J. B. Allen. Cambridge, MA: Harvard University Press. [DOI: 10.4159/harvard.9780674039124](https://doi.org/10.4159/harvard.9780674039124).
+18. **Filon z Aleksandrii** (1986). *Pisma* (t. 1-2), tłum. L. Joachimowicz. Warszawa: Pax.
+19. **Galen** (1997). *Selected Works*, trans. P. N. Singer. Oxford: Oxford University Press. [DOI: 10.1093/oseo/instance.00084534](https://doi.org/10.1093/oseo/instance.00084534).
+20. **Galilei, G.** (1953). *Dialogue Concerning the Two Chief World Systems*, trans. S. Drake. Berkeley: University of California Press. [DOI: 10.2307/226484](https://doi.org/10.2307/226484).
+21. **Grocjusz, H.** (2005). *The Rights of War and Peace*, ed. R. Tuck. Indianapolis: Liberty Fund. [DOI: 10.1017/S002238160707033X](https://doi.org/10.1017/S002238160707033X).
+22. **Harvey, W.** (1993). *On the Motion of the Heart and Blood in Animals*, trans. R. Willis. Buffalo: Prometheus Books. [DOI: 10.1001/jama.1931.02730100062035](https://doi.org/10.1001/jama.1931.02730100062035).
+23. **Hegel, G. W. F.** (1975). *Lectures on the History of Philosophy* (vols. 1-3), trans. E. S. Haldane. Lincoln: University of Nebraska Press. [DOI: 10.1017/CBO9780511808169](https://doi.org/10.1017/CBO9780511808169).
+24. **Heidegger, M.** (1962). *Being and Time*, trans. J. Macquarrie, E. Robinson. Oxford: Blackwell. [DOI: 10.1111/b.9780631197706.1962.x](https://doi.org/10.1111/b.9780631197706.1962.x).
+25. **Heraklit** (1990). *Fragmenty*, tłum. K. Mrówka. Warszawa: Wydawnictwo Naukowe PWN.
+26. **Hippocrates** (1923-1931). *Works* (vols. 1-4), trans. W. H. S. Jones. London: Heinemann. [DOI: 10.4159/DLCL.hippocrates-sacred_disease.1923](https://doi.org/10.4159/DLCL.hippocrates-sacred_disease.1923).
+27. **Hume, D.** (2000). *A Treatise of Human Nature*, ed. D. F. Norton, M. J. Norton. Oxford: Oxford University Press. [DOI: 10.1093/actrade/9780198248170.book.1](https://doi.org/10.1093/actrade/9780198248170.book.1).
+28. **Kant, I.** (1998). *Critique of Pure Reason*, trans. P. Guyer, A. W. Wood. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511804649](https://doi.org/10.1017/CBO9780511804649).
+29. **Kepler, J.** (1997). *The Harmony of the World* (*Harmonices Mundi*), trans. A. J. Aiton, A. M. Duncan, J. V. Field. Philadelphia: American Philosophical Society. [DOI: 10.2307/20027725](https://doi.org/10.2307/20027725).
+30. **Leibniz, G. W.** (1989). *Philosophical Essays*, trans. R. Ariew, D. Garber. Indianapolis: Hackett. [DOI: 10.5040/9781501301346](https://doi.org/10.5040/9781501301346).
+31. **Lipsius, J.** (2004). *On Constancy* (*De constantia*), trans. J. Stradling, ed. J. Sellars. Exeter: Bristol Classical Press. [DOI: 10.5040/9781472539953](https://doi.org/10.5040/9781472539953).
+32. **Locke, J.** (1975). *An Essay Concerning Human Understanding*, ed. P. H. Nidditch. Oxford: Oxford University Press. [DOI: 10.1093/actrade/9780198243861.book.1](https://doi.org/10.1093/actrade/9780198243861.book.1).
+33. **Lucretius** (1992). *On the Nature of Things* (*De rerum natura*), trans. W. H. D. Rouse, rev. M. F. Smith. Cambridge, MA: Harvard University Press. [DOI: 10.4159/DLCL.lucretius-on_the_nature_of_things.1924](https://doi.org/10.4159/DLCL.lucretius-on_the_nature_of_things.1924).
+34. **Marek Aureliusz** (1997). *Rozmyślania*, tłum. M. Reiter. Warszawa: Wydawnictwo Naukowe PWN.
+35. **Montaigne, M. de** (2003). *The Complete Essays*, trans. M. A. Screech. London: Penguin. [DOI: 10.1017/CBO9781139163774](https://doi.org/10.1017/CBO9781139163774).
+36. **More, T.** (1995). *Utopia*, trans. G. M. Logan, R. M. Adams. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9781139170369](https://doi.org/10.1017/CBO9781139170369).
+37. **Newton, I.** (1999). *The Principia: Mathematical Principles of Natural Philosophy*, trans. I. B. Cohen, A. Whitman. Berkeley: University of California Press. [DOI: 10.2307/3647934](https://doi.org/10.2307/3647934).
+38. **Nietzsche, F.** (1999). *The Birth of Tragedy and Other Writings*, ed. R. Geuss, R. Speirs. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511812033](https://doi.org/10.1017/CBO9780511812033).
+39. **Pico della Mirandola, G.** (1998). *On the Dignity of Man*, trans. C. G. Wallis. Indianapolis: Hackett. [DOI: 10.5040/9781501301902.0006](https://doi.org/10.5040/9781501301902.0006).
+40. **Platon** (1990-2005). *Dialogi* (t. 1-2), tłum. W. Witwicki. Warszawa: Wydawnictwo Naukowe PWN.
+41. **Plethon, G. G.** (1989). *Traite des lois*, trans. C. Alexandre. Paris: Librairie de l'Academie.
+42. **Plotyn** (1959). *Enneady* (t. 1-2), tłum. A. Krokiewicz. Warszawa: PWN.
+43. **Pomponazzi, P.** (1948). *On the Immortality of the Soul*, in *The Renaissance Philosophy of Man*, trans. W. H. Hay. Chicago: University of Chicago Press. [DOI: 10.7208/chicago/9780226143323.001.0001](https://doi.org/10.7208/chicago/9780226143323.001.0001).
+44. **Ptolemy** (1998). *Ptolemy's Almagest*, trans. G. J. Toomer. Princeton: Princeton University Press. [DOI: 10.2307/j.ctt1m3p191](https://doi.org/10.2307/j.ctt1m3p191).
+45. **Sekstus Empiryk** (1984). *Zarysy Pirrońskie*, tłum. A. Krokiewicz. Warszawa: PWN.
+46. **Seneka Młodszy** (1998). *Listy moralne do Lucyliusza*, tłum. W. Kornatowski. Warszawa: PWN.
+47. **Spinoza, B.** (1985). *The Collected Works of Spinoza*, trans. E. Curley. Princeton: Princeton University Press. [DOI: 10.2307/j.ctv391j91](https://doi.org/10.2307/j.ctv391j91).
+48. **Symplicjusz** (1882-1895). *In Aristotelis Physica commentaria*, ed. H. Diels. Berlin: Commentaria in Aristotelem Graeca.
+49. **Tomasz z Akwinu, św.** (1962-1986). *Suma teologiczna* (*Summa theologiae*), tłum. zbiorowe. Londyn: Veritas.
+50. **Valla, L.** (1977). *On Pleasure* (*De voluptate* / *De vero falsoque bono*), trans. A. K. Hieatt, M. Lorch. New York: Abaris Books. [DOI: 10.2307/2860472](https://doi.org/10.2307/2860472).
+51. **Vesalius, A.** (1998-2009). *On the Fabric of the Human Body* (*De humani corporis fabrica*), trans. W. F. Richardson, J. B. Carman. San Francisco: Norman Publishing. [DOI: 10.1001/jama.280.19.1729](https://doi.org/10.1001/jama.280.19.1729).
 
 ### II. Opracowania i literatura sekundarna
 
-48. **Adorno, T. W., Horkheimer, M.** (2002). *Dialectic of Enlightenment: Philosophical Fragments*, trans. E. Jephcott. Stanford: Stanford University Press. [DOI: 10.1515/9780804788090](https://doi.org/10.1515/9780804788090).
-49. **Arendt, H.** (1998). *The Human Condition* (2nd ed.). Chicago: University of Chicago Press. [DOI: 10.7208/chicago/9780226924571.001.0001](https://doi.org/10.7208/chicago/9780226924571.001.0001).
-50. **Armstrong, A. H.** (Ed.) (1967). *The Cambridge History of Later Greek and Early Medieval Philosophy*. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511896248](https://doi.org/10.1017/CBO9780511896248).
-51. **Burnet, J.** (1930). *Early Greek Philosophy* (4th ed.). London: A. & C. Black.
-52. **Copleston, F.** (1946). *A History of Philosophy: Volume 1: Greece and Rome*. London: Search Press.
-53. **Derrida, J.** (1972). *La dissémination* (w tym *La pharmacie de Platon*). Paris: Seuil.
-54. **Dodds, E. R.** (1951). *The Greeks and the Irrational*. Berkeley: University of California Press.
-55. **Feyerabend, P.** (1975). *Against Method*. London: New Left Books.
-56. **Foucault, M.** (1985). *The Use of Pleasure* (*The History of Sexuality: Volume 2*), trans. R. Hurley. New York: Pantheon Books. [DOI: 10.4324/9780203013847](https://doi.org/10.4324/9780203013847).
-57. **Gadamer, H.-G.** (1960). *Wahrheit und Methode*. Tübingen: J.C.B. Mohr.
-58. **Gilson, E.** (1955). *History of Christian Philosophy in the Middle Ages*. London: Sheed and Ward.
-59. **Grocjusz, H.** (1957). *O prawie wojny i pokoju*, tłum. K. Kocot. Warszawa: PWN.
-60. **Guthrie, W. K. C.** (1962-1981). *A History of Greek Philosophy* (vols. 1-6). Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511757822](https://doi.org/10.1017/CBO9780511757822).
-61. **Hadot, P.** (2002). *What is Ancient Philosophy?*, trans. M. Chase. Cambridge, MA: Harvard University Press. [DOI: 10.4159/9780674038868](https://doi.org/10.4159/9780674038868).
-62. **Jaeger, W.** (1934-1947). *Paideia: Die Formung des griechischen Menschen* (vols. 1-3). Berlin: Walter de Gruyter. [DOI: 10.1515/9783110830729](https://doi.org/10.1515/9783110830729).
-63. **Kirk, G. S., Raven, J. E., Schofield, M.** (1983). *The Presocratic Philosophers* (2nd ed.). Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511813733](https://doi.org/10.1017/CBO9780511813733).
-64. **Kuhn, T. S.** (1962). *The Structure of Scientific Revolutions*. Chicago: University of Chicago Press. [DOI: 10.7208/chicago/9780226458120.001.0001](https://doi.org/10.7208/chicago/9780226458120.001.0001).
-65. **MacIntyre, A.** (1981). *After Virtue*. Notre Dame: University of Notre Dame Press. [DOI: 10.2307/j.ctvpj754q](https://doi.org/10.2307/j.ctvpj754q).
-66. **Nussbaum, M. C.** (1986). *The Fragility of Goodness: Luck and Ethics in Greek Tragedy and Philosophy*. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511817915](https://doi.org/10.1017/CBO9780511817915).
-67. **Popper, K. R.** (1945). *The Open Society and Its Enemies* (vol. 1: *The Spell of Plato*). London: Routledge. [DOI: 10.4324/9780203820377](https://doi.org/10.4324/9780203820377).
-68. **Reale, G.** (1993-2002). *Historia filozofii starożytnej* (t. 1-5), tłum. E. I. Zieliński. Lublin: Wydawnictwo KUL.
-69. **Rorty, R.** (1979). *Philosophy and the Mirror of Nature*. Princeton: Princeton University Press. [DOI: 10.1515/9781400833047](https://doi.org/10.1515/9781400833047).
-70. **Russell, B.** (1945). *A History of Western Philosophy*. New York: Simon and Schuster.
-71. **Strauss, L.** (1953). *Natural Right and History*. Chicago: University of Chicago Press.
-72. **Swieżawski, S.** (2000). *Dzieje filozofii europejskiej XV wieku* (t. 1-6). Warszawa: ATK.
-73. **Taylor, C.** (1989). *Sources of the Self: The Making of the Modern Identity*. Cambridge, MA: Harvard University Press. [DOI: 10.2307/j.ctv1pnc0z2](https://doi.org/10.2307/j.ctv1pnc0z2).
-74. **Tatarkiewicz, W.** (2009). *Historia filozofii* (t. 1-3). Warszawa: Wydawnictwo Naukowe PWN.
-75. **Vernant, J.-P.** (1962). *Les origines de la pensée grecque*. Paris: PUF. [DOI: 10.7591/9781501711718](https://doi.org/10.7591/9781501711718).
-76. **Whitehead, A. N.** (1929). *Process and Reality*. New York: Macmillan.
-77. **Zeller, E.** (1883). *Grundriss der Geschichte der griechischen Philosophie*. Leipzig: Fues.
-78. **Życiński, J.** (2006). *Struktura rewolucji metanaukowej*. Warszawa: Prószyński i S-ka.
+52. **Adorno, T. W., Horkheimer, M.** (2002). *Dialectic of Enlightenment: Philosophical Fragments*, trans. E. Jephcott. Stanford: Stanford University Press. [DOI: 10.1515/9780804788090](https://doi.org/10.1515/9780804788090).
+53. **Arendt, H.** (1998). *The Human Condition* (2nd ed.). Chicago: University of Chicago Press. [DOI: 10.7208/chicago/9780226924571.001.0001](https://doi.org/10.7208/chicago/9780226924571.001.0001).
+54. **Armstrong, A. H.** (Ed.) (1967). *The Cambridge History of Later Greek and Early Medieval Philosophy*. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511896248](https://doi.org/10.1017/CBO9780511896248).
+55. **Barnes, J.** (1982). *The Presocratic Philosophers*. London-New York: Routledge. [DOI: 10.4324/9780203755914](https://doi.org/10.4324/9780203755914).
+56. **Bostrom, N.** (2016). *Superinteligencja. Scenariusze, zagrożenia, strategie*, tłum. J. Szajbert. Gliwice: Helion.
+57. **Bruni, L.** (1953). *Wybór pism humanistycznych*, tłum. J. Domański. Wrocław: Ossolineum.
+58. **Burnet, J.** (1930). *Early Greek Philosophy* (4th ed.). London: A. & C. Black.
+59. **Copenhaver, B. P., Schmitt, C. B.** (1992). *Renaissance Philosophy*. Oxford: Oxford University Press. [DOI: 10.1093/actrade/9780192891846.001.0001](https://doi.org/10.1093/actrade/9780192891846.001.0001).
+60. **Copleston, F.** (1946). *A History of Philosophy: Volume 1: Greece and Rome*. London: Search Press.
+61. **Cornford, F. M.** (1937). *Plato's Cosmology: The Timaeus of Plato*. London: Kegan Paul.
+62. **Derrida, J.** (1972). *La dissémination* (w tym *La pharmacie de Platon*). Paris: Seuil.
+63. **Derrida, J.** (1999). *O gramatologii*, tłum. P. Pieniążek. Warszawa: Wydawnictwo KR.
+64. **Dodds, E. R.** (1951). *The Greeks and the Irrational*. Berkeley: University of California Press.
+65. **Domański, J.** (2001). *Początki humanizmu*. Warszawa: IFiS PAN.
+66. **Feyerabend, P.** (1975). *Against Method*. London: New Left Books.
+67. **Foucault, M.** (1985). *The Use of Pleasure* (*The History of Sexuality: Volume 2*), trans. R. Hurley. New York: Pantheon Books. [DOI: 10.4324/9780203013847](https://doi.org/10.4324/9780203013847).
+68. **Gadamer, H.-G.** (1960). *Wahrheit und Methode*. Tübingen: J.C.B. Mohr.
+69. **Garin, E.** (1969). *Filozofia odrodzenia*, tłum. K. Żaboklicki. Warszawa: Państwowe Wydawnictwo Naukowe.
+70. **Gilson, E.** (1955). *History of Christian Philosophy in the Middle Ages*. London: Sheed and Ward.
+71. **Grocjusz, H.** (1957). *O prawie wojny i pokoju*, tłum. K. Kocot. Warszawa: PWN.
+72. **Guthrie, W. K. C.** (1962-1981). *A History of Greek Philosophy* (vols. 1-6). Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511757822](https://doi.org/10.1017/CBO9780511757822).
+73. **Hadot, P.** (2003). *Filozofia jako ćwiczenie duchowe*, tłum. G. Przychodniak. Warszawa: Aletheia.
+74. **Hadot, P.** (2004). *Twierdza wewnętrzna. Wprowadzenie do „Rozmyślań” Marka Aureliusza*, tłum. P. Domański. Kęty: Antyk.
+75. **Hadot, P.** (2002). *What is Ancient Philosophy?*, trans. M. Chase. Cambridge, MA: Harvard University Press. [DOI: 10.4159/9780674038868](https://doi.org/10.4159/9780674038868).
+76. **Havelock, E. A.** (1963). *Preface to Plato*. Cambridge, MA: Harvard University Press. [DOI: 10.4159/harvard.9780674419964](https://doi.org/10.4159/harvard.9780674419964).
+77. **Jaeger, W.** (1934-1947). *Paideia: Die Formung des griechischen Menschen* (vols. 1-3). Berlin: Walter de Gruyter. [DOI: 10.1515/9783110830729](https://doi.org/10.1515/9783110830729).
+78. **Kirk, G. S., Raven, J. E., Schofield, M.** (1983). *The Presocratic Philosophers* (2nd ed.). Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511813733](https://doi.org/10.1017/CBO9780511813733).
+79. **Kristeller, P. O.** (1979). *Renaissance Thought and Its Sources*. New York: Columbia University Press.
+80. **Krokiewicz, A.** (1961). *Hedonizm Epikura*. Warszawa: Pax.
+81. **Krokiewicz, A.** (1958). *Sceptycyzm grecki*. Warszawa: Pax.
+82. **Kuczyńska, A.** (1974). *Filozofia i sztuka Marsilia Ficina*. Warszawa: PWN.
+83. **Kuhn, T. S.** (1962). *The Structure of Scientific Revolutions*. Chicago: University of Chicago Press. [DOI: 10.7208/chicago/9780226458120.001.0001](https://doi.org/10.7208/chicago/9780226458120.001.0001).
+84. **Legowicz, J.** (1986). *Historia filozofii starożytnej Grecji i Rzymu*. Warszawa: Państwowe Wydawnictwo Naukowe.
+85. **MacIntyre, A.** (1981). *After Virtue*. Notre Dame: University of Notre Dame Press. [DOI: 10.2307/j.ctvpj754q](https://doi.org/10.2307/j.ctvpj754q).
+86. **Nussbaum, M. C.** (1986). *The Fragility of Goodness: Luck and Ethics in Greek Tragedy and Philosophy*. Cambridge: Cambridge University Press. [DOI: 10.1017/CBO9780511817915](https://doi.org/10.1017/CBO9780511817915).
+87. **Patočka, J.** (2004). *Platon i Europa*, tłum. J. Balbierz. Warszawa: Instytut Wydawniczy Książka i Prasa.
+88. **Popper, K. R.** (1945). *The Open Society and Its Enemies* (vol. 1: *The Spell of Plato*). London: Routledge. [DOI: 10.4324/9780203820377](https://doi.org/10.4324/9780203820377).
+89. **Reale, G.** (1993-2002). *Historia filozofii starożytnej* (t. 1-5), tłum. E. I. Zieliński. Lublin: Wydawnictwo KUL.
+90. **Rorty, R.** (1979). *Philosophy and the Mirror of Nature*. Princeton: Princeton University Press. [DOI: 10.1515/9781400833047](https://doi.org/10.1515/9781400833047).
+91. **Russell, B.** (1945). *A History of Western Philosophy*. New York: Simon and Schuster.
+92. **Schmitt, C.** (2005). *Nomos Ziemi w prawie międzynarodowym jus publicum Europaeum*, tłum. R. Cichocki. Warszawa: Oficyna Wydawnicza Wyższej Szkoły Handlu i Prawa.
+93. **Searle, J.** (1995). *Umysł, mózg i nauka*, tłum. J. Bobryk. Warszawa: PWN.
+94. **Strauss, L.** (1953). *Natural Right and History*. Chicago: University of Chicago Press.
+95. **Strauss, L.** (1964). *The City and Man*. Chicago: University of Chicago Press.
+96. **Swieżawski, S.** (2000). *Dzieje filozofii europejskiej XV wieku* (t. 1-6). Warszawa: ATK.
+97. **Tatarkiewicz, W.** (2009). *Historia filozofii* (t. 1-3). Warszawa: Wydawnictwo Naukowe PWN.
+98. **Taylor, C.** (1989). *Sources of the Self: The Making of the Modern Identity*. Cambridge, MA: Harvard University Press. [DOI: 10.2307/j.ctv1pnc0z2](https://doi.org/10.2307/j.ctv1pnc0z2).
+99. **Vernant, J.-P.** (1962). *Les origines de la pensée grecque*. Paris: PUF. [DOI: 10.7591/9781501711718](https://doi.org/10.7591/9781501711718).
+100. **Vlastos, G.** (1981). *Platonic Studies* (2nd ed.). Princeton: Princeton University Press.
+101. **Wesoły, M.** (2006). *Heraklit w świetle najnowszych badań*, „Przegląd Filozoficzny - Nowa Seria”, nr 4 (60), s. 85-104.
+102. **Whitehead, A. N.** (1929). *Process and Reality*. New York: Macmillan.
+103. **Zeller, E.** (1883). *Grundriss der Geschichte der griechischen Philosophie*. Leipzig: Fues.
+104. **Życiński, J.** (2006). *Struktura rewolucji metanaukowej*. Warszawa: Prószyński i S-ka.
 
