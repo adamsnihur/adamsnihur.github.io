@@ -229,6 +229,11 @@ Już prawie te okolice łona były zimne, i wtedy odsłonił twarz - była bowie
 (Platon, *Fedon* 118a)
 </blockquote>
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/death_of_socrates.png" alt="Śmierć Sokratesa" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Śmierć Sokratesa - barwna rycina w stylu klasycznym</p>
+</div>
+
 Opis postępującego paraliżu wywołanego przez cykutę - zimno przesuwające się od stóp, przez golenie, aż po okolice serca - jest u Platona nie tylko relacją medyczną, ale głęboką metaforą uwolnienia duszy od materialnego ciała, stopniowego wyzwalania się czystego rozumu z fizjologicznych więzów.
 
 ## 7. Dziedzictwo sokratejskie: rozpad jedności myśli i narodziny szkół sokratycznych (sokratycy mniejsi)

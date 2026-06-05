@@ -228,6 +228,23 @@ Dojrzałą syntezę platońskiej epistemologii i ontologii przedstawia **metafor
 3.  **Dianoia (διάνοια - myślenie dyskursywne)**: Pierwszy stopień poznania inteligibilnego. Jego przedmiotem są obiekty matematyczne i geometryczne. Charakterystyczną cechą *dianoia* jest to, że posługuje się ona założeniami (hipotezami), których nie bada (przyjmuje np. liczby parzyste i nieparzyste za oczywiste bez pytania o naturę samej liczby), oraz wspomaga się reprezentacjami zmysłowymi (np. rysowaniem trójkąta na piasku).
 4.  **Noesis (νόησις - czysty wgląd intelektualny)**: Najwyższy stopień poznania, utożsamiany z dialektyką. Dusza wznosi się tu ponad hipotezy, dążąc do bezzałożeniowego początku wszelkiego bytu (**arche anypothetos - ἀρχὴν ἀνυπόθετον**), który Platon utożsamia z Ideą Dobra. Poznanie to dokonuje się wyłącznie w sferze czystych idei, bez jakiegokolwiek udziału zmysłów. Dialektyk traktuje hipotezy nie jako ostateczne prawdy, lecz jako stopnie i odskocznie, by dotrzeć do pierwszej zasady, a następnie schodzi w dół ku wnioskom drogą czystego powiązania pojęciowego.
 
+#### Alegoria jaskini w Państwie
+
+Epistemologiczny podział linii znajduje swoje plastyczne i egzystencjalne dopełnienie w słynnej **alegorii jaskini** (*allegoria cavernae*), rozpoczynającej VII księgę *Państwa* (514a-520a). Platon przedstawia w niej obraz ludzi uwięzionych od urodzenia w podziemnej jaskini, skrępowanych łańcuchami tak, że mogą patrzeć tylko na ścianę przed sobą. Za ich plecami płonie ogień, a między ogniem a uwięzionymi przebiega droga, wzdłuż której wzniesiono murek. Ludzie niosący różne przedmioty przechodzą tą drogą, a ich cienie rzucane są przez ogień na ścianę jaskini. Uwięzieni, nie znając innej rzeczywistości, biorą te cienie za jedyne realne byty, a echo głosów za mowę samych cieni (poziom *eikasia*).
+
+Uwolnienie jednego z więźniów, jego odwrócenie się i wyjście z jaskini na zewnątrz symbolizuje proces edukacji filozoficznej (*paideia*) i wznoszenie się duszy przez kolejne etapy linii podzielonej:
+
+- Spojrzenie na kukły i ogień w jaskini odpowiada etapowi *pistis*.
+- Wyjście z jaskini, oślepienie blaskiem słońca i oglądanie najpierw odbić w wodzie reprezentuje etap *dianoia* (rozumowanie matematyczne).
+- Oglądanie samych rzeczy oraz na końcu bezpośrednie spojrzenie na Słońce symbolizuje *noesis* - bezpośrednie poznanie Idei Dobra, która jest źródłem bytu, prawdy i poznania.
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/platos_cave_allegory.png" alt="Alegoria Jaskini Platona" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Alegoria jaskini Platona - barwna rycina w stylu klasycznym</p>
+</div>
+
+Powrót wyzwolonego filozofa do jaskini, mający na celu uwolnienie innych, kończy się niezrozumieniem i wrogością ze strony uwięzionych, co jest czytelnym nawiązaniem do losu Sokratesa. Proces ten ukazuje polityczno-pedagogiczny obowiązek filozofa, który nie może pozostać w sferze czystej kontemplacji, lecz musi podjąć trud rządzenia i oświecania innych w świecie zmysłowym.
+
 #### Teajtet i aporia definicji wiedzy
 
 Dialog *Teajtet* (Θεαίτητος) poświęcony jest w całości próbie zdefiniowania, czym jest wiedza sama w sobie (*ti esti episteme*). Sokrates rozmawia z młodym matematykiem Teajtetem. Dialog ten ma charakter aporetyczny - kończy się fiaskiem w sformułowaniu pozytywnej definicji, lecz ma krytyczne znaczenie dla oczyszczenia pola pod platońską metafizykę.

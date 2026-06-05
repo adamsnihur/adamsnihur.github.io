@@ -1245,6 +1245,11 @@ Już prawie te okolice łona były zimne, i wtedy odsłonił twarz - była bowie
 (Platon, *Fedon* 118a)
 </blockquote>
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/death_of_socrates.png" alt="Śmierć Sokratesa" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Śmierć Sokratesa - barwna rycina w stylu klasycznym</p>
+</div>
+
 Opis postępującego paraliżu wywołanego przez cykutę - zimno przesuwające się od stóp, przez golenie, aż po okolice serca - jest u Platona nie tylko relacją medyczną, ale głęboką metaforą uwolnienia duszy od materialnego ciała, stopniowego wyzwalania się czystego rozumu z fizjologicznych więzów.
 
 ## 7. Dziedzictwo sokratejskie: rozpad jedności myśli i narodziny szkół sokratycznych (sokratycy mniejsi)
@@ -1537,6 +1542,23 @@ Dojrzałą syntezę platońskiej epistemologii i ontologii przedstawia **metafor
 3.  **Dianoia (διάνοια - myślenie dyskursywne)**: Pierwszy stopień poznania inteligibilnego. Jego przedmiotem są obiekty matematyczne i geometryczne. Charakterystyczną cechą *dianoia* jest to, że posługuje się ona założeniami (hipotezami), których nie bada (przyjmuje np. liczby parzyste i nieparzyste za oczywiste bez pytania o naturę samej liczby), oraz wspomaga się reprezentacjami zmysłowymi (np. rysowaniem trójkąta na piasku).
 4.  **Noesis (νόησις - czysty wgląd intelektualny)**: Najwyższy stopień poznania, utożsamiany z dialektyką. Dusza wznosi się tu ponad hipotezy, dążąc do bezzałożeniowego początku wszelkiego bytu (**arche anypothetos - ἀρχὴν ἀνυπόθετον**), który Platon utożsamia z Ideą Dobra. Poznanie to dokonuje się wyłącznie w sferze czystych idei, bez jakiegokolwiek udziału zmysłów. Dialektyk traktuje hipotezy nie jako ostateczne prawdy, lecz jako stopnie i odskocznie, by dotrzeć do pierwszej zasady, a następnie schodzi w dół ku wnioskom drogą czystego powiązania pojęciowego.
 
+#### Alegoria jaskini w Państwie
+
+Epistemologiczny podział linii znajduje swoje plastyczne i egzystencjalne dopełnienie w słynnej **alegorii jaskini** (*allegoria cavernae*), rozpoczynającej VII księgę *Państwa* (514a-520a). Platon przedstawia w niej obraz ludzi uwięzionych od urodzenia w podziemnej jaskini, skrępowanych łańcuchami tak, że mogą patrzeć tylko na ścianę przed sobą. Za ich plecami płonie ogień, a między ogniem a uwięzionymi przebiega droga, wzdłuż której wzniesiono murek. Ludzie niosący różne przedmioty przechodzą tą drogą, a ich cienie rzucane są przez ogień na ścianę jaskini. Uwięzieni, nie znając innej rzeczywistości, biorą te cienie za jedyne realne byty, a echo głosów za mowę samych cieni (poziom *eikasia*).
+
+Uwolnienie jednego z więźniów, jego odwrócenie się i wyjście z jaskini na zewnątrz symbolizuje proces edukacji filozoficznej (*paideia*) i wznoszenie się duszy przez kolejne etapy linii podzielonej:
+
+- Spojrzenie na kukły i ogień w jaskini odpowiada etapowi *pistis*.
+- Wyjście z jaskini, oślepienie blaskiem słońca i oglądanie najpierw odbić w wodzie reprezentuje etap *dianoia* (rozumowanie matematyczne).
+- Oglądanie samych rzeczy oraz na końcu bezpośrednie spojrzenie na Słońce symbolizuje *noesis* - bezpośrednie poznanie Idei Dobra, która jest źródłem bytu, prawdy i poznania.
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/platos_cave_allegory.png" alt="Alegoria Jaskini Platona" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Alegoria jaskini Platona - barwna rycina w stylu klasycznym</p>
+</div>
+
+Powrót wyzwolonego filozofa do jaskini, mający na celu uwolnienie innych, kończy się niezrozumieniem i wrogością ze strony uwięzionych, co jest czytelnym nawiązaniem do losu Sokratesa. Proces ten ukazuje polityczno-pedagogiczny obowiązek filozofa, który nie może pozostać w sferze czystej kontemplacji, lecz musi podjąć trud rządzenia i oświecania innych w świecie zmysłowym.
+
 #### Teajtet i aporia definicji wiedzy
 
 Dialog *Teajtet* (Θεαίτητος) poświęcony jest w całości próbie zdefiniowania, czym jest wiedza sama w sobie (*ti esti episteme*). Sokrates rozmawia z młodym matematykiem Teajtetem. Dialog ten ma charakter aporetyczny - kończy się fiaskiem w sformułowaniu pozytywnej definicji, lecz ma krytyczne znaczenie dla oczyszczenia pola pod platońską metafizykę.
@@ -1760,6 +1782,13 @@ Platoński projekt polityczny, rozpięty między idealizmem Kallipolis a surowym
 # <span id="arystoteles">Rozdział 4: Arystoteles</span>
 
 <p class="chapter-start">Arystoteles ze Stagiry (384-322 p.n.e.), najwybitniejszy uczeń Platona i założyciel Likejonu, reprezentuje szczytowy punkt rozwoju greckiego racjonalizmu klasycznego, dokonując monumentalnej syntezy ówczesnej wiedzy oraz radykalnego przeorientowania ontologicznego. Jego projekt filozoficzny, choć wyrastał z głębokiego zakorzenienia w platonizmie, zrodził się z fundamentalnego sprzeciwu wobec dualistycznej wizji rzeczywistości. Filozof ze Stagiry odrzucił koncepcję transcendentnego świata idealnego, przenosząc punkt ciężkości dociekań metafizycznych na konkretne, empirycznie dostępne byty jednostkowe. Poprzez wprowadzenie nowatorskich narzędzi pojęciowych, takich jak hylemorfizm, teoria aktu i możności czy czterodzielna koncepcja przyczynowości, stworzył system, który nie tylko wyjaśniał strukturę bytu, ale także dynamiczny charakter stawania się (ruch). Dorobek ten, ujęty w ramy logicznego *Organonu*, na ponad dwa tysiąclecia zdeterminował strukturę pojęciową nauki i filozofii europejskiej, stanowiąc fundament dla średniowiecznej scholastyki, nowożytnego przyrodoznawstwa i współczesnej metafizyki. Poniższa dysertacja stanowi szczegółowe, wieloaspektowe studium jego myśli, rekonstruujące poszczególne działy jego systemu w świetle oryginalnej terminologii greckiej oraz kluczowych kontrowersji interpretacyjnych.</p>
+
+Po powrocie do Aten w 335 r. p.n.e., Arystoteles założył własną szkołę w ogrodach dedykowanych Apollinowi Likejosowi, znaną jako Likejon (Lokejon). Szkoła ta stała się nie tylko ośrodkiem filozoficznym, ale pierwszym w historii instytutem badań empirycznych, w którym gromadzono okazy flory i fauny, klasyfikowano wiedzę przyrodniczą oraz prowadzono systematyczne badania historyczno-ustrojowe. Ze względu na zwyczaj prowadzenia dyskusji podczas spacerów w zacienionych alejach (*peripatoi*), uczniów Arystotelesa nazywano perypatetykami. Likejon reprezentował nową kulturę badawczą, w której logiczna precyzja łączyła się z uważną obserwacją zmysłową, tworząc podwaliny pod zachodnią metodę naukową.
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/aristotle_lyceum.png" alt="Arystoteles w Likejonie" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Arystoteles nauczający w Likejonie - barwna rycina w stylu klasycznym</p>
+</div>
 
 ### 1. Krytyka Platońskiej Teorii Idei: Od Transcendentnego Dualizmu do Ontologii Immanencji
 

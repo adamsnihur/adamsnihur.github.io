@@ -225,6 +225,10 @@ def compile_monograph():
                 # Check for agent footers and strip them
                 content = re.sub(r'🎯\s*Aktywne\s*Skille:.*$', '', content, flags=re.MULTILINE)
                 content = re.sub(r'\[Reasoning Mythos Protocol: Active\]', '', content)
+                
+                # Auto-strip local footnotes, bibliography, and literature headings
+                content = re.sub(r'\n---\s*\n###\s*(Przypisy|Literatura|Bibliografia)\s*\n', '\n\n', content, flags=re.IGNORECASE)
+                
                 content = content.strip()
                 
                 # Fix list formatting programmatically
