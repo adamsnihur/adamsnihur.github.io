@@ -101,6 +101,11 @@ Najbardziej brzemiennym w skutki metafizyczne przekładem było oddanie Bożego 
 
 Postacią, która jako pierwsza w sposób systematyczny podjęła próbę syntezy biblijnego objawienia z grecką metafizyką, był Filon z Aleksandrii (ok. 20 p.n.e. - ok. 50 n.e.). Żyjąc w Aleksandrii, Filon był zakorzeniony w tradycji żydowskiej, a jednocześnie odebrał gruntowne wykształcenie helleńskie, doskonale znając pisma Platona, Arystotelesa, stoików oraz pitagorejczyków. Jego nadrzędnym celem było wykazanie, że Pięcioksiąg Mojżesza zawiera w sobie najwspanialszą mądrość filozoficzną, która wyprzedziła i zainspirowała greckich myślicieli. Filon sformułował tezę, że Platon i inni filozofowie czerpali z pism Mojżesza (teza o plagiacie Greków, która stała się niezwykle popularna u późniejszych chrześcijańskich apologetów) [^4].
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/philo_writing.png" alt="Filon z Aleksandrii" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Filon z Aleksandrii pracujący nad syntezą pism Mojżeszowych i metafizyki greckiej w Aleksandrii - barwna rycina w stylu klasycznym</p>
+</div>
+
 #### Metoda alegoryczna (alegoreza)
 
 Aby pogodzić literalną treść Pisma - pełną antropomorfizmów, opisów gniewu Bożego, fizycznego ukazywania się Boga oraz szczegółowych przepisów rytualnych - z greckim, filozoficznym ideałem Boga jako transcendentnego, niezmiennego i doskonałego Absolutu, Filon zastosował metodę alegoryczną (*allegoria*). Metoda ta była wcześniej używana przez stoików do interpretacji mitów homeryckich, aby oczyścić je z gorszących elementów moralnych i zadać im charakter kosmologiczny. Filon przeniósł to narzędzie na grunt tekstu biblijnego, twierdząc, że Tora ma charakter dwuwarstwowy: posiada ciało (sens dosłowny, historyczny) oraz duszę (sens ukryty, duchowy, filozoficzny) [^5].

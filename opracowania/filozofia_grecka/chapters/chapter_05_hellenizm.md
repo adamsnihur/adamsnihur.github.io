@@ -146,6 +146,11 @@ Celem mędrca jest apatheia (*apatheia*) - stan całkowitej wolności od namięt
 
 Epikureizm, powstały niemal równolegle ze stoicyzmem, został założony przez Epikura z Samos, który około 307 r. p.n.e. zakupił w Atenach dom z ogrodem, tworząc tam specyficzną wspólnotę filozoficzną zwaną Ogrodem (*Kēpos*). Ogród Epikura różnił się od Akademii Platońskiej i Likeonu Arystotelesa swoim egalitaryzmem i nieformalnym charakterem - w grono uczniów przyjmowano kobiety, kurtyzany oraz niewolników, co wywoływało liczne kontrowersje w konserwatywnych Atenach. Epikur stworzył system o charakterze dogmatycznym, wymagający od uczniów pamięciowego opanowania podstawowych maksym filozoficznych. Głównym źródłem wiedzy o jego systemie są trzy listy (do Herodota o fizyce, do Pythoklesa o zjawiskach niebieskich, do Menoikeusa o etyce) oraz zbiory sentencji (*Główne myśli*), zachowane w X księdze dzieła Diogenesa Laertiosa, a także monumentalny poemat rzymskiego poety Lukrecjusza *De rerum natura* (*O naturze rzeczy*).
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/epicurus_garden.png" alt="Ogród Epikura" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Epikur nauczający w swoim Ogrodzie - barwna rycina w stylu klasycznym</p>
+</div>
+
 #### Fizyka Epikurejska: Mechanistyczny Atomizm i Clinamen
 
 Fizyka Epikura, podobnie jak u stoików, miała na celu wyłącznie uzasadnienie etyki - uwolnienie człowieka od lęku przed zjawiskami nadprzyrodzonymi, bogami i śmiercią. Epikur przejął w swych fundamentach atomizm Demokryta z Abdery, przyjmując, że cała rzeczywistość składa się z dwóch elementów:

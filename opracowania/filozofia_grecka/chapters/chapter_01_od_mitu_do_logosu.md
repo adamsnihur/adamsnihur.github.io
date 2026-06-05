@@ -87,6 +87,11 @@ Dodatkowo Tales sformułował hipotezę kosmologiczną, według której Ziemia s
 
 Drugim fundamentalnym elementem myśli Talesa jest **hilozoizm** (z greckiego *hyle* - materia, *zoe* - życie). Według świadectwa Arystotelesa (*O duszy*, I 5, 411a), Tales twierdził, że "wszystko jest pełne bogów" (*panta plere theon einai*), a dusza (*psyche*) jest czynnikiem poruszającym. Tales nie oddzielał martwego substratu od ożywiającej go siły. Dowodem na to były jego obserwacje właściwości magnetycznych: magnes (*lithos magnetis*) oraz potarty bursztyn (*elektron*) posiadają "duszę", ponieważ mają zdolność przyciągania i wprawiania w ruch ciał żelaznych i drobin materii. Hilozoizm Talesa oznaczał, że przyroda nie potrzebuje zewnętrznych, transcendentnych impulsów do ruchu - jest ona samobieżnym, wiecznym i ożywionym organizmem. Boskość została sprowadzona do immanentnej cechy materii: wiecznej, niezniszczalnej i autodynamicznej.
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/thales_observing.png" alt="Tales z Miletu obserwujący naturę" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Tales z Miletu obserwujący morze i gwiazdy, poszukując naturalnych przyczyn wszechświata - barwna rycina w stylu klasycznym</p>
+</div>
+
 #### Anaksymander z Miletu: Abstrakcja Apeironu i Kosmiczna Sprawiedliwość
 
 Anaksymander (ok. 610-546 p.n.e.), uczeń i następca Talesa, dokonał głębokiej samokrytyki monizmu swojego mistrza. Dostrzegł on logiczny błąd w utożsamieniu *arche* z jakimkolwiek konkretnym żywiołem zmysłowym. Żywioły te (woda, ogień, ziemia, powietrze) charakteryzują się wzajemnie wykluczającymi się jakościami. Ogień jest gorący i suchy, woda zimna i wilgotna. Gdyby jeden z nich był nieskończoną i pierwotną zasadą (*arche*), jego dominacja doprowadziłaby do całkowitego zniszczenia pozostałych elementów. Żaden konkretny stan skupienia materii nie może być podstawą dla stanów o cechach przeciwnych.

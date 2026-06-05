@@ -123,7 +123,14 @@
 
 <p class="chapter-start">Niniejsza monografia stawia sobie za cel rekonstrukcję, analizę oraz krytyczną interpretację fundamentalnego wpływu filozofii greckiej na kształtowanie się, ewolucję i strukturalną tożsamość cywilizacji zachodniej. Wychodzimy z metodologicznego założenia, że dorobek myśli hellenistycznej i klasycznej nie stanowi jedynie jednego z wielu historycznych strumieni kulturowych, które zasiliły europejskie dziedzictwo, lecz jest pierwotnym, nadrzędnym i konstytutywnym pojęciowym systemem operacyjnym (conceptual operating system) Zachodu. System ten dostarczył bazowych kategorii ontologicznych, epistemologicznych, etycznych oraz politycznych, które zdeterminowały horyzont myślowy Europy, wyznaczając granice tego, co pomyślane, racjonalne i poznawalne. Główna hipoteza badawcza, stanowiąca oś przewodnią i spoiwo całego studium, głosi, że filozofia grecka - poprzez unikalne w skali globalnej połączenie rygorystycznej racjonalności (logos), bezinteresownej dociekliwości teoretycznej (theoria) oraz dążenia do ugruntowania ludzkiego działania w kosmicznym porządku - stworzyła trwałą matrycę kognitywną i normatywną. W ramach tej matrycy zachodnia myśl rozwijała się przez ponad dwa tysiąclecia, asymilując, przekształcając i reinterpretując kolejne prądy intelektualne i religijne, w tym przede wszystkim tradycję judeochrześcijańską oraz rzymskie struktury prawne i administracyjne.</p>
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/library_alexandria.png" alt="Biblioteka Aleksandryjska" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Wnętrze antycznej biblioteki jako symbolu gromadzenia i ciągłości wiedzy - barwna rycina w stylu klasycznym</p>
+</div>
+
 Zrozumienie tej głębokiej zależności wymaga jednak porzucenia powierzchownego postrzegania myśli antycznej jako zamkniętego muzeum historycznych doktryn czy zestawu archaicznych poglądów na budowę wszechświata. Przeciwnie, filozofia grecka musi być ujmowana jako żywy fundament i język samej możliwości zachodniego myślenia. To właśnie w basenie Morza Egejskiego narodziło się pojęcie *logosu* - pojęcie o niezwykle bogatym spektrum znaczeniowym, łączące w sobie racjonalny porządek wszechświata, ludzki rozum zdolny ów porządek pojąć, oraz mowę, która ten porządek wyraża i komunikuje. Zastąpienie mitycznych narracji (*mythos*) przez racjonalne dociekanie (*logos*) nie było jedynie epizodem w historii kultury, lecz radykalnym przewrotem ontologicznym. Poszukiwanie *arche* - pierwotnej, niezniszczalnej zasady bytu - zapoczątkowało metafizyczną refleksję, która przez stulecia definiowała zachodnie rozumienie rzeczywistości. Platonowskie *eidos* (transcendentna idea, forma) oraz arystotelesowska synteza *hyle* (materii) i *morphe* (formy) dostarczyły aparatury pojęciowej, bez której niemożliwa byłaby nie tylko średniowieczna scholastyka, ale i nowożytna fizyka, a także współczesne spory z zakresu filozofii umysłu czy teorii informacji.
+
+
 
 W sferze epistemologicznej greckie rozróżnienie między nietrwałą opinią (*doxa*) a wiedzą pewną, uzasadnioną i powiązaną przyczynami (*episteme*) ustanowiło paradygmat dla wszelkiej późniejszej nauki i filozofii. Sokratejski gest krytycznego kwestionowania samozwańczych autorytetów metodą elenktyczną ujawnił, że warunkiem koniecznym prawdziwego poznania jest uświadomienie sobie własnej niewiedzy oraz nieustanna autorefleksja. Platon, poprzez swoją teorię anamnezy oraz koncepcję wznoszenia się duszy po szczeblach poznania, wskazał na konieczność poszukiwania niezmiennych fundamentów prawdy (*aletheia*). Z kolei Arystoteles, kodyfikując zasady logiki formalnej w swoim *Organonie* i łącząc je z systematyczną obserwacją empiryczną, stworzył metodologiczne ramy, które do dziś organizują dyskurs naukowy. Idea *theoria* - bezinteresownej kontemplacji prawdy dla niej samej - stała się najwyższym ideałem wolnej działalności ludzkiej, leżącym u podstaw zachodniej instytucji uniwersytetu oraz etosu badawczego.
 
@@ -516,6 +523,11 @@ Analiza metodologiczna tego ustępu wskazuje na zastosowanie wczesnej formy myś
 Dodatkowo Tales sformułował hipotezę kosmologiczną, według której Ziemia spoczywa na wodzie niczym kłoda lub statek. Rozwiązywało to palący problem stabilności lądu bez odwoływania się do mitu o tytanie Atlasie podtrzymującym niebiosa. Trzęsienia ziemi Tales tłumaczył kołysaniem się lądu pod wpływem fal kosmicznego oceanu, co stanowiło pierwszą kauzalną, naturalistyczną teorię sejsmologiczną.
 
 Drugim fundamentalnym elementem myśli Talesa jest **hilozoizm** (z greckiego *hyle* - materia, *zoe* - życie). Według świadectwa Arystotelesa (*O duszy*, I 5, 411a), Tales twierdził, że "wszystko jest pełne bogów" (*panta plere theon einai*), a dusza (*psyche*) jest czynnikiem poruszającym. Tales nie oddzielał martwego substratu od ożywiającej go siły. Dowodem na to były jego obserwacje właściwości magnetycznych: magnes (*lithos magnetis*) oraz potarty bursztyn (*elektron*) posiadają "duszę", ponieważ mają zdolność przyciągania i wprawiania w ruch ciał żelaznych i drobin materii. Hilozoizm Talesa oznaczał, że przyroda nie potrzebuje zewnętrznych, transcendentnych impulsów do ruchu - jest ona samobieżnym, wiecznym i ożywionym organizmem. Boskość została sprowadzona do immanentnej cechy materii: wiecznej, niezniszczalnej i autodynamicznej.
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/thales_observing.png" alt="Tales z Miletu obserwujący naturę" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Tales z Miletu obserwujący morze i gwiazdy, poszukując naturalnych przyczyn wszechświata - barwna rycina w stylu klasycznym</p>
+</div>
 
 #### Anaksymander z Miletu: Abstrakcja Apeironu i Kosmiczna Sprawiedliwość
 
@@ -2346,6 +2358,11 @@ Celem mędrca jest apatheia (*apatheia*) - stan całkowitej wolności od namięt
 
 Epikureizm, powstały niemal równolegle ze stoicyzmem, został założony przez Epikura z Samos, który około 307 r. p.n.e. zakupił w Atenach dom z ogrodem, tworząc tam specyficzną wspólnotę filozoficzną zwaną Ogrodem (*Kēpos*). Ogród Epikura różnił się od Akademii Platońskiej i Likeonu Arystotelesa swoim egalitaryzmem i nieformalnym charakterem - w grono uczniów przyjmowano kobiety, kurtyzany oraz niewolników, co wywoływało liczne kontrowersje w konserwatywnych Atenach. Epikur stworzył system o charakterze dogmatycznym, wymagający od uczniów pamięciowego opanowania podstawowych maksym filozoficznych. Głównym źródłem wiedzy o jego systemie są trzy listy (do Herodota o fizyce, do Pythoklesa o zjawiskach niebieskich, do Menoikeusa o etyce) oraz zbiory sentencji (*Główne myśli*), zachowane w X księdze dzieła Diogenesa Laertiosa, a także monumentalny poemat rzymskiego poety Lukrecjusza *De rerum natura* (*O naturze rzeczy*).
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/epicurus_garden.png" alt="Ogród Epikura" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Epikur nauczający w swoim Ogrodzie - barwna rycina w stylu klasycznym</p>
+</div>
+
 #### Fizyka Epikurejska: Mechanistyczny Atomizm i Clinamen
 
 Fizyka Epikura, podobnie jak u stoików, miała na celu wyłącznie uzasadnienie etyki - uwolnienie człowieka od lęku przed zjawiskami nadprzyrodzonymi, bogami i śmiercią. Epikur przejął w swych fundamentach atomizm Demokryta z Abdery, przyjmując, że cała rzeczywistość składa się z dwóch elementów:
@@ -2713,6 +2730,11 @@ Najbardziej brzemiennym w skutki metafizyczne przekładem było oddanie Bożego 
 ### 2. Filon z Aleksandrii: Synteza Mojżesza i Platona
 
 Postacią, która jako pierwsza w sposób systematyczny podjęła próbę syntezy biblijnego objawienia z grecką metafizyką, był Filon z Aleksandrii (ok. 20 p.n.e. - ok. 50 n.e.). Żyjąc w Aleksandrii, Filon był zakorzeniony w tradycji żydowskiej, a jednocześnie odebrał gruntowne wykształcenie helleńskie, doskonale znając pisma Platona, Arystotelesa, stoików oraz pitagorejczyków. Jego nadrzędnym celem było wykazanie, że Pięcioksiąg Mojżesza zawiera w sobie najwspanialszą mądrość filozoficzną, która wyprzedziła i zainspirowała greckich myślicieli. Filon sformułował tezę, że Platon i inni filozofowie czerpali z pism Mojżesza (teza o plagiacie Greków, która stała się niezwykle popularna u późniejszych chrześcijańskich apologetów) [^chapter_06_ateny_i_jerozolima_4].
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/philo_writing.png" alt="Filon z Aleksandrii" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Filon z Aleksandrii pracujący nad syntezą pism Mojżeszowych i metafizyki greckiej w Aleksandrii - barwna rycina w stylu klasycznym</p>
+</div>
 
 #### Metoda alegoryczna (alegoreza)
 
