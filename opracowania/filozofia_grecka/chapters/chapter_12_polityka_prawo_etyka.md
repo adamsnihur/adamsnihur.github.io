@@ -157,6 +157,41 @@ Ustrój mieszany polega na instytucjonalnym zrównoważeniu elementów demokraty
 
 Gwarantem stabilności ustroju mieszanego jest dominacja **klasy średniej** - *mesoi* (μέσοι). Arystoteles odwołuje się tutaj do swojej etycznej zasady złotego środka (*mesotēs*): cnota leży w umiarkowaniu między skrajnościami. W społeczeństwie spolaryzowanym na skrajnie bogatych i skrajnie biednych dochodzi do nieuchronnego konfliktu. Bogaci stają się aroganccy, nie potrafią słuchać i dążą do despotyzmu. Biedni z kolei są zawistni, nie potrafią rządzić i łatwo ulegają demagogom. Klasa średnia, wolna od zawiści biednych i pychy bogatych, jest najbardziej skłonna do posłuszeństwa rozumowi i prawu. Tam, gdzie klasa średnia jest liczna i silniejsza od obu pozostałych klas razem wziętych (lub przynajmniej od każdej z nich z osobna), państwo jest wolne od rewolucji (*stasis*) i stabilne. Klasa średnia działa jako kotwica stabilizująca ustrój polityczny.
 
+<svg viewBox="0 0 800 260" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #1A303A; text-anchor: middle; letter-spacing: 0.5px; }
+.scale-label { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #8C2D19; text-anchor: middle; }
+.scale-label-mid { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #B58A3D; text-anchor: middle; }
+.row-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 12px; fill: #1A303A; }
+.val-text { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 12px; fill: #26211C; text-anchor: middle; }
+.line-bg { stroke: #E6DFD5; stroke-width: 4; stroke-linecap: round; }
+.node-def { fill: #8C2D19; stroke: #FFF; stroke-width: 1.5; }
+.node-mid { fill: #B58A3D; stroke: #1A303A; stroke-width: 2; }
+</style>
+<rect width="800" height="260" fill="#FFF" />
+<text x="400" y="25" class="svg-title">ARYSTOTELESOWSKA ZASADA ZŁOTEGO ŚRODKA (MESOTES)</text>
+<text x="220" y="65" class="scale-label">NIEDOMIAR (Wada)</text>
+<text x="400" y="65" class="scale-label-mid">ZŁOTY ŚRODEK (Cnota)</text>
+<text x="580" y="65" class="scale-label">NAMIAR (Wada)</text>
+<text x="35" y="115" class="row-title">MĘSTWO (Sfera lęku i śmiałości):</text>
+<line x1="220" y1="110" x2="580" y2="110" class="line-bg" />
+<circle cx="220" cy="110" r="7" class="node-def" />
+<circle cx="400" cy="110" r="9" class="node-mid" />
+<circle cx="580" cy="110" r="7" class="node-def" />
+<text x="220" y="132" class="val-text">Tchórzostwo (phobia)</text>
+<text x="400" y="132" class="val-text">MĘSTWO (andreia)</text>
+<text x="580" y="132" class="val-text">Zuchwalstwo (thrasos)</text>
+<text x="35" y="175" class="row-title">HOJNOŚĆ (Sfera dóbr materialnych):</text>
+<line x1="220" y1="170" x2="580" y2="170" class="line-bg" />
+<circle cx="220" cy="170" r="7" class="node-def" />
+<circle cx="400" cy="170" r="9" class="node-mid" />
+<circle cx="580" cy="170" r="7" class="node-def" />
+<text x="220" y="192" class="val-text">Skąpstwo (anelytheria)</text>
+<text x="400" y="192" class="val-text">HOJNOŚĆ (eleutheriotes)</text>
+<text x="580" y="192" class="val-text">Rozrzutność (asotia)</text>
+<text x="400" y="235" class="val-text" style="font-style: italic;">„Cnota jest zatem środkiem, tj. dążeniem do środka leżącego między dwoma błędami” (Etyka Nikomachejska II, 6)</text>
+</svg>
+
 ### 5. Teoria sprawiedliwości z V księgi *Etyki Nikomachejskiej*
 
 Filozofia polityczna Arystotelesa jest ściśle powiązana z jego teorią sprawiedliwości (*dikaiosynē*), wyłożoną w V księgi *Etyki Nikomachejskiej*. Sprawiedliwość jest dla Arystotelesa cnotą społeczną par excellence, określającą stosunek człowieka do bliźnich. Rozróżnia on sprawiedliwość ogólną (utożsamianą z praworządnością i całością cnoty) od sprawiedliwości szczegółowej, która dzieli się na sprawiedliwość dystrybutywną oraz wyrównawczą.

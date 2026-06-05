@@ -55,46 +55,55 @@ Współczesna badaczka Olof Gigon posunęła się do tezy, że dotarcie do histo
 
 Metoda filozofowania Sokratesa nie polegała na wykładaniu gotowych dogmatów, lecz na wspólnym poszukiwaniu prawdy w drodze dialogu. Metoda ta miała charakter wybitnie heurystyczny i dynamiczny. Można w niej wyróżnić dwie główne fazy: negatywną (destrukcyjną) oraz pozytywną (konstruktywną), które były ściśle powiązane z sokratejską postawą egzystencjalną.
 
-<div class="socratic-flow-container" style="text-align: center; margin: 3em 0;">
-<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Dwuetapowa Metoda Sokratejska: Dialog jako Ścieżka Prawdy</h4>
-<div class="flow-container" style="display: flex; justify-content: space-around; align-items: stretch; gap: 10px; margin: 2em 0; flex-wrap: wrap;">
-<!-- Krok 1 -->
-<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-<div>
-<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">1\. IRONIA (eironeia)</div>
-<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Udawana ignorancja Sokratesa. Skłonienie rozmówcy do wygłoszenia swojej tezy jako prawdy absolutnej.</div>
-</div>
-<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Wstęp egzystencjalny</div>
-</div>
-<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
-<!-- Krok 2 -->
-<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-<div>
-<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">2\. ELENCHOS (zbijanie)</div>
-<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Badanie logicznej spójności tezy. Poprzez serię pytań Sokrates wykazuje, że teza prowadzi do sprzeczności.</div>
-</div>
-<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Negatywna</div>
-</div>
-<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
-<!-- Krok 3 -->
-<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--accent-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-<div>
-<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--accent-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">3\. APORIA (bezradność)</div>
-<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Uświadomienie sobie własnej niewiedzy. Moment oczyszczenia (katharsis) intelektualnego rozmówcy.</div>
-</div>
-<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Punkt zwrotny</div>
-</div>
-<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
-<!-- Krok 4 -->
-<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-<div>
-<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">4\. MAIEUTIKE (akuszeria)</div>
-<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Naprowadzanie na właściwe wnioski. Pomoc w wydobyciu prawdy tkwiącej immanentnie w ludzkiej duszy.</div>
-</div>
-<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Pozytywna</div>
-</div>
-</div>
-</div>
+<svg viewBox="0 0 800 240" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
+<style>
+.svg-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; fill: #1A303A; text-anchor: middle; letter-spacing: 0.5px; }
+.step-num { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; fill: #B58A3D; text-anchor: middle; }
+.step-title { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 12px; fill: #1A303A; text-anchor: middle; }
+.step-desc { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 11px; fill: #26211C; text-anchor: middle; }
+.arrow { stroke: #B58A3D; stroke-width: 2; fill: none; }
+</style>
+<rect width="800" height="240" fill="#FFF" />
+<text x="400" y="25" class="svg-title">DWUETAPOWA METODA SOKRATYCZNA: DIALOG JAKO ŚCIEŻKA PRAWDY</text>
+<rect x="15" y="55" width="160" height="150" rx="6" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="95" y="75" class="step-num">KROK 1</text>
+<text x="95" y="95" class="step-title">IRONIA (Eironeia)</text>
+<text x="95" y="120" class="step-desc">Udawana ignorancja</text>
+<text x="95" y="135" class="step-desc">Sokratesa. Skłonienie</text>
+<text x="95" y="150" class="step-desc">rozmówcy do wyłożenia</text>
+<text x="95" y="165" class="step-desc">swojej dogmatycznej tezy.</text>
+<text x="95" y="190" class="step-num" style="fill: #8C2D19;">WSTĘP</text>
+<path d="M175,130 L203,130" class="arrow" />
+<polygon points="208,130 199,126 199,134" fill="#B58A3D" />
+<rect x="210" y="55" width="160" height="150" rx="6" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="290" y="75" class="step-num">KROK 2</text>
+<text x="290" y="95" class="step-title">ELENCHOS (Zbijanie)</text>
+<text x="290" y="120" class="step-desc">Badanie logicznej</text>
+<text x="290" y="135" class="step-desc">spójności tezy. Poprzez</text>
+<text x="290" y="150" class="step-desc">pytania wykazanie ukrytej</text>
+<text x="290" y="165" class="step-desc">wewnętrznej sprzeczności.</text>
+<text x="290" y="190" class="step-num" style="fill: #8C2D19;">FAZA NEGATYWNA</text>
+<path d="M370,130 L398,130" class="arrow" />
+<polygon points="403,130 394,126 394,134" fill="#B58A3D" />
+<rect x="405" y="55" width="160" height="150" rx="6" fill="#F8F3E8" stroke="#8C2D19" stroke-width="1.5" />
+<text x="485" y="75" class="step-num">KROK 3</text>
+<text x="485" y="95" class="step-title">APORIA (Bezradność)</text>
+<text x="485" y="120" class="step-desc">Uświadomienie sobie</text>
+<text x="485" y="135" class="step-desc">własnej niewiedzy.</text>
+<text x="485" y="150" class="step-desc">Intelektualne oczyszczenie</text>
+<text x="485" y="165" class="step-desc">rozmówcy (katharsis).</text>
+<text x="485" y="190" class="step-num" style="fill: #8C2D19;">PUNKT ZWROTNY</text>
+<path d="M565,130 L593,130" class="arrow" />
+<polygon points="598,130 589,126 589,134" fill="#B58A3D" />
+<rect x="600" y="55" width="160" height="150" rx="6" fill="#F8F3E8" stroke="#1A303A" stroke-width="1.5" />
+<text x="680" y="75" class="step-num">KROK 4</text>
+<text x="680" y="95" class="step-title">MAIEUTIKE (Akuszeria)</text>
+<text x="680" y="120" class="step-desc">Metoda położnicza.</text>
+<text x="680" y="135" class="step-desc">Pomoc w narodzinach</text>
+<text x="680" y="150" class="step-desc">prawdy tkwiącej immanentnie</text>
+<text x="680" y="165" class="step-desc">w rozumnej duszy ludzkiej.</text>
+<text x="680" y="190" class="step-num" style="fill: #8C2D19;">FAZA POZYTYWNA</text>
+</svg>
 
 Pierwszym, nieodzownym elementem tej metody była **ironia** (*eironeia*). W potocznym rozumieniu greckim słowo to oznaczało udawanie, maskowanie się, a w kontekście sokratejskim - udawaną ignorancję. Sokrates przystępował do dialogu jako ten, który nic nie wie i pragnie uczyć się od swojego rozmówcy, uchodzącego za eksperta w danej dziedzinie. Ta postawa demaskowała pychę intelektualną rozmówców i zmuszała ich do odsłonięcia swoich rzeczywistych przekonań.
 
