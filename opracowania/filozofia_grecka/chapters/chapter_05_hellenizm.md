@@ -158,57 +158,45 @@ Atomy z natury posiadają ciężar, co sprawia, że poruszają się w pustce z n
 Rozwiązaniem tego problemu stała się koncepcja odchylenia atomów - clinamen (w łacińskim przekładzie Lukrecjusza) lub paregklisis (*paregklisis* - w greckim oryginale). Epikur założył, że atomy w nieokreślonym czasie i miejscu ulegają minimalnemu, bezprzyczynowemu i losowemu odchyleniu od pionowego toru lotu:
 
 <div class="clinamen-svg-container" style="text-align: center; margin: 2.5em 0;">
-  <svg viewBox="0 0 600 220" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
-    <!-- Left Panel: Bez clinamen -->
-    <g transform="translate(0, 0)">
-      <text x="140" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#1A303A" text-anchor="middle">RUCH ATOMÓW BEZ CLINAMEN</text>
-      <!-- Paths -->
-      <line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="80,165 76,155 84,155" fill="#1A303A" />
-      
-      <line x1="140" y1="50" x2="140" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="140,165 136,155 144,155" fill="#1A303A" />
-      
-      <line x1="200" y1="50" x2="200" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="200,165 196,155 204,155" fill="#1A303A" />
-      
-      <!-- Label under -->
-      <text x="140" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Brak kolizji - atomy spadają równolegle</text>
-    </g>
-    
-    <!-- Middle Divider -->
-    <line x1="300" y1="20" x2="300" y2="200" stroke="#EADEC9" stroke-width="1.5" stroke-dasharray="4,4" />
-    
-    <!-- Right Panel: Z clinamen -->
-    <g transform="translate(300, 0)">
-      <text x="150" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#8C2D19" text-anchor="middle">ODCHYLENIE ATOMÓW (CLINAMEN)</text>
-      
-      <!-- Atom 1 (Straight) -->
-      <line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="80,165 76,155 84,155" fill="#1A303A" />
-      
-      <!-- Atom 2 (Clinamen / Colliding) -->
-      <line x1="150" y1="50" x2="150" y2="90" stroke="#1A303A" stroke-width="2.5" />
-      <line x1="150" y1="90" x2="208" y2="138" stroke="#8C2D19" stroke-width="2.5" />
-      
-      <!-- Atom 3 (Collided with) -->
-      <line x1="210" y1="50" x2="210" y2="140" stroke="#1A303A" stroke-width="2.5" />
-      
-      <!-- Collision Spark at (210, 140) -->
-      <path d="M210,140 L203,133 L210,137 L217,133 L210,140 L213,147 L210,143 L207,147 Z" fill="#B58A3D" stroke="#B58A3D" stroke-width="1" />
-      <circle cx="210" cy="140" r="4" fill="#B58A3D" />
-      
-      <!-- Post-collision paths -->
-      <line x1="210" y1="140" x2="185" y2="175" stroke="#8C2D19" stroke-width="2" />
-      <polygon points="182,179 184,170 190,174" fill="#8C2D19" />
-      
-      <line x1="210" y1="140" x2="235" y2="175" stroke="#1A303A" stroke-width="2" />
-      <polygon points="238,179 230,174 236,170" fill="#1A303A" />
-      
-      <!-- Label under -->
-      <text x="150" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Minimalne losowe odchylenie inicjuje zderzenie</text>
-    </g>
-  </svg>
+<svg viewBox="0 0 600 220" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
+<!-- Left Panel: Bez clinamen -->
+<g transform="translate(0, 0)">
+<text x="140" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#1A303A" text-anchor="middle">RUCH ATOMÓW BEZ CLINAMEN</text>
+<!-- Paths -->
+<line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="80,165 76,155 84,155" fill="#1A303A" />
+<line x1="140" y1="50" x2="140" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="140,165 136,155 144,155" fill="#1A303A" />
+<line x1="200" y1="50" x2="200" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="200,165 196,155 204,155" fill="#1A303A" />
+<!-- Label under -->
+<text x="140" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Brak kolizji - atomy spadają równolegle</text>
+</g>
+<!-- Middle Divider -->
+<line x1="300" y1="20" x2="300" y2="200" stroke="#EADEC9" stroke-width="1.5" stroke-dasharray="4,4" />
+<!-- Right Panel: Z clinamen -->
+<g transform="translate(300, 0)">
+<text x="150" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#8C2D19" text-anchor="middle">ODCHYLENIE ATOMÓW (CLINAMEN)</text>
+<!-- Atom 1 (Straight) -->
+<line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="80,165 76,155 84,155" fill="#1A303A" />
+<!-- Atom 2 (Clinamen / Colliding) -->
+<line x1="150" y1="50" x2="150" y2="90" stroke="#1A303A" stroke-width="2.5" />
+<line x1="150" y1="90" x2="208" y2="138" stroke="#8C2D19" stroke-width="2.5" />
+<!-- Atom 3 (Collided with) -->
+<line x1="210" y1="50" x2="210" y2="140" stroke="#1A303A" stroke-width="2.5" />
+<!-- Collision Spark at (210, 140) -->
+<path d="M210,140 L203,133 L210,137 L217,133 L210,140 L213,147 L210,143 L207,147 Z" fill="#B58A3D" stroke="#B58A3D" stroke-width="1" />
+<circle cx="210" cy="140" r="4" fill="#B58A3D" />
+<!-- Post-collision paths -->
+<line x1="210" y1="140" x2="185" y2="175" stroke="#8C2D19" stroke-width="2" />
+<polygon points="182,179 184,170 190,174" fill="#8C2D19" />
+<line x1="210" y1="140" x2="235" y2="175" stroke="#1A303A" stroke-width="2" />
+<polygon points="238,179 230,174 236,170" fill="#1A303A" />
+<!-- Label under -->
+<text x="150" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Minimalne losowe odchylenie inicjuje zderzenie</text>
+</g>
+</svg>
 </div>
 
 To przypadkowe odchylenie ma fundamentalne znaczenie dwuwymiarowe:
@@ -337,20 +325,20 @@ Arkezylas skierował ostrze krytyki przeciwko stoickiej teorii wrażenia katalep
 Najwybitniejszy przedstawiciel Akademii, Karneades z Cyreny, wsławił się w Rzymie w 155 r. p.n.e., wygłaszając jednego dnia mowę chwalącą sprawiedliwość, a drugiego dnia mowę wykazującą, że sprawiedliwość jest jedynie słabością zamaskowaną prawem, co przeraziło rzymskich senatorów (w tym Katona Starszego). Karneades rozwinął probabilizm filozoficzny. Skoro nie ma absolutnego kryterium prawdy, musimy w życiu codziennym posługiwać się pojęciem prawdopodobieństwa lub wiarygodności - pithanon (*pithanon*). Wrażenia dzielą się według stopni wiarygodności:
 
 <div class="flow-container sceptic-flow-container">
-    <div class="flow-step">
-        <div class="flow-step-title">1. Pithanē phantasia</div>
-        <div class="flow-step-desc"><strong>Wrażenie tylko wiarygodne</strong><br>Na pierwszy rzut oka wydaje się prawdziwe i nie wykazuje cech fałszu.</div>
-    </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-        <div class="flow-step-title">2. Adiaphandos</div>
-        <div class="flow-step-desc"><strong>Wrażenie niezaprzeczone</strong><br>Spójne i niesprzeczne z innymi towarzyszącymi wrażeniami zmysłowymi.</div>
-    </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-        <div class="flow-step-title">3. Periododeumenē</div>
-        <div class="flow-step-desc"><strong>Wrażenie zbadane</strong><br>Wszystkie jego okoliczności (np. zmysły, odległość, światło) zostały zweryfikowane.</div>
-    </div>
+<div class="flow-step">
+<div class="flow-step-title">1\. Pithanē phantasia</div>
+<div class="flow-step-desc"><strong>Wrażenie tylko wiarygodne</strong><br>Na pierwszy rzut oka wydaje się prawdziwe i nie wykazuje cech fałszu.</div>
+</div>
+<div class="flow-arrow">→</div>
+<div class="flow-step">
+<div class="flow-step-title">2\. Adiaphandos</div>
+<div class="flow-step-desc"><strong>Wrażenie niezaprzeczone</strong><br>Spójne i niesprzeczne z innymi towarzyszącymi wrażeniami zmysłowymi.</div>
+</div>
+<div class="flow-arrow">→</div>
+<div class="flow-step">
+<div class="flow-step-title">3\. Periododeumenē</div>
+<div class="flow-step-desc"><strong>Wrażenie zbadane</strong><br>Wszystkie jego okoliczności (np. zmysły, odległość, światło) zostały zweryfikowane.</div>
+</div>
 </div>
 
 1. **Wrażenie tylko wiarygodne (*pithanē phantasia*):** Wrażenie, które na pierwszy wygląd wydaje się prawdziwe i nie wykazuje cech fałszu.

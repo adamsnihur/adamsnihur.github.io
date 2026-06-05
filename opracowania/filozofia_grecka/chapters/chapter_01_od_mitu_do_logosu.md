@@ -13,6 +13,50 @@ Powstanie tego nowego paradygmatu było stymulowane przez specyficzne czynniki g
 - **Specyfika religii greckiej**: Brak scentralizowanej kasty kapłańskiej o charakterze dogmatycznym (jak w Egipcie czy Persji) oraz brak świętych ksiąg o charakterze kanonicznym pozwalały na swobodną, nieskrępowaną cenzurą spekulację intelektualną w przestrzeni publicznej (*agora*).
 - **Powstanie ustroju demokratycznego**: Debata publiczna, w której o sile argumentu decydowało logiczne uzasadnienie, a nie autorytet tradycji czy pochodzenia, stworzyła model dyskursu przeniesiony następnie na pole badań nad przyrodą. Prawo miejskie (*nomos*) stało się matrycą pojęciową dla praw przyrody (*physis*).
 
+<div class="mythos-logos-container" style="text-align: center; margin: 3em 0;">
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wielkie Przejście: Od Mythos do Logos</h4>
+<svg viewBox="0 0 800 300" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Definitions for gradients -->
+<defs>
+<linearGradient id="mythos-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#8C2D19" />
+<stop offset="100%" stop-color="#4A150B" />
+</linearGradient>
+<linearGradient id="logos-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#1A303A" />
+<stop offset="100%" stop-color="#0F1D23" />
+</linearGradient>
+</defs>
+<!-- Outer Border -->
+<rect x="5" y="5" width="790" height="290" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
+<!-- Mythos Column -->
+<rect x="30" y="30" width="320" height="240" rx="6" fill="url(#mythos-grad)" stroke="#8C2D19" stroke-width="1" />
+<text x="190" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="2">MYTHOS (μῦθος)</text>
+<line x1="60" y1="80" x2="320" y2="80" stroke="#FDFBF7" stroke-width="1" stroke-opacity="0.3" />
+<text x="190" y="110" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Obrazowo-narracyjny opis świata</text>
+<text x="190" y="140" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Antropomorfizm: Bogowie jako przyczyna</text>
+<text x="190" y="170" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Kosmiczny woluntaryzm i kaprys</text>
+<text x="190" y="200" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Sankcjonowany przez tradycję i wiarę</text>
+<text x="190" y="230" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Autorytet poetów (Homer, Hesjod)</text>
+<!-- Transition Arrow -->
+<g transform="translate(365, 100)">
+<path d="M 0 30 L 70 30" stroke="#B58A3D" stroke-width="3" fill="none" />
+<polygon points="70,25 82,30 70,35" fill="#B58A3D" />
+<text x="35" y="15" text-anchor="middle" fill="#B58A3D" font-family="Cormorant Garamond, serif" font-weight="bold" font-style="italic" font-size="14">Joński przełom</text>
+<text x="35" y="50" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-size="10" font-weight="600" letter-spacing="1">VI w. p.n.e.</text>
+</g>
+<!-- Logos Column -->
+<rect x="450" y="30" width="320" height="240" rx="6" fill="url(#logos-grad)" stroke="#1A303A" stroke-width="1" />
+<text x="610" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="2">LOGOS (λόγος)</text>
+<line x1="480" y1="80" x2="740" y2="80" stroke="#FDFBF7" stroke-width="1" stroke-opacity="0.3" />
+<text x="610" y="110" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Pojęciowo-argumentacyjny dyskurs</text>
+<text x="610" y="140" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Naturalizm: Immanentna Physis</text>
+<text x="610" y="170" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Przyczynowość, konieczność i ład (Kosmos)</text>
+<text x="610" y="200" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Krytyczna dyskusja i dowodzenie</text>
+<text x="610" y="230" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Autorytet rozumu (Tales, Anaksymander)</text>
+</svg>
+</div>
+
 ---
 
 ### II. Szkoła Milezyjska: Materialny i Dynamiczny Monizm Kosmologiczny
@@ -176,6 +220,14 @@ Zenon sformułował cztery słynne aporie (paradoksy) przeciwko ruchowi, zrekons
 
 Zanim ciało poruszające się dotrze do celu ($B$), musi najpierw przebyć połowę drogi ($AB/2$). Zanim jednak dotrze do tej połowy, musi przebyć jej ćwierć ($AB/4$), i tak dalej w nieskończoność. Ponieważ przestrzeń jest nieskończenie podzielna, ruch wymaga przebycia nieskończonej liczby skończonych odcinków w skończonym czasie. Ponieważ ludzki umysł nie może zrealizować nieskończonej liczby aktów fizycznych w skończonym czasie, ruch nie może się rozpocząć.
 
+<div class="video-container" style="text-align: center; margin: 3em 0;">
+<video controls width="100%" style="border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 600px; background-color: #000;">
+<source src="ZenoDichotomy_m.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+<p style="font-family: var(--font-sans); font-size: 0.8em; margin-top: 10px; color: var(--accent-color); text-transform: uppercase; letter-spacing: 1px;">Animacja Manim: Paradoks Dychotomii Zenona</p>
+</div>
+
 ##### 2. Achilles i Żółw
 
 Szybkonogi Achilles nigdy nie dogoni powolnego żółwia, jeśli ten otrzyma chociaż minimalne chody (początkowy dystans). W czasie, gdy Achilles dobiegnie do punktu startu żółwia ($T_0$), żółw przesunie się do przodu do punktu $T_1$. Gdy Achilles dotrze do $T_1$, żółw znajdzie się w $T_2$. Dystans między nimi będzie się stale zmniejszał, lecz nigdy nie spadnie do zera, ponieważ Achilles musi najpierw dotrzeć do miejsca, w którym żółw znajdował się ułamek sekundy wcześniej. Żółw zawsze zachowa minimalną przewagę.
@@ -189,63 +241,58 @@ Lecąca z łuku strzała w rzeczywistości spoczywa w każdym momencie swojego l
 Aporia ta bada względność prędkości ciał poruszających się na stadionie. Wyobraźmy sobie trzy rzędy ciał: rząd $A$ (stojący nieruchomo) oraz rzędy $B$ i $C$ o równej długości, które poruszają się z tą samą prędkością w przeciwnych kierunkach.
 
 <div class="stadion-diagram-container">
-    <div class="stadion-state">
-        <div class="stadion-state-title">Układ początkowy ($t = 0$)</div>
-        <div class="stadion-grid">
-            <div class="stadion-row-label">Rząd B</div>
-            <div class="stadion-cell cell-b">B1</div>
-            <div class="stadion-cell cell-b">B2</div>
-            <div class="stadion-cell cell-b">B3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
-            
-            <div class="stadion-row-label">Rząd A</div>
-            <div class="stadion-cell cell-a">A1</div>
-            <div class="stadion-cell cell-a">A2</div>
-            <div class="stadion-cell cell-a">A3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">nieruchomy</div>
-            
-            <div class="stadion-row-label">Rząd C</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-c">C1</div>
-            <div class="stadion-cell cell-c">C2</div>
-            <div class="stadion-cell cell-c">C3</div>
-            <div class="stadion-row-desc">ruch w lewo (← $v$)</div>
-        </div>
-    </div>
-    
-    <div class="stadion-state">
-        <div class="stadion-state-title">Po upływie jednostki czasu ($t = 1$)</div>
-        <div class="stadion-grid">
-            <div class="stadion-row-label">Rząd B</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-b">B1</div>
-            <div class="stadion-cell cell-b">B2</div>
-            <div class="stadion-cell cell-b">B3</div>
-            <div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
-            
-            <div class="stadion-row-label">Rząd A</div>
-            <div class="stadion-cell cell-a">A1</div>
-            <div class="stadion-cell cell-a">A2</div>
-            <div class="stadion-cell cell-a">A3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">nieruchomy</div>
-            
-            <div class="stadion-row-label">Rząd C</div>
-            <div class="stadion-cell cell-c">C1</div>
-            <div class="stadion-cell cell-c">C2</div>
-            <div class="stadion-cell cell-c">C3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">ruch w lewo (← $v$)</div>
-        </div>
-    </div>
+<div class="stadion-state">
+<div class="stadion-state-title">Układ początkowy ($t = 0$)</div>
+<div class="stadion-grid">
+<div class="stadion-row-label">Rząd B</div>
+<div class="stadion-cell cell-b">B1</div>
+<div class="stadion-cell cell-b">B2</div>
+<div class="stadion-cell cell-b">B3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
+<div class="stadion-row-label">Rząd A</div>
+<div class="stadion-cell cell-a">A1</div>
+<div class="stadion-cell cell-a">A2</div>
+<div class="stadion-cell cell-a">A3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">nieruchomy</div>
+<div class="stadion-row-label">Rząd C</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-c">C1</div>
+<div class="stadion-cell cell-c">C2</div>
+<div class="stadion-cell cell-c">C3</div>
+<div class="stadion-row-desc">ruch w lewo (← $v$)</div>
+</div>
+</div>
+<div class="stadion-state">
+<div class="stadion-state-title">Po upływie jednostki czasu ($t = 1$)</div>
+<div class="stadion-grid">
+<div class="stadion-row-label">Rząd B</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-b">B1</div>
+<div class="stadion-cell cell-b">B2</div>
+<div class="stadion-cell cell-b">B3</div>
+<div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
+<div class="stadion-row-label">Rząd A</div>
+<div class="stadion-cell cell-a">A1</div>
+<div class="stadion-cell cell-a">A2</div>
+<div class="stadion-cell cell-a">A3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">nieruchomy</div>
+<div class="stadion-row-label">Rząd C</div>
+<div class="stadion-cell cell-c">C1</div>
+<div class="stadion-cell cell-c">C2</div>
+<div class="stadion-cell cell-c">C3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">ruch w lewo (← $v$)</div>
+</div>
+</div>
 </div>
 
 W czasie, gdy rząd $B$ mija jedno ciało rzędu $A$, mija jednocześnie dwa ciała poruszającego się w przeciwnym kierunku rzędu $C$. Wynika z tego, że czas potrzebny na przejście obok rzędu $C$ jest dwukrotnie krótszy niż czas potrzebny na przejście obok rzędu $A$. Jednak prędkość ruchu ciał jest stała. Zatem jednostka czasu mierzona względem rzędu nieruchomego okazuje się równa połowie samej siebie mierzonej względem rzędu ruchomego, co prowadzi do logicznej sprzeczności: czas jest równy swojej podwójnej wartości ($T = 2T$).
@@ -275,45 +322,44 @@ Skoro wrażenia słuchowe i piękno muzyki zależą od czystych relacji ilościo
 Liczby dla pitagorejczyków miały charakter przestrzenny i geometryczny. Reprezentowano je za pomocą kamyków układanych w figury. Najważniejszym, świętym symbolem zakonu był **tetraktys** - trójkąt złożony z dziesięciu punktów ułożonych w czterech rzędach:
 
 <div class="tetraktys-container">
-    <div class="tetraktys-visual">
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-        </div>
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-        </div>
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-        </div>
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-        </div>
-    </div>
-    
-    <div class="tetraktys-info">
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">I</div>
-            <div class="tetraktys-text"><strong>Jedynka</strong> / punkt / wymiar 0 - Monada (niepodzielna jedność)</div>
-        </div>
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">II</div>
-            <div class="tetraktys-text"><strong>Dwójka</strong> / linia / wymiar 1 - Diada (polaryzacja, kierunek)</div>
-        </div>
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">III</div>
-            <div class="tetraktys-text"><strong>Trójka</strong> / płaszczyzna / wymiar 2 - Triada (stabilność, powierzchnia)</div>
-        </div>
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">IV</div>
-            <div class="tetraktys-text"><strong>Czwórka</strong> / bryła / wymiar 3 - Tetrada (przestrzeń trójwymiarowa, fizyczność)</div>
-        </div>
-    </div>
+<div class="tetraktys-visual">
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+</div>
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+</div>
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+</div>
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+</div>
+</div>
+<div class="tetraktys-info">
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">I</div>
+<div class="tetraktys-text"><strong>Jedynka</strong> / punkt / wymiar 0 - Monada (niepodzielna jedność)</div>
+</div>
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">II</div>
+<div class="tetraktys-text"><strong>Dwójka</strong> / linia / wymiar 1 - Diada (polaryzacja, kierunek)</div>
+</div>
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">III</div>
+<div class="tetraktys-text"><strong>Trójka</strong> / płaszczyzna / wymiar 2 - Triada (stabilność, powierzchnia)</div>
+</div>
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">IV</div>
+<div class="tetraktys-text"><strong>Czwórka</strong> / bryła / wymiar 3 - Tetrada (przestrzeń trójwymiarowa, fizyczność)</div>
+</div>
+</div>
 </div>
 
 Suma punktów tetraktysu wynosi $1+2+3+4=10$. Dziesiątka była dla pitagorejczyków liczbą doskonałą, zawierającą w sobie wszystkie podstawowe proporcje muzyczne ($4:3, 3:2, 2:1$). Ta fascynacja dziesiątką wpłynęła na ich kosmologię. Przyjmując, że ciał niebieskich krążących wokół centralnego ognia (Hestii) musi być dziesięć, a obserwowali jedynie dziewięć (Ziemia, Księżyc, Słońce, pięć planet i sfera gwiazd stałych), wprowadzili hipotetyczne dziesiąte ciało - **Przeciwziemię** (*Antichthon*), która krąży po orbicie bliższej centralnemu ogniowi i pozostaje niewidoczna dla mieszkańców naszej półkuli.

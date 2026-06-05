@@ -85,6 +85,62 @@ Co w tłumaczeniu na język polski brzmi następująco:
 
 Średniowiecze podjęło to wyzwanie z całą mocą dialektyczną, dzieląc się na kilka zasadniczych obozów.
 
+<div class="universals-diagram-container" style="text-align: center; margin: 3em 0;">
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Spór o Uniwersalia: Trzy Stanowiska Klasyczne</h4>
+<svg viewBox="0 0 800 280" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Outer Border -->
+<rect x="5" y="5" width="790" height="270" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
+<!-- Position 1: Extreme Realism -->
+<rect x="25" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="140" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">SKRAJNY REALIZM</text>
+<text x="140" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia ante res</text>
+<line x1="45" y1="90" x2="235" y2="90" stroke="#EADEC9" stroke-width="1" />
+<!-- Concept illustration: Idea floating above concrete objects -->
+<!-- Idea -->
+<circle cx="140" cy="125" r="18" fill="#1A303A" opacity="0.8" />
+<text x="140" y="129" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="10">IDEA</text>
+<!-- Arrow down -->
+<path d="M 140 148 L 140 168" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="2,2" fill="none" />
+<!-- Physical Objects -->
+<rect x="100" y="175" width="30" height="30" rx="3" fill="#B58A3D" opacity="0.6" />
+<rect x="150" y="175" width="30" height="30" rx="3" fill="#B58A3D" opacity="0.6" />
+<text x="140" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Idee istnieją niezależnie przed rzeczami fizycznymi.</text>
+<!-- Position 2: Moderate Realism -->
+<rect x="285" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="400" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">UMIARKOWANY REALIZM</text>
+<text x="400" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia in rebus</text>
+<line x1="305" y1="90" x2="495" y2="90" stroke="#EADEC9" stroke-width="1" />
+<!-- Concept illustration: Idea inside the physical objects -->
+<g transform="translate(350, 115)">
+<!-- Object 1 -->
+<rect x="0" y="20" width="45" height="45" rx="4" fill="#B58A3D" opacity="0.7" />
+<circle cx="22" cy="42" r="12" fill="#1A303A" opacity="0.9" />
+<text x="22" y="46" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">FORMA</text>
+<!-- Object 2 -->
+<rect x="55" y="20" width="45" height="45" rx="4" fill="#B58A3D" opacity="0.7" />
+<circle cx="77" cy="42" r="12" fill="#1A303A" opacity="0.9" />
+<text x="77" y="46" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">FORMA</text>
+</g>
+<text x="400" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Powszechniki istnieją w rzeczach jako ich istota/forma.</text>
+<!-- Position 3: Nominalism -->
+<rect x="545" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="660" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">NOMINALIZM</text>
+<text x="660" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia post res</text>
+<line x1="565" y1="90" x2="755" y2="90" stroke="#EADEC9" stroke-width="1" />
+<!-- Concept illustration: Mind categorizing separate objects -->
+<!-- Separate objects -->
+<rect x="585" y="145" width="25" height="25" rx="3" fill="#B58A3D" opacity="0.5" />
+<circle cx="640" cy="157" r="12" fill="#B58A3D" opacity="0.5" />
+<!-- Arrow pointing to Mind/Concept -->
+<path d="M 640 135 L 660 115" stroke="#8C2D19" stroke-width="1.2" fill="none" />
+<path d="M 597 135 L 640 115" stroke="#8C2D19" stroke-width="1.2" fill="none" />
+<!-- Concept label -->
+<rect x="635" y="95" width="75" height="20" rx="3" fill="#1A303A" />
+<text x="672" y="109" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">"NAZWA"</text>
+<text x="660" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Istnieją tylko konkretne jednostki. Powszechniki to skróty myślowe.</text>
+</svg>
+</div>
+
 ### Skrajny realizm pojęciowy
 
 Stanowisko to, dominujące we wczesnym średniowieczu pod wpływem augustyńskiej chrystianizacji platonizmu, głosiło, że powszechniki istnieją realnie, substancjalnie i niezależnie od rzeczy jednostkowych. Posiadają one status bytów ontologicznie wcześniejszych (*ante rem*) i doskonalszych niż konkretne przedmioty materialne. Najbardziej radykalną formę tego nurtu w XII wieku reprezentował Wilhelm z Champeaux (ok. 1070-1121).

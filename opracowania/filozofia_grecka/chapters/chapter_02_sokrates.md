@@ -55,6 +55,47 @@ Współczesna badaczka Olof Gigon posunęła się do tezy, że dotarcie do histo
 
 Metoda filozofowania Sokratesa nie polegała na wykładaniu gotowych dogmatów, lecz na wspólnym poszukiwaniu prawdy w drodze dialogu. Metoda ta miała charakter wybitnie heurystyczny i dynamiczny. Można w niej wyróżnić dwie główne fazy: negatywną (destrukcyjną) oraz pozytywną (konstruktywną), które były ściśle powiązane z sokratejską postawą egzystencjalną.
 
+<div class="socratic-flow-container" style="text-align: center; margin: 3em 0;">
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Dwuetapowa Metoda Sokratejska: Dialog jako Ścieżka Prawdy</h4>
+<div class="flow-container" style="display: flex; justify-content: space-around; align-items: stretch; gap: 10px; margin: 2em 0; flex-wrap: wrap;">
+<!-- Krok 1 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">1\. IRONIA (eironeia)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Udawana ignorancja Sokratesa. Skłonienie rozmówcy do wygłoszenia swojej tezy jako prawdy absolutnej.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Wstęp egzystencjalny</div>
+</div>
+<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
+<!-- Krok 2 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">2\. ELENCHOS (zbijanie)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Badanie logicznej spójności tezy. Poprzez serię pytań Sokrates wykazuje, że teza prowadzi do sprzeczności.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Negatywna</div>
+</div>
+<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
+<!-- Krok 3 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--accent-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--accent-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">3\. APORIA (bezradność)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Uświadomienie sobie własnej niewiedzy. Moment oczyszczenia (katharsis) intelektualnego rozmówcy.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Punkt zwrotny</div>
+</div>
+<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
+<!-- Krok 4 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">4\. MAIEUTIKE (akuszeria)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Naprowadzanie na właściwe wnioski. Pomoc w wydobyciu prawdy tkwiącej immanentnie w ludzkiej duszy.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Pozytywna</div>
+</div>
+</div>
+</div>
+
 Pierwszym, nieodzownym elementem tej metody była **ironia** (*eironeia*). W potocznym rozumieniu greckim słowo to oznaczało udawanie, maskowanie się, a w kontekście sokratejskim - udawaną ignorancję. Sokrates przystępował do dialogu jako ten, który nic nie wie i pragnie uczyć się od swojego rozmówcy, uchodzącego za eksperta w danej dziedzinie. Ta postawa demaskowała pychę intelektualną rozmówców i zmuszała ich do odsłonięcia swoich rzeczywistych przekonań.
 
 Faza negatywna realizowała się poprzez procedurę określaną jako ***elenchos*** (zbijanie, refutacja). Był to logiczny proces polegający na badaniu spójności przekonań rozmówcy. Schemat *elenchosu* przebiegał zazwyczaj według następującego wzorca:
@@ -98,35 +139,35 @@ Fundamentem dla tego systemu jest postulat **troski o duszę** (*epimeleia heaut
 Radykalizm intelektualizmu etycznego Sokratesa stał się przedmiotem głębokiej krytyki ze strony jego wielkiego następcy, Arystotelesa. W *Etyce Nikomachejskiej* Stagiryta przeprowadził systematyczną dekonstrukcję sokratejskiego poglądu, zarzucając mu ignorowanie oczywistych faktów psychologicznych, a przede wszystkim zjawiska **słabości woli** czyli **akrazji** (*akrasia*):
 
 <table class="academic-table">
-  <thead>
-    <tr>
-      <th>Koncepcja / Wymiar</th>
-      <th>Sokratejski Intelektualizm Etyczny</th>
-      <th>Arystotelesowska Etyka Umiaru i Nawyku</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Definicja cnoty (aretē)</strong></td>
-      <td>Cnota jest tożsama z wiedzą teoretyczną i definicyjną (<em>epistēmē</em>).</td>
-      <td>Cnota jest trwałą dyspozycją (<em>hexis</em>) do właściwych wyborów, opartą na nawyku i mądrości praktycznej (<em>phronēsis</em>).</td>
-    </tr>
-    <tr>
-      <td><strong>Mechanizm działania zła</strong></td>
-      <td>Wynika wyłącznie z niewiedzy (<em>agnoia</em>) i błędów poznawczych. Nikt nie czyni zła dobrowolnie.</td>
-      <td>Może wynikać ze słabości woli (<em>akrasia</em>) - człowiek wie, co dobre, lecz pod wpływem emocji wybiera zło.</td>
-    </tr>
-    <tr>
-      <td><strong>Rola woli i emocji</strong></td>
-      <td>Zredukowane do intelektu; emocje podporządkowują się poznaniu w sposób automatyczny.</td>
-      <td>Emocje (<em>pathe</em>) posiadają względną autonomię; cnota wymaga harmonii między rozumem a pożądaniem.</td>
-    </tr>
-    <tr>
-      <td><strong>Sposób nabywania cnoty</strong></td>
-      <td>Poprzez nauczanie, dialektykę, eliminację błędnych pojęć i poszukiwanie definicji.</td>
-      <td>Poprzez długotrwałe przyzwyczajenie (<em>ethismos</em>) od najmłodszych lat i praktykowanie właściwych czynów.</td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th>Koncepcja / Wymiar</th>
+<th>Sokratejski Intelektualizm Etyczny</th>
+<th>Arystotelesowska Etyka Umiaru i Nawyku</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Definicja cnoty (aretē)</strong></td>
+<td>Cnota jest tożsama z wiedzą teoretyczną i definicyjną (<em>epistēmē</em>).</td>
+<td>Cnota jest trwałą dyspozycją (<em>hexis</em>) do właściwych wyborów, opartą na nawyku i mądrości praktycznej (<em>phronēsis</em>).</td>
+</tr>
+<tr>
+<td><strong>Mechanizm działania zła</strong></td>
+<td>Wynika wyłącznie z niewiedzy (<em>agnoia</em>) i błędów poznawczych. Nikt nie czyni zła dobrowolnie.</td>
+<td>Może wynikać ze słabości woli (<em>akrasia</em>) - człowiek wie, co dobre, lecz pod wpływem emocji wybiera zło.</td>
+</tr>
+<tr>
+<td><strong>Rola woli i emocji</strong></td>
+<td>Zredukowane do intelektu; emocje podporządkowują się poznaniu w sposób automatyczny.</td>
+<td>Emocje (<em>pathe</em>) posiadają względną autonomię; cnota wymaga harmonii między rozumem a pożądaniem.</td>
+</tr>
+<tr>
+<td><strong>Sposób nabywania cnoty</strong></td>
+<td>Poprzez nauczanie, dialektykę, eliminację błędnych pojęć i poszukiwanie definicji.</td>
+<td>Poprzez długotrwałe przyzwyczajenie (<em>ethismos</em>) od najmłodszych lat i praktykowanie właściwych czynów.</td>
+</tr>
+</tbody>
 </table>
 
 Arystoteles argumentował, że Sokrates:

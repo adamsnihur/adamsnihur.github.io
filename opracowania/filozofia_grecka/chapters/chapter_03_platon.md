@@ -149,35 +149,79 @@ Dopiero powiązanie ich uzasadnieniem przyczynowym (**aitias logismos - αἰτ�
 Dojrzałą syntezę platońskiej epistemologii i ontologii przedstawia **metafora linii podzielonej** z VI księgi *Państwa* (509d-511e). Platon poleca wyobrazić sobie linię podzieloną na dwa główne odcinki, a te z kolei na dwa kolejne w tym samym stosunku. Otrzymujemy w ten sposób cztery segmenty, odpowiadające czterm stopniom rzeczywistości i czterem odpowiadającym im stanom duszy.
 
 <table class="academic-table divided-line-table">
-    <thead>
-        <tr>
-            <th></th>
-            <th colspan="2" style="text-align: center; border-right: 2px solid var(--primary-color);">ŚWIAT ZMYSŁOWY (<em>horaton</em>)</th>
-            <th colspan="2" style="text-align: center;">ŚWIAT INTELIGIBILNY (<em>noeton</em>)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="font-weight: bold; color: var(--primary-color);">Ontologia (Poziom bytu)</td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Cienie, odbicia</strong><br><small>(<em>eikones</em>)</small></td>
-            <td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Rzeczy fizyczne</strong><br><small>(<em>zoa, skeuasta</em>)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Przedmioty matematyczne</strong><br><small>(<em>mathematika</em>)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Idee / Formy</strong><br><small>(<em>archai / eide</em>)</small></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; color: var(--primary-color);">Epistemologia (Stan duszy)</td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Eikasia</strong><br><small>(domysł, obrazowanie)</small></td>
-            <td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Pistis</strong><br><small>(wiara, przekonanie)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Dianoia</strong><br><small>(rozum dyskursywny)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Noesis</strong><br><small>(czysty wgląd intelektualny)</small></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; color: var(--primary-color);">Synteza poznawcza</td>
-            <td colspan="2" style="text-align: center; font-weight: bold; color: var(--accent-color); border-right: 2px solid var(--primary-color);">MNIEMANIE (<em>doxa</em>)</td>
-            <td colspan="2" style="text-align: center; font-weight: bold; color: var(--secondary-color);">WIEDZA (<em>episteme</em>)</td>
-        </tr>
-    </tbody>
+<thead>
+<tr>
+<th></th>
+<th colspan="2" style="text-align: center; border-right: 2px solid var(--primary-color);">ŚWIAT ZMYSŁOWY (<em>horaton</em>)</th>
+<th colspan="2" style="text-align: center;">ŚWIAT INTELIGIBILNY (<em>noeton</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="font-weight: bold; color: var(--primary-color);">Ontologia (Poziom bytu)</td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Cienie, odbicia</strong><br><small>(<em>eikones</em>)</small></td>
+<td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Rzeczy fizyczne</strong><br><small>(<em>zoa, skeuasta</em>)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Przedmioty matematyczne</strong><br><small>(<em>mathematika</em>)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Idee / Formy</strong><br><small>(<em>archai / eide</em>)</small></td>
+</tr>
+<tr>
+<td style="font-weight: bold; color: var(--primary-color);">Epistemologia (Stan duszy)</td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Eikasia</strong><br><small>(domysł, obrazowanie)</small></td>
+<td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Pistis</strong><br><small>(wiara, przekonanie)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Dianoia</strong><br><small>(rozum dyskursywny)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Noesis</strong><br><small>(czysty wgląd intelektualny)</small></td>
+</tr>
+<tr>
+<td style="font-weight: bold; color: var(--primary-color);">Synteza poznawcza</td>
+<td colspan="2" style="text-align: center; font-weight: bold; color: var(--accent-color); border-right: 2px solid var(--primary-color);">MNIEMANIE (<em>doxa</em>)</td>
+<td colspan="2" style="text-align: center; font-weight: bold; color: var(--secondary-color);">WIEDZA (<em>episteme</em>)</td>
+</tr>
+</tbody>
 </table>
+
+<div class="divided-line-diagram-container" style="text-align: center; margin: 3em 0;">
+<h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Platońska Linia Podzielona</h5>
+<svg viewBox="0 0 800 240" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Main line axis -->
+<line x1="50" y1="120" x2="750" y2="120" stroke="#1A303A" stroke-width="4" stroke-linecap="round" />
+<!-- Ticks & Markers -->
+<!-- Start -->
+<circle cx="50" cy="120" r="6" fill="#8C2D19" />
+<!-- Divider between Doxa and Episteme -->
+<circle cx="362" cy="120" r="8" fill="#B58A3D" stroke="#FFF" stroke-width="2" />
+<!-- End -->
+<circle cx="750" cy="120" r="6" fill="#1A303A" />
+<!-- Intermediate Ticks -->
+<circle cx="180" cy="120" r="4" fill="#8C2D19" />
+<circle cx="550" cy="120" r="4" fill="#1A303A" />
+<!-- Brackets or Labels for Main Realms -->
+<!-- Doxa Realm (Left) -->
+<path d="M 55 160 L 55 170 L 357 170 L 357 160" stroke="#8C2D19" stroke-width="1.5" fill="none" />
+<text x="206" y="190" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1.5">MNIEMANIE (DOXA - δόξα)</text>
+<text x="206" y="208" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Świat zmysłowy i zmienny (horaton)</text>
+<!-- Episteme Realm (Right) -->
+<path d="M 367 160 L 367 170 L 745 170 L 745 160" stroke="#1A303A" stroke-width="1.5" fill="none" />
+<text x="556" y="190" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1.5">WIEDZA (EPISTEME - ἐπιστήμη)</text>
+<text x="556" y="208" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Świat inteligibilny i wieczny (noeton)</text>
+<!-- Four segments details (Top side of the line) -->
+<!-- Segment 1: Eikasia -->
+<text x="115" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">1. EIKASIA</text>
+<text x="115" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Domysł (Cienie)</text>
+<line x1="115" y1="85" x2="115" y2="110" stroke="#8C2D19" stroke-width="1" stroke-dasharray="2,2" />
+<!-- Segment 2: Pistis -->
+<text x="271" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">2. PISTIS</text>
+<text x="271" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Wiara (Rzeczy fizyczne)</text>
+<line x1="271" y1="85" x2="271" y2="110" stroke="#8C2D19" stroke-width="1" stroke-dasharray="2,2" />
+<!-- Segment 3: Dianoia -->
+<text x="456" y="60" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">3. DIANOIA</text>
+<text x="456" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Rozum (Matematyka)</text>
+<line x1="456" y1="85" x2="456" y2="110" stroke="#B58A3D" stroke-width="1" stroke-dasharray="2,2" />
+<!-- Segment 4: Noesis -->
+<text x="650" y="60" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">4. NOESIS</text>
+<text x="650" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Wgląd (Formy/Idee)</text>
+<line x1="650" y1="85" x2="650" y2="110" stroke="#1A303A" stroke-width="1" stroke-dasharray="2,2" />
+</svg>
+</div>
 
 1.  **Eikasia (εἰκασία - obrazowanie, domysł)**: Najniższy stopień poznania, którego przedmiotem są cienie, odbicia na wodzie i w lustrach oraz złudzenia optyczne (*eikones*). To wiedza zapośredniczona, pozbawiona krytycyzmu. Ludzie na tym poziomie bezrefleksyjnie przyjmują obrazy rzeczy za samą rzeczywistość.
 2.  **Pistis (πίστις - wiara, przekonanie)**: Poznanie zmysłowe obiektów fizycznych, zwierząt, roślin i wytworów techniki. Choć bardziej realne niż cienie, obiekty te wciąż podlegają zmianie, stąd poznanie to nie wykracza poza sferę opinii (*doxa*). To poziom potocznej wiedzy praktycznej i empirycznej.

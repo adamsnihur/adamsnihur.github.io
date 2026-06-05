@@ -130,51 +130,44 @@ W sferze epistemologicznej greckie rozróżnienie między nietrwałą opinią (*
 Równie głęboko greckie dziedzictwo odcisnęło się na strukturze normatywnej Zachodu. Pojęcia *arete* (cnoty pojętej jako doskonałość funkcjonalna) oraz *eudaimonia* (szczęścia będącego owocem doskonałego urzeczywistnienia ludzkiej natury) zdefiniowały klasyczną etykę. Debata nad relacją między prawem natury (*physis*) a stanowionym przez ludzi prawem i obyczajem (*nomos*), zapoczątkowana przez Sofistów i rozwinięta przez wielkie systemy klasyczne, położyło podwaliny pod zachodnią filozofię prawa, teorię umowy społecznej oraz doktrynę praw człowieka. Wymiar polityczny greckiego ducha, zogniskowany wokół fenomenu *polis*, stanowił z kolei unikalne laboratorium ustrojowe. Refleksja nad *dikaiosyne* (sprawiedliwością) jako harmonią duszy i państwa, a także analizy demokracji, oligarchii i tyranii dokonane przez Platona i Arystotelesa, dostarczyły pojęć i modeli ustrojowych, do których ojcowie nowożytnego konstytucjonalizmu i teorii politycznej nieustannie się odwoływali, czerpiąc z nich zarówno inspiracje, jak i przestrogi.
 
 <div class="conceptual-stack-container" style="text-align: center; margin: 3em 0;">
-  <h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Model Koncepcyjny: Grecki System Operacyjny Zachodu</h4>
-  <svg viewBox="0 0 800 450" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
-    <!-- Definitions -->
-    <defs>
-      <linearGradient id="layer3-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#2D5A6E" />
-        <stop offset="100%" stop-color="#1A303A" />
-      </linearGradient>
-      <linearGradient id="layer2-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#D8B26E" />
-        <stop offset="100%" stop-color="#B58A3D" />
-      </linearGradient>
-      <linearGradient id="layer1-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#B2432C" />
-        <stop offset="100%" stop-color="#8C2D19" />
-      </linearGradient>
-    </defs>
-    
-    <!-- Outer Border -->
-    <rect x="5" y="5" width="790" height="440" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
-    
-    <!-- Layer 3: Western Civilization -->
-    <rect x="50" y="30" width="700" height="90" rx="8" fill="url(#layer3-grad)" stroke="#1A303A" stroke-width="1" />
-    <text x="400" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="1">POZIOM APLIKACYJNY: CYWILIZACJA ZACHODNIA</text>
-    <text x="400" y="90" text-anchor="middle" fill="#E2E8F0" font-family="Montserrat, sans-serif" font-size="12">Metoda Naukowa • Państwo Prawa • Demokracja • Powszechne Prawa • Humanizm Sekularny & Chrześcijański</text>
-    
-    <!-- Connector Arrow 1 -->
-    <path d="M400,120 L400,150" stroke="#B58A3D" stroke-width="2" fill="none" marker-end="url(#arrow)" />
-    
-    <!-- Layer 2: Cognitive & Normative Matrix -->
-    <rect x="100" y="160" width="600" height="90" rx="8" fill="url(#layer2-grad)" stroke="#B58A3D" stroke-width="1" />
-    <text x="400" y="195" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="15" letter-spacing="1">POZIOM APARATURY KOŃCOWEJ: MATRYCA NORMATYWNA</text>
-    <text x="400" y="220" text-anchor="middle" fill="#FDFBF7" font-family="Montserrat, sans-serif" font-size="12">EPISTEME vs DOXA (Wiedza a Opinia) • PHYSIS vs NOMOS (Natura a Prawo) • ARETE & EUDAIMONIA (Cnota i Szczęście)</text>
-    
-    <!-- Connector Arrow 2 -->
-    <path d="M400,250 L400,280" stroke="#8C2D19" stroke-width="2" fill="none" />
-    
-    <!-- Layer 1: Core Metaphysics -->
-    <rect x="150" y="290" width="500" height="90" rx="8" fill="url(#layer1-grad)" stroke="#8C2D19" stroke-width="1" />
-    <text x="400" y="325" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="15" letter-spacing="1">JĄDRO SYSTEMOWE (KERNEL): LOGICZNO-METAFIZYCZNE</text>
-    <text x="400" y="350" text-anchor="middle" fill="#FDFBF7" font-family="Montserrat, sans-serif" font-size="12">LOGOS (Rozum/Kosmiczny Porządek) • ARCHE (Zasada) • EIDOS (Forma) • HYLE-MORPHE (Hylemorfizm)</text>
-    
-    <!-- Foundations Caption -->
-    <text x="400" y="415" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="15">"Logos grecki stanowi fundament strukturalny, na którym wznosi się cała architektura zachodniego myślenia."</text>
-  </svg>
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Model Koncepcyjny: Grecki System Operacyjny Zachodu</h4>
+<svg viewBox="0 0 800 450" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Definitions -->
+<defs>
+<linearGradient id="layer3-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#2D5A6E" />
+<stop offset="100%" stop-color="#1A303A" />
+</linearGradient>
+<linearGradient id="layer2-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#D8B26E" />
+<stop offset="100%" stop-color="#B58A3D" />
+</linearGradient>
+<linearGradient id="layer1-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#B2432C" />
+<stop offset="100%" stop-color="#8C2D19" />
+</linearGradient>
+</defs>
+<!-- Outer Border -->
+<rect x="5" y="5" width="790" height="440" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
+<!-- Layer 3: Western Civilization -->
+<rect x="50" y="30" width="700" height="90" rx="8" fill="url(#layer3-grad)" stroke="#1A303A" stroke-width="1" />
+<text x="400" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="1">POZIOM APLIKACYJNY: CYWILIZACJA ZACHODNIA</text>
+<text x="400" y="90" text-anchor="middle" fill="#E2E8F0" font-family="Montserrat, sans-serif" font-size="12">Metoda Naukowa • Państwo Prawa • Demokracja • Powszechne Prawa • Humanizm Sekularny & Chrześcijański</text>
+<!-- Connector Arrow 1 -->
+<path d="M400,120 L400,150" stroke="#B58A3D" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<!-- Layer 2: Cognitive & Normative Matrix -->
+<rect x="100" y="160" width="600" height="90" rx="8" fill="url(#layer2-grad)" stroke="#B58A3D" stroke-width="1" />
+<text x="400" y="195" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="15" letter-spacing="1">POZIOM APARATURY KOŃCOWEJ: MATRYCA NORMATYWNA</text>
+<text x="400" y="220" text-anchor="middle" fill="#FDFBF7" font-family="Montserrat, sans-serif" font-size="12">EPISTEME vs DOXA (Wiedza a Opinia) • PHYSIS vs NOMOS (Natura a Prawo) • ARETE & EUDAIMONIA (Cnota i Szczęście)</text>
+<!-- Connector Arrow 2 -->
+<path d="M400,250 L400,280" stroke="#8C2D19" stroke-width="2" fill="none" />
+<!-- Layer 1: Core Metaphysics -->
+<rect x="150" y="290" width="500" height="90" rx="8" fill="url(#layer1-grad)" stroke="#8C2D19" stroke-width="1" />
+<text x="400" y="325" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="15" letter-spacing="1">JĄDRO SYSTEMOWE (KERNEL): LOGICZNO-METAFIZYCZNE</text>
+<text x="400" y="350" text-anchor="middle" fill="#FDFBF7" font-family="Montserrat, sans-serif" font-size="12">LOGOS (Rozum/Kosmiczny Porządek) • ARCHE (Zasada) • EIDOS (Forma) • HYLE-MORPHE (Hylemorfizm)</text>
+<!-- Foundations Caption -->
+<text x="400" y="415" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="15">"Logos grecki stanowi fundament strukturalny, na którym wznosi się cała architektura zachodniego myślenia."</text>
+</svg>
 </div>
 
 ---
@@ -451,53 +444,47 @@ Powstanie tego nowego paradygmatu było stymulowane przez specyficzne czynniki g
 - **Powstanie ustroju demokratycznego**: Debata publiczna, w której o sile argumentu decydowało logiczne uzasadnienie, a nie autorytet tradycji czy pochodzenia, stworzyła model dyskursu przeniesiony następnie na pole badań nad przyrodą. Prawo miejskie (*nomos*) stało się matrycą pojęciową dla praw przyrody (*physis*).
 
 <div class="mythos-logos-container" style="text-align: center; margin: 3em 0;">
-  <h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wielkie Przejście: Od Mythos do Logos</h4>
-  <svg viewBox="0 0 800 300" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
-    <!-- Definitions for gradients -->
-    <defs>
-      <linearGradient id="mythos-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#8C2D19" />
-        <stop offset="100%" stop-color="#4A150B" />
-      </linearGradient>
-      <linearGradient id="logos-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#1A303A" />
-        <stop offset="100%" stop-color="#0F1D23" />
-      </linearGradient>
-    </defs>
-    
-    <!-- Outer Border -->
-    <rect x="5" y="5" width="790" height="290" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
-    
-    <!-- Mythos Column -->
-    <rect x="30" y="30" width="320" height="240" rx="6" fill="url(#mythos-grad)" stroke="#8C2D19" stroke-width="1" />
-    <text x="190" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="2">MYTHOS (μῦθος)</text>
-    <line x1="60" y1="80" x2="320" y2="80" stroke="#FDFBF7" stroke-width="1" stroke-opacity="0.3" />
-    
-    <text x="190" y="110" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Obrazowo-narracyjny opis świata</text>
-    <text x="190" y="140" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Antropomorfizm: Bogowie jako przyczyna</text>
-    <text x="190" y="170" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Kosmiczny woluntaryzm i kaprys</text>
-    <text x="190" y="200" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Sankcjonowany przez tradycję i wiarę</text>
-    <text x="190" y="230" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Autorytet poetów (Homer, Hesjod)</text>
-
-    <!-- Transition Arrow -->
-    <g transform="translate(365, 100)">
-      <path d="M 0 30 L 70 30" stroke="#B58A3D" stroke-width="3" fill="none" />
-      <polygon points="70,25 82,30 70,35" fill="#B58A3D" />
-      <text x="35" y="15" text-anchor="middle" fill="#B58A3D" font-family="Cormorant Garamond, serif" font-weight="bold" font-style="italic" font-size="14">Joński przełom</text>
-      <text x="35" y="50" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-size="10" font-weight="600" letter-spacing="1">VI w. p.n.e.</text>
-    </g>
-
-    <!-- Logos Column -->
-    <rect x="450" y="30" width="320" height="240" rx="6" fill="url(#logos-grad)" stroke="#1A303A" stroke-width="1" />
-    <text x="610" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="2">LOGOS (λόγος)</text>
-    <line x1="480" y1="80" x2="740" y2="80" stroke="#FDFBF7" stroke-width="1" stroke-opacity="0.3" />
-    
-    <text x="610" y="110" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Pojęciowo-argumentacyjny dyskurs</text>
-    <text x="610" y="140" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Naturalizm: Immanentna Physis</text>
-    <text x="610" y="170" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Przyczynowość, konieczność i ład (Kosmos)</text>
-    <text x="610" y="200" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Krytyczna dyskusja i dowodzenie</text>
-    <text x="610" y="230" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Autorytet rozumu (Tales, Anaksymander)</text>
-  </svg>
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wielkie Przejście: Od Mythos do Logos</h4>
+<svg viewBox="0 0 800 300" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Definitions for gradients -->
+<defs>
+<linearGradient id="mythos-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#8C2D19" />
+<stop offset="100%" stop-color="#4A150B" />
+</linearGradient>
+<linearGradient id="logos-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#1A303A" />
+<stop offset="100%" stop-color="#0F1D23" />
+</linearGradient>
+</defs>
+<!-- Outer Border -->
+<rect x="5" y="5" width="790" height="290" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
+<!-- Mythos Column -->
+<rect x="30" y="30" width="320" height="240" rx="6" fill="url(#mythos-grad)" stroke="#8C2D19" stroke-width="1" />
+<text x="190" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="2">MYTHOS (μῦθος)</text>
+<line x1="60" y1="80" x2="320" y2="80" stroke="#FDFBF7" stroke-width="1" stroke-opacity="0.3" />
+<text x="190" y="110" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Obrazowo-narracyjny opis świata</text>
+<text x="190" y="140" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Antropomorfizm: Bogowie jako przyczyna</text>
+<text x="190" y="170" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Kosmiczny woluntaryzm i kaprys</text>
+<text x="190" y="200" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Sankcjonowany przez tradycję i wiarę</text>
+<text x="190" y="230" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Autorytet poetów (Homer, Hesjod)</text>
+<!-- Transition Arrow -->
+<g transform="translate(365, 100)">
+<path d="M 0 30 L 70 30" stroke="#B58A3D" stroke-width="3" fill="none" />
+<polygon points="70,25 82,30 70,35" fill="#B58A3D" />
+<text x="35" y="15" text-anchor="middle" fill="#B58A3D" font-family="Cormorant Garamond, serif" font-weight="bold" font-style="italic" font-size="14">Joński przełom</text>
+<text x="35" y="50" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-size="10" font-weight="600" letter-spacing="1">VI w. p.n.e.</text>
+</g>
+<!-- Logos Column -->
+<rect x="450" y="30" width="320" height="240" rx="6" fill="url(#logos-grad)" stroke="#1A303A" stroke-width="1" />
+<text x="610" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="2">LOGOS (λόγος)</text>
+<line x1="480" y1="80" x2="740" y2="80" stroke="#FDFBF7" stroke-width="1" stroke-opacity="0.3" />
+<text x="610" y="110" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Pojęciowo-argumentacyjny dyskurs</text>
+<text x="610" y="140" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Naturalizm: Immanentna Physis</text>
+<text x="610" y="170" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Przyczynowość, konieczność i ład (Kosmos)</text>
+<text x="610" y="200" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Krytyczna dyskusja i dowodzenie</text>
+<text x="610" y="230" text-anchor="middle" fill="#EADEC9" font-family="Montserrat, sans-serif" font-size="13">• Autorytet rozumu (Tales, Anaksymander)</text>
+</svg>
 </div>
 
 ---
@@ -664,11 +651,11 @@ Zenon sformułował cztery słynne aporie (paradoksy) przeciwko ruchowi, zrekons
 Zanim ciało poruszające się dotrze do celu ($B$), musi najpierw przebyć połowę drogi ($AB/2$). Zanim jednak dotrze do tej połowy, musi przebyć jej ćwierć ($AB/4$), i tak dalej w nieskończoność. Ponieważ przestrzeń jest nieskończenie podzielna, ruch wymaga przebycia nieskończonej liczby skończonych odcinków w skończonym czasie. Ponieważ ludzki umysł nie może zrealizować nieskończonej liczby aktów fizycznych w skończonym czasie, ruch nie może się rozpocząć.
 
 <div class="video-container" style="text-align: center; margin: 3em 0;">
-  <video controls width="100%" style="border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 600px; background-color: #000;">
-    <source src="ZenoDichotomy_m.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <p style="font-family: var(--font-sans); font-size: 0.8em; margin-top: 10px; color: var(--accent-color); text-transform: uppercase; letter-spacing: 1px;">Animacja Manim: Paradoks Dychotomii Zenona</p>
+<video controls width="100%" style="border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 600px; background-color: #000;">
+<source src="ZenoDichotomy_m.mp4" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+<p style="font-family: var(--font-sans); font-size: 0.8em; margin-top: 10px; color: var(--accent-color); text-transform: uppercase; letter-spacing: 1px;">Animacja Manim: Paradoks Dychotomii Zenona</p>
 </div>
 
 ##### 2. Achilles i Żółw
@@ -684,63 +671,58 @@ Lecąca z łuku strzała w rzeczywistości spoczywa w każdym momencie swojego l
 Aporia ta bada względność prędkości ciał poruszających się na stadionie. Wyobraźmy sobie trzy rzędy ciał: rząd $A$ (stojący nieruchomo) oraz rzędy $B$ i $C$ o równej długości, które poruszają się z tą samą prędkością w przeciwnych kierunkach.
 
 <div class="stadion-diagram-container">
-    <div class="stadion-state">
-        <div class="stadion-state-title">Układ początkowy ($t = 0$)</div>
-        <div class="stadion-grid">
-            <div class="stadion-row-label">Rząd B</div>
-            <div class="stadion-cell cell-b">B1</div>
-            <div class="stadion-cell cell-b">B2</div>
-            <div class="stadion-cell cell-b">B3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
-            
-            <div class="stadion-row-label">Rząd A</div>
-            <div class="stadion-cell cell-a">A1</div>
-            <div class="stadion-cell cell-a">A2</div>
-            <div class="stadion-cell cell-a">A3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">nieruchomy</div>
-            
-            <div class="stadion-row-label">Rząd C</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-c">C1</div>
-            <div class="stadion-cell cell-c">C2</div>
-            <div class="stadion-cell cell-c">C3</div>
-            <div class="stadion-row-desc">ruch w lewo (← $v$)</div>
-        </div>
-    </div>
-    
-    <div class="stadion-state">
-        <div class="stadion-state-title">Po upływie jednostki czasu ($t = 1$)</div>
-        <div class="stadion-grid">
-            <div class="stadion-row-label">Rząd B</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-b">B1</div>
-            <div class="stadion-cell cell-b">B2</div>
-            <div class="stadion-cell cell-b">B3</div>
-            <div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
-            
-            <div class="stadion-row-label">Rząd A</div>
-            <div class="stadion-cell cell-a">A1</div>
-            <div class="stadion-cell cell-a">A2</div>
-            <div class="stadion-cell cell-a">A3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">nieruchomy</div>
-            
-            <div class="stadion-row-label">Rząd C</div>
-            <div class="stadion-cell cell-c">C1</div>
-            <div class="stadion-cell cell-c">C2</div>
-            <div class="stadion-cell cell-c">C3</div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-cell cell-empty"></div>
-            <div class="stadion-row-desc">ruch w lewo (← $v$)</div>
-        </div>
-    </div>
+<div class="stadion-state">
+<div class="stadion-state-title">Układ początkowy ($t = 0$)</div>
+<div class="stadion-grid">
+<div class="stadion-row-label">Rząd B</div>
+<div class="stadion-cell cell-b">B1</div>
+<div class="stadion-cell cell-b">B2</div>
+<div class="stadion-cell cell-b">B3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
+<div class="stadion-row-label">Rząd A</div>
+<div class="stadion-cell cell-a">A1</div>
+<div class="stadion-cell cell-a">A2</div>
+<div class="stadion-cell cell-a">A3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">nieruchomy</div>
+<div class="stadion-row-label">Rząd C</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-c">C1</div>
+<div class="stadion-cell cell-c">C2</div>
+<div class="stadion-cell cell-c">C3</div>
+<div class="stadion-row-desc">ruch w lewo (← $v$)</div>
+</div>
+</div>
+<div class="stadion-state">
+<div class="stadion-state-title">Po upływie jednostki czasu ($t = 1$)</div>
+<div class="stadion-grid">
+<div class="stadion-row-label">Rząd B</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-b">B1</div>
+<div class="stadion-cell cell-b">B2</div>
+<div class="stadion-cell cell-b">B3</div>
+<div class="stadion-row-desc">ruch w prawo (→ $v$)</div>
+<div class="stadion-row-label">Rząd A</div>
+<div class="stadion-cell cell-a">A1</div>
+<div class="stadion-cell cell-a">A2</div>
+<div class="stadion-cell cell-a">A3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">nieruchomy</div>
+<div class="stadion-row-label">Rząd C</div>
+<div class="stadion-cell cell-c">C1</div>
+<div class="stadion-cell cell-c">C2</div>
+<div class="stadion-cell cell-c">C3</div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-cell cell-empty"></div>
+<div class="stadion-row-desc">ruch w lewo (← $v$)</div>
+</div>
+</div>
 </div>
 
 W czasie, gdy rząd $B$ mija jedno ciało rzędu $A$, mija jednocześnie dwa ciała poruszającego się w przeciwnym kierunku rzędu $C$. Wynika z tego, że czas potrzebny na przejście obok rzędu $C$ jest dwukrotnie krótszy niż czas potrzebny na przejście obok rzędu $A$. Jednak prędkość ruchu ciał jest stała. Zatem jednostka czasu mierzona względem rzędu nieruchomego okazuje się równa połowie samej siebie mierzonej względem rzędu ruchomego, co prowadzi do logicznej sprzeczności: czas jest równy swojej podwójnej wartości ($T = 2T$).
@@ -770,45 +752,44 @@ Skoro wrażenia słuchowe i piękno muzyki zależą od czystych relacji ilościo
 Liczby dla pitagorejczyków miały charakter przestrzenny i geometryczny. Reprezentowano je za pomocą kamyków układanych w figury. Najważniejszym, świętym symbolem zakonu był **tetraktys** - trójkąt złożony z dziesięciu punktów ułożonych w czterech rzędach:
 
 <div class="tetraktys-container">
-    <div class="tetraktys-visual">
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-        </div>
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-        </div>
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-        </div>
-        <div class="tetraktys-row">
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-            <div class="tetraktys-dot"></div>
-        </div>
-    </div>
-    
-    <div class="tetraktys-info">
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">I</div>
-            <div class="tetraktys-text"><strong>Jedynka</strong> / punkt / wymiar 0 - Monada (niepodzielna jedność)</div>
-        </div>
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">II</div>
-            <div class="tetraktys-text"><strong>Dwójka</strong> / linia / wymiar 1 - Diada (polaryzacja, kierunek)</div>
-        </div>
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">III</div>
-            <div class="tetraktys-text"><strong>Trójka</strong> / płaszczyzna / wymiar 2 - Triada (stabilność, powierzchnia)</div>
-        </div>
-        <div class="tetraktys-info-row">
-            <div class="tetraktys-number">IV</div>
-            <div class="tetraktys-text"><strong>Czwórka</strong> / bryła / wymiar 3 - Tetrada (przestrzeń trójwymiarowa, fizyczność)</div>
-        </div>
-    </div>
+<div class="tetraktys-visual">
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+</div>
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+</div>
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+</div>
+<div class="tetraktys-row">
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+<div class="tetraktys-dot"></div>
+</div>
+</div>
+<div class="tetraktys-info">
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">I</div>
+<div class="tetraktys-text"><strong>Jedynka</strong> / punkt / wymiar 0 - Monada (niepodzielna jedność)</div>
+</div>
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">II</div>
+<div class="tetraktys-text"><strong>Dwójka</strong> / linia / wymiar 1 - Diada (polaryzacja, kierunek)</div>
+</div>
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">III</div>
+<div class="tetraktys-text"><strong>Trójka</strong> / płaszczyzna / wymiar 2 - Triada (stabilność, powierzchnia)</div>
+</div>
+<div class="tetraktys-info-row">
+<div class="tetraktys-number">IV</div>
+<div class="tetraktys-text"><strong>Czwórka</strong> / bryła / wymiar 3 - Tetrada (przestrzeń trójwymiarowa, fizyczność)</div>
+</div>
+</div>
 </div>
 
 Suma punktów tetraktysu wynosi $1+2+3+4=10$. Dziesiątka była dla pitagorejczyków liczbą doskonałą, zawierającą w sobie wszystkie podstawowe proporcje muzyczne ($4:3, 3:2, 2:1$). Ta fascynacja dziesiątką wpłynęła na ich kosmologię. Przyjmując, że ciał niebieskich krążących wokół centralnego ognia (Hestii) musi być dziesięć, a obserwowali jedynie dziewięć (Ziemia, Księżyc, Słońce, pięć planet i sfera gwiazd stałych), wprowadzili hipotetyczne dziesiąte ciało - **Przeciwziemię** (*Antichthon*), która krąży po orbicie bliższej centralnemu ogniowi i pozostaje niewidoczna dla mieszkańców naszej półkuli.
@@ -1109,44 +1090,44 @@ Współczesna badaczka Olof Gigon posunęła się do tezy, że dotarcie do histo
 Metoda filozofowania Sokratesa nie polegała na wykładaniu gotowych dogmatów, lecz na wspólnym poszukiwaniu prawdy w drodze dialogu. Metoda ta miała charakter wybitnie heurystyczny i dynamiczny. Można w niej wyróżnić dwie główne fazy: negatywną (destrukcyjną) oraz pozytywną (konstruktywną), które były ściśle powiązane z sokratejską postawą egzystencjalną.
 
 <div class="socratic-flow-container" style="text-align: center; margin: 3em 0;">
-  <h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Dwuetapowa Metoda Sokratejska: Dialog jako Ścieżka Prawdy</h4>
-  <div class="flow-container" style="display: flex; justify-content: space-around; align-items: stretch; gap: 10px; margin: 2em 0; flex-wrap: wrap;">
-    <!-- Krok 1 -->
-    <div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-      <div>
-        <div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">1. IRONIA (eironeia)</div>
-        <div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Udawana ignorancja Sokratesa. Skłonienie rozmówcy do wygłoszenia swojej tezy jako prawdy absolutnej.</div>
-      </div>
-      <div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Wstęp egzystencjalny</div>
-    </div>
-    <div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
-    <!-- Krok 2 -->
-    <div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-      <div>
-        <div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">2. ELENCHOS (zbijanie)</div>
-        <div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Badanie logicznej spójności tezy. Poprzez serię pytań Sokrates wykazuje, że teza prowadzi do sprzeczności.</div>
-      </div>
-      <div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Negatywna</div>
-    </div>
-    <div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
-    <!-- Krok 3 -->
-    <div class="flow-step" style="background-color: #FFF; border: 2px solid var(--accent-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-      <div>
-        <div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--accent-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">3. APORIA (bezradność)</div>
-        <div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Uświadomienie sobie własnej niewiedzy. Moment oczyszczenia (katharsis) intelektualnego rozmówcy.</div>
-      </div>
-      <div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Punkt zwrotny</div>
-    </div>
-    <div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
-    <!-- Krok 4 -->
-    <div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
-      <div>
-        <div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">4. MAIEUTIKE (akuszeria)</div>
-        <div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Naprowadzanie na właściwe wnioski. Pomoc w wydobyciu prawdy tkwiącej immanentnie w ludzkiej duszy.</div>
-      </div>
-      <div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Pozytywna</div>
-    </div>
-  </div>
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Dwuetapowa Metoda Sokratejska: Dialog jako Ścieżka Prawdy</h4>
+<div class="flow-container" style="display: flex; justify-content: space-around; align-items: stretch; gap: 10px; margin: 2em 0; flex-wrap: wrap;">
+<!-- Krok 1 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">1\. IRONIA (eironeia)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Udawana ignorancja Sokratesa. Skłonienie rozmówcy do wygłoszenia swojej tezy jako prawdy absolutnej.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Wstęp egzystencjalny</div>
+</div>
+<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
+<!-- Krok 2 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">2\. ELENCHOS (zbijanie)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Badanie logicznej spójności tezy. Poprzez serię pytań Sokrates wykazuje, że teza prowadzi do sprzeczności.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Negatywna</div>
+</div>
+<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
+<!-- Krok 3 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--accent-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--accent-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">3\. APORIA (bezradność)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Uświadomienie sobie własnej niewiedzy. Moment oczyszczenia (katharsis) intelektualnego rozmówcy.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Punkt zwrotny</div>
+</div>
+<div class="flow-arrow" style="align-self: center; font-size: 1.5em; color: var(--secondary-color);">→</div>
+<!-- Krok 4 -->
+<div class="flow-step" style="background-color: #FFF; border: 2px solid var(--secondary-color); border-radius: 8px; padding: 15px; flex: 1; min-width: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+<div>
+<div class="flow-step-title" style="font-family: var(--font-sans); font-weight: 600; font-size: 0.8em; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">4\. MAIEUTIKE (akuszeria)</div>
+<div class="flow-step-desc" style="font-size: 0.85em; line-height: 1.4; text-align: justify; text-indent: 0;">Naprowadzanie na właściwe wnioski. Pomoc w wydobyciu prawdy tkwiącej immanentnie w ludzkiej duszy.</div>
+</div>
+<div style="font-size: 0.75em; color: var(--accent-color); font-weight: 600; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Faza Pozytywna</div>
+</div>
+</div>
 </div>
 
 Pierwszym, nieodzownym elementem tej metody była **ironia** (*eironeia*). W potocznym rozumieniu greckim słowo to oznaczało udawanie, maskowanie się, a w kontekście sokratejskim - udawaną ignorancję. Sokrates przystępował do dialogu jako ten, który nic nie wie i pragnie uczyć się od swojego rozmówcy, uchodzącego za eksperta w danej dziedzinie. Ta postawa demaskowała pychę intelektualną rozmówców i zmuszała ich do odsłonięcia swoich rzeczywistych przekonań.
@@ -1193,35 +1174,35 @@ Fundamentem dla tego systemu jest postulat **troski o duszę** (*epimeleia heaut
 Radykalizm intelektualizmu etycznego Sokratesa stał się przedmiotem głębokiej krytyki ze strony jego wielkiego następcy, Arystotelesa. W *Etyce Nikomachejskiej* Stagiryta przeprowadził systematyczną dekonstrukcję sokratejskiego poglądu, zarzucając mu ignorowanie oczywistych faktów psychologicznych, a przede wszystkim zjawiska **słabości woli** czyli **akrazji** (*akrasia*):
 
 <table class="academic-table">
-  <thead>
-    <tr>
-      <th>Koncepcja / Wymiar</th>
-      <th>Sokratejski Intelektualizm Etyczny</th>
-      <th>Arystotelesowska Etyka Umiaru i Nawyku</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Definicja cnoty (aretē)</strong></td>
-      <td>Cnota jest tożsama z wiedzą teoretyczną i definicyjną (<em>epistēmē</em>).</td>
-      <td>Cnota jest trwałą dyspozycją (<em>hexis</em>) do właściwych wyborów, opartą na nawyku i mądrości praktycznej (<em>phronēsis</em>).</td>
-    </tr>
-    <tr>
-      <td><strong>Mechanizm działania zła</strong></td>
-      <td>Wynika wyłącznie z niewiedzy (<em>agnoia</em>) i błędów poznawczych. Nikt nie czyni zła dobrowolnie.</td>
-      <td>Może wynikać ze słabości woli (<em>akrasia</em>) - człowiek wie, co dobre, lecz pod wpływem emocji wybiera zło.</td>
-    </tr>
-    <tr>
-      <td><strong>Rola woli i emocji</strong></td>
-      <td>Zredukowane do intelektu; emocje podporządkowują się poznaniu w sposób automatyczny.</td>
-      <td>Emocje (<em>pathe</em>) posiadają względną autonomię; cnota wymaga harmonii między rozumem a pożądaniem.</td>
-    </tr>
-    <tr>
-      <td><strong>Sposób nabywania cnoty</strong></td>
-      <td>Poprzez nauczanie, dialektykę, eliminację błędnych pojęć i poszukiwanie definicji.</td>
-      <td>Poprzez długotrwałe przyzwyczajenie (<em>ethismos</em>) od najmłodszych lat i praktykowanie właściwych czynów.</td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th>Koncepcja / Wymiar</th>
+<th>Sokratejski Intelektualizm Etyczny</th>
+<th>Arystotelesowska Etyka Umiaru i Nawyku</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Definicja cnoty (aretē)</strong></td>
+<td>Cnota jest tożsama z wiedzą teoretyczną i definicyjną (<em>epistēmē</em>).</td>
+<td>Cnota jest trwałą dyspozycją (<em>hexis</em>) do właściwych wyborów, opartą na nawyku i mądrości praktycznej (<em>phronēsis</em>).</td>
+</tr>
+<tr>
+<td><strong>Mechanizm działania zła</strong></td>
+<td>Wynika wyłącznie z niewiedzy (<em>agnoia</em>) i błędów poznawczych. Nikt nie czyni zła dobrowolnie.</td>
+<td>Może wynikać ze słabości woli (<em>akrasia</em>) - człowiek wie, co dobre, lecz pod wpływem emocji wybiera zło.</td>
+</tr>
+<tr>
+<td><strong>Rola woli i emocji</strong></td>
+<td>Zredukowane do intelektu; emocje podporządkowują się poznaniu w sposób automatyczny.</td>
+<td>Emocje (<em>pathe</em>) posiadają względną autonomię; cnota wymaga harmonii między rozumem a pożądaniem.</td>
+</tr>
+<tr>
+<td><strong>Sposób nabywania cnoty</strong></td>
+<td>Poprzez nauczanie, dialektykę, eliminację błędnych pojęć i poszukiwanie definicji.</td>
+<td>Poprzez długotrwałe przyzwyczajenie (<em>ethismos</em>) od najmłodszych lat i praktykowanie właściwych czynów.</td>
+</tr>
+</tbody>
 </table>
 
 Arystoteles argumentował, że Sokrates:
@@ -1487,86 +1468,78 @@ Dopiero powiązanie ich uzasadnieniem przyczynowym (**aitias logismos - αἰτ�
 Dojrzałą syntezę platońskiej epistemologii i ontologii przedstawia **metafora linii podzielonej** z VI księgi *Państwa* (509d-511e). Platon poleca wyobrazić sobie linię podzieloną na dwa główne odcinki, a te z kolei na dwa kolejne w tym samym stosunku. Otrzymujemy w ten sposób cztery segmenty, odpowiadające czterm stopniom rzeczywistości i czterem odpowiadającym im stanom duszy.
 
 <table class="academic-table divided-line-table">
-    <thead>
-        <tr>
-            <th></th>
-            <th colspan="2" style="text-align: center; border-right: 2px solid var(--primary-color);">ŚWIAT ZMYSŁOWY (<em>horaton</em>)</th>
-            <th colspan="2" style="text-align: center;">ŚWIAT INTELIGIBILNY (<em>noeton</em>)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="font-weight: bold; color: var(--primary-color);">Ontologia (Poziom bytu)</td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Cienie, odbicia</strong><br><small>(<em>eikones</em>)</small></td>
-            <td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Rzeczy fizyczne</strong><br><small>(<em>zoa, skeuasta</em>)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Przedmioty matematyczne</strong><br><small>(<em>mathematika</em>)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Idee / Formy</strong><br><small>(<em>archai / eide</em>)</small></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; color: var(--primary-color);">Epistemologia (Stan duszy)</td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Eikasia</strong><br><small>(domysł, obrazowanie)</small></td>
-            <td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Pistis</strong><br><small>(wiara, przekonanie)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Dianoia</strong><br><small>(rozum dyskursywny)</small></td>
-            <td style="text-align: center; font-size: 0.95em;"><strong>Noesis</strong><br><small>(czysty wgląd intelektualny)</small></td>
-        </tr>
-        <tr>
-            <td style="font-weight: bold; color: var(--primary-color);">Synteza poznawcza</td>
-            <td colspan="2" style="text-align: center; font-weight: bold; color: var(--accent-color); border-right: 2px solid var(--primary-color);">MNIEMANIE (<em>doxa</em>)</td>
-            <td colspan="2" style="text-align: center; font-weight: bold; color: var(--secondary-color);">WIEDZA (<em>episteme</em>)</td>
-        </tr>
-    </tbody>
+<thead>
+<tr>
+<th></th>
+<th colspan="2" style="text-align: center; border-right: 2px solid var(--primary-color);">ŚWIAT ZMYSŁOWY (<em>horaton</em>)</th>
+<th colspan="2" style="text-align: center;">ŚWIAT INTELIGIBILNY (<em>noeton</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="font-weight: bold; color: var(--primary-color);">Ontologia (Poziom bytu)</td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Cienie, odbicia</strong><br><small>(<em>eikones</em>)</small></td>
+<td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Rzeczy fizyczne</strong><br><small>(<em>zoa, skeuasta</em>)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Przedmioty matematyczne</strong><br><small>(<em>mathematika</em>)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Idee / Formy</strong><br><small>(<em>archai / eide</em>)</small></td>
+</tr>
+<tr>
+<td style="font-weight: bold; color: var(--primary-color);">Epistemologia (Stan duszy)</td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Eikasia</strong><br><small>(domysł, obrazowanie)</small></td>
+<td style="text-align: center; font-size: 0.95em; border-right: 2px solid var(--primary-color);"><strong>Pistis</strong><br><small>(wiara, przekonanie)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Dianoia</strong><br><small>(rozum dyskursywny)</small></td>
+<td style="text-align: center; font-size: 0.95em;"><strong>Noesis</strong><br><small>(czysty wgląd intelektualny)</small></td>
+</tr>
+<tr>
+<td style="font-weight: bold; color: var(--primary-color);">Synteza poznawcza</td>
+<td colspan="2" style="text-align: center; font-weight: bold; color: var(--accent-color); border-right: 2px solid var(--primary-color);">MNIEMANIE (<em>doxa</em>)</td>
+<td colspan="2" style="text-align: center; font-weight: bold; color: var(--secondary-color);">WIEDZA (<em>episteme</em>)</td>
+</tr>
+</tbody>
 </table>
 
 <div class="divided-line-diagram-container" style="text-align: center; margin: 3em 0;">
-  <h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Platońska Linia Podzielona</h5>
-  <svg viewBox="0 0 800 240" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
-    <!-- Main line axis -->
-    <line x1="50" y1="120" x2="750" y2="120" stroke="#1A303A" stroke-width="4" stroke-linecap="round" />
-    
-    <!-- Ticks & Markers -->
-    <!-- Start -->
-    <circle cx="50" cy="120" r="6" fill="#8C2D19" />
-    <!-- Divider between Doxa and Episteme -->
-    <circle cx="362" cy="120" r="8" fill="#B58A3D" stroke="#FFF" stroke-width="2" />
-    <!-- End -->
-    <circle cx="750" cy="120" r="6" fill="#1A303A" />
-    
-    <!-- Intermediate Ticks -->
-    <circle cx="180" cy="120" r="4" fill="#8C2D19" />
-    <circle cx="550" cy="120" r="4" fill="#1A303A" />
-    
-    <!-- Brackets or Labels for Main Realms -->
-    <!-- Doxa Realm (Left) -->
-    <path d="M 55 160 L 55 170 L 357 170 L 357 160" stroke="#8C2D19" stroke-width="1.5" fill="none" />
-    <text x="206" y="190" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1.5">MNIEMANIE (DOXA - δόξα)</text>
-    <text x="206" y="208" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Świat zmysłowy i zmienny (horaton)</text>
-    
-    <!-- Episteme Realm (Right) -->
-    <path d="M 367 160 L 367 170 L 745 170 L 745 160" stroke="#1A303A" stroke-width="1.5" fill="none" />
-    <text x="556" y="190" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1.5">WIEDZA (EPISTEME - ἐπιστήμη)</text>
-    <text x="556" y="208" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Świat inteligibilny i wieczny (noeton)</text>
-    
-    <!-- Four segments details (Top side of the line) -->
-    <!-- Segment 1: Eikasia -->
-    <text x="115" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">1. EIKASIA</text>
-    <text x="115" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Domysł (Cienie)</text>
-    <line x1="115" y1="85" x2="115" y2="110" stroke="#8C2D19" stroke-width="1" stroke-dasharray="2,2" />
-    
-    <!-- Segment 2: Pistis -->
-    <text x="271" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">2. PISTIS</text>
-    <text x="271" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Wiara (Rzeczy fizyczne)</text>
-    <line x1="271" y1="85" x2="271" y2="110" stroke="#8C2D19" stroke-width="1" stroke-dasharray="2,2" />
-    
-    <!-- Segment 3: Dianoia -->
-    <text x="456" y="60" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">3. DIANOIA</text>
-    <text x="456" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Rozum (Matematyka)</text>
-    <line x1="456" y1="85" x2="456" y2="110" stroke="#B58A3D" stroke-width="1" stroke-dasharray="2,2" />
-    
-    <!-- Segment 4: Noesis -->
-    <text x="650" y="60" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">4. NOESIS</text>
-    <text x="650" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Wgląd (Formy/Idee)</text>
-    <line x1="650" y1="85" x2="650" y2="110" stroke="#1A303A" stroke-width="1" stroke-dasharray="2,2" />
-  </svg>
+<h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Platońska Linia Podzielona</h5>
+<svg viewBox="0 0 800 240" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Main line axis -->
+<line x1="50" y1="120" x2="750" y2="120" stroke="#1A303A" stroke-width="4" stroke-linecap="round" />
+<!-- Ticks & Markers -->
+<!-- Start -->
+<circle cx="50" cy="120" r="6" fill="#8C2D19" />
+<!-- Divider between Doxa and Episteme -->
+<circle cx="362" cy="120" r="8" fill="#B58A3D" stroke="#FFF" stroke-width="2" />
+<!-- End -->
+<circle cx="750" cy="120" r="6" fill="#1A303A" />
+<!-- Intermediate Ticks -->
+<circle cx="180" cy="120" r="4" fill="#8C2D19" />
+<circle cx="550" cy="120" r="4" fill="#1A303A" />
+<!-- Brackets or Labels for Main Realms -->
+<!-- Doxa Realm (Left) -->
+<path d="M 55 160 L 55 170 L 357 170 L 357 160" stroke="#8C2D19" stroke-width="1.5" fill="none" />
+<text x="206" y="190" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1.5">MNIEMANIE (DOXA - δόξα)</text>
+<text x="206" y="208" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Świat zmysłowy i zmienny (horaton)</text>
+<!-- Episteme Realm (Right) -->
+<path d="M 367 160 L 367 170 L 745 170 L 745 160" stroke="#1A303A" stroke-width="1.5" fill="none" />
+<text x="556" y="190" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1.5">WIEDZA (EPISTEME - ἐπιστήμη)</text>
+<text x="556" y="208" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Świat inteligibilny i wieczny (noeton)</text>
+<!-- Four segments details (Top side of the line) -->
+<!-- Segment 1: Eikasia -->
+<text x="115" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">1. EIKASIA</text>
+<text x="115" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Domysł (Cienie)</text>
+<line x1="115" y1="85" x2="115" y2="110" stroke="#8C2D19" stroke-width="1" stroke-dasharray="2,2" />
+<!-- Segment 2: Pistis -->
+<text x="271" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">2. PISTIS</text>
+<text x="271" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Wiara (Rzeczy fizyczne)</text>
+<line x1="271" y1="85" x2="271" y2="110" stroke="#8C2D19" stroke-width="1" stroke-dasharray="2,2" />
+<!-- Segment 3: Dianoia -->
+<text x="456" y="60" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">3. DIANOIA</text>
+<text x="456" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Rozum (Matematyka)</text>
+<line x1="456" y1="85" x2="456" y2="110" stroke="#B58A3D" stroke-width="1" stroke-dasharray="2,2" />
+<!-- Segment 4: Noesis -->
+<text x="650" y="60" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="600" font-size="12">4. NOESIS</text>
+<text x="650" y="78" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Wgląd (Formy/Idee)</text>
+<line x1="650" y1="85" x2="650" y2="110" stroke="#1A303A" stroke-width="1" stroke-dasharray="2,2" />
+</svg>
 </div>
 
 1.  **Eikasia (εἰκασία - obrazowanie, domysł)**: Najniższy stopień poznania, którego przedmiotem są cienie, odbicia na wodzie i w lustrach oraz złudzenia optyczne (*eikones*). To wiedza zapośredniczona, pozbawiona krytycyzmu. Ludzie na tym poziomie bezrefleksyjnie przyjmują obrazy rzeczy za samą rzeczywistość.
@@ -1860,54 +1833,50 @@ Wyjaśnienie naukowe (*episteme*) polega dla Arystotelesa na poznaniu przyczyn (
 4.  **Przyczyna celowa (*causa finalis*)**: Cel (*telos*), ze względu na który coś się dzieje. Jest to ostateczny kres procesu, ku któremu zmierza rozwój bytu. Dla posągu jest to cel estetyczny lub sakralny, dla domu ochrona przed chłodem, dla nasienia dojrzała roślina.
 
 <div class="four-causes-diagram-container" style="text-align: center; margin: 3em 0;">
-  <h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Model Czterech Przyczyn Arystotelesa (Causa)</h4>
-  <svg viewBox="0 0 800 320" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
-    <!-- Column representation in center -->
-    <g transform="translate(360, 40)">
-      <!-- Pediment -->
-      <polygon points="40,0 0,30 80,30" fill="#1A303A" />
-      <rect x="5" y="30" width="70" height="6" fill="#B58A3D" />
-      <!-- Pillars -->
-      <rect x="15" y="36" width="10" height="150" fill="#1A303A" />
-      <rect x="35" y="36" width="10" height="150" fill="#1A303A" />
-      <rect x="55" y="36" width="10" height="150" fill="#1A303A" />
-      <!-- Base -->
-      <rect x="5" y="186" width="70" height="8" fill="#B58A3D" />
-      <rect x="0" y="194" width="80" height="12" fill="#1A303A" />
-    </g>
-
-    <!-- Cause 1: Material -->
-    <rect x="40" y="40" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
-    <text x="55" y="65" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">1. PRZYCZYNA MATERIALNA</text>
-    <text x="55" y="85" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Materialis (Tworzywo)</text>
-    <text x="55" y="105" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Marmur, brąz lub fizyczna substancja.</text>
-    <path d="M 300,85 L 360,85" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
-    <circle cx="360" cy="85" r="4" fill="#B58A3D" />
-
-    <!-- Cause 2: Formal -->
-    <rect x="500" y="40" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
-    <text x="515" y="65" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">2. PRZYCZYNA FORMALNA</text>
-    <text x="515" y="85" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Formalis (Kształt / Istota)</text>
-    <text x="515" y="105" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Projekt, definicja, idealna struktura.</text>
-    <path d="M 500,85 L 440,85" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
-    <circle cx="440" cy="85" r="4" fill="#B58A3D" />
-
-    <!-- Cause 3: Efficient -->
-    <rect x="40" y="180" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
-    <text x="55" y="205" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">3. PRZYCZYNA SPRAWCZA</text>
-    <text x="55" y="225" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Efficiens (Źródło Ruchu)</text>
-    <text x="55" y="245" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Rzeźbiarz, budowniczy, czynnik aktywny.</text>
-    <path d="M 300,225 L 360,225" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
-    <circle cx="360" cy="225" r="4" fill="#B58A3D" />
-
-    <!-- Cause 4: Final -->
-    <rect x="500" y="180" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
-    <text x="515" y="205" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">4. PRZYCZYNA CELOWA</text>
-    <text x="515" y="225" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Finalis (Telos / Cel)</text>
-    <text x="515" y="245" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Ostateczne przeznaczenie, dobro, funkcja.</text>
-    <path d="M 500,225 L 440,225" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
-    <circle cx="440" cy="225" r="4" fill="#B58A3D" />
-  </svg>
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Model Czterech Przyczyn Arystotelesa (Causa)</h4>
+<svg viewBox="0 0 800 320" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Column representation in center -->
+<g transform="translate(360, 40)">
+<!-- Pediment -->
+<polygon points="40,0 0,30 80,30" fill="#1A303A" />
+<rect x="5" y="30" width="70" height="6" fill="#B58A3D" />
+<!-- Pillars -->
+<rect x="15" y="36" width="10" height="150" fill="#1A303A" />
+<rect x="35" y="36" width="10" height="150" fill="#1A303A" />
+<rect x="55" y="36" width="10" height="150" fill="#1A303A" />
+<!-- Base -->
+<rect x="5" y="186" width="70" height="8" fill="#B58A3D" />
+<rect x="0" y="194" width="80" height="12" fill="#1A303A" />
+</g>
+<!-- Cause 1: Material -->
+<rect x="40" y="40" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="55" y="65" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">1. PRZYCZYNA MATERIALNA</text>
+<text x="55" y="85" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Materialis (Tworzywo)</text>
+<text x="55" y="105" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Marmur, brąz lub fizyczna substancja.</text>
+<path d="M 300,85 L 360,85" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="360" cy="85" r="4" fill="#B58A3D" />
+<!-- Cause 2: Formal -->
+<rect x="500" y="40" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="515" y="65" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">2. PRZYCZYNA FORMALNA</text>
+<text x="515" y="85" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Formalis (Kształt / Istota)</text>
+<text x="515" y="105" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Projekt, definicja, idealna struktura.</text>
+<path d="M 500,85 L 440,85" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="440" cy="85" r="4" fill="#B58A3D" />
+<!-- Cause 3: Efficient -->
+<rect x="40" y="180" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="55" y="205" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">3. PRZYCZYNA SPRAWCZA</text>
+<text x="55" y="225" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Efficiens (Źródło Ruchu)</text>
+<text x="55" y="245" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Rzeźbiarz, budowniczy, czynnik aktywny.</text>
+<path d="M 300,225 L 360,225" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="360" cy="225" r="4" fill="#B58A3D" />
+<!-- Cause 4: Final -->
+<rect x="500" y="180" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="515" y="205" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">4. PRZYCZYNA CELOWA</text>
+<text x="515" y="225" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Finalis (Telos / Cel)</text>
+<text x="515" y="245" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Ostateczne przeznaczenie, dobro, funkcja.</text>
+<path d="M 500,225 L 440,225" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="440" cy="225" r="4" fill="#B58A3D" />
+</svg>
 </div>
 
 W przyrodzie (bytach naturalnych, posiadających zasadę ruchu w samych sobie) przyczyna formalna, sprawcza i celowa często zlewają się w jedno. Na przykład w przypadku rozwoju biologicznego organizmu: forma dojrzała (przyczyna formalna) jest zarazem celem rozwoju (przyczyna celowa) i jest przekazywana przez rodzica (przyczyna sprawcza), który sam jest urzeczywistnioną formą tego samego gatunku.
@@ -2038,38 +2007,33 @@ W odniesieniu do cnót etycznych Arystoteles formułuje słynną **doktrynę zł
 </table>
 
 <div class="golden-mean-diagram-container" style="text-align: center; margin: 3em 0;">
-  <h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Doktryna Złotego Środka (Mesotes)</h5>
-  <svg viewBox="0 0 800 240" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
-    <!-- The Hill (Arc) representing Virtue as the Peak of Excellence -->
-    <path d="M 100 190 Q 400 60 700 190" stroke="#EADEC9" stroke-width="3" fill="none" />
-    
-    <!-- Base line representing the spectrum -->
-    <line x1="80" y1="190" x2="720" y2="190" stroke="#1A303A" stroke-width="1.5" />
-    
-    <!-- Markers on the curve -->
-    <!-- Left: Deficiency (Niedomiar) -->
-    <circle cx="170" cy="165" r="7" fill="#8C2D19" stroke="#FFF" stroke-width="2" />
-    <!-- Center: Virtue (Złoty Środek) -->
-    <circle cx="400" cy="77" r="9" fill="#B58A3D" stroke="#FFF" stroke-width="2.5" />
-    <!-- Right: Excess (Nadmiar) -->
-    <circle cx="630" cy="165" r="7" fill="#8C2D19" stroke="#FFF" stroke-width="2" />
-    
-    <!-- Labels for markers -->
-    <!-- Left: Niedomiar -->
-    <text x="170" y="140" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11">NIEDOMIAR (elleipsis)</text>
-    <text x="170" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Wada (np. Tchórzostwo)</text>
-    <text x="170" y="232" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Brak właściwego bodźca lub strach</text>
-    
-    <!-- Center: Virtue -->
-    <text x="400" y="45" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="14" letter-spacing="1">ZŁOTY ŚRODEK (mesotes)</text>
-    <text x="400" y="110" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-size="13" font-weight="bold">CNOTA (np. Męstwo)</text>
-    <text x="400" y="128" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Szczyt doskonałości (arete) i słuszny wybór rozumu (phronesis)</text>
-    
-    <!-- Right: Nadmiar -->
-    <text x="630" y="140" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11">NADMIAR (hyperbole)</text>
-    <text x="630" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Wada (np. Zuchwalstwo)</text>
-    <text x="630" y="232" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Nadmierne, niekontrolowane działanie</text>
-  </svg>
+<h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Doktryna Złotego Środka (Mesotes)</h5>
+<svg viewBox="0 0 800 240" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- The Hill (Arc) representing Virtue as the Peak of Excellence -->
+<path d="M 100 190 Q 400 60 700 190" stroke="#EADEC9" stroke-width="3" fill="none" />
+<!-- Base line representing the spectrum -->
+<line x1="80" y1="190" x2="720" y2="190" stroke="#1A303A" stroke-width="1.5" />
+<!-- Markers on the curve -->
+<!-- Left: Deficiency (Niedomiar) -->
+<circle cx="170" cy="165" r="7" fill="#8C2D19" stroke="#FFF" stroke-width="2" />
+<!-- Center: Virtue (Złoty Środek) -->
+<circle cx="400" cy="77" r="9" fill="#B58A3D" stroke="#FFF" stroke-width="2.5" />
+<!-- Right: Excess (Nadmiar) -->
+<circle cx="630" cy="165" r="7" fill="#8C2D19" stroke="#FFF" stroke-width="2" />
+<!-- Labels for markers -->
+<!-- Left: Niedomiar -->
+<text x="170" y="140" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11">NIEDOMIAR (elleipsis)</text>
+<text x="170" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Wada (np. Tchórzostwo)</text>
+<text x="170" y="232" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Brak właściwego bodźca lub strach</text>
+<!-- Center: Virtue -->
+<text x="400" y="45" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="14" letter-spacing="1">ZŁOTY ŚRODEK (mesotes)</text>
+<text x="400" y="110" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-size="13" font-weight="bold">CNOTA (np. Męstwo)</text>
+<text x="400" y="128" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Szczyt doskonałości (arete) i słuszny wybór rozumu (phronesis)</text>
+<!-- Right: Nadmiar -->
+<text x="630" y="140" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11">NADMIAR (hyperbole)</text>
+<text x="630" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Wada (np. Zuchwalstwo)</text>
+<text x="630" y="232" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Nadmierne, niekontrolowane działanie</text>
+</svg>
 </div>
 
 Złoty środek nie ma charakteru matematycznej średniej arytmetycznej. Jest on relatywny wobec danej osoby i konkretnych okoliczności. Wyznaczenie tego środka wymaga zaangażowania *phronesis* (roztropności). To właśnie mądrość praktyczna pozwala człowiekowi moralnemu dostrzec, jak należy postąpić w określonym czasie, wobec odpowiednich osób, we właściwym celu i we właściwy sposób.
@@ -2388,57 +2352,45 @@ Atomy z natury posiadają ciężar, co sprawia, że poruszają się w pustce z n
 Rozwiązaniem tego problemu stała się koncepcja odchylenia atomów - clinamen (w łacińskim przekładzie Lukrecjusza) lub paregklisis (*paregklisis* - w greckim oryginale). Epikur założył, że atomy w nieokreślonym czasie i miejscu ulegają minimalnemu, bezprzyczynowemu i losowemu odchyleniu od pionowego toru lotu:
 
 <div class="clinamen-svg-container" style="text-align: center; margin: 2.5em 0;">
-  <svg viewBox="0 0 600 220" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
-    <!-- Left Panel: Bez clinamen -->
-    <g transform="translate(0, 0)">
-      <text x="140" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#1A303A" text-anchor="middle">RUCH ATOMÓW BEZ CLINAMEN</text>
-      <!-- Paths -->
-      <line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="80,165 76,155 84,155" fill="#1A303A" />
-      
-      <line x1="140" y1="50" x2="140" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="140,165 136,155 144,155" fill="#1A303A" />
-      
-      <line x1="200" y1="50" x2="200" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="200,165 196,155 204,155" fill="#1A303A" />
-      
-      <!-- Label under -->
-      <text x="140" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Brak kolizji - atomy spadają równolegle</text>
-    </g>
-    
-    <!-- Middle Divider -->
-    <line x1="300" y1="20" x2="300" y2="200" stroke="#EADEC9" stroke-width="1.5" stroke-dasharray="4,4" />
-    
-    <!-- Right Panel: Z clinamen -->
-    <g transform="translate(300, 0)">
-      <text x="150" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#8C2D19" text-anchor="middle">ODCHYLENIE ATOMÓW (CLINAMEN)</text>
-      
-      <!-- Atom 1 (Straight) -->
-      <line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
-      <polygon points="80,165 76,155 84,155" fill="#1A303A" />
-      
-      <!-- Atom 2 (Clinamen / Colliding) -->
-      <line x1="150" y1="50" x2="150" y2="90" stroke="#1A303A" stroke-width="2.5" />
-      <line x1="150" y1="90" x2="208" y2="138" stroke="#8C2D19" stroke-width="2.5" />
-      
-      <!-- Atom 3 (Collided with) -->
-      <line x1="210" y1="50" x2="210" y2="140" stroke="#1A303A" stroke-width="2.5" />
-      
-      <!-- Collision Spark at (210, 140) -->
-      <path d="M210,140 L203,133 L210,137 L217,133 L210,140 L213,147 L210,143 L207,147 Z" fill="#B58A3D" stroke="#B58A3D" stroke-width="1" />
-      <circle cx="210" cy="140" r="4" fill="#B58A3D" />
-      
-      <!-- Post-collision paths -->
-      <line x1="210" y1="140" x2="185" y2="175" stroke="#8C2D19" stroke-width="2" />
-      <polygon points="182,179 184,170 190,174" fill="#8C2D19" />
-      
-      <line x1="210" y1="140" x2="235" y2="175" stroke="#1A303A" stroke-width="2" />
-      <polygon points="238,179 230,174 236,170" fill="#1A303A" />
-      
-      <!-- Label under -->
-      <text x="150" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Minimalne losowe odchylenie inicjuje zderzenie</text>
-    </g>
-  </svg>
+<svg viewBox="0 0 600 220" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 15px;">
+<!-- Left Panel: Bez clinamen -->
+<g transform="translate(0, 0)">
+<text x="140" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#1A303A" text-anchor="middle">RUCH ATOMÓW BEZ CLINAMEN</text>
+<!-- Paths -->
+<line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="80,165 76,155 84,155" fill="#1A303A" />
+<line x1="140" y1="50" x2="140" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="140,165 136,155 144,155" fill="#1A303A" />
+<line x1="200" y1="50" x2="200" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="200,165 196,155 204,155" fill="#1A303A" />
+<!-- Label under -->
+<text x="140" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Brak kolizji - atomy spadają równolegle</text>
+</g>
+<!-- Middle Divider -->
+<line x1="300" y1="20" x2="300" y2="200" stroke="#EADEC9" stroke-width="1.5" stroke-dasharray="4,4" />
+<!-- Right Panel: Z clinamen -->
+<g transform="translate(300, 0)">
+<text x="150" y="30" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" fill="#8C2D19" text-anchor="middle">ODCHYLENIE ATOMÓW (CLINAMEN)</text>
+<!-- Atom 1 (Straight) -->
+<line x1="80" y1="50" x2="80" y2="160" stroke="#1A303A" stroke-width="2.5" />
+<polygon points="80,165 76,155 84,155" fill="#1A303A" />
+<!-- Atom 2 (Clinamen / Colliding) -->
+<line x1="150" y1="50" x2="150" y2="90" stroke="#1A303A" stroke-width="2.5" />
+<line x1="150" y1="90" x2="208" y2="138" stroke="#8C2D19" stroke-width="2.5" />
+<!-- Atom 3 (Collided with) -->
+<line x1="210" y1="50" x2="210" y2="140" stroke="#1A303A" stroke-width="2.5" />
+<!-- Collision Spark at (210, 140) -->
+<path d="M210,140 L203,133 L210,137 L217,133 L210,140 L213,147 L210,143 L207,147 Z" fill="#B58A3D" stroke="#B58A3D" stroke-width="1" />
+<circle cx="210" cy="140" r="4" fill="#B58A3D" />
+<!-- Post-collision paths -->
+<line x1="210" y1="140" x2="185" y2="175" stroke="#8C2D19" stroke-width="2" />
+<polygon points="182,179 184,170 190,174" fill="#8C2D19" />
+<line x1="210" y1="140" x2="235" y2="175" stroke="#1A303A" stroke-width="2" />
+<polygon points="238,179 230,174 236,170" fill="#1A303A" />
+<!-- Label under -->
+<text x="150" y="195" font-family="'Montserrat', sans-serif" font-size="11" font-style="italic" fill="#666" text-anchor="middle">Minimalne losowe odchylenie inicjuje zderzenie</text>
+</g>
+</svg>
 </div>
 
 To przypadkowe odchylenie ma fundamentalne znaczenie dwuwymiarowe:
@@ -2567,20 +2519,20 @@ Arkezylas skierował ostrze krytyki przeciwko stoickiej teorii wrażenia katalep
 Najwybitniejszy przedstawiciel Akademii, Karneades z Cyreny, wsławił się w Rzymie w 155 r. p.n.e., wygłaszając jednego dnia mowę chwalącą sprawiedliwość, a drugiego dnia mowę wykazującą, że sprawiedliwość jest jedynie słabością zamaskowaną prawem, co przeraziło rzymskich senatorów (w tym Katona Starszego). Karneades rozwinął probabilizm filozoficzny. Skoro nie ma absolutnego kryterium prawdy, musimy w życiu codziennym posługiwać się pojęciem prawdopodobieństwa lub wiarygodności - pithanon (*pithanon*). Wrażenia dzielą się według stopni wiarygodności:
 
 <div class="flow-container sceptic-flow-container">
-    <div class="flow-step">
-        <div class="flow-step-title">1. Pithanē phantasia</div>
-        <div class="flow-step-desc"><strong>Wrażenie tylko wiarygodne</strong><br>Na pierwszy rzut oka wydaje się prawdziwe i nie wykazuje cech fałszu.</div>
-    </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-        <div class="flow-step-title">2. Adiaphandos</div>
-        <div class="flow-step-desc"><strong>Wrażenie niezaprzeczone</strong><br>Spójne i niesprzeczne z innymi towarzyszącymi wrażeniami zmysłowymi.</div>
-    </div>
-    <div class="flow-arrow">→</div>
-    <div class="flow-step">
-        <div class="flow-step-title">3. Periododeumenē</div>
-        <div class="flow-step-desc"><strong>Wrażenie zbadane</strong><br>Wszystkie jego okoliczności (np. zmysły, odległość, światło) zostały zweryfikowane.</div>
-    </div>
+<div class="flow-step">
+<div class="flow-step-title">1\. Pithanē phantasia</div>
+<div class="flow-step-desc"><strong>Wrażenie tylko wiarygodne</strong><br>Na pierwszy rzut oka wydaje się prawdziwe i nie wykazuje cech fałszu.</div>
+</div>
+<div class="flow-arrow">→</div>
+<div class="flow-step">
+<div class="flow-step-title">2\. Adiaphandos</div>
+<div class="flow-step-desc"><strong>Wrażenie niezaprzeczone</strong><br>Spójne i niesprzeczne z innymi towarzyszącymi wrażeniami zmysłowymi.</div>
+</div>
+<div class="flow-arrow">→</div>
+<div class="flow-step">
+<div class="flow-step-title">3\. Periododeumenē</div>
+<div class="flow-step-desc"><strong>Wrażenie zbadane</strong><br>Wszystkie jego okoliczności (np. zmysły, odległość, światło) zostały zweryfikowane.</div>
+</div>
 </div>
 
 1. **Wrażenie tylko wiarygodne (*pithanē phantasia*):** Wrażenie, które na pierwszy wygląd wydaje się prawdziwe i nie wykazuje cech fałszu.
@@ -3088,65 +3040,59 @@ Co w tłumaczeniu na język polski brzmi następująco:
 Średniowiecze podjęło to wyzwanie z całą mocą dialektyczną, dzieląc się na kilka zasadniczych obozów.
 
 <div class="universals-diagram-container" style="text-align: center; margin: 3em 0;">
-  <h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Spór o Uniwersalia: Trzy Stanowiska Klasyczne</h4>
-  <svg viewBox="0 0 800 280" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
-    <!-- Outer Border -->
-    <rect x="5" y="5" width="790" height="270" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
-    
-    <!-- Position 1: Extreme Realism -->
-    <rect x="25" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
-    <text x="140" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">SKRAJNY REALIZM</text>
-    <text x="140" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia ante res</text>
-    <line x1="45" y1="90" x2="235" y2="90" stroke="#EADEC9" stroke-width="1" />
-    
-    <!-- Concept illustration: Idea floating above concrete objects -->
-    <!-- Idea -->
-    <circle cx="140" cy="125" r="18" fill="#1A303A" opacity="0.8" />
-    <text x="140" y="129" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="10">IDEA</text>
-    <!-- Arrow down -->
-    <path d="M 140 148 L 140 168" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="2,2" fill="none" />
-    <!-- Physical Objects -->
-    <rect x="100" y="175" width="30" height="30" rx="3" fill="#B58A3D" opacity="0.6" />
-    <rect x="150" y="175" width="30" height="30" rx="3" fill="#B58A3D" opacity="0.6" />
-    <text x="140" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Idee istnieją niezależnie przed rzeczami fizycznymi.</text>
-
-    <!-- Position 2: Moderate Realism -->
-    <rect x="285" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
-    <text x="400" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">UMIARKOWANY REALIZM</text>
-    <text x="400" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia in rebus</text>
-    <line x1="305" y1="90" x2="495" y2="90" stroke="#EADEC9" stroke-width="1" />
-    
-    <!-- Concept illustration: Idea inside the physical objects -->
-    <g transform="translate(350, 115)">
-      <!-- Object 1 -->
-      <rect x="0" y="20" width="45" height="45" rx="4" fill="#B58A3D" opacity="0.7" />
-      <circle cx="22" cy="42" r="12" fill="#1A303A" opacity="0.9" />
-      <text x="22" y="46" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">FORMA</text>
-      <!-- Object 2 -->
-      <rect x="55" y="20" width="45" height="45" rx="4" fill="#B58A3D" opacity="0.7" />
-      <circle cx="77" cy="42" r="12" fill="#1A303A" opacity="0.9" />
-      <text x="77" y="46" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">FORMA</text>
-    </g>
-    <text x="400" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Powszechniki istnieją w rzeczach jako ich istota/forma.</text>
-
-    <!-- Position 3: Nominalism -->
-    <rect x="545" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
-    <text x="660" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">NOMINALIZM</text>
-    <text x="660" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia post res</text>
-    <line x1="565" y1="90" x2="755" y2="90" stroke="#EADEC9" stroke-width="1" />
-    
-    <!-- Concept illustration: Mind categorizing separate objects -->
-    <!-- Separate objects -->
-    <rect x="585" y="145" width="25" height="25" rx="3" fill="#B58A3D" opacity="0.5" />
-    <circle cx="640" cy="157" r="12" fill="#B58A3D" opacity="0.5" />
-    <!-- Arrow pointing to Mind/Concept -->
-    <path d="M 640 135 L 660 115" stroke="#8C2D19" stroke-width="1.2" fill="none" />
-    <path d="M 597 135 L 640 115" stroke="#8C2D19" stroke-width="1.2" fill="none" />
-    <!-- Concept label -->
-    <rect x="635" y="95" width="75" height="20" rx="3" fill="#1A303A" />
-    <text x="672" y="109" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">"NAZWA"</text>
-    <text x="660" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Istnieją tylko konkretne jednostki. Powszechniki to skróty myślowe.</text>
-  </svg>
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Spór o Uniwersalia: Trzy Stanowiska Klasyczne</h4>
+<svg viewBox="0 0 800 280" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Outer Border -->
+<rect x="5" y="5" width="790" height="270" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
+<!-- Position 1: Extreme Realism -->
+<rect x="25" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="140" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">SKRAJNY REALIZM</text>
+<text x="140" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia ante res</text>
+<line x1="45" y1="90" x2="235" y2="90" stroke="#EADEC9" stroke-width="1" />
+<!-- Concept illustration: Idea floating above concrete objects -->
+<!-- Idea -->
+<circle cx="140" cy="125" r="18" fill="#1A303A" opacity="0.8" />
+<text x="140" y="129" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="10">IDEA</text>
+<!-- Arrow down -->
+<path d="M 140 148 L 140 168" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="2,2" fill="none" />
+<!-- Physical Objects -->
+<rect x="100" y="175" width="30" height="30" rx="3" fill="#B58A3D" opacity="0.6" />
+<rect x="150" y="175" width="30" height="30" rx="3" fill="#B58A3D" opacity="0.6" />
+<text x="140" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Idee istnieją niezależnie przed rzeczami fizycznymi.</text>
+<!-- Position 2: Moderate Realism -->
+<rect x="285" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="400" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">UMIARKOWANY REALIZM</text>
+<text x="400" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia in rebus</text>
+<line x1="305" y1="90" x2="495" y2="90" stroke="#EADEC9" stroke-width="1" />
+<!-- Concept illustration: Idea inside the physical objects -->
+<g transform="translate(350, 115)">
+<!-- Object 1 -->
+<rect x="0" y="20" width="45" height="45" rx="4" fill="#B58A3D" opacity="0.7" />
+<circle cx="22" cy="42" r="12" fill="#1A303A" opacity="0.9" />
+<text x="22" y="46" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">FORMA</text>
+<!-- Object 2 -->
+<rect x="55" y="20" width="45" height="45" rx="4" fill="#B58A3D" opacity="0.7" />
+<circle cx="77" cy="42" r="12" fill="#1A303A" opacity="0.9" />
+<text x="77" y="46" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">FORMA</text>
+</g>
+<text x="400" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Powszechniki istnieją w rzeczach jako ich istota/forma.</text>
+<!-- Position 3: Nominalism -->
+<rect x="545" y="30" width="230" height="220" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="660" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">NOMINALIZM</text>
+<text x="660" y="78" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Universalia post res</text>
+<line x1="565" y1="90" x2="755" y2="90" stroke="#EADEC9" stroke-width="1" />
+<!-- Concept illustration: Mind categorizing separate objects -->
+<!-- Separate objects -->
+<rect x="585" y="145" width="25" height="25" rx="3" fill="#B58A3D" opacity="0.5" />
+<circle cx="640" cy="157" r="12" fill="#B58A3D" opacity="0.5" />
+<!-- Arrow pointing to Mind/Concept -->
+<path d="M 640 135 L 660 115" stroke="#8C2D19" stroke-width="1.2" fill="none" />
+<path d="M 597 135 L 640 115" stroke="#8C2D19" stroke-width="1.2" fill="none" />
+<!-- Concept label -->
+<rect x="635" y="95" width="75" height="20" rx="3" fill="#1A303A" />
+<text x="672" y="109" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-size="9" font-weight="bold">"NAZWA"</text>
+<text x="660" y="225" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Istnieją tylko konkretne jednostki. Powszechniki to skróty myślowe.</text>
+</svg>
 </div>
 
 ### Skrajny realizm pojęciowy

@@ -8,6 +8,47 @@ W sferze epistemologicznej greckie rozróżnienie między nietrwałą opinią (*
 
 Równie głęboko greckie dziedzictwo odcisnęło się na strukturze normatywnej Zachodu. Pojęcia *arete* (cnoty pojętej jako doskonałość funkcjonalna) oraz *eudaimonia* (szczęścia będącego owocem doskonałego urzeczywistnienia ludzkiej natury) zdefiniowały klasyczną etykę. Debata nad relacją między prawem natury (*physis*) a stanowionym przez ludzi prawem i obyczajem (*nomos*), zapoczątkowana przez Sofistów i rozwinięta przez wielkie systemy klasyczne, położyło podwaliny pod zachodnią filozofię prawa, teorię umowy społecznej oraz doktrynę praw człowieka. Wymiar polityczny greckiego ducha, zogniskowany wokół fenomenu *polis*, stanowił z kolei unikalne laboratorium ustrojowe. Refleksja nad *dikaiosyne* (sprawiedliwością) jako harmonią duszy i państwa, a także analizy demokracji, oligarchii i tyranii dokonane przez Platona i Arystotelesa, dostarczyły pojęć i modeli ustrojowych, do których ojcowie nowożytnego konstytucjonalizmu i teorii politycznej nieustannie się odwoływali, czerpiąc z nich zarówno inspiracje, jak i przestrogi.
 
+<div class="conceptual-stack-container" style="text-align: center; margin: 3em 0;">
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Model Koncepcyjny: Grecki System Operacyjny Zachodu</h4>
+<svg viewBox="0 0 800 450" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Definitions -->
+<defs>
+<linearGradient id="layer3-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#2D5A6E" />
+<stop offset="100%" stop-color="#1A303A" />
+</linearGradient>
+<linearGradient id="layer2-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#D8B26E" />
+<stop offset="100%" stop-color="#B58A3D" />
+</linearGradient>
+<linearGradient id="layer1-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#B2432C" />
+<stop offset="100%" stop-color="#8C2D19" />
+</linearGradient>
+</defs>
+<!-- Outer Border -->
+<rect x="5" y="5" width="790" height="440" rx="6" fill="none" stroke="#EADEC9" stroke-width="1.5" />
+<!-- Layer 3: Western Civilization -->
+<rect x="50" y="30" width="700" height="90" rx="8" fill="url(#layer3-grad)" stroke="#1A303A" stroke-width="1" />
+<text x="400" y="65" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="16" letter-spacing="1">POZIOM APLIKACYJNY: CYWILIZACJA ZACHODNIA</text>
+<text x="400" y="90" text-anchor="middle" fill="#E2E8F0" font-family="Montserrat, sans-serif" font-size="12">Metoda Naukowa • Państwo Prawa • Demokracja • Powszechne Prawa • Humanizm Sekularny & Chrześcijański</text>
+<!-- Connector Arrow 1 -->
+<path d="M400,120 L400,150" stroke="#B58A3D" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+<!-- Layer 2: Cognitive & Normative Matrix -->
+<rect x="100" y="160" width="600" height="90" rx="8" fill="url(#layer2-grad)" stroke="#B58A3D" stroke-width="1" />
+<text x="400" y="195" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="15" letter-spacing="1">POZIOM APARATURY KOŃCOWEJ: MATRYCA NORMATYWNA</text>
+<text x="400" y="220" text-anchor="middle" fill="#FDFBF7" font-family="Montserrat, sans-serif" font-size="12">EPISTEME vs DOXA (Wiedza a Opinia) • PHYSIS vs NOMOS (Natura a Prawo) • ARETE & EUDAIMONIA (Cnota i Szczęście)</text>
+<!-- Connector Arrow 2 -->
+<path d="M400,250 L400,280" stroke="#8C2D19" stroke-width="2" fill="none" />
+<!-- Layer 1: Core Metaphysics -->
+<rect x="150" y="290" width="500" height="90" rx="8" fill="url(#layer1-grad)" stroke="#8C2D19" stroke-width="1" />
+<text x="400" y="325" text-anchor="middle" fill="#FFF" font-family="Montserrat, sans-serif" font-weight="bold" font-size="15" letter-spacing="1">JĄDRO SYSTEMOWE (KERNEL): LOGICZNO-METAFIZYCZNE</text>
+<text x="400" y="350" text-anchor="middle" fill="#FDFBF7" font-family="Montserrat, sans-serif" font-size="12">LOGOS (Rozum/Kosmiczny Porządek) • ARCHE (Zasada) • EIDOS (Forma) • HYLE-MORPHE (Hylemorfizm)</text>
+<!-- Foundations Caption -->
+<text x="400" y="415" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="15">"Logos grecki stanowi fundament strukturalny, na którym wznosi się cała architektura zachodniego myślenia."</text>
+</svg>
+</div>
+
 ---
 
 ## I. Stan badań nad recepcją i interpretacją myśli starożytnej

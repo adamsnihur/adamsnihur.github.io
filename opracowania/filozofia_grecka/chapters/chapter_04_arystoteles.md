@@ -48,6 +48,53 @@ Wyjaśnienie naukowe (*episteme*) polega dla Arystotelesa na poznaniu przyczyn (
 3.  **Przyczyna sprawcza (*causa efficiens*)**: Źródło ruchu, zmiany lub spoczynku. Jest to czynnik czynny, który inicjuje proces stawania się. Dla posągu jest to rzeźbiarz operujący dłutem, dla domu budowniczy, dla dziecka ojciec, dla procesu zdrowienia lekarz stosujący lekarstwo.
 4.  **Przyczyna celowa (*causa finalis*)**: Cel (*telos*), ze względu na który coś się dzieje. Jest to ostateczny kres procesu, ku któremu zmierza rozwój bytu. Dla posągu jest to cel estetyczny lub sakralny, dla domu ochrona przed chłodem, dla nasienia dojrzała roślina.
 
+<div class="four-causes-diagram-container" style="text-align: center; margin: 3em 0;">
+<h4 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Model Czterech Przyczyn Arystotelesa (Causa)</h4>
+<svg viewBox="0 0 800 320" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- Column representation in center -->
+<g transform="translate(360, 40)">
+<!-- Pediment -->
+<polygon points="40,0 0,30 80,30" fill="#1A303A" />
+<rect x="5" y="30" width="70" height="6" fill="#B58A3D" />
+<!-- Pillars -->
+<rect x="15" y="36" width="10" height="150" fill="#1A303A" />
+<rect x="35" y="36" width="10" height="150" fill="#1A303A" />
+<rect x="55" y="36" width="10" height="150" fill="#1A303A" />
+<!-- Base -->
+<rect x="5" y="186" width="70" height="8" fill="#B58A3D" />
+<rect x="0" y="194" width="80" height="12" fill="#1A303A" />
+</g>
+<!-- Cause 1: Material -->
+<rect x="40" y="40" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="55" y="65" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">1. PRZYCZYNA MATERIALNA</text>
+<text x="55" y="85" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Materialis (Tworzywo)</text>
+<text x="55" y="105" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Marmur, brąz lub fizyczna substancja.</text>
+<path d="M 300,85 L 360,85" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="360" cy="85" r="4" fill="#B58A3D" />
+<!-- Cause 2: Formal -->
+<rect x="500" y="40" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="515" y="65" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">2. PRZYCZYNA FORMALNA</text>
+<text x="515" y="85" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Formalis (Kształt / Istota)</text>
+<text x="515" y="105" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Projekt, definicja, idealna struktura.</text>
+<path d="M 500,85 L 440,85" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="440" cy="85" r="4" fill="#B58A3D" />
+<!-- Cause 3: Efficient -->
+<rect x="40" y="180" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="55" y="205" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">3. PRZYCZYNA SPRAWCZA</text>
+<text x="55" y="225" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Efficiens (Źródło Ruchu)</text>
+<text x="55" y="245" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Rzeźbiarz, budowniczy, czynnik aktywny.</text>
+<path d="M 300,225 L 360,225" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="360" cy="225" r="4" fill="#B58A3D" />
+<!-- Cause 4: Final -->
+<rect x="500" y="180" width="260" height="90" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+<text x="515" y="205" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">4. PRZYCZYNA CELOWA</text>
+<text x="515" y="225" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Causa Finalis (Telos / Cel)</text>
+<text x="515" y="245" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Ostateczne przeznaczenie, dobro, funkcja.</text>
+<path d="M 500,225 L 440,225" stroke="#B58A3D" stroke-width="1.5" stroke-dasharray="4,4" fill="none" />
+<circle cx="440" cy="225" r="4" fill="#B58A3D" />
+</svg>
+</div>
+
 W przyrodzie (bytach naturalnych, posiadających zasadę ruchu w samych sobie) przyczyna formalna, sprawcza i celowa często zlewają się w jedno. Na przykład w przypadku rozwoju biologicznego organizmu: forma dojrzała (przyczyna formalna) jest zarazem celem rozwoju (przyczyna celowa) i jest przekazywana przez rodzica (przyczyna sprawcza), który sam jest urzeczywistnioną formą tego samego gatunku.
 
 Arystotelesowska wizja kosmosu ma charakter głęboko **teleologiczny** (celowościowy). Stagirita stoi na stanowisku, że "natura nie czyni niczego próżno" (*ho theos kai he physis ouden maten poiousin*). Każdy proces naturalny jest zorientowany na osiągnięcie określonego kresu. Teleologia ta jest szczególnie widoczna w jego pionierskich badaniach biologicznych (zawartych m.in. w *O częściach zwierząt* czy *O rodzeniu się zwierząt*). Struktura narządów zwierzęcych jest wyjaśniana przez ich funkcję (cel) - np. ptaki mają skrzydła, aby latać, kaczki błony między palcami, by pływać, a struktura oka jest zorganizowana tak, aby umożliwić widzenie. Rozwój embriologiczny jest sterowany przez wewnętrzny program celowy, dążący do urzeczywistnienia formy gatunkowej.
@@ -174,6 +221,36 @@ W odniesieniu do cnót etycznych Arystoteles formułuje słynną **doktrynę zł
 </tr>
 </tbody>
 </table>
+
+<div class="golden-mean-diagram-container" style="text-align: center; margin: 3em 0;">
+<h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Doktryna Złotego Środka (Mesotes)</h5>
+<svg viewBox="0 0 800 240" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+<!-- The Hill (Arc) representing Virtue as the Peak of Excellence -->
+<path d="M 100 190 Q 400 60 700 190" stroke="#EADEC9" stroke-width="3" fill="none" />
+<!-- Base line representing the spectrum -->
+<line x1="80" y1="190" x2="720" y2="190" stroke="#1A303A" stroke-width="1.5" />
+<!-- Markers on the curve -->
+<!-- Left: Deficiency (Niedomiar) -->
+<circle cx="170" cy="165" r="7" fill="#8C2D19" stroke="#FFF" stroke-width="2" />
+<!-- Center: Virtue (Złoty Środek) -->
+<circle cx="400" cy="77" r="9" fill="#B58A3D" stroke="#FFF" stroke-width="2.5" />
+<!-- Right: Excess (Nadmiar) -->
+<circle cx="630" cy="165" r="7" fill="#8C2D19" stroke="#FFF" stroke-width="2" />
+<!-- Labels for markers -->
+<!-- Left: Niedomiar -->
+<text x="170" y="140" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11">NIEDOMIAR (elleipsis)</text>
+<text x="170" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Wada (np. Tchórzostwo)</text>
+<text x="170" y="232" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Brak właściwego bodźca lub strach</text>
+<!-- Center: Virtue -->
+<text x="400" y="45" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="14" letter-spacing="1">ZŁOTY ŚRODEK (mesotes)</text>
+<text x="400" y="110" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-size="13" font-weight="bold">CNOTA (np. Męstwo)</text>
+<text x="400" y="128" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="13">Szczyt doskonałości (arete) i słuszny wybór rozumu (phronesis)</text>
+<!-- Right: Nadmiar -->
+<text x="630" y="140" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11">NADMIAR (hyperbole)</text>
+<text x="630" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-size="11" font-weight="600">Wada (np. Zuchwalstwo)</text>
+<text x="630" y="232" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Nadmierne, niekontrolowane działanie</text>
+</svg>
+</div>
 
 Złoty środek nie ma charakteru matematycznej średniej arytmetycznej. Jest on relatywny wobec danej osoby i konkretnych okoliczności. Wyznaczenie tego środka wymaga zaangażowania *phronesis* (roztropności). To właśnie mądrość praktyczna pozwala człowiekowi moralnemu dostrzec, jak należy postąpić w określonym czasie, wobec odpowiednich osób, we właściwym celu i we właściwy sposób.
 
