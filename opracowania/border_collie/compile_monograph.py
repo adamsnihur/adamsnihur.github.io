@@ -8,9 +8,9 @@ import re
 BASE_DIR = "/Users/adamsnihur/Desktop/AG projects/opracowania/border_collie"
 CHAPTERS_DIR = os.path.join(BASE_DIR, "chapters")
 CSS_FILE = os.path.join(BASE_DIR, "academic_monograph_style.css")
-OUTPUT_MD = os.path.join(BASE_DIR, "Historia_powstania_rasy_Border_Collie.md")
-OUTPUT_HTML = os.path.join(BASE_DIR, "Historia_powstania_rasy_Border_Collie.html")
-OUTPUT_PDF = os.path.join(BASE_DIR, "Historia_powstania_rasy_Border_Collie.pdf")
+OUTPUT_MD = os.path.join(BASE_DIR, "Wszystko_co_powinienes_wiedziec_o_Border_Collie.md")
+OUTPUT_HTML = os.path.join(BASE_DIR, "Wszystko_co_powinienes_wiedziec_o_Border_Collie.html")
+OUTPUT_PDF = os.path.join(BASE_DIR, "Wszystko_co_powinienes_wiedziec_o_Border_Collie.pdf")
 
 # Chrome path candidates on macOS
 CHROME_PATH_OPTIONS = [
@@ -35,8 +35,8 @@ def check_pandoc():
 def generate_title_page():
     html = f"""<div class="title-page">
 <div class="title-header">
-<h1>Historia powstania rasy Border Collie</h1>
-<div class="subtitle">Studium historyczno-genetyczne nad ewolucją kynologii użytkowej</div>
+<h1>Wszystko co powinieneś wiedzieć o Border Collie</h1>
+<div class="subtitle">Kompleksowe opracowanie historyczno-genetyczne oraz profesjonalny podręcznik pracy z rasą</div>
 </div>
 <div class="illustration-container" style="max-width: 320px; margin: 20px auto;">
 <img src="images/cover.png" alt="The Working Collie" style="width: 100%; height: auto; border: 2px solid #475569; border-radius: 6px; box-shadow: 0 6px 15px rgba(0,0,0,0.1);">
@@ -221,7 +221,7 @@ def compile_monograph():
         OUTPUT_MD,
         "-o", OUTPUT_HTML,
         "--standalone",
-        "--metadata", "title=Historia powstania rasy Border Collie"
+        "--metadata", "title=Wszystko co powinieneś wiedzieć o Border Collie"
     ]
     
     try:

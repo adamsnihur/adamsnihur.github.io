@@ -8,8 +8,16 @@
 
 * Jeong, C., et al. (2025). Genomic evidence for behavioral adaptation of herding dogs. *Science Advances*, 11, eadp4591. DOI: [10.1126/sciadv.adp4591](https://doi.org/10.1126/sciadv.adp4591).
 
+* McDevitt, L. (2007). *Control Unleashed: Creating a Focused and Confident Dog*. Clean Run Productions. ISBN: 978-1892694171.
+
 * Morrill, K., et al. (2022). Ancestry-inclusive dog genomics challenges popular breed stereotypes. *Science*, 376(6592), eabk0639. DOI: [10.1126/science.abk0639](https://doi.org/10.1126/science.abk0639).
+
+* Overall, K. L. (2013). *Manual of Clinical Behavioral Medicine for Dogs and Cats*. St. Louis: Elsevier Health Sciences. ISBN: 978-0323063890.
 
 * Pilley, J. W., & Reid, A. K. (2011). Border collie comprehends object names as verbal referents. *Behavioural Processes*, 86(2), 184–195. DOI: [10.1016/j.beproc.2010.11.007](https://doi.org/10.1016/j.beproc.2010.11.007).
 
 * Reid, J. (1915). *The Border Collie: Stud Book Registry*. Cardiff: International Sheep Dog Society.
+
+* Wallis, L. J., Szabó, D., Erdélyi-Belle, B., & Kubinyi, E. (2014). Lifespan development of attentiveness in domestic dogs. *Frontiers in Psychology*, 5, 71. DOI: [10.3389/fpsyg.2014.00071](https://doi.org/10.3389/fpsyg.2014.00071).
+
+* Wallis, L. J., Szabó, D., & Kubinyi, E. (2016). Aging of attentiveness in Border Collies and other pet dog breeds: the protective benefits of lifelong training. *Frontiers in Aging Neuroscience*, 8, 86. DOI: [10.3389/fnagi.2016.00086](https://doi.org/10.3389/fnagi.2016.00086).
