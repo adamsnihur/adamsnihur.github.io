@@ -151,16 +151,16 @@ def compile_monograph():
             first_line = f.readline().strip()
             match = re.match(r'^#\s+(?:\d+\.\s+)?(.+)$', first_line)
             if match:
-                title = match.group(1)
+                title = match.group(1).replace('–', '-').replace('—', '-')
             else:
-                title = file.replace(".md", "").replace("chapter_", "").replace("_", " ").title()
+                title = file.replace(".md", "").replace("chapter_", "").replace("_", " ").title().replace('–', '-').replace('—', '-')
             chapters_metadata.append((title, file))
 
     # Generate Master Markdown
     print(f"Tworzenie pliku master Markdown: {OUTPUT_MD}")
     with open(OUTPUT_MD, 'w', encoding='utf-8') as master:
         # Title page
-        master.write(generate_title_page())
+        master.write(generate_title_page().replace('–', '-').replace('—', '-'))
         master.write("\n\n")
         master.write('<div style="page-break-after: always;"></div>\n\n')
         
@@ -175,6 +175,9 @@ def compile_monograph():
             print(f"Scalanie: {file}...")
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
+                
+                # Replace en-dash and em-dash with standard hyphen
+                content = content.replace('–', '-').replace('—', '-')
                 
                 # Check for agent footers and strip them
                 content = re.sub(r'🎯\s*Aktywne\s*Skille:.*$', '', content, flags=re.MULTILINE)
