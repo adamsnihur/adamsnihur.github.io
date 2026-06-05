@@ -185,6 +185,11 @@ Melancholia, rządzona przez Saturna (najwyższą i najzimniejszą z planet), od
 
 Najbardziej błyskotliwym, a zarazem tragicznie zmarłym przedstawicielem florenckiego kręgu humanistycznego był Giovanni Pico della Mirandola (1463-1494). Obdarzony fenomenalną pamięcią i niezwykłym talentem językowym (oprócz łaciny i greki studiował hebrajski, aramejski i arabski), Pico reprezentował najbardziej radykalną i wszechstronną próbę renesansowej syntezy filozoficznej.
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/pico_presentation.png" alt="Giovanni Pico della Mirandola" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Giovanni Pico della Mirandola wygłaszający mowę o godności człowieka w renesansowym pałacu - barwna rycina w stylu klasycznym</p>
+</div>
+
 ### Analiza *Oratio de hominis dignitate*
 
 Napisana w 1486 roku *Oratio de hominis dignitate* (*Mowa o godności człowieka*), pierwotnie mająca służyć jako słowo wstępne do publicznej dysputy nad jego 900 tezami w Rzymie, stała się bezdyskusyjnym manifestem renesansowego humanizmu. W tekście tym Pico dokonuje rewolucyjnego zwrotu w antropologii filozoficznej, odrzucając średniowieczny model człowieka jako istoty zdeterminowanej przez grzech pierworodny i uwięzionej na stałym, niskim szczeblu kosmicznej drabiny.

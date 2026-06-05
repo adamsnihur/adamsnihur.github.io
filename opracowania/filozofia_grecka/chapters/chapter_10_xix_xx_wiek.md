@@ -59,6 +59,11 @@ Hegel z zachwytem analizuje arystotelesowskie pojęcia *dynamis* (δύναμις
 
 ### 3. Fryderyk Nietzsche i dekonstrukcja racjonalizmu
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/nietzsche_alps.png" alt="Fryderyk Nietzsche w Alpach" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Fryderyk Nietzsche wędrujący samotnie w Alpach Szwajcarskich (Sils Maria) - barwna rycina w stylu klasycznym</p>
+</div>
+
 #### Dychotomia apolińskości (*apollonios*) i dionizyjskości (*dionysiakos*) w *Narodzinach tragedii*
 
 Wkraczając w drugą połowę XIX wieku, tradycyjna, heglowska i klasycystyczna wizja Grecji jako oazy harmonii i rozumu została poddana gwałturnemu i bezkompromisowemu atakowi ze strony Fryderyka Nietzschego. W swoim debiutanckim dziele *Narodziny tragedii z ducha muzyki* (*Die Geburt der Tragödie aus dem Geiste der Musik*) Nietzsche dokonał radykalnej reorientacji w badaniach nad antykiem, wprowadzając słynne rozróżnienie na dwa kosmiczne i artystyczne popędy: apolińskość (*apollonios*) oraz dionizyjskości (*dionysiakos*).

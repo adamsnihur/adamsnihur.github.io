@@ -235,6 +235,11 @@ Poniższa tabela przedstawia porównanie głównych stanowisk w sporze o uniwers
 
 Święty Tomasz z Akwinu (1225-1274), dominikanin, uczeń Alberta Wielkiego, stworzył system filozoficzno-teologiczny, który stał się szczytowym osiągnięciem scholastyki. Dokonał on genialnej syntezy chrześcijaństwa z arystotelizmem, przezwyciężając zarówno konserwatywny augustynizm, jak i radykalny awerroizm łaciński.
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/aquinas_scriptorium.png" alt="Św. Tomasz z Akwinu" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Św. Tomasz z Akwinu pracujący w skryptorium nad syntezą teologii chrześcijańskiej i filozofii arystotelesowskiej - barwna rycina w stylu klasycznym</p>
+</div>
+
 ### Metafizyka: realna różnica między istotą a istnieniem
 
 U podstaw metafizyki tomistycznej leży rewolucyjne rozwinięcie arystotelesowskiego hilemorfizmu i teorii aktu i możności. Dla Arystotelesa najwyższym aktem bytu była forma. Tomasz natomiast wprowadza nową, głębszą kategorię ontologiczną: akt istnienia (*actus essendi* / *esse*). Byt jednostkowy nie jest jedynie kompozycją materii i formy, lecz przede wszystkim kompozycją istoty (*essentia*) i istnienia (*esse* / *existentia*).

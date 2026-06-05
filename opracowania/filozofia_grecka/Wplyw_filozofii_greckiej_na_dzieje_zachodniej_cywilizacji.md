@@ -3238,6 +3238,11 @@ Poniższa tabela przedstawia porównanie głównych stanowisk w sporze o uniwers
 
 Święty Tomasz z Akwinu (1225-1274), dominikanin, uczeń Alberta Wielkiego, stworzył system filozoficzno-teologiczny, który stał się szczytowym osiągnięciem scholastyki. Dokonał on genialnej syntezy chrześcijaństwa z arystotelizmem, przezwyciężając zarówno konserwatywny augustynizm, jak i radykalny awerroizm łaciński.
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/aquinas_scriptorium.png" alt="Św. Tomasz z Akwinu" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Św. Tomasz z Akwinu pracujący w skryptorium nad syntezą teologii chrześcijańskiej i filozofii arystotelesowskiej - barwna rycina w stylu klasycznym</p>
+</div>
+
 ### Metafizyka: realna różnica między istotą a istnieniem
 
 U podstaw metafizyki tomistycznej leży rewolucyjne rozwinięcie arystotelesowskiego hilemorfizmu i teorii aktu i możności. Dla Arystotelesa najwyższym aktem bytu była forma. Tomasz natomiast wprowadza nową, głębszą kategorię ontologiczną: akt istnienia (*actus essendi* / *esse*). Byt jednostkowy nie jest jedynie kompozycją materii i formy, lecz przede wszystkim kompozycją istoty (*essentia*) i istnienia (*esse* / *existentia*).
@@ -3538,6 +3543,11 @@ Melancholia, rządzona przez Saturna (najwyższą i najzimniejszą z planet), od
 ## 5. Giovanni Pico della Mirandola i renesansowy synkretyzm
 
 Najbardziej błyskotliwym, a zarazem tragicznie zmarłym przedstawicielem florenckiego kręgu humanistycznego był Giovanni Pico della Mirandola (1463-1494). Obdarzony fenomenalną pamięcią i niezwykłym talentem językowym (oprócz łaciny i greki studiował hebrajski, aramejski i arabski), Pico reprezentował najbardziej radykalną i wszechstronną próbę renesansowej syntezy filozoficznej.
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/pico_presentation.png" alt="Giovanni Pico della Mirandola" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Giovanni Pico della Mirandola wygłaszający mowę o godności człowieka w renesansowym pałacu - barwna rycina w stylu klasycznym</p>
+</div>
 
 ### Analiza *Oratio de hominis dignitate*
 
@@ -3878,6 +3888,11 @@ Ta radykalna przebudowa obrazu świata wywołała głęboki kryzys epistemologic
 ### 2. René Descartes i poszukiwanie niepodważalnego fundamentu
 
 René Descartes (Kartezjusz) uznawany jest za inicjatora nowożytnego przełomu racjonalistycznego. Zmagając się z chaosem pojęciowym epoki przejściowej oraz renesansowym sceptycyzmem (reprezentowanym m.in. przez Michela de Montaigne'a), postawił sobie za cel wypracowanie metody poznawczej, która charakteryzowałaby się taką samą niezawodnością i oczywistością, jaką wykazują dowody geometryczne.
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/descartes_study.png" alt="Kartezjusz w pracowni" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Kartezjusz w głębokiej zadumie w swoim gabinecie - barwna rycina w stylu klasycznym</p>
+</div>
 
 #### 2.1. Sceptycyzm i wątpienie metodyczne (*dubium methodicum*)
 
@@ -4284,6 +4299,11 @@ Hegel z zachwytem analizuje arystotelesowskie pojęcia *dynamis* (δύναμις
 ---
 
 ### 3. Fryderyk Nietzsche i dekonstrukcja racjonalizmu
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/nietzsche_alps.png" alt="Fryderyk Nietzsche w Alpach" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Fryderyk Nietzsche wędrujący samotnie w Alpach Szwajcarskich (Sils Maria) - barwna rycina w stylu klasycznym</p>
+</div>
 
 #### Dychotomia apolińskości (*apollonios*) i dionizyjskości (*dionysiakos*) w *Narodzinach tragedii*
 
@@ -4797,6 +4817,11 @@ Archimedes (ok. 287-212 p.n.e.) był bez wątpienia największym matematykiem i 
 - **Metoda wyczerpywania i prekursorstwo rachunku całkowego**: Archimedes rozwinął metodę wyczerpywania (opracowaną pierwotnie przez Antyfonta i Eudoksosa), wykorzystując ją do obliczania pól powierzchni i objętości brył zakrzywionych. W traktacie *O mierzeniu koła* wyznaczył wartość liczby $\pi$ z niezwykłą dokładnością, wpisując w okrąg i opisując na nim wielokąty foremne o 96 bokach, co dało przedział $3\frac{10}{71} < \pi < 3\frac{1}{7}$ (ok. 3,1418). W dziele *Metoda* (odkrytym dopiero w 1906 r. jako palimpsest) Archimedes ujawnił swój warsztat badawczy: używał wyobrażonych wag i praw statyki do ważenia nieskończenie cienkich przekrojów geometrycznych brył, co pozwalało mu na intuicyjne znajdowanie ich objętości przed przeprowadzeniem rygorystycznego dowodu geometrycznego. Było to bezpośrednie antycypowanie myśli Leibniza i Newtona w zakresie różniczkowania i całkowania. W traktacie *O kwadraturze paraboli* udowodnił, że pole odcinka paraboli wynosi 4/3 pola trójkąta o tej samej podstawie i wysokości, sumując nieskończony ciąg geometryczny o ilorazie 1/4.
 - **Inżynieria militarna i mechaniczna**: Archimedes zasłynął jako konstruktor machin wojennych (katapult, machin miotających, chwytaków okrętowych tzw. „szponu Archimedesa”), które przez lata skutecznie powstrzymywały rzymskie oblężenie Syrakuz pod wodzą Marcellusa. Przypisuje się mu również wynalezienie śruby archimedesowej - urządzenia do nawadniania pól i wypompowywania wody z kopalń oraz zębatych przekładni planetarnych (konstrukcji zbieżnych z mechanizmem z Antykithiry).
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/archimedes_geometry.png" alt="Archimedes z Syrakuz" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Archimedes z Syrakuz kreślący geometryczne diagramy na stole z piaskiem - barwna rycina w stylu klasycznym</p>
+</div>
+
 ### Heron z Aleksandrii i starożytna automatyka
 Działający w I wieku n.e. Heron z Aleksandrii reprezentował nurt inżynierii eksperymentalnej. W swoich dziełach *Pneumatyka*, *Mechanika* i *Automaty* opisał szereg urządzeń wykorzystujących ciśnienie powietrza, pary wodnej oraz skomplikowane układy lin i kół zębatych.
 
@@ -5023,6 +5048,11 @@ Kolejnym doniosłym krokiem Solona była reforma timokratyczna. Dokonał on podz
 - **thetes** (θῆτες) - najubożsi wyrobnicy, o dochodzie poniżej 200 medymnów.
 
 Reforma ta miała charakter rewolucyjny, ponieważ zastąpiła tradycyjne kryterium urodzenia (*eupatridai*) kryterium cenzusu majątkowego przy dostępie do urzędów publicznych. Najwyższe urzędy (archontat) zostały zastrzeżone dla klas najbogatszych, jednak najubożsi (*thetes*) zyskali prawo do udziału w Zgromadzeniu Ludowym (*Ekklesia*) oraz w nowo powołanym sądzie ludowym - *Heliai* (ἡλιαία). Solon dał również każdemu obywatelowi prawo do wnoszenia skargi w imieniu poszkodowanego (*ho boulomenos*), co legło u podstaw ateńskiego prawa publicznego.
+
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/solon_laws.png" alt="Prawa Solona" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Solon z Aten prezentujący nowe prawa zgromadzonym obywatelom na agorze - barwna rycina w stylu klasycznym</p>
+</div>
 
 Prawdziwym twórcą ateńskiej demokracji był jednak Klejstenes, który przeprowadził swoje reformy w latach 508/507 p.n.e. Jego celem było całkowite rozbicie tradycyjnych struktur rodowych, które pozwalały arystokracji na kontrolowanie głosowań i manipulowanie życiem politycznym Aten. Klejstenes dokonał nowej organizacji terytorialnej Attyki. Podzielił kraj na trzy strefy geograficzne: miasto, wybrzeże oraz wnętrze lądu. Każdą z tych stref podzielił na 10 jednostek zwanych *trittyes* (trójki). Następnie stworzył 10 nowych, sztucznych jednostek administracyjnych - *fyl* (φυλαί). Każda nowa fyla składała się z trzech *trittyes*: jednej miejskiej, jednej nadmorskiej i jednej śródlądowej.
 
@@ -5544,6 +5574,10 @@ Dla obserwatora zaznajomionego z historią starożytnej Grecji zjawiska te nie s
 Ratunkiem dla tego cyklu degeneracji (określanego później przez Polibiusza mianem *anakyklosis*) miała być koncepcja ustroju mieszanego, którą najpełniej sformułował Arystoteles pod nazwą *politeia* (ustrój średni). *Politeia* to ustrój, który harmonijnie łączy elementy demokratyczne (rządy większości, wolność) z elementami oligarchicznymi lub arystokratycznymi (rządy ludzi kompetentnych, mądrych i posiadających zasługi dla dobra wspólnego). Kluczem do stabilności *politeia* jest silna, stabilna klasa średnia, która zapobiega polaryzacji między skrajnym bogactwem a skrajnym ubóstwem, oraz bezwzględny prymat prawa (*nomos*) nad kaprysami i dekretami zgromadzenia ludowego. Prawo musi stać na straży rozumu, chroniąc państwo przed namiętnościami mas i egoizmem elit.
 
 Tradycję tę rozwinął w Rzymie Cyceron w swoim dziele *De re publica*, argumentując, że trwałym fundamentem państwa jest *res publica* - rzecz wspólna, opierająca się na powszechnej zgodzie na prawo (*consensus iuris*) i wspólnocie interesów. Ustrój mieszany rzymskiej republiki (konsulowie jako element monarchiczny, senat jako arystokratyczny, trybuni i komicja jako demokratyczny) gwarantował równowagę sił i zapobiegał tyranii. Współczesny Zachód, aby ocalić swoje instytucje demokratyczne przed populistycznym rozkładem, musi dokonać reaktualizacji arystotelesowskich i cyceronowskich intuicji. Demokracja nie może być jedynie mechaniczną procedurą większościową; musi być ustrojem zakorzenionym w rządach prawa (*nomos*) oraz wymagającym od obywateli i rządzących posiadania cnoty obywatelskiej (*arete*). Bez tego moralnego i intelektualnego fundamentu demokracja nieuchronnie osunie się w tyranię nowych, algorytmicznych demagogów i korporacyjnych technokratów.
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/acropolis_sunset.png" alt="Akropol o zachodzie słońca" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Ruiny Akropolu w Atenach o zachodzie słońca - barwna rycina w stylu klasycznym symbolizująca dziedzictwo i zmierzch antyku</p>
+</div>
 
 ## 4. Wnioski końcowe: Przyszłość tradycji zachodniej jako twórcza anastaza
 

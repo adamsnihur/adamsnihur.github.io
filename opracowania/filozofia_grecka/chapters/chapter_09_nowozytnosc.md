@@ -70,6 +70,11 @@ Ta radykalna przebudowa obrazu świata wywołała głęboki kryzys epistemologic
 
 René Descartes (Kartezjusz) uznawany jest za inicjatora nowożytnego przełomu racjonalistycznego. Zmagając się z chaosem pojęciowym epoki przejściowej oraz renesansowym sceptycyzmem (reprezentowanym m.in. przez Michela de Montaigne'a), postawił sobie za cel wypracowanie metody poznawczej, która charakteryzowałaby się taką samą niezawodnością i oczywistością, jaką wykazują dowody geometryczne.
 
+<div class="monograph-image-container" style="text-align: center; margin: 3em 0;">
+  <img src="images/descartes_study.png" alt="Kartezjusz w pracowni" style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);" />
+  <p style="font-family: var(--font-sans); font-size: 0.85em; font-style: italic; color: #666; margin-top: 10px;">Ilustracja: Kartezjusz w głębokiej zadumie w swoim gabinecie - barwna rycina w stylu klasycznym</p>
+</div>
+
 #### 2.1. Sceptycyzm i wątpienie metodyczne (*dubium methodicum*)
 
 W swoich *Medytacjach o pierwszej filozofii* (1641) Kartezjusz wdraża procedurę zwaną wątpieniem metodycznym (*dubium methodicum*). Inaczej niż miało to miejsce w przypadku sceptyków starożytnych (pyrronejczyków i akademików), dla których wątpienie było celem samym w sobie, prowadzącym do zawieszenia sądów (*epoche*) i osiągnięcia spokoju duszy (*ataraxia*), dla Kartezjusza sceptycyzm jest jedynie narzędziem - przejściowym instrumentem krytycznym, mającym na celu oczyszczenie pola poznawczego ze wszelkich opinii niepewnych i wątpliwych, aby dotrzeć do nienaruszonego jądra prawdy.
