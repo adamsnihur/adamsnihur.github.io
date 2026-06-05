@@ -1,6 +1,6 @@
 # Podsumowanie monografii: Trzy wymiary Border Collie
 
-<p class="chapter-start">B</p>order Collie to rasa trójwymiarowa, której pełne i świadome prowadzenie wymaga zintegrowanego spojrzenia przez pryzmat jej **historii użytkowej**, **biologii genetycznej** oraz **metodyki szkoleniowej**. Żaden z tych trzech wymiarów nie funkcjonuje w izolacji – współczesny pies sportowy czy pracujący to bezpośredni rezultat presji selekcyjnej Cheviot Hills, specyficznej puli genowej Old Hempa, mutacji barwnych i zdrowotnych oraz wypracowanych przez stulecia metod komunikacji akustycznej i behawioralnej.
+<p class="chapter-start">B</p>order Collie to rasa trójwymiarowa, której pełne i świadome prowadzenie wymaga zintegrowanego spojrzenia przez pryzmat jej **historii użytkowej**, **biologii genetycznej** oraz **metodyki szkoleniowej**. Żaden z tych trzech wymiarów nie funkcjonuje w izolacji - współczesny pies sportowy czy pracujący to bezpośredni rezultat presji selekcyjnej Cheviot Hills, specyficznej puli genowej Old Hempa, mutacji barwnych i zdrowotnych oraz wypracowanych przez stulecia metod komunikacji akustycznej i behawioralnej.
 
 ## Synteza trzech filarów Border Collie
 
@@ -29,4 +29,4 @@ Inteligencja Użytkowa
 </div>
 </div>
 
-Pozostając wiernym dziedzictwu Border Country, współczesny człowiek ma obowiązek chronić ten fascynujący umysł pasterski. Niezależnie od tego, czy Border Collie pracuje przy stadzie owiec w Northumberland, pokonuje tor agility, odnajduje próbki zapachowe w noseworku, czy bierze udział w zaawansowanych badaniach kognitywnych – jego pasja, zwinność i oddanie człowiekowi pozostają jednym z najwspanialszych zjawisk w świecie udomowionych zwierząt.
+Pozostając wiernym dziedzictwu Border Country, współczesny człowiek ma obowiązek chronić ten fascynujący umysł pasterski. Niezależnie od tego, czy Border Collie pracuje przy stadzie owiec w Northumberland, pokonuje tor agility, odnajduje próbki zapachowe w noseworku, czy bierze udział w zaawansowanych badaniach kognitywnych - jego pasja, zwinność i oddanie człowiekowi pozostają jednym z najwspanialszych zjawisk w świecie udomowionych zwierząt.

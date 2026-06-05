@@ -1,6 +1,6 @@
 # Genetyka umaszczeń i niebezpieczeństwo Double Merle
 
-<p class="chapter-start">Z</p>łożoność genetyczna umaszczeń Border Collie to klasyczny przykład interakcji różnych loci genowych dziedziczonych zgodnie z prawami Mendla. Choć różnorodność ta zachwyca miłośników rasy, wiąże się z nią jedno z najpoważniejszych zagrożeń zdrowotnych w kynologii – syndrom Double Merle. Odpowiedzialne planowanie skojarzeń wymaga od hodowcy głębokiej wiedzy z zakresu genetyki molekularnej.
+<p class="chapter-start">Z</p>łożoność genetyczna umaszczeń Border Collie to klasyczny przykład interakcji różnych loci genowych dziedziczonych zgodnie z prawami Mendla. Choć różnorodność ta zachwyca miłośników rasy, wiąże się z nią jedno z najpoważniejszych zagrożeń zdrowotnych w kynologii - syndrom Double Merle. Odpowiedzialne planowanie skojarzeń wymaga od hodowcy głębokiej wiedzy z zakresu genetyki molekularnej.
 
 ## Główne loci genów umaszczenia
 
@@ -32,6 +32,6 @@ Ze względu na wysokie prawdopodobieństwo urodzenia kalekich szczeniąt, wszyst
 Etyczna hodowla wymaga:
 
 - **Kojarzenia psów marmurkowych wyłącznie z psami o jednolitym umaszczeniu** (`Mm` $\times$ `mm`), co daje 50% zdrowych marmurków i 50% zdrowych psów jednolicie umaszczonych, całkowicie eliminując ryzyko powstania Double Merle.
-- **Badania genetycznego w kierunku genu Merle** u psów o umaszczeniu ee-red przed dopuszczeniem do rozrodu. Gen ee-red potrafi zamaskować obecność marmurka (pies jest fenotypowo czerwony, ale genetycznie niesie allel `M` – tzw. ukryty marmer/phantom merle), co stwarza ryzyko przypadkowego skojarzenia `Merle` $\times$ `Merle`.
+- **Badania genetycznego w kierunku genu Merle** u psów o umaszczeniu ee-red przed dopuszczeniem do rozrodu. Gen ee-red potrafi zamaskować obecność marmurka (pies jest fenotypowo czerwony, ale genetycznie niesie allel `M` - tzw. ukryty marmer/phantom merle), co stwarza ryzyko przypadkowego skojarzenia `Merle` $\times$ `Merle`.
 
 Zrozumienie genetyki barw u Border Collie to nie tylko wiedza teoretyczna, ale przede wszystkim narzędzie ochrony zdrowia i dobrostanu rasy przed nieodpowiedzialnymi praktykami hodowlanymi.

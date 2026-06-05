@@ -7,14 +7,14 @@
 Wzgórza pogranicza to obszary wyżynne, często pokryte wrzosowiskami, torfowiskami oraz stromymi, skalistymi zboczami. Średnie roczne opady są tu wysokie, a mgły i nagłe burze śnieżne stanowią codzienność. Praca w takim terenie wymagała od psa:
 
 - **Wyjątkowej wydolności krążeniowo-oddechowej:** Psy musiały pokonywać dziesiątki kilometrów dziennie na stromych zboczach, często poszukując owiec zasypanych przez śnieg lub ukrytych w głębokich parowach.
-- **Odporności na wilgoć i zimno:** Naturalna selekcja promowała psy o dwuwarstwowej okrywie włosowej – z gęstym, wełnistym podszerstkiem i odpornym na warunki atmosferyczne włosem okrywowym.
+- **Odporności na wilgoć i zimno:** Naturalna selekcja promowała psy o dwuwarstwowej okrywie włosowej - z gęstym, wełnistym podszerstkiem i odpornym na warunki atmosferyczne włosem okrywowym.
 - **Niezależności decyzyjnej:** Ze względu na ogromne odległości i ukształtowanie terenu, pasterz często nie widział psa ani stada. Pies musiał samodzielnie odnajdywać owce, grupować je i bezpiecznie sprowadzać w doliny bez bezpośredniego nadzoru.
 
 ## Czynniki społeczno-gospodarcze: Przemiana agrarna
 
-W XVIII i XIX wieku w Wielkiej Brytanii nastąpił gwałtowny rozwój przemysłu tekstylnego, co drastycznie zwiększyło popyt na wełnę. Wielkie reformy agrarne (tzw. *enclosure acts* – grodzenia pól) doprowadziły do konsolidacji gruntów. Tradycyjne metody wypasu, polegające na pilnowaniu stad na małych obszarach, ustąpiły miejsca wielkoobszarowemu wypasowi na nieogrodzonych wzgórzach.
+W XVIII i XIX wieku w Wielkiej Brytanii nastąpił gwałtowny rozwój przemysłu tekstylnego, co drastycznie zwiększyło popyt na wełnę. Wielkie reformy agrarne (tzw. *enclosure acts* - grodzenia pól) doprowadziły do konsolidacji gruntów. Tradycyjne metody wypasu, polegające na pilnowaniu stad na małych obszarach, ustąpiły miejsca wielkoobszarowemu wypasowi na nieogrodzonych wzgórzach.
 
-W tym nowym modelu ekonomicznym pasterz musiał zarządzać stadami liczącymi tysiące owiec rasy *Scottish Blackface* lub *Cheviot* na obszarach liczących setki hektarów. Tradycyjne psy pasterskie pracujące głośno (szczekaniem) nie sprawdzały się – płoszyły one owce na strome zbocza, co prowadziło do strat w inwentarzu. Potrzebny był pies pracujący bezgłośnie, kontrolujący stado samym spojrzeniem i potrafiący poruszać się w sposób, który nie wywoływał paniki u owiec.
+W tym nowym modelu ekonomicznym pasterz musiał zarządzać stadami liczącymi tysiące owiec rasy *Scottish Blackface* lub *Cheviot* na obszarach liczących setki hektarów. Tradycyjne psy pasterskie pracujące głośno (szczekaniem) nie sprawdzały się - płoszyły one owce na strome zbocza, co prowadziło do strat w inwentarzu. Potrzebny był pies pracujący bezgłośnie, kontrolujący stado samym spojrzeniem i potrafiący poruszać się w sposób, który nie wywoływał paniki u owiec.
 
 ## Selekcja zorientowana na wydajność
 

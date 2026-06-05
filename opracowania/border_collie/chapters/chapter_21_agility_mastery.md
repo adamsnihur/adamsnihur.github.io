@@ -4,10 +4,10 @@
 
 ## Biomechanika skoku i trening plyometryczny (*Gridwork*)
 
-Skakanie przez tyczki w agility nie jest dla psa czynnością naturalną – wymaga specyficznego zginania kręgosłupa, pracy obręczy barkowej oraz precyzyjnego odbicia z tylnych kończyn. Wczesny trening młodego psa opiera się na **gridworku (pracy na siatkach skokowych)**:
+Skakanie przez tyczki w agility nie jest dla psa czynnością naturalną - wymaga specyficznego zginania kręgosłupa, pracy obręczy barkowej oraz precyzyjnego odbicia z tylnych kończyn. Wczesny trening młodego psa opiera się na **gridworku (pracy na siatkach skokowych)**:
 
 - **Cel metody:** Nauczenie psa samodzielnej oceny odległości między przeszkodami, punktu odbicia (*take-off point*) oraz optymalizacji trajektorii lotu.
-- **Konstrukcja ćwiczeń:** Wykorzystuje się sekwencje niskich przeszkód ustawionych w stałych odległościach (np. 2.5–3.5 metra). Zmieniając dystans i wysokość tyczek, przewodnik zmusza psa do skracania lub wydłużania kroku galopu bez utraty prędkości.
+- **Konstrukcja ćwiczeń:** Wykorzystuje się sekwencje niskich przeszkód ustawionych w stałych odległościach (np. 2.5-3.5 metra). Zmieniając dystans i wysokość tyczek, przewodnik zmusza psa do skracania lub wydłużania kroku galopu bez utraty prędkości.
 - **Plyometryka:** Ćwiczenia budują siłę eksplozywną mięśni czworogłowych oraz elastyczność ścięgien, co minimalizuje obciążenie stawów skokowych i nadgarstkowych podczas lądowania.
 
 <svg class="svg-diagram" viewBox="0 0 600 250" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
@@ -54,7 +54,7 @@ Pies zbiega z przeszkody i zatrzymuje się w pozycji, w której tylne łapy pozo
 
 ### 2. Strefy zbiegane (Running Contacts)
 Pies pokonuje przeszkodę pełnym galopem bez zatrzymywania się, precyzyjnie trafiając łapą w strefę kontaktu.
-- **Zalety:** Maksymalna prędkość i oszczędność czasu na torze (nawet o 0.5–1 sekundy na jednej przeszkodzie).
+- **Zalety:** Maksymalna prędkość i oszczędność czasu na torze (nawet o 0.5-1 sekundy na jednej przeszkodzie).
 - **Metodyka:** Wykorzystuje się elektroniczne maty sensoryczne oraz specjalne wygięte tunele/barierki prowadzące, które wymuszają obniżenie sylwetki psa w strefie zbiegu kładki. Metoda ta wymaga setek powtórzeń w celu wyrobienia pamięci mięśniowej.
 
 <div class="illustration-container">

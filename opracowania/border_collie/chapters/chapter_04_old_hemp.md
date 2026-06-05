@@ -1,4 +1,4 @@
-# Protoplasta rasy: Legendarny Old Hemp (1893–1901)
+# Protoplasta rasy: Legendarny Old Hemp (1893-1901)
 
 <p class="chapter-start">W</p> historii niemal każdej rasy psów można wskazać osobnika, którego wpływ genetyczny zdominował całą populację. W przypadku Border Collie psem tym był **Old Hemp** (zarejestrowany w księdze rodowodowej International Sheep Dog Society pod numerem 9). Urodzony we wrześniu 1893 roku w West Woodburn w hrabstwie Northumberland, pies ten zrewolucjonizował styl pracy psów pasterskich i stał się ojcem założycielem współczesnej rasy.
 

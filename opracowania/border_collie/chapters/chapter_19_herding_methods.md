@@ -1,6 +1,6 @@
 # Biomechanika pasienia i etologiczne podstawy szkolenia pasterskiego
 
-<p class="chapter-start">T</p>rening pasterski (*herding*) to najbardziej zbliżona do naturalnych predyspozycji i zarazem najbardziej wymagająca intelektualnie forma pracy z Border Collie. W przeciwieństwie do innych dyscyplin kynologicznych, praca przy stadzie nie opiera się na mechanicznym powtarzaniu wyuczonych schematów ruchowych, lecz na dynamicznym zarządzaniu relacją trójstronną: przewodnik – pies – stado owiec. Sukces szkoleniowy uwarunkowany jest głębokim zrozumieniem etologii owiec oraz fizycznych mechanizmów wywierania presji behawioralnej.
+<p class="chapter-start">T</p>rening pasterski (*herding*) to najbardziej zbliżona do naturalnych predyspozycji i zarazem najbardziej wymagająca intelektualnie forma pracy z Border Collie. W przeciwieństwie do innych dyscyplin kynologicznych, praca przy stadzie nie opiera się na mechanicznym powtarzaniu wyuczonych schematów ruchowych, lecz na dynamicznym zarządzaniu relacją trójstronną: przewodnik - pies - stado owiec. Sukces szkoleniowy uwarunkowany jest głębokim zrozumieniem etologii owiec oraz fizycznych mechanizmów wywierania presji behawioralnej.
 
 ## Psychologia owiec jako mechanizm sterowania psem
 

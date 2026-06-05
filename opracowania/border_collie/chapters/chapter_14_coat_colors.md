@@ -7,7 +7,7 @@
 Zgodnie z klasyfikacją kynologiczną, Border Collie występują w dwóch odmianach okrywy włosowej:
 
 - **Rough (Długowłosy / półdługowłosy):** Jest to odmiana najbardziej powszechna. Włos okrywowy jest gęsty, o średniej twardości, podszerstek jest miękki i wełnisty. U psów tej odmiany tworzy się charakterystyczna grzywa na szyi, "portki" na udach oraz obfite pióro na ogonie.
-- **Smooth (Krótkowłosy):** Włos na całym ciele jest krótki, przylegający i gęsty. Podszerstek jest równie gęsty jak u odmiany długowłosej, co zapewnia psu pełną ochronę przed wilgocią i chłodem. Odmiana ta jest niezwykle popularna wśród pasterzy pracujących (Working Lines) ze względu na łatwość utrzymania – do krótkiej sierści nie przyczepiają się nasiona roślin i gałęzie.
+- **Smooth (Krótkowłosy):** Włos na całym ciele jest krótki, przylegający i gęsty. Podszerstek jest równie gęsty jak u odmiany długowłosej, co zapewnia psu pełną ochronę przed wilgocią i chłodem. Odmiana ta jest niezwykle popularna wśród pasterzy pracujących (Working Lines) ze względu na łatwość utrzymania - do krótkiej sierści nie przyczepiają się nasiona roślin i gałęzie.
 
 <div class="illustration-container">
 <img src="images/smooth_coat.png" alt="Smooth coat Border Collie working">

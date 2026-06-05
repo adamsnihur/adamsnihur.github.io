@@ -10,7 +10,7 @@ W miarę jak rzymskie garnizony osiedlały się na wyspach, ich psy krzyżowały
 
 ## Wpływ skandynawski: Najazdy wikingów
 
-Drugim kluczowym czynnikiem kształtującym przodków Collies były najazdy wikingów w VIII–XI wieku. Skandynawscy najeźdźcy i osadnicy sprowadzili ze sobą własne psy pasterskie – mniejsze, zwinne szpice pasterskie, będące przodkami dzisiejszego Islandzkiego Psa Pasterskiego (*Íslenskur fjárhundur*) oraz Norsk Buhund. 
+Drugim kluczowym czynnikiem kształtującym przodków Collies były najazdy wikingów w VIII-XI wieku. Skandynawscy najeźdźcy i osadnicy sprowadzili ze sobą własne psy pasterskie - mniejsze, zwinne szpice pasterskie, będące przodkami dzisiejszego Islandzkiego Psa Pasterskiego (*Íslenskur fjárhundur*) oraz Norsk Buhund. 
 
 Psy te charakteryzowały się:
 

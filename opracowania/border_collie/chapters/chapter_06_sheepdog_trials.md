@@ -8,7 +8,7 @@ Pierwsze udokumentowane zawody psów pasterskich odbyły się 9 października 18
 
 Zwycięzcą pierwszych prób został Szkot James Thompson pracujący z psem o imieniu **Tweed**. Tweed zademonstrował styl pracy, który wprawił w zdumienie walijską publiczność: pracował cicho, precyzyjnie reagował na najcichsze komendy głosowe i potrafił kontrolować owce bez fizycznego kontaktu. Sukces Thompsona i Tweeda udowodnił, że psy z pogranicza szkocko-angielskiego prezentują zupełnie nową jakość pracy pasterskiej.
 
-Kolejne zawody odbyły się w 1874 roku w Hawick w Szkocji i szybko zyskały ogromną popularność. Próby te pokazały, jak ważne dla rolnictwa jest posiadanie wybitnego psa pasterskiego – pies potrafiący wykonać pracę kilku pasterzy w krótszym czasie stał się towarem luksusowym i pożądanym.
+Kolejne zawody odbyły się w 1874 roku w Hawick w Szkocji i szybko zyskały ogromną popularność. Próby te pokazały, jak ważne dla rolnictwa jest posiadanie wybitnego psa pasterskiego - pies potrafiący wykonać pracę kilku pasterzy w krótszym czasie stał się towarem luksusowym i pożądanym.
 
 ## Założenie International Sheep Dog Society (ISDS)
 

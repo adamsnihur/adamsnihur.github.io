@@ -8,7 +8,7 @@ Najbardziej znaną i powszechną chorobą oczu w rasie jest **Anomalia Oczu Coll
 
 - Jest to wrodzona, dziedziczona autosomalnie recesywnie wada rozwojowa naczyniówki i siatkówki oka.
 - Powoduje niedorozwój naczyniówki (choroid hypoplasia), co w ciężkich przypadkach prowadzi do odwarstwienia siatkówki, wylewów krwi do wnętrza oka i trwałej ślepoty.
-- Dzięki testom DNA można zidentyfikować nosicieli (psy o genotypie `Carrier` – posiadające jeden wadliwy i jeden zdrowy gen), którzy sami nie chorują, ale mogą przekazać wadę potomstwu.
+- Dzięki testom DNA można zidentyfikować nosicieli (psy o genotypie `Carrier` - posiadające jeden wadliwy i jeden zdrowy gen), którzy sami nie chorują, ale mogą przekazać wadę potomstwu.
 
 Inne schorzenia okulistyczne to jaskra pierwotna (Primary Angle Closure Glaucoma) oraz postępujący zanik siatkówki (PRA).
 

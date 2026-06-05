@@ -1,6 +1,6 @@
 # Podsumowanie: Dziedzictwo pogranicza w XXI wieku
 
-<p class="chapter-start">B</p>order Collie przebył długą i fascynującą drogę ewolucyjną – od bezimiennych psów pasterskich celtyckich i rzymskich klanów, poprzez genetyczną unifikację zapoczątkowaną przez Old Hempa w XIX wieku, aż po status globalnego fenomenu kynologicznego. Rasa ta stanowi namacalny dowód na to, jak rygorystyczna selekcja zorientowana wyłącznie na cechy użytkowe potrafi ukształtować zwierzę o niebywałej sprawności fizycznej i zaawansowanych zdolnościach kognitywnych.
+<p class="chapter-start">B</p>order Collie przebył długą i fascynującą drogę ewolucyjną - od bezimiennych psów pasterskich celtyckich i rzymskich klanów, poprzez genetyczną unifikację zapoczątkowaną przez Old Hempa w XIX wieku, aż po status globalnego fenomenu kynologicznego. Rasa ta stanowi namacalny dowód na to, jak rygorystyczna selekcja zorientowana wyłącznie na cechy użytkowe potrafi ukształtować zwierzę o niebywałej sprawności fizycznej i zaawansowanych zdolnościach kognitywnych.
 
 W XXI wieku rola Border Collie uległa znacznemu poszerzeniu. Choć wciąż pozostają niezastąpionymi pomocnikami na farmach w Wielkiej Brytanii, Nowej Zelandii, Australii i obu Amerykach, z powodzeniem opanowały również inne sfery aktywności ludzkiej:
 
@@ -10,4 +10,4 @@ W XXI wieku rola Border Collie uległa znacznemu poszerzeniu. Choć wciąż pozo
 
 Jednak ten spektakularny sukces niesie za sobą poważne wyzwania. Globalna popularność rasy sprawia, że coraz więcej psów trafia do rąk osób nieprzygotowanych na specyficzne wymagania Border Collie. Bez odpowiedniej stymulacji umysłowej i pracy pasterskiej lub sportowej, te wysoce reaktywne psy mogą wykazywać poważne problemy behawioralne. 
 
-Zadaniem współczesnych hodowców i miłośników rasy jest dbanie o to, aby w pogoni za sukcesami wystawowymi czy popularnością medialną nie zatracić tego, co najważniejsze – unikalnego umysłu Border Collie, który rodził się w chłodnych mgłach i na wymagających wzgórzach Border Country. Prawdziwe dziedzictwo tej rasy leży nie w wyglądzie zewnętrznym, ale w jej niebywałej inteligencji i pasji do pracy z człowiekiem.
+Zadaniem współczesnych hodowców i miłośników rasy jest dbanie o to, aby w pogoni za sukcesami wystawowymi czy popularnością medialną nie zatracić tego, co najważniejsze - unikalnego umysłu Border Collie, który rodził się w chłodnych mgłach i na wymagających wzgórzach Border Country. Prawdziwe dziedzictwo tej rasy leży nie w wyglądzie zewnętrznym, ale w jej niebywałej inteligencji i pasji do pracy z człowiekiem.

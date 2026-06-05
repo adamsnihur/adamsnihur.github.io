@@ -2,7 +2,7 @@
 
 <p class="chapter-start">W</p>drożenie psa w pracę przy stadzie wymaga systematycznego, etapowego podejścia. Ponieważ instynkt pasterski jest uwarunkowany genetycznie, szkolenie nie polega na nauce samego zaganiania, lecz na budowaniu kontroli, posłuszeństwa i precyzji w warunkach silnego pobudzenia instynktownego. Poniższy program przedstawia metodykę szkoleniową podzieloną na cztery główne fazy rozwojowe.
 
-## Faza I: Przygotowanie i posłuszeństwo bez stada (Wiek: 2–9 miesięcy)
+## Faza I: Przygotowanie i posłuszeństwo bez stada (Wiek: 2-9 miesięcy)
 
 Zanim pies zostanie wprowadzony do stada owiec, musi opanować absolutne posłuszeństwo w środowisku pozbawionym rozproszeń pasterskich. Kluczem jest wypracowanie reakcji automatycznych na komendy przewodnika.
 
@@ -11,7 +11,7 @@ Zanim pies zostanie wprowadzony do stada owiec, musi opanować absolutne posłus
 - **Odwołanie z pogoni (*Recall*):** Natychmiastowy powrót do przewodnika po usłyszeniu komendy, nawet w fazie ekscytacji.
 - **Kierunki "na sucho":** Wstępne kodowanie komend *Come Bye* (ruch w lewo) oraz *Away to Me* (ruch w prawo) przy użyciu pachołków treningowych lub drzew, bez obecności zwierząt.
 
-## Faza II: Praca w Round Penie i budowanie balansu (Wiek: 9–12 miesięcy)
+## Faza II: Praca w Round Penie i budowanie balansu (Wiek: 9-12 miesięcy)
 
 Pierwszy kontakt z owcami odbywa się w kontrolowanym środowisku okrągłego wybiegu (Round Pen) o średnicy 15-18 metrów. Okrągła konstrukcja zapobiega blokowaniu się owiec w narożnikach i ułatwia psu płynne okrążanie stada.
 
@@ -58,14 +58,14 @@ Pierwszy kontakt z owcami odbywa się w kontrolowanym środowisku okrągłego wy
 2. **Użycie tyczki pasterskiej:** Tyczka (lub długa batuta) służy jako przedłużenie ręki przewodnika. Nie służy do bicia psa, lecz do fizycznego blokowania strefy presji. Jeśli pies próbuje podejść zbyt blisko owiec, przewodnik stawia tyczkę przed jego pyszczkiem, wymuszając poszerzenie łuku flankowania.
 3. **Praca w balansie:** Przewodnik pozycjonuje się po przeciwnej stronie owiec niż pies. Jeśli pies zatrzyma się, przewodnik wykonuje krok w bok, prowokując psa do ruchu w celu wyrównania balansu i doprowadzenia owiec do człowieka.
 
-## Faza III: Przejście na otwarte pastwisko i Outrun (Wiek: 12–18 miesięcy)
+## Faza III: Przejście na otwarte pastwisko i Outrun (Wiek: 12-18 miesięcy)
 
 Gdy pies opanuje zatrzymanie i kierunki w round penie, trening przenosi się na otwarty teren. W tym etapie dystans pracy wzrasta z kilkunastu metrów do kilkuset metrów.
 
 ### Metodyka szkolenia Outrunu (Wybiegu):
-Outrun to wysłanie psa po owce znajdujące się w dużej odległości. Prawidłowy outrun musi mieć kształt gruszki – pies powinien biec szerokim łukiem, oddalając się od stada, aby zajść owce od tyłu bez ich spłoszenia.
+Outrun to wysłanie psa po owce znajdujące się w dużej odległości. Prawidłowy outrun musi mieć kształt gruszki - pies powinien biec szerokim łukiem, oddalając się od stada, aby zajść owce od tyłu bez ich spłoszenia.
 
-1. **Wysłanie na krótkim dystansie:** Przewodnik wysyła psa na dystansie 30–50 metrów.
+1. **Wysłanie na krótkim dystansie:** Przewodnik wysyła psa na dystansie 30-50 metrów.
 2. **Korekta szerokości łuku:** Jeśli pies ścina zakręt i biegnie zbyt blisko owiec, przewodnik wysyła sygnał ostrzegawczy (gwizd lub komendę słowną) i blokuje jego tor ruchu ruchem własnego ciała.
 3. **Spowolnienie przy podejściu (*The Lift*):** Gdy pies dobiega za owce, musi zwolnić i delikatnie nawiązać kontakt wzrokowy, aby owce ruszyły spokojnie w kierunku przewodnika. Gwałtowne wbiegnięcie w stado na tym etapie jest błędem dyskwalifikującym.
 

@@ -1,6 +1,6 @@
 # Budowanie wyciszenia („off-switch”) i protokół relaksacyjny
 
-<p class="chapter-start">N</p>ajbardziej poszukiwaną i najmniej docenianą cechą u Border Collie nie jest popęd pracy, lecz zdolność do odpoczynku – tzw. **off-switch**. O ile selekcja użytkowa wyposażyła tę rasę w nieskończony silnik do pracy, o tyle umiejętność wyłączania tego silnika w warunkach domowych musi zostać celowo wyuczona przez przewodnika w procesie szkolenia.
+<p class="chapter-start">N</p>ajbardziej poszukiwaną i najmniej docenianą cechą u Border Collie nie jest popęd pracy, lecz zdolność do odpoczynku - tzw. **off-switch**. O ile selekcja użytkowa wyposażyła tę rasę w nieskończony silnik do pracy, o tyle umiejętność wyłączania tego silnika w warunkach domowych musi zostać celowo wyuczona przez przewodnika w procesie szkolenia.
 
 ## Protokół relaksacyjny dr Karen Overall
 

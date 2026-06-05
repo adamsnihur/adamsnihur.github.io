@@ -12,7 +12,7 @@ James Reid objął funkcję sekretarza ISDS w okresie intensywnego rozwoju kynol
 
 Reid dostrzegł ogromne zagrożenie dla psów użytkowych. Rozumiał, że jeśli psy pasterskie z pogranicza zostaną wchłonięte przez wystawowy wzorzec Kennel Clubu, ich unikalne cechy psychiczne, inteligencja i styl pracy szybko zanikną pod presją mody wystawowej.
 
-W 1915 roku, rejestrując psy w oficjalnej księdze rodowodowej ISDS, Reid po raz pierwszy użył nazwy **Border Collie** (gdzie *Border* odnosiło się bezpośrednio do regionu ich pochodzenia – Border Country, a *Collie* było tradycyjnym szkockim określeniem psa pasterskiego). Nazwa ta miała jasny cel polityczny i hodowlany: zadeklarować światu kynologicznemu, że pies ten stanowi odrębną, niezależną rasę, której głównym i jedynym kryterium oceny jest przydatność do pracy.
+W 1915 roku, rejestrując psy w oficjalnej księdze rodowodowej ISDS, Reid po raz pierwszy użył nazwy **Border Collie** (gdzie *Border* odnosiło się bezpośrednio do regionu ich pochodzenia - Border Country, a *Collie* było tradycyjnym szkockim określeniem psa pasterskiego). Nazwa ta miała jasny cel polityczny i hodowlany: zadeklarować światu kynologicznemu, że pies ten stanowi odrębną, niezależną rasę, której głównym i jedynym kryterium oceny jest przydatność do pracy.
 
 ## Odrębność od Show Collies (Rough i Smooth)
 

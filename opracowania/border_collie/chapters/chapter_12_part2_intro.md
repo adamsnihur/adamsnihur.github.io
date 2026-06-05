@@ -1,4 +1,4 @@
-# Część II: Współczesne odmiany Border Collie – Wstęp
+# Część II: Współczesne odmiany Border Collie - Wstęp
 
 <p class="chapter-start">W</p>spółczesna populacja Border Collie charakteryzuje się niezwykłym bogactwem fenotypowym oraz wyraźną polaryzacją kierunków hodowlanych. Choć rasa ta ma wspólnego przodka w postaci Old Hempa, to w ciągu XX i XXI wieku uległa ona głębokiemu zróżnicowaniu pod wpływem zróżnicowanych oczekiwań hodowców, właścicieli oraz organizacji kynologicznych. Część II monografii poświęcona jest analizie tego, jak Border Collie wygląda i funkcjonuje w dzisiejszym świecie, ze szczególnym uwzględnieniem podziałów użytkowych, bogactwa szaty i umaszczenia, genetyki barw oraz współczesnych wyzwań zdrowotnych.
 

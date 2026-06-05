@@ -19,7 +19,7 @@ Zastąpienie bezmyślnej pogoni za łupem pracą węchową, treningiem posłusze
 Niezrealizowany popęd pasterski i brak stymulacji poznawczej u Border Collie wyrodzenie się instynktów w zachowania kompulsywne. Najczęstsze patologie behawioralne to:
 
 - **Gonienie ruchomych obiektów (samochody, rowery, dzieci):** Jest to wypaczona próba pasienia stada zastępczego. Pies czai się, kładzie na widok zbliżającego się obiektu, a następnie rusza w pogoń, próbując zablokować ruch (często podgryzając koła lub nogi rowerzysty/dziecka). Zachowanie to niesie ryzyko śmierci pod kołami pojazdu.
-- **Obsesje świetlne i cieniowe:** Gonienie plam światła, cieni, refleksów na ścianie lub światełek lasera. Jest to patologiczna fiksacja na mikroruchach wzrokowych. Zabawa laserem jest u Border Collie zakazana – brak możliwości fizycznego pochwycenia celu (frustracja braku domknięcia łańcucha łowieckiego) drastycznie niszczy stabilność psychiczną psa i prowadzi do trwałych uszkodzeń poznawczych.
+- **Obsesje świetlne i cieniowe:** Gonienie plam światła, cieni, refleksów na ścianie lub światełek lasera. Jest to patologiczna fiksacja na mikroruchach wzrokowych. Zabawa laserem jest u Border Collie zakazana - brak możliwości fizycznego pochwycenia celu (frustracja braku domknięcia łańcucha łowieckiego) drastycznie niszczy stabilność psychiczną psa i prowadzi do trwałych uszkodzeń poznawczych.
 
 <div class="flow-container">
 <div class="flow-step">
@@ -34,7 +34,7 @@ Niezrealizowany popęd pasterski i brak stymulacji poznawczej u Border Collie wy
 <div class="flow-arrow">➔</div>
 <div class="flow-step">
 <div class="flow-step-title">Krok III - Utrwalona Kompulsja</div>
-<div class="flow-step-desc">Pies rozwija zachowanie obsesyjne – nieustannie poszukuje cieni, odbić i plam świetlnych (shadow chasing).</div>
+<div class="flow-step-desc">Pies rozwija zachowanie obsesyjne - nieustannie poszukuje cieni, odbić i plam świetlnych (shadow chasing).</div>
 </div>
 </div>
 
@@ -44,5 +44,5 @@ Leczenie reaktywności i gonienia obiektów opiera się na systematycznym odczul
 
 1. **Ustalenie progu reakcji:** Znalezienie odległości od bodźca (np. jadącego samochodu), przy której pies zauważa obiekt, ale nie wykazuje jeszcze pobudzenia (nie napina ciała, nie kładzie się, przyjmuje smakołyki). Może to być np. 50 metrów.
 2. **Przeciwwarunkowanie klasyczne:** W momencie pojawienia się bodźca w bezpiecznej odległości, przewodnik podaje psu serię wysoko wartościowych nagród (np. mięso, pasztet), parując obecność bodźca z pozytywnym stanem emocjonalnym.
-3. **Zmniejszanie dystansu:** Stopniowe, rozłożone na tygodnie przybliżanie się do źródła bodźca (np. o 2–3 metry na sesję), pod warunkiem, że pies pozostaje w stanie pełnej samokontroli.
+3. **Zmniejszanie dystansu:** Stopniowe, rozłożone na tygodnie przybliżanie się do źródła bodźca (np. o 2-3 metry na sesję), pod warunkiem, że pies pozostaje w stanie pełnej samokontroli.
 4. **Przekierowanie na zachowanie alternatywne:** Uczenie psa rezygnacji z bodźca na rzecz kontaktu wzrokowego z przewodnikiem (np. protokół *Look at That* dr Leslie McDevitt). Pies uczy się sygnalizować obecność bodźca spojrzeniem na człowieka zamiast startem w pogoń.

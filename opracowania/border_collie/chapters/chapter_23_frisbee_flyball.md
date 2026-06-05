@@ -1,6 +1,6 @@
 # Dynamika i aerodynamika dogfrisbee oraz flyballu
 
-<p class="chapter-start">D</p>ogfrisbee i flyball to dyscypliny o najwyższej dynamice ruchu, bazujące na silnym popędzie łupu (*prey drive*) Border Collie. Ze względu na gwałtowne przyspieszenia, wysokie skoki akrobatyczne oraz ostre zwroty przy pełnej prędkości, sporty te wymagają od psa doskonałego przygotowania motorycznego, a od przewodnika – najwyższej dbałości o bezpieczeństwo i technikę wykonywanych ewolucji.
+<p class="chapter-start">D</p>ogfrisbee i flyball to dyscypliny o najwyższej dynamice ruchu, bazujące na silnym popędzie łupu (*prey drive*) Border Collie. Ze względu na gwałtowne przyspieszenia, wysokie skoki akrobatyczne oraz ostre zwroty przy pełnej prędkości, sporty te wymagają od psa doskonałego przygotowania motorycznego, a od przewodnika - najwyższej dbałości o bezpieczeństwo i technikę wykonywanych ewolucji.
 
 ## Dogfrisbee: Freestyle i konkurencje dystansowe
 
@@ -63,7 +63,7 @@ Flyball to sport drużynowy, w którym czteroosobowe sztafety psów ścigają si
 ### Biomechanika zwrotu na boksie (Zwrot pływacki - *Swimmer's Turn*):
 Najważniejszym elementem rzutującym na czas biegu i stawy psa jest sposób odbicia od boksu flyballowego. Tradycyjne, frontalne uderzenie w boks generuje silny nacisk na nadgarstki i kręgosłup. Współczesne szkolenie opiera się na **zwrocie pływackim**:
 - Pies uczy się nbiegać na boks po skosie, wykonując obrót ciała w locie na skośnej tarczy boksu, odbijając się wszystkimi czterema łapami jednocześnie (podobnie do pływaka nawracającego na ścianie basenu).
-- Taki zwrot minimalizuje przeciążenia stawów, przekierowuje pęd psa na powrót i skraca czas reakcji o 0.2–0.3 sekundy.
+- Taki zwrot minimalizuje przeciążenia stawów, przekierowuje pęd psa na powrót i skraca czas reakcji o 0.2-0.3 sekundy.
 
 ### Mijanki sztafetowe (ang. *Passing*):
 Zgranie psów na linii start/meta odbywa się przy pełnej prędkości obu zwierząt. Drugi pies startuje tak, aby przekroczyć linię startu w ułamku sekundy, gdy powracający pierwszy pies mija go "nos w nos" (idealny margines błędu to mniej niż 0.05 sekundy). Border Collie ze względu na swoją reaktywność i orientację przestrzenną idealnie wyczuwają moment wejścia w tor mijanki.
