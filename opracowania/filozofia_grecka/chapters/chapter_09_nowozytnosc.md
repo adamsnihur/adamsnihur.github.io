@@ -399,10 +399,6 @@ Idee rozumu u Kanta nie pełnią roli konstytutywnej (nie tworzą przedmiotów p
 
 W ten sposób Kant dokonuje ostatecznej, monumentalnej syntezy nowożytnego przełomu. Łącząc racjonalistyczny postulat apriorycznej aktywności umysłu z empirystycznym rygorem konieczności danych zmysłowych, nie tylko redefiniuje granice rozumu, ale zarazem ratuje naukę przed sceptycyzmem i otwiera nową drogę dla etyki i wiary moralnej, podsumowaną słynnym zdaniem z przedmowy do drugiego wydania *Krytyki*: „Musiałem więc zawiesić wiedzę, aby uzyskać miejsce dla wiary” [[^11]].
 
----
-
-### Przypisy
-
 [^1]: Galileo Galilei, *Il Saggiatore*, Roma 1623, s. 48.
 [^2]: Baruch Spinoza, *Etyka w porządku geometrycznym wyłożona*, tłum. I. Myślicki, Warszawa 1954, Część I, Definicja III.
 [^3]: Tamże, Część III, Twierdzenie VI.

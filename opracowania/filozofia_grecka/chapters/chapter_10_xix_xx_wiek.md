@@ -69,6 +69,57 @@ Dionizos natomiast to bóg ekstazy, upojenia (*Rausch*), chaosu i zniszczenia in
 
 Nietzsche twierdził, że genialność wczesnych Greków (z okresu archaicznego i wczesnoklasycznego) polegała na tym, że potrafili oni utrzymać te dwie przeciwstawne siły w dynamicznym napięciu. Najwyższym wyrazem tej genialności była tragedia attycka, zwłaszcza w wydaniu Ajschylosa i Sofoklesa. Tragedia nie była dla Nietzschego jedynie formą literacką, lecz metafizycznym wydarzeniem: dionizyjski chór (którego muzyka wyrażała bezdenną grozę i bezsens istnienia) znajdował swoje apolińskie ukojenie i ucieleśnienie w postaciach scenicznych i dialogu dramatycznym. Dzięki temu widz mógł obcować z dionizyjską otchłanią, nie zostając przez nią unicestmionym - apolińska forma czyniła ból znośnym, przemieniając go w estetyczny zachwyt i przynosząc metafizyczne pocieszenie.
 
+<div class="apollonian-dionysian-diagram-container" style="text-align: center; margin: 3em 0;">
+<h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Dychotomia Popędów Artystycznych według Nietzschego</h5>
+<svg viewBox="0 0 800 300" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+  <!-- Left Side: Apollonian (Apollonios) -->
+  <rect x="25" y="30" width="320" height="240" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+  <text x="185" y="60" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="14" letter-spacing="1">APOLIŃSKOŚĆ (Apollo)</text>
+  <text x="185" y="78" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Rozum, miara, piękny pozór, indywidualizacja</text>
+  <line x1="50" y1="90" x2="320" y2="90" stroke="#EADEC9" stroke-width="1" />
+  
+  <!-- Apollonian Geometric Emblems: Symmetric columns & sun -->
+  <circle cx="185" cy="150" r="25" fill="none" stroke="#1A303A" stroke-width="1.5" />
+  <line x1="185" y1="110" x2="185" y2="190" stroke="#1A303A" stroke-width="1.5" />
+  <line x1="145" y1="150" x2="225" y2="150" stroke="#1A303A" stroke-width="1.5" />
+  <polygon points="185,115 150,150 185,185 220,150" fill="none" stroke="#B58A3D" stroke-width="1" stroke-dasharray="2,2" />
+  
+  <text x="185" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-weight="600" font-size="11">Principium Individuationis</text>
+  <text x="185" y="232" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Sztuki plastyczne (rzeźba), sen, iluzja chroniąca byt.</text>
+
+  <!-- Right Side: Dionysian (Dionysiakos) -->
+  <rect x="455" y="30" width="320" height="240" rx="6" fill="#FDFBF7" stroke="#EADEC9" stroke-width="1.5" />
+  <text x="615" y="60" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="14" letter-spacing="1">DIONIZYJSKOŚĆ (Dionizos)</text>
+  <text x="615" y="78" text-anchor="middle" fill="#666" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Ekstaza, chaos, upojenie, pierwotna jedność</text>
+  <line x1="480" y1="90" x2="750" y2="90" stroke="#EADEC9" stroke-width="1" />
+  
+  <!-- Dionysian Fluid Emblems: Chaotic waves and ivy leaf style curves -->
+  <path d="M 575 150 Q 595 120 615 150 T 655 150" fill="none" stroke="#8C2D19" stroke-width="2" />
+  <path d="M 575 160 Q 595 130 615 160 T 655 160" fill="none" stroke="#8C2D19" stroke-width="1.5" stroke-dasharray="3,3" />
+  <path d="M 575 140 Q 595 110 615 140 T 655 140" fill="none" stroke="#B58A3D" stroke-width="1" />
+  <circle cx="615" cy="150" r="30" fill="none" stroke="#8C2D19" stroke-width="1" opacity="0.4" />
+
+  <text x="615" y="215" text-anchor="middle" fill="#26211C" font-family="Montserrat, sans-serif" font-weight="600" font-size="11">Das Urone (Pierwotna Jedność)</text>
+  <text x="615" y="232" text-anchor="middle" fill="#555" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Muzyka, żywioł, zatracenie granic, obcowanie z otchłanią.</text>
+
+  <!-- Central Duality / Synthesis: Tragedy (Attic Tragedy) -->
+  <g transform="translate(365, 120)">
+    <circle cx="35" cy="30" r="35" fill="#B58A3D" stroke="#FFF" stroke-width="2" />
+    <path d="M 18 25 Q 35 10 52 25" fill="none" stroke="#FFF" stroke-width="2" /> <!-- tragedy frown mouth -->
+    <circle cx="27" cy="30" r="3" fill="#FFF" />
+    <circle cx="43" cy="30" r="3" fill="#FFF" />
+    <text x="35" y="80" text-anchor="middle" fill="#B58A3D" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11">SYNTEZA</text>
+    <text x="35" y="95" text-anchor="middle" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="bold" font-size="10">TRAGEDIA</text>
+  </g>
+  
+  <!-- Connecting Arrows -->
+  <path d="M 345 150 L 375 150" stroke="#B58A3D" stroke-width="1.5" stroke-linecap="round" fill="none" />
+  <polygon points="375,150 368,146 368,154" fill="#B58A3D" />
+  <path d="M 455 150 L 425 150" stroke="#B58A3D" stroke-width="1.5" stroke-linecap="round" fill="none" />
+  <polygon points="425,150 432,146 432,154" fill="#B58A3D" />
+</svg>
+</div>
+
 #### Krytyka Sokratesa i Eurypidesa: „Sokratyzm” jako uśmiercenie tragizmu
 
 Ta delikatna i genialna równowaga została jednak brutalnie zniszczona. Sprawcami tego morderstwa na greckim geniuszu byli, według Nietzschego, Sokrates oraz dramaturg Eurypides. Eurypides sprowadził tragedię z jej metafizycznych wyżyn na poziom realistycznego dramatu psychologicznego, eliminując dionizyjski chór i wprowadzając na scenę racjonalny dialog i mieszczańskie problemy. Co ciekawe, pod koniec życia w swoim ostatnim dramacie *Bakchantki*, Eurypides przedstawił tragiczną i krwawą zemstę Dionizosa na racjonalnym władcy Penteuszu - Nietzsche interpretował to jako spóźnioną i bezsilną kapitulację poety przed potęgą dionizyjskiego bóstwa, którego wcześniej próbował się wyrzec. Za plecami Eurypidesa stał jednak jego prawdziwy mistrz i inspirator - Sokrates.

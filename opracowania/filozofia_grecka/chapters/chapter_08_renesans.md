@@ -191,7 +191,7 @@ Napisana w 1486 roku *Oratio de hominis dignitate* (*Mowa o godności człowieka
 
 W słynnym micie o stworzeniu człowieka Pico przedstawia Boga jako Architekta, który po zakończeniu budowy wszechświata i obsadzeniu wszystkich nisz bytowych (od aniołów w sferze supralunarnej po zwierzęta i rośliny na Ziemi) zapragnął stworzyć istotę, która potrafiłaby ogarnąć rozumem i podziwiać wspaniałość Jego dzieła. Jednak Bóg nie miał już żadnego wolnego wzorca (*archetypu*), który mógłby przypisać nowemu stworzeniu. Wówczas zwrócił się do nowo stworzonego Adama ze słowami, które stanowią jądro renesansowej antropologii:
 
-> „Nie dałem ci, Adamie, ani określonej siedziby, ani własnego oblicza, ani żadnego szczególnego daru, abyś taką siedzibę, takie oblicze i takie dary, jakich sam zapragniesz, posiadał i zachował zgodnie z twoją wolą i twoim wyrokiem. Natura wszystkich innych istot została określona i zamyka się w granicach przeze mnie ustanowionych. Ty, nie skrępowany żadnymi barierami, określisz swoją naturę sam, zgodnie z twoją wolną wolą, w której ręce cię powierzyłem. Umieściłem cię w środku świata, abyś stamtąd mógł łatwiej dostrzec wszystko, co się w świecie znajduje. Nie uczyniłem cię ani istotą niebiańską, ani ziemską, ani śmiertelną, ani nieśmiertelną, abyś jako wolny i godny siebie rzeźbiarz i twórca sam sobie nadał taki kształt, jaki przeniesiesz nad inne”. [1]
+> „Nie dałem ci, Adamie, ani określonej siedziby, ani własnego oblicza, ani żadnego szczególnego daru, abyś taką siedzibę, takie oblicze i takie dary, jakich sam zapragniesz, posiadał i zachował zgodnie z twoją wolą i twoim wyrokiem. Natura wszystkich innych istot została określona i zamyka się w granicach przeze mnie ustanowionych. Ty, nie skrępowany żadnymi barierami, określisz swoją naturę sam, zgodnie z twoją wolną wolą, w której ręce cię powierzyłem. Umieściłem cię w środku świata, abyś stamtąd mógł łatwiej dostrzec wszystko, co się w świecie znajduje. Nie uczyniłem cię ani istotą niebiańską, ani ziemską, ani śmiertelną, ani nieśmiertelną, abyś jako wolny i godny siebie rzeźbiarz i twórca sam sobie nadał taki kształt, jaki przeniesiesz nad inne”. [^1]
 
 ### Koncepcja wolności ludzkiej i samokreacji
 
@@ -202,7 +202,48 @@ Ten ustęp rewolucjonizuje dotychczasową metafizykę. Człowiek według Pico ni
 - Jeśli wzniesie się na poziom czystej kontemplacji intelektualnej, zrówna się z aniołami.
 - Jeśli zaś zjednoczy się z samą Jednią, wniknie w boską ciemność i stanie się jedno z Bogiem.
 
-Godność człowieka nie wynika zatem z faktu, że zajmuje on jakieś uprzywilejowane miejsce w kosmosie, lecz stąd, że jako jedyna istota stworzona posiada wolną wolę (*liberum arbitrium*) i jest autorem samego siebie. Ta koncepcja wyprzedza o stulecia nowożytne nurty egzystencjalistyczne (takie jak filozofia Jean-Paula Sartre'a), głoszące prymat egzystencji nad esencją.
+Godność człowieka nie wynika zatem z faktu, że zajmuje on jakieś uprzywilejowane miejsce w kosmosie, lecz stąd, że jako jedyna istota stworzona posiada wolną wolę (*liberum arbitrium*) i jest autorem samego siebie. Ta koncepcja wyprzedza o stulecia nowożytne nurty egzystencjalistyczne (takich jak filozofia Jean-Paula Sartre'a), głoszące prymat egzystencji nad esencją.
+
+<div class="copula-mundi-diagram-container" style="text-align: center; margin: 3em 0;">
+<h5 style="font-family: var(--font-sans); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1px; color: var(--accent-color); margin-bottom: 15px;">Wizualizacja: Kosmiczna Drabina Bytów i Człowiek jako Copula Mundi</h5>
+<svg viewBox="0 0 800 320" width="100%" height="auto" style="background-color: #FFF; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.02); padding: 20px;">
+  <!-- Central Vertical Axis -->
+  <line x1="400" y1="30" x2="400" y2="290" stroke="#EADEC9" stroke-width="3" />
+  
+  <!-- God / Absolute (Top) -->
+  <circle cx="400" cy="30" r="12" fill="#B58A3D" stroke="#FFF" stroke-width="2" />
+  <text x="420" y="34" fill="#B58A3D" font-family="Montserrat, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">BÓG / ABSOLUT (Jedno)</text>
+  
+  <!-- 1. Angels / Intelligent beings -->
+  <circle cx="400" cy="80" r="8" fill="#1A303A" />
+  <text x="420" y="84" fill="#1A303A" font-family="Montserrat, sans-serif" font-weight="600" font-size="11">SFERA ANIOŁÓW (Czysty Intelekt)</text>
+  
+  <!-- 2. Human (Middle - Chameleon/Copula Mundi) -->
+  <rect x="280" y="115" width="240" height="50" rx="6" fill="#FDFBF7" stroke="#8C2D19" stroke-width="2" />
+  <text x="400" y="135" text-anchor="middle" fill="#8C2D19" font-family="Montserrat, sans-serif" font-weight="bold" font-size="13" letter-spacing="1.5">CZŁOWIEK (COPULA MUNDI)</text>
+  <text x="400" y="152" text-anchor="middle" fill="#26211C" font-family="Cormorant Garamond, serif" font-style="italic" font-size="12">Kameleon i rzeźbiarz samego siebie (Wolna Wola)</text>
+  
+  <!-- Ascent Arrow -->
+  <path d="M 370 115 L 370 95 L 365 100 M 370 95 L 375 100" stroke="#B58A3D" stroke-width="1.5" fill="none" />
+  <text x="355" y="105" text-anchor="end" fill="#B58A3D" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Deifikacja (wzlot)</text>
+  
+  <!-- Descent Arrow -->
+  <path d="M 430 165 L 430 185 L 425 180 M 430 185 L 435 180" stroke="#8C2D19" stroke-width="1.5" fill="none" />
+  <text x="445" y="180" text-anchor="start" fill="#8C2D19" font-family="Cormorant Garamond, serif" font-style="italic" font-size="11">Bestializacja (upadek)</text>
+
+  <!-- 3. Animals / Sensory beings -->
+  <circle cx="400" cy="200" r="8" fill="#1A303A" />
+  <text x="420" y="204" fill="#26211C" font-family="Montserrat, sans-serif" font-weight="600" font-size="11">SFERA ZWIERZĄT (Zmysły / Ruch)</text>
+  
+  <!-- 4. Plants / Vegetative beings -->
+  <circle cx="400" cy="240" r="8" fill="#1A303A" />
+  <text x="420" y="244" fill="#26211C" font-family="Montserrat, sans-serif" font-weight="600" font-size="11">SFERA ROŚLIN (Wzrost / Wegetacja)</text>
+  
+  <!-- 5. Matter (Bottom) -->
+  <circle cx="400" cy="280" r="8" fill="#1A303A" />
+  <text x="420" y="284" fill="#555" font-family="Montserrat, sans-serif" font-weight="600" font-size="11">MATERIA NIEOCZYSZCZONA (Substrat fizyczny)</text>
+</svg>
+</div>
 
 ### Projekt 900 tez i *Pax Philosophica*
 
@@ -214,7 +255,7 @@ Projekt *900 tez* (zatytułowany *Conclusiones philosophicae, cabalisticae et th
 
 Pico był pionierem i twórcą tzw. chrześcijańskiej kabały (kabala chrześcijańska). Ucząc się hebrajskiego od żydowskich konwertytów (takich jak Flavius Mithridates), Pico zapoznał się z pismami kabalistycznymi (m.in. księgą *Zohar*). Doszedł do wniosku, że kabała nie jest sprzeczna z chrześcijaństwem, lecz stanowi pierwotne, ezoteryczne objawienie dane przez Boga Mojżeszowi na Górze Synaj, które pozwala na najgłębsze, mistyczne zrozumienie dogmatów chrześcijańskich.
 
-Za pomocą metod kabalistycznych (takich jak gematria czy temura) Pico dowodził prawd chrześcijańskich. Przykładowo, analizując pierwsze słowo Księgi Rodzaju - *Bereszit* (Na początku) - poprzez rozbicie go na litery i tworzenie z nich nowych słów, wywodził z niego obecność Ojca, Syna, Ducha Świętego, a także zapowiedź wcielenia i odkupienia. W jednej ze swoich słynnych tez napisał: "Nie ma nauki, która by nas bardziej upewniała o bóstwie Chrystusa, niż magia i kabała". [2] Magię Pico definiował w sposób ściśle renesansowy, odróżniając ją od czarnej magii (goecji), polegającej na pakcie z demonami. Prawdziwa magia naturalna (*magia naturalis*) to dla niego "praktyczna część nauk przyrodniczych" - umiejętność poznania ukrytych sił przyrody, powiązań astralnych i kosmicznych sympatii, a następnie wykorzystania ich dla dobra człowieka. Łącząc magię z kabałą, Pico stworzył dynamiczny system myślowy, w którym człowiek nie był biernym obserwatorem kosmosu, lecz jego aktywnym współtwórcą, zdolnym do wpływania na rzeczywistość i wznoszenia się ku transcendencji. Magia była dla niego "małżeństwem świata" (*nuptiae mundi*), łączącym ziemskie potencjały z niebiańskimi energiami.
+Za pomocą metod kabalistycznych (takich jak gematria czy temura) Pico dowodził prawd chrześcijańskich. Przykładowo, analizując pierwsze słowo Księgi Rodzaju - *Bereszit* (Na początku) - poprzez rozbicie go na litery i tworzenie z nich nowych słów, wywodził z niego obecność Ojca, Syna, Ducha Świętego, a także zapowiedź wcielenia i odkupienia. W jednej ze swoich słynnych tez napisał: "Nie ma nauki, która by nas bardziej upewniała o bóstwie Chrystusa, niż magia i kabała". [^2] Magię Pico definiował w sposób ściśle renesansowy, odróżniając ją od czarnej magii (goecji), polegającej na pakcie z demonami. Prawdziwa magia naturalna (*magia naturalis*) to dla niego "praktyczna część nauk przyrodniczych" - umiejętność poznania ukrytych sił przyrody, powiązań astralnych i kosmicznych sympatii, a następnie wykorzystania ich dla dobra człowieka. Łącząc magię z kabałą, Pico stworzył dynamiczny system myślowy, w którym człowiek nie był biernym obserwatorem kosmosu, lecz jego aktywnym współtwórcą, zdolnym do wpływania na rzeczywistość i wznoszenia się ku transcendencji. Magia była dla niego "małżeństwem świata" (*nuptiae mundi*), łączącym ziemskie potencjały z niebiańskimi energiami.
 
 ## 6. Humanizm chrześcijański Północy
 
@@ -255,7 +296,7 @@ Dzieło, które przyniosło mu nieśmiertelną sławę, *Utopia*, zostało napis
 
 More przejmuje od Platona fundamentalną tezę: źródłem wszelkiego zła społecznego, niesprawiedliwości, wojen i biedy jest własność prywatna i pieniądz. Ustami głównego bohatera, podróżnika Rafała Hythlodeusza, More stwierdza:
 
-> „Gdziekolwiek istnieje własność prywatna, gdzie wszystko mierzy się pieniędzmi, tam prawie nigdy nie jest możliwe sprawiedliwe i pomyślne rządzenie państwem”. [3]
+> „Gdziekolwiek istnieje własność prywatna, gdzie wszystko mierzy się pieniędzmi, tam prawie nigdy nie jest możliwe sprawiedliwe i pomyślne rządzenie państwem”. [^3]
 
 Na wyspie Utopii własność prywatna zostaje całkowicie zniesiona. Ziemia, domy i wszelkie dobra są własnością wspólną. Obywatele pracują wspólnie w rolnictwie i rzemiośle, a wytworzone produkty są składowane w publicznych magazynach, skąd każdy może bezpłatnie pobrać to, czego potrzebuje.
 
@@ -404,12 +445,6 @@ Wprowadzenie greckiego dziedzictwa pojęciowego do kultury Zachodu zaowocowało:
 
 W ten sposób odrodzenie myśli greckiej w filozofii renesansu nie było jedynie filologiczną rekonstrukcją przeszłości, lecz głębokim procesem emancypacji intelektualnej, który ukształtował nowożytną tożsamość kulturową Europy. Klasyczny grecki *logos*, odczytany na nowo w świetle doświadczeń nowożytnych, stał się trwałym fundamentem, na którym wzniosła się nowoczesna nauka, filozofia oraz kultura Zachodu.
 
----
-
-### Przypisy
-
-[1] Giovanni Pico della Mirandola, *Oratio de hominis dignitate*, [w:] *Filozofia włoskiego renesansu*, wybór i tłum. J. Domański, Warszawa 1967, s. 120-121 (parafraza i adaptacja terminologiczna).
-
-[2] Giovanni Pico della Mirandola, *Conclusiones cabalisticae*, [w:] *Conclusiones nongentae*, Rzym 1486 (Concl. 900).
-
-[3] Thomas More, *Utopia*, tłum. K. Abgarowicz, Warszawa 1954, s. 78.
+[^1]: Giovanni Pico della Mirandola, *Oratio de hominis dignitate*, [w:] *Filozofia włoskiego renesansu*, wybór i tłum. J. Domański, Warszawa 1967, s. 120-121 (parafraza i adaptacja terminologiczna).
+[^2]: Giovanni Pico della Mirandola, *Conclusiones cabalisticae*, [w:] *Conclusiones nongentae*, Rzym 1486 (Concl. 900).
+[^3]: Thomas More, *Utopia*, tłum. K. Abgarowicz, Warszawa 1954, s. 78.
