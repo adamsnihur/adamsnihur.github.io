@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;600&display=swap');
+
+/* --- FRENCH HISTORICAL PREMIUM PALETTE --- */
+:root {
+    --bg-color: #FAF8F5;       /* Ciepły pergamin alabastrowy */
+    --text-color: #1C1917;     /* Głęboki antracyt łupkowy */
+    --primary-color: #1F3A60;  /* Królewski błękit (Bleu de France) */
+    --secondary-color: #D2A14E;/* Złoto monarchii (Fleur-de-lis Gold) */
+    --accent-color: #A6242A;   /* Czerwień rewolucyjno-cesarska (Rouge Empire) */
+    --border-color: #EADEC9;
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Montserrat', sans-serif;
+    --max-width: 800px;
+}
+
+/* --- GLOBAL LAYOUT & ALIGNMENT --- */
+html {
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-serif);
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 0 auto !important;
+    max-width: var(--max-width);
+    padding: 50px 25px;
+    box-sizing: border-box;
+    display: block;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+/* --- TYPOGRAPHY --- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+}
+
+h1 {
+    font-size: 2.9em;
+    text-align: center;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 18px;
+    margin-bottom: 1.3em;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 2.2em;
+    border-bottom: 1px dashed var(--secondary-color);
+    padding-bottom: 10px;
+    margin-top: 2.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--accent-color);
+}
+
+p {
+    text-align: justify;
+    text-indent: 1.6em;
+    margin: 0 0 1.1em 0;
+}
+
+/* Drop Caps for Chapter Beginnings */
+p.chapter-start {
+    text-indent: 0;
+}
+
+p.chapter-start::first-letter {
+    font-family: var(--font-serif);
+    font-size: 3.8em;
+    font-weight: bold;
+    float: left;
+    line-height: 0.85;
+    margin: 0.1em 0.12em 0 0;
+    color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    padding: 6px 10px;
+    background-color: #FFF;
+    border-radius: 4px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.04);
+}
+
+li p {
+    text-indent: 0;
+}
+
+/* --- TITLE PAGE --- */
+.title-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 92vh;
+    padding: 70px 45px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 6px double var(--secondary-color);
+    background-color: #FFF;
+    margin-bottom: 6em;
+    page-break-after: always;
+}
+
+.title-header {
+    margin-top: 12vh;
+}
+
+.title-header h1 {
+    font-size: 3.4em;
+    border: none;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.title-header .subtitle {
+    font-family: var(--font-serif);
+    font-size: 1.6em;
+    font-style: italic;
+    color: var(--text-color);
+    margin-top: 12px;
+}
+
+.title-emblem {
+    width: 160px;
+    height: 160px;
+    margin: 50px auto;
+    background: radial-gradient(circle, #FFF 0%, #FAF8F5 100%);
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-emblem svg {
+    width: 100px;
+    height: 100px;
+}
+
+.title-metadata {
+    margin-bottom: 10vh;
+    font-family: var(--font-sans);
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4A4A4A;
+}
+
+.title-metadata p {
+    text-align: center;
+    text-indent: 0;
+    margin: 6px 0;
+}
+
+/* --- TABLE OF CONTENTS --- */
+.toc-container {
+    background-color: #FFF;
+    border: 1px solid var(--border-color);
+    padding: 35px;
+    margin-bottom: 5em;
+    page-break-after: always;
+}
+
+.toc-container h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 10px;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0 0 0;
+}
+
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+    font-family: var(--font-serif);
+    font-size: 1.05em;
+}
+
+.toc-name {
+    font-weight: 600;
+}
+
+.toc-name a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.toc-name a:hover {
+    color: var(--accent-color);
+}
+
+.toc-dots {
+    flex-grow: 1;
+    border-bottom: 1px dotted var(--secondary-color);
+    margin: 0 12px;
+}
+
+.toc-page {
+    font-family: var(--font-sans);
+    font-size: 0.85em;
+    color: #555;
+}
+
+/* --- BLOCKQUOTES --- */
+blockquote {
+    font-style: italic;
+    background-color: #FAF0E6;
+    border-left: 5px solid var(--accent-color);
+    margin: 1.6em 0;
+    padding: 18px 28px;
+    border-radius: 0 8px 8px 0;
+}
+
+blockquote p {
+    text-align: left;
+    text-indent: 0;
+    margin: 0;
+}
+
+blockquote footer {
+    font-family: var(--font-sans);
+    font-size: 0.8em;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: right;
+    margin-top: 12px;
+    color: #666;
+}
+
+/* --- ORNAMENTS & SEPARATORS --- */
+.ornament {
+    display: block;
+    text-align: center;
+    margin: 3.5em auto;
+    color: var(--secondary-color);
+    font-size: 1.6em;
+}
+
+.ornament::before {
+    content: "❦   ❂   ❦";
+    letter-spacing: 12px;
+}
+
+hr.sep {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(210, 161, 78, 0), rgba(210, 161, 78, 0.75), rgba(210, 161, 78, 0));
+    margin: 3.5em 0;
+}
+
+/* --- ACADEMIC TABLES --- */
+table.academic-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2.5em 0;
+    font-size: 0.9em;
+}
+
+table.academic-table th {
+    background-color: #F0E6D2;
+    color: var(--primary-color);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 14px;
+    text-align: left;
+}
+
+table.academic-table td {
+    padding: 14px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+table.academic-table tr:last-child td {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+table.academic-table tr:nth-child(even) {
+    background-color: rgba(210, 161, 78, 0.08);
+}
+
+/* --- DIAGRAMS AND VISUAL LAYOUTS --- */
+.flow-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin: 3em 0;
+    flex-wrap: wrap;
+}
+
+.flow-step {
+    background-color: #FFF;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    padding: 18px;
+    flex: 1;
+    min-width: 180px;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.03);
+}
+
+.flow-step-title {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.85em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.flow-step-desc {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.flow-arrow {
+    font-size: 1.8em;
+    color: var(--secondary-color);
+}
+
+/* --- VERTICAL TIMELINE --- */
+.timeline-vertical {
+    position: relative;
+    max-width: 800px;
+    margin: 4em auto;
+    padding: 15px 0;
+}
+
+.timeline-vertical::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background-color: var(--secondary-color);
+}
+
+.timeline-event {
+    position: relative;
+    margin-bottom: 35px;
+    padding-left: 60px;
+}
+
+.timeline-badge {
+    position: absolute;
+    left: 4px;
+    top: 6px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FFF;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-family: var(--font-sans);
+    font-size: 0.8em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.timeline-panel {
+    background-color: #FFF;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 18px 22px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.02);
+}
+
+.timeline-title {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.9em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 6px 0;
+}
+
+.timeline-desc {
+    font-size: 0.95em;
+    line-height: 1.55;
+    margin: 0;
+    text-align: justify;
+    text-indent: 0;
+    vertical-align: baseline;
+}
+
+@media print {
+    /* Prevent page-breaks in diagrams */
+    .timeline-vertical {
+        page-break-inside: avoid;
+    }
+    
+    body {
+        background-color: #FFF;
+        color: #000;
+        font-size: 11pt;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .title-page {
+        border-color: #000;
+        min-height: 95vh;
+    }
+
+    h1, h2, h3 {
+        color: #000;
+        page-break-after: avoid;
+    }
+
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    pre, blockquote, table, figure, .flow-container, .timeline-event {
+        page-break-inside: avoid;
+    }
+
+    @page {
+        size: A4;
+        margin: 2.5cm 2cm 2.5cm 2.5cm;
+    }
+}
+
+/* --- ACADEMIC ILLUSTRATIONS --- */
+figure.academic-illustration {
+    display: block;
+    margin: 2.5em auto;
+    text-align: center;
+    max-width: 90%;
+    page-break-inside: avoid;
+    background-color: #FFF;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.02);
+}
+
+figure.academic-illustration img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 12px auto;
+    border: 1px solid var(--border-color);
+}
+
+figure.academic-illustration figcaption {
+    font-family: var(--font-sans);
+    font-size: 0.85em;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 10px;
+    text-align: center;
+}

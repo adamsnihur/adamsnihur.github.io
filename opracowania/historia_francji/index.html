@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzieje Francji - Studium Historyczne</title>
+    <meta name="description" content="Interaktywny projekt naukowy prezentujący ewolucję ustrojową, militarną i kulturową Francji. Pobierz pełną monografię PDF lub czytaj online.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #1F3A60;       /* Royal Blue */
+            --accent: #A6242A;        /* Revolutionary Red */
+            --gold: #D2A14E;          /* Imperial Gold */
+            --bg-cream: #FAF9F6;      /* Off-White Cream */
+            --text-dark: #1E293B;     /* Slate 800 */
+            --text-light: #64748B;    /* Slate 500 */
+            --white: #FFFFFF;
+            --shadow: 0 10px 30px rgba(31, 58, 96, 0.08);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-cream);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Container */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header / Navigation */
+        header {
+            padding: 24px 0;
+            border-bottom: 1px solid rgba(31, 58, 96, 0.08);
+            background: rgba(250, 249, 246, 0.8);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0 60px 0;
+            position: relative;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-text h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        .hero-text h1 span {
+            display: block;
+            font-size: 1.25rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 12px;
+        }
+
+        .hero-text p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 40px;
+            max-width: 600px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 32px;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: var(--transition);
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: var(--white);
+            border: 2px solid var(--primary);
+            box-shadow: 0 4px 14px rgba(31, 58, 96, 0.25);
+        }
+
+        .btn-primary:hover {
+            background-color: #172d4c;
+            border-color: #172d4c;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--accent);
+            border: 2px solid var(--accent);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--accent);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(166, 36, 42, 0.2);
+        }
+
+        /* Book Mockup / Cover */
+        .book-mockup {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+        }
+
+        .book-card {
+            width: 320px;
+            height: 460px;
+            background: linear-gradient(135deg, #1b3254, #122138);
+            border-radius: 8px 16px 16px 8px;
+            box-shadow: 15px 20px 40px rgba(0, 0, 0, 0.25),
+                        -3px 0 10px rgba(255, 255, 255, 0.05) inset;
+            position: relative;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: var(--white);
+            transform: rotateY(-15deg) rotateX(10deg);
+            transform-style: preserve-3d;
+            transition: var(--transition);
+            border: 1px solid rgba(210, 161, 78, 0.2);
+        }
+
+        .book-card:hover {
+            transform: rotateY(-5deg) rotateX(5deg);
+        }
+
+        .book-spine-effect {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 14px;
+            background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(255,255,255,0.05) 50%, rgba(0,0,0,0.25));
+            border-radius: 8px 0 0 8px;
+        }
+
+        .book-title {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .book-title h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.2rem;
+            color: var(--gold);
+            font-weight: 700;
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }
+
+        .book-title p {
+            font-size: 0.8rem;
+            opacity: 0.7;
+            margin-top: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .book-emblem {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+        }
+
+        .book-emblem svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .book-footer {
+            text-align: center;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            opacity: 0.6;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 15px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 80px 0;
+            background: var(--white);
+            border-top: 1px solid rgba(31, 58, 96, 0.05);
+            border-bottom: 1px solid rgba(31, 58, 96, 0.05);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-header h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.2rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            margin-top: 10px;
+            font-size: 1.05rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background-color: var(--bg-cream);
+            padding: 40px 30px;
+            border-radius: 12px;
+            transition: var(--transition);
+            border: 1px solid rgba(31, 58, 96, 0.04);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.01);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+            border-color: rgba(210, 161, 78, 0.3);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.25rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .feature-card p {
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+
+        /* Animations / Video Section */
+        .media-showcase {
+            padding: 90px 0;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .video-card {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            border: 1px solid rgba(31, 58, 96, 0.05);
+            transition: var(--transition);
+        }
+
+        .video-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .video-container {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #000;
+            position: relative;
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+
+        .video-info {
+            padding: 24px;
+        }
+
+        .video-info h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .video-info p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 4px solid var(--gold);
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        footer .links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        footer .links a {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        footer .links a:hover {
+            color: var(--white);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-wrap">
+            <a href="#" class="logo">Dzieje <span>Francji</span></a>
+            <ul class="nav-links">
+                <li><a href="#o-projekcie">O Projekcie</a></li>
+                <li><a href="#animacje">Animacje Manim</a></li>
+                <li><a href="Dzieje_Francji_Studium_Historyczne.html">Monografia HTML</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1><span>Monografia Naukowa</span>Dzieje Francji</h1>
+                <p>Kompleksowe, akademickie studium historyczne badające ewolucję francuskiej państwowości, struktur ustrojowych oraz tożsamości kulturowej na przestrzeni ponad dwóch tysięcy lat – od zjednoczenia plemion galijskich, przez konsolidację monarchii Kapetyngów, rewolucyjne przemiany, napoleońskie imperium, aż po współczesną V Republikę.</p>
+                <div class="cta-buttons">
+                    <a href="Dzieje_Francji_Studium_Historyczne.html" class="btn btn-primary">Czytaj Monografię Online</a>
+                    <a href="Dzieje_Francji_Studium_Historyczne.pdf" class="btn btn-secondary" download>Pobierz Studium PDF</a>
+                </div>
+            </div>
+            <div class="book-mockup">
+                <div class="book-card">
+                    <div class="book-spine-effect"></div>
+                    <div class="book-title">
+                        <p>Studium Historyczne</p>
+                        <h2>Dzieje Francji</h2>
+                    </div>
+                    <div class="book-emblem">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Shield boundary -->
+                            <polygon points="50,5 92,20 92,60 50,95 8,60 8,20" fill="none" stroke="#D2A14E" stroke-width="2.5"/>
+                            <!-- Lilies / Fleur-de-lis style central emblem -->
+                            <path d="M50,25 C52,40 60,42 62,48 C64,54 58,56 50,56 C42,56 36,54 38,48 C40,42 48,40 50,25 Z" fill="#D2A14E"/>
+                            <path d="M50,56 C52,62 58,66 60,72 C62,78 55,80 50,80 C45,80 38,78 40,72 C42,66 48,62 50,56 Z" fill="#FFFFFF" opacity="0.9"/>
+                            <path d="M32,44 C38,45 42,48 45,54 C48,60 42,64 36,60 C30,56 26,48 32,44 Z" fill="#D2A14E"/>
+                            <path d="M68,44 C62,45 58,48 55,54 C52,60 58,64 64,60 C70,56 74,48 68,44 Z" fill="#D2A14E"/>
+                            <rect x="36" y="54" width="28" height="3.5" fill="#A6242A" rx="1.5"/>
+                        </svg>
+                    </div>
+                    <div class="book-footer">
+                        Antigravity Academic Press
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="o-projekcie">
+        <div class="container">
+            <div class="section-header">
+                <h2>Aparatura i Metodologia Naukowa</h2>
+                <p>Monografia łączy klasyczny wykład historyczny z nowoczesną wizualizacją danych.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>13 Rozdziałów Tematycznych</h3>
+                    <p>Szczegółowa analiza epok od Galii rzymskiej po rządy współczesne. Każdy rozdział zawiera logiczny wywód historyczny i analizę procesów społecznych.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖼️</div>
+                    <h3>39 Ilustracji Akademickich</h3>
+                    <p>Zintegrowane reprodukcje malarstwa historycznego, ryciny, mapy terytorialne oraz diagramy strukturalne z precyzyjnymi podpisami w języku polskim.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🖋️</div>
+                    <h3>Zweryfikowana Bibliografia</h3>
+                    <p>Dokładnie 20 kluczowych prac historiograficznych (m.in. Bloch, Braudel, Le Goff, Duby) ze zweryfikowanymi linkami DOI i OpenAlex ID oraz cytowaniami w tekście.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Showcase Section -->
+    <section class="media-showcase" id="animacje">
+        <div class="container">
+            <div class="section-header">
+                <h2>Interaktywne Animacje Manim</h2>
+                <p>Wizualizacje procesów historycznych, taktyki wojennej i architektury wyrenderowane w środowisku Manim.</p>
+            </div>
+            <div class="video-grid">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <video controls preload="metadata">
+                            <source src="animations/FrenchRegimesScene_m.mp4" type="video/mp4">
+                            Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Ewolucja Ustrojowa Francji (1789-2026)</h3>
+                        <p>Dynamiczna oś czasu przedstawiająca przemiany konstytucyjne od Ancien Régime do współczesnej V Republiki z ruchomym wskaźnikiem czasu i kartą informacyjną.</p>
+                    </div>
+                </div>
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <video controls preload="metadata">
+                            <source src="animations/GothicArchScene_m.mp4" type="video/mp4">
+                            Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Fizyka i Mechanika Łuku Gotyckiego</h3>
+                        <p>Wizualizacja wektorowa sił statycznych ukazująca przewagę gotyckiego ostrołuku z systemem przyporowym nad romańskim łukiem półkolistym, co umożliwiło otwarcie ścian na witraże.</p>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <video controls preload="metadata">
+                            <source src="animations/AusterlitzBattleScene_m.mp4" type="video/mp4">
+                            Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Bitwa pod Austerlitz (1805)</h3>
+                        <p>Wizualizacja taktycznego geniuszu Napoleona: przynęta na prawym skrzydle przy potoku Goldbach, pościg koalicji, a następnie uderzenie korpusu Soulta w puste centrum i odwrót wroga przez stawy.</p>
+                    </div>
+                </div>
+                <!-- Video 4 -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <video controls preload="metadata">
+                            <source src="animations/BouvinesBattleScene_m.mp4" type="video/mp4">
+                            Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+                        </video>
+                    </div>
+                    <div class="video-info">
+                        <h3>Bitwa pod Bouvines (1214)</h3>
+                        <p>Przebieg starcia zbrojnego na bazie analizy Georges'a Duby'ego. Pokazuje szarżę na prawym skrzydle francuskim, ucieczkę cesarza Ottona IV oraz okrążenie i kapitulację pod Boulogne.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Adamsnihur. Wszelkie prawa zastrzeżone.</p>
+            <p style="margin-top: 5px; font-size: 0.8rem; opacity: 0.6;">Opracowanie przygotowane i wygenerowane we współpracy z systemem AI Antigravity.</p>
+            <div class="links">
+                <a href="Dzieje_Francji_Studium_Historyczne.html">Monografia HTML</a>
+                <a href="Dzieje_Francji_Studium_Historyczne.pdf">Pobierz PDF</a>
+                <a href="https://github.com/adamsnihur" target="_blank">Profil GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
