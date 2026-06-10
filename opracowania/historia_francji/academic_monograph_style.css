@@ -492,3 +492,93 @@ figure.academic-illustration figcaption {
     margin: 0 10px;
     text-align: center;
 }
+
+/* --- ACADEMIC VIDEOS (MANIM INTEGRATION) --- */
+figure.academic-video {
+    display: block;
+    margin: 2.5em auto;
+    text-align: center;
+    max-width: 90%;
+    page-break-inside: avoid;
+    background-color: #FFF;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.02);
+}
+
+figure.academic-video video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 12px auto;
+    border: 1px solid var(--border-color);
+}
+
+figure.academic-video figcaption {
+    font-family: var(--font-sans);
+    font-size: 0.85em;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.video-print-fallback {
+    display: none;
+}
+
+@media print {
+    figure.academic-video video {
+        display: none !important;
+    }
+    figure.academic-video {
+        display: block !important;
+        page-break-inside: avoid;
+    }
+    .video-print-fallback {
+        display: block !important;
+        text-align: center;
+        position: relative;
+        margin: 0 auto 15px auto;
+        max-width: 100%;
+    }
+    .video-print-fallback img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid var(--border-color);
+        display: block;
+        margin: 0 auto;
+    }
+    .video-play-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        background: rgba(31, 58, 96, 0.85); /* Bleu de France */
+        color: #FFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        line-height: 1;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+        border: 2px solid var(--secondary-color); /* Fleur-de-lis Gold */
+    }
+    .video-print-link {
+        font-family: var(--font-sans);
+        font-size: 0.8em;
+        color: var(--primary-color);
+        margin: 8px 0 0 0;
+        text-align: center;
+        text-indent: 0;
+    }
+    .video-print-link a {
+        color: var(--accent-color);
+        text-decoration: underline;
+    }
+}
