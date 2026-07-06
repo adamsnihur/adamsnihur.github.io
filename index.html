@@ -140,6 +140,11 @@
             <span class="lang-en">MSc in Computer Science & Econometrics (UEP)</span>
           </div>
           <div class="detail-row">
+            <svg class="icon icon-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            <span class="lang-pl">Certyfikat: <a href="assets/CertyfikatUmiejetnosciJutra_PL.pdf" target="_blank" style="color: inherit; text-decoration: underline;">Umiejętności Jutra AI (Google)</a></span>
+            <span class="lang-en">Credential: <a href="assets/CertyfikatUmiejetnosciJutra_EN.pdf" target="_blank" style="color: inherit; text-decoration: underline;">Google AI Tomorrow's Skills</a></span>
+          </div>
+          <div class="detail-row">
             <svg class="icon icon-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
             <span class="lang-pl">Product, data, AI systems</span>
             <span class="lang-en">Product, data, AI systems</span>
@@ -501,12 +506,14 @@
             <li>Informatyka i Ekonometria (MSc)</li>
             <li>Systemy agentowe AI (Claude Code, Gemini, LangGraph)</li>
             <li>Zarządzanie bazami danych i integracje API</li>
+            <li>Certyfikat Umiejętności Jutra AI - Google</li>
           </ul>
           <ul class="skills-item-list lang-en">
             <li>Python, SQL, R, Advanced Excel</li>
             <li>MSc in Computer Science & Econometrics</li>
             <li>Agentic AI Systems (Claude Code, Gemini, LangGraph)</li>
             <li>Database Management & API Integrations</li>
+            <li>Google AI Tomorrow's Skills Certificate</li>
           </ul>
         </div>
 
@@ -639,11 +646,19 @@
       themeToggle.innerHTML = '<svg class="icon toggle-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
     }
 
+    // Check URL parameters or hash first, then fallback to localStorage
+    const urlParams = new URLSearchParams(window.location.search);
+    const hasLangQuery = urlParams.get('lang') === 'en';
+    const hasLangHash = window.location.hash === '#en' || window.location.hash.includes('lang=en');
     const savedLang = localStorage.getItem('lang');
-    if (savedLang === 'en') {
+
+    if (hasLangQuery || hasLangHash || savedLang === 'en') {
       body.classList.replace('lang-pl', 'lang-en');
       langToggle.textContent = 'PL';
       document.documentElement.lang = 'en';
+      if (hasLangQuery || hasLangHash) {
+        localStorage.setItem('lang', 'en');
+      }
     }
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
