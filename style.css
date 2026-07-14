@@ -2171,3 +2171,120 @@ body:not(.is-loaded) .hero-intro {
     transform: none !important;
   }
 }
+
+/* Featured Certification Badges & Cards */
+.cert-badge-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--accent);
+  box-shadow: 2px 2px 0px var(--border-color);
+  margin-top: 6px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-tactile);
+}
+
+.cert-badge-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0px var(--border-color);
+  background: var(--bg-tertiary);
+}
+
+.cert-badge-icon {
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  border-radius: 4px;
+  background: var(--accent);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cert-badge-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.cert-badge-tag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.cert-badge-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.cert-badge-action {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.proof-metric-cert {
+  text-decoration: none;
+  color: inherit;
+  border-color: var(--accent) !important;
+  transition: all var(--transition-tactile);
+}
+
+.proof-metric-cert:hover {
+  transform: translateY(-2px);
+  background-color: var(--bg-secondary);
+}
+
+.cert-skill-box {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border: 1.5px solid var(--accent);
+  background: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition-tactile);
+}
+
+.cert-skill-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0px var(--border-color);
+}
+
+.cert-skill-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cert-skill-tag {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.cert-skill-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
