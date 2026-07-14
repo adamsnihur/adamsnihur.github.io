@@ -16,6 +16,24 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2309090B'/%3E%3Cpath d='M14 44 28 12h8l14 32h-9l-3-8H26l-3 8H14Zm15-16h6l-3-9-3 9Z' fill='%23FAFAFA'/%3E%3C/svg%3E">
 </head>
 <body class="light-theme lang-pl">
+  <script>
+    (function() {
+      try {
+        var params = new URLSearchParams(window.location.search);
+        var langParam = params.get('lang');
+        var hash = window.location.hash;
+        var saved = localStorage.getItem('lang');
+        var isEn = (langParam === 'en') || (hash === '#en') || (hash && hash.indexOf('lang=en') !== -1) || (saved === 'en');
+        if (isEn) {
+          document.documentElement.lang = 'en';
+          document.body.className = document.body.className.replace('lang-pl', 'lang-en');
+          if (langParam === 'en' || hash === '#en' || (hash && hash.indexOf('lang=en') !== -1)) {
+            localStorage.setItem('lang', 'en');
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
 
   <!-- Sticky Neo-Brutalist Navbar -->
   <header class="header">
@@ -646,19 +664,13 @@
       themeToggle.innerHTML = '<svg class="icon toggle-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
     }
 
-    // Check URL parameters or hash first, then fallback to localStorage
-    const urlParams = new URLSearchParams(window.location.search);
-    const hasLangQuery = urlParams.get('lang') === 'en';
-    const hasLangHash = window.location.hash === '#en' || window.location.hash.includes('lang=en');
-    const savedLang = localStorage.getItem('lang');
-
-    if (hasLangQuery || hasLangHash || savedLang === 'en') {
-      body.classList.replace('lang-pl', 'lang-en');
+    // Sync button label with active language
+    if (body.classList.contains('lang-en')) {
       langToggle.textContent = 'PL';
       document.documentElement.lang = 'en';
-      if (hasLangQuery || hasLangHash) {
-        localStorage.setItem('lang', 'en');
-      }
+    } else {
+      langToggle.textContent = 'EN';
+      document.documentElement.lang = 'pl';
     }
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
