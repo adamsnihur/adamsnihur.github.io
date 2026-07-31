@@ -77,10 +77,24 @@
       font-family: var(--font-mono);
       font-size: 0.9rem;
       color: var(--text-secondary);
-      padding: 40px;
+      padding: 60px 20px;
     }
     .pdf-native-fallback {
       display: none;
+      width: 100%;
+      background-color: var(--bg-secondary);
+      border: var(--border-width) solid var(--border-color);
+      box-shadow: 8px 8px 0px var(--shadow-color);
+      padding: 24px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .pdf-fallback-card {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 24px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
     }
     @media (max-width: 768px) {
       .pdf-page-container {
@@ -174,8 +188,18 @@
 
     <!-- Native Fallback if JS/PDF.js unavailable -->
     <div id="pdf-fallback" class="pdf-native-fallback">
-      <iframe src="assets/CV_AdamSnihur_PL.pdf#view=FitH" class="lang-pl" style="width: 100%; height: 750px; border: var(--border-width) solid var(--border-color);" title="CV Adam Śnihur (PL)"></iframe>
-      <iframe src="assets/Adam_Snihur_CV_EN.pdf#view=FitH" class="lang-en" style="width: 100%; height: 750px; border: var(--border-width) solid var(--border-color);" title="CV Adam Snihur (EN)"></iframe>
+      <div class="pdf-fallback-card">
+        <h3 class="lang-pl">Otwórz dokument CV w przeglądarce</h3>
+        <h3 class="lang-en">Open CV Document in Browser</h3>
+        <p class="lang-pl">Bezpośredni podgląd w nowym oknie lub pobieranie pliku PDF:</p>
+        <p class="lang-en">Direct view in new tab or download PDF file:</p>
+        <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 16px;">
+          <a href="assets/CV_AdamSnihur_PL.pdf" target="_blank" class="btn btn-primary lang-pl">Otwórz CV (PL) w nowej karcie ↗</a>
+          <a href="assets/Adam_Snihur_CV_EN.pdf" target="_blank" class="btn btn-primary lang-en">Open CV (EN) in new tab ↗</a>
+          <a href="assets/CV_AdamSnihur_PL.pdf" download="CV_AdamSnihur_PL.pdf" class="btn btn-secondary lang-pl">Pobierz PDF ↓</a>
+          <a href="assets/Adam_Snihur_CV_EN.pdf" download="Adam_Snihur_CV_EN.pdf" class="btn btn-secondary lang-en">Download PDF ↓</a>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -199,15 +223,21 @@
       pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
     }
 
-    let currentRenderTask = null;
+    let currentRenderId = 0;
 
     function renderPDF() {
+      currentRenderId++;
+      const renderId = currentRenderId;
       const container = document.getElementById('pdf-render-container');
+      const fallback = document.getElementById('pdf-fallback');
       const isEn = body.classList.contains('lang-en');
       const pdfUrl = isEn ? 'assets/Adam_Snihur_CV_EN.pdf' : 'assets/CV_AdamSnihur_PL.pdf';
 
+      fallback.style.display = 'none';
+      container.style.display = 'block';
+
       if (!window.pdfjsLib) {
-        document.getElementById('pdf-fallback').style.display = 'block';
+        fallback.style.display = 'block';
         container.style.display = 'none';
         return;
       }
@@ -219,11 +249,19 @@
       `;
 
       pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+        if (renderId !== currentRenderId) return; // Stale render request, ignore
         container.innerHTML = '';
-        const containerWidth = container.clientWidth - (window.innerWidth < 768 ? 16 : 48);
+        const containerWidth = container.clientWidth - (window.innerWidth < 768 ? 16 : 36);
 
+        const pagePromises = [];
         for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-          pdf.getPage(pageNum).then(page => {
+          pagePromises.push(pdf.getPage(pageNum));
+        }
+
+        Promise.all(pagePromises).then(pages => {
+          if (renderId !== currentRenderId) return;
+
+          pages.forEach(page => {
             const unscaledViewport = page.getViewport({ scale: 1.0 });
             const calculatedScale = Math.min(Math.max(containerWidth / unscaledViewport.width, 1.0), 2.0);
             const viewport = page.getViewport({ scale: calculatedScale * (window.devicePixelRatio || 1) });
@@ -233,19 +271,20 @@
             canvas.height = viewport.height;
             canvas.width = viewport.width;
 
-            // Visual display size matching CSS pixels
             canvas.style.width = (viewport.width / (window.devicePixelRatio || 1)) + 'px';
             canvas.style.height = (viewport.height / (window.devicePixelRatio || 1)) + 'px';
 
             container.appendChild(canvas);
             page.render({ canvasContext: context, viewport: viewport });
-          }).catch(err => {
-            console.error('Page render error:', err);
           });
-        }
+        }).catch(err => {
+          if (renderId !== currentRenderId) return;
+          console.error('Page render error:', err);
+        });
       }).catch(err => {
+        if (renderId !== currentRenderId) return;
         console.error('PDF load error:', err);
-        document.getElementById('pdf-fallback').style.display = 'block';
+        fallback.style.display = 'block';
         container.style.display = 'none';
       });
     }
