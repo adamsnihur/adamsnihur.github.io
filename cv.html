@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adam Snihur - Curriculum Vitae</title>
-  <meta name="description" content="Curriculum Vitae - Adam Snihur. Technical Product Manager for AI-enabled operations. Enterprise execution w GSK, analityka danych, systemy agentowe AI i SaaS.">
+  <title>Adam Snihur - Curriculum Vitae (PDF Viewer)</title>
+  <meta name="description" content="Wyświetl Podgląd PDF Curriculum Vitae - Adam Snihur. Technical Product Manager for AI-enabled operations.">
   
   <!-- Google Fonts: Instrument Sans & IBM Plex Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,147 +15,68 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2309090B'/%3E%3Cpath d='M14 44 28 12h8l14 32h-9l-3-8H26l-3 8H14Zm15-16h6l-3-9-3 9Z' fill='%23FAFAFA'/%3E%3C/svg%3E">
   <style>
-    .cv-page-container {
-      max-width: 960px;
-      margin: 100px auto 60px;
-      padding: 0 24px;
+    .pdf-page-container {
+      max-width: 1100px;
+      margin: 95px auto 40px;
+      padding: 0 20px;
     }
-    .cv-header-card {
+    .pdf-header-bar {
       background-color: var(--bg-secondary);
       border: var(--border-width) solid var(--border-color);
-      box-shadow: 8px 8px 0px var(--shadow-color);
-      padding: 36px;
-      margin-bottom: 40px;
-      position: relative;
-    }
-    .cv-header-grid {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 24px;
-      align-items: start;
-    }
-    .cv-name {
-      font-size: 2.2rem;
-      font-weight: 800;
-      margin: 0 0 8px 0;
-      letter-spacing: -0.02em;
-    }
-    .cv-role {
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: var(--accent);
-      margin-bottom: 16px;
-      font-family: var(--font-mono);
-    }
-    .cv-contact-pills {
+      box-shadow: 6px 6px 0px var(--shadow-color);
+      padding: 20px 24px;
+      margin-bottom: 20px;
       display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 16px;
-    }
-    .cv-pill {
-      display: inline-flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 6px;
-      background-color: var(--bg-primary);
-      border: 1px solid var(--border-color);
-      padding: 6px 14px;
-      font-size: 0.82rem;
-      text-decoration: none;
-      color: var(--text-primary);
-      font-family: var(--font-mono);
+      flex-wrap: wrap;
+      gap: 16px;
     }
-    .cv-pill:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-    .cv-section {
-      margin-bottom: 48px;
-    }
-    .cv-section-title {
+    .pdf-title-info h1 {
       font-size: 1.3rem;
       font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      border-bottom: 2px solid var(--border-color);
-      padding-bottom: 10px;
-      margin-bottom: 24px;
+      margin: 0 0 4px 0;
+    }
+    .pdf-title-info p {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--accent);
+      margin: 0;
+    }
+    .pdf-actions {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-    }
-    .cv-entry {
-      background-color: var(--bg-secondary);
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      margin-bottom: 20px;
-      box-shadow: 4px 4px 0px var(--shadow-color);
-    }
-    .cv-entry-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
+      gap: 12px;
       flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 8px;
     }
-    .cv-entry-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      margin: 0;
-    }
-    .cv-entry-company {
-      font-family: var(--font-mono);
-      font-size: 0.85rem;
-      color: var(--accent);
-      font-weight: 600;
-    }
-    .cv-entry-date {
-      font-family: var(--font-mono);
-      font-size: 0.8rem;
-      color: var(--text-muted);
-    }
-    .cv-skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    .cv-skill-card {
+    .pdf-frame-wrapper {
+      position: relative;
+      width: 100%;
       background-color: var(--bg-secondary);
-      border: 1px solid var(--border-color);
+    }
+    .pdf-viewer-frame {
+      width: 100%;
+      height: 82vh;
+      min-height: 700px;
+      border: var(--border-width) solid var(--border-color);
+      box-shadow: 8px 8px 0px var(--shadow-color);
+      background-color: #FFFFFF;
+      display: block;
+    }
+    .pdf-fallback-msg {
       padding: 20px;
-      box-shadow: 4px 4px 0px var(--shadow-color);
-    }
-    .cv-skill-title {
-      font-size: 0.95rem;
-      font-weight: 700;
+      text-align: center;
       font-family: var(--font-mono);
-      margin-bottom: 12px;
-      color: var(--accent);
-    }
-    .cv-skill-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .cv-skill-list li {
-      font-size: 0.85rem;
-      padding: 4px 0;
-      border-bottom: 1px baseline var(--bg-tertiary);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .cv-skill-list li::before {
-      content: "▪";
-      color: var(--accent);
+      font-size: 0.9rem;
     }
     @media (max-width: 768px) {
-      .cv-header-grid {
-        grid-template-columns: 1fr;
+      .pdf-page-container {
+        margin-top: 75px;
+        padding: 0 12px;
       }
-      .cv-page-container {
-        margin-top: 80px;
+      .pdf-viewer-frame {
+        height: 75vh;
+        min-height: 500px;
       }
     }
   </style>
@@ -183,7 +104,7 @@
   <!-- Navigation Bar -->
   <header class="header">
     <div class="nav-container">
-      <a href="index.html" class="logo">← <span class="lang-pl">Strona Główna</span><span class="lang-en">Portfolio Home</span></a>
+      <a href="index.html" class="logo">← <span class="lang-pl">Powrót do strony głównej</span><span class="lang-en">Back to Portfolio</span></a>
       <nav class="nav-links">
         <a href="index.html#projects" class="nav-link"><span class="lang-pl">Projekty</span><span class="lang-en">Work</span></a>
         <a href="index.html#experience" class="nav-link"><span class="lang-pl">Doświadczenie</span><span class="lang-en">Experience</span></a>
@@ -195,253 +116,67 @@
         <button id="theme-toggle" class="theme-btn" aria-label="Przełącz motyw / Switch theme">
           <svg class="icon toggle-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
-        <!-- PDF Download CTA -->
+        <!-- Download PDF CTA -->
         <a href="assets/CV_AdamSnihur_PL.pdf" download="CV_AdamSnihur_PL.pdf" target="_blank" class="btn btn-primary btn-sm lang-pl">Pobierz PDF ↓</a>
         <a href="assets/Adam_Snihur_CV_EN.pdf" download="Adam_Snihur_CV_EN.pdf" target="_blank" class="btn btn-primary btn-sm lang-en">Download PDF ↓</a>
       </div>
     </div>
   </header>
 
-  <main class="cv-page-container">
-    <!-- Header Box -->
-    <header class="cv-header-card">
-      <div class="cv-header-grid">
-        <div>
-          <h1 class="cv-name">ADAM ŚNIHUR</h1>
-          <div class="cv-role">
-            <span class="lang-pl">Technical Product Manager / AI-Enabled Operations / Supply Chain Analyst</span>
-            <span class="lang-en">Technical Product Manager / AI-Enabled Operations / Supply Chain Analyst</span>
-          </div>
-          <p class="lang-pl" style="font-size: 0.95rem; margin: 0; color: var(--text-secondary);">
-            Łączę globalny supply chain w enterprise (GSK), analitykę danych (Python, SQL), budowanie produktów SaaS oraz praktyczne wdrożenia systemów agentowych AI.
-          </p>
-          <p class="lang-en" style="font-size: 0.95rem; margin: 0; color: var(--text-secondary);">
-            Combining global enterprise supply chain operations (GSK), data analytics (Python, SQL), SaaS product building, and hands-on agentic AI systems implementation.
-          </p>
-          
-          <div class="cv-contact-pills">
-            <span class="cv-pill">
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Poznań, PL / Remote
-            </span>
-            <a href="mailto:adam.snihur@gmail.com" class="cv-pill">
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              adam.snihur@gmail.com
-            </a>
-            <a href="https://www.linkedin.com/in/adam-snihur-b66b3318b" target="_blank" rel="noopener noreferrer" class="cv-pill">
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-              LinkedIn ↗
-            </a>
-          </div>
-        </div>
-
-        <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end;">
-          <a href="assets/CV_AdamSnihur_PL.pdf" download="CV_AdamSnihur_PL.pdf" target="_blank" class="btn btn-primary lang-pl">Pobierz plik PDF ↓</a>
-          <a href="assets/Adam_Snihur_CV_EN.pdf" download="Adam_Snihur_CV_EN.pdf" target="_blank" class="btn btn-primary lang-en">Download PDF ↓</a>
-        </div>
+  <main class="pdf-page-container">
+    <!-- Header Control Bar -->
+    <div class="pdf-header-bar">
+      <div class="pdf-title-info">
+        <h1 class="lang-pl">Podgląd Curriculum Vitae — Adam Śnihur</h1>
+        <h1 class="lang-en">Curriculum Vitae Preview — Adam Snihur</h1>
+        <p class="lang-pl">Technical Product Manager for AI-enabled operations</p>
+        <p class="lang-en">Technical Product Manager for AI-enabled operations</p>
       </div>
-    </header>
 
-    <!-- Experience Section -->
-    <section class="cv-section">
-      <h2 class="cv-section-title">
-        <span class="lang-pl">Doświadczenie Zawodowe</span>
-        <span class="lang-en">Work Experience</span>
-      </h2>
+      <div class="pdf-actions">
+        <!-- Open Raw PDF in New Tab -->
+        <a href="assets/CV_AdamSnihur_PL.pdf" target="_blank" class="btn btn-outline btn-sm lang-pl" title="Otwórz plik PDF w nowym oknie przeglądarki">
+          Otwórz w nowej karcie ↗
+        </a>
+        <a href="assets/Adam_Snihur_CV_EN.pdf" target="_blank" class="btn btn-outline btn-sm lang-en" title="Open raw PDF file in new browser tab">
+          Open in new tab ↗
+        </a>
 
-      <!-- GSK Analyst -->
-      <article class="cv-entry">
-        <div class="cv-entry-header">
-          <div>
-            <h3 class="cv-entry-title">GLOBAL SUPPLY CHAIN ANALYST</h3>
-            <span class="cv-entry-company">GSK — Global Pharma Operations</span>
-          </div>
-          <span class="cv-entry-date">2025.01 — OBECNIE / PRESENT</span>
-        </div>
-        <ul class="bullet-list lang-pl">
-          <li>Prowadzenie zaawansowanych analiz wąskich gardeł (root-cause analysis) dla globalnych linii pakujących w środowisku farmaceutycznym.</li>
-          <li>Praca z systemami SAP APO/ECC - odpowiedzialność za parametry planowania, capacity leveling (tygodniowe bilansowanie popytu i mocy produkcyjnych) oraz optymalizację stanów magazynowych.</li>
-          <li>Crisis management i bezpośrednia współpraca z Regional Managers w celu zapobiegania przestojom w dostawach leków.</li>
-          <li>Aktywne uczestnictwo w spotkaniach Demand Review oraz pre/post-SRM.</li>
-        </ul>
-        <ul class="bullet-list lang-en">
-          <li>Leading advanced root-cause and bottleneck analyses for global packing lines in pharmaceutical operations.</li>
-          <li>Utilizing SAP APO/ECC systems for demand/supply parameter management, weekly capacity leveling, and inventory optimization.</li>
-          <li>Executing crisis management and partnering directly with Regional Managers to prevent life-saving drug supply disruptions.</li>
-          <li>Actively driving and participating in Demand Reviews and pre/post-SRM alignment meetings.</li>
-        </ul>
-      </article>
-
-      <!-- GSK PM -->
-      <article class="cv-entry">
-        <div class="cv-entry-header">
-          <div>
-            <h3 class="cv-entry-title">PRODUCT MANAGER (SOCIAL & PAID MEDIA)</h3>
-            <span class="cv-entry-company">GSK — Global Commercial Operations</span>
-          </div>
-          <span class="cv-entry-date">2024.09 — 2025.01</span>
-        </div>
-        <ul class="bullet-list lang-pl">
-          <li>Rozwój i wdrożenie automatyzacji w ekosystemie Sprinklr (platforma SaaS do optymalizacji i zarządzania kampaniami Paid Media).</li>
-          <li>Koordynacja współpracy między międzynarodowymi zespołami deweloperskimi a globalnym działem marketingu.</li>
-          <li>Optymalizacja kosztowa platformy oraz strukturyzacja integracji danych analitycznych.</li>
-        </ul>
-        <ul class="bullet-list lang-en">
-          <li>Driving development and automation within the Sprinklr SaaS ecosystem to optimize global Paid Media campaigns.</li>
-          <li>Coordinating technical delivery between cross-border engineering teams and the global marketing division.</li>
-          <li>Leading platform cost optimization audits and structuring analytics data pipeline integrations.</li>
-        </ul>
-      </article>
-
-      <!-- Królewski Balet Klasyczny -->
-      <article class="cv-entry">
-        <div class="cv-entry-header">
-          <div>
-            <h3 class="cv-entry-title">PROJECT COORDINATOR</h3>
-            <span class="cv-entry-company">Królewski Balet Klasyczny</span>
-          </div>
-          <span class="cv-entry-date">2022.10 — 2024.08</span>
-        </div>
-        <ul class="bullet-list lang-pl">
-          <li>Kompleksowe zarządzanie logistyką i harmonogramowaniem tras koncertowych na terenie Polski i USA.</li>
-          <li>Kontrola i optymalizacja budżetów promocyjnych oraz prowadzenie kampanii reklamowych w mediach lokalnych i społecznościowych.</li>
-          <li>Negocjowanie kontraktów z zagranicznymi partnerami i podwykonawcami w dynamicznym środowisku.</li>
-        </ul>
-        <ul class="bullet-list lang-en">
-          <li>Managing end-to-end logistics, travel scheduling, and routing for touring groups across Poland and the USA.</li>
-          <li>Monitoring and optimizing promotional budgets while executing multi-channel marketing campaigns.</li>
-          <li>Negotiating high-value contracts with foreign partners and subcontractors in a high-stakes, fast-paced environment.</li>
-        </ul>
-      </article>
-
-      <!-- Web3 SaaS PM -->
-      <article class="cv-entry">
-        <div class="cv-entry-header">
-          <div>
-            <h3 class="cv-entry-title">PROJECT MANAGER (BROWSER GAME NFT)</h3>
-            <span class="cv-entry-company">Web3 SaaS / Product Studio</span>
-          </div>
-          <span class="cv-entry-date">2021.07 — 2022.09</span>
-        </div>
-        <ul class="bullet-list lang-pl">
-          <li>Koordynacja pracy zespołu technicznego (deweloperzy blockchain, projektanci ekonomii gry) w zwinnej metodyce Scrum.</li>
-          <li>Współprojektowanie tokenomiki i mechaniki gry opartej o zasoby NFT i smart kontrakty.</li>
-          <li>Zarządzanie relacjami inwestorskimi oraz budowanie zaangażowania społeczności.</li>
-        </ul>
-        <ul class="bullet-list lang-en">
-          <li>Leading technical engineering teams (blockchain developers, system architects, game designers) using Scrum/Agile.</li>
-          <li>Co-designing tokenomics models, smart contracts, and NFT-based digital asset utility.</li>
-          <li>Managing stakeholder communications and building organic community traction.</li>
-        </ul>
-      </article>
-
-      <!-- Orange Polska Account Manager -->
-      <article class="cv-entry">
-        <div class="cv-entry-header">
-          <div>
-            <h3 class="cv-entry-title">ACCOUNT MANAGER B2B</h3>
-            <span class="cv-entry-company">Orange Polska</span>
-          </div>
-          <span class="cv-entry-date">2019.03 — 2021.06</span>
-        </div>
-        <ul class="bullet-list lang-pl">
-          <li>Doradztwo biznesowo-techniczne w zakresie usług telekomunikacyjnych, rozwiązań IT i cyberbezpieczeństwa dla sektora MŚP.</li>
-          <li>Aktywne pozyskiwanie nowych kontraktów (hunting) oraz budowanie długofalowych relacji w portfolio (farming).</li>
-        </ul>
-        <ul class="bullet-list lang-en">
-          <li>Providing business-to-technical consulting in telecommunications, IT, and cybersecurity solutions for SMEs.</li>
-          <li>Leading contract negotiations, outbound business development (hunting), and portfolio retention (farming).</li>
-        </ul>
-      </article>
-    </section>
-
-    <!-- Education & Certifications -->
-    <section class="cv-section">
-      <h2 class="cv-section-title">
-        <span class="lang-pl">Wykształcenie i Certyfikaty</span>
-        <span class="lang-en">Education & Credentials</span>
-      </h2>
-
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
-        <article class="cv-entry">
-          <div class="cv-entry-header">
-            <div>
-              <h3 class="cv-entry-title">MGR INFORMATYKI I EKONOMETRII</h3>
-              <span class="cv-entry-company">Uniwersytet Ekonomiczny w Poznaniu (UEP)</span>
-            </div>
-          </div>
-          <p class="lang-pl" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 8px;">
-            Specjalizacja w analizie danych, modelowaniu ekonometrycznym oraz inżynierii oprogramowania.
-          </p>
-          <p class="lang-en" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 8px;">
-            Specialization in data analysis, econometric modeling, and software engineering.
-          </p>
-        </article>
-
-        <article class="cv-entry">
-          <div class="cv-entry-header">
-            <div>
-              <h3 class="cv-entry-title">GOOGLE AI CREDENTIAL</h3>
-              <span class="cv-entry-company">Umiejętności Jutra AI</span>
-            </div>
-          </div>
-          <div style="margin-top: 12px; display: flex; gap: 8px;">
-            <a href="assets/CertyfikatUmiejetnosciJutra_PL.pdf" target="_blank" class="cv-pill">Certyfikat PL ↗</a>
-            <a href="assets/CertyfikatUmiejetnosciJutra_EN.pdf" target="_blank" class="cv-pill">Certificate EN ↗</a>
-          </div>
-        </article>
+        <!-- Download Button -->
+        <a href="assets/CV_AdamSnihur_PL.pdf" download="CV_AdamSnihur_PL.pdf" target="_blank" class="btn btn-primary btn-sm lang-pl">
+          Pobierz PDF ↓
+        </a>
+        <a href="assets/Adam_Snihur_CV_EN.pdf" download="Adam_Snihur_CV_EN.pdf" target="_blank" class="btn btn-primary btn-sm lang-en">
+          Download PDF ↓
+        </a>
       </div>
-    </section>
+    </div>
 
-    <!-- Skills & Stack -->
-    <section class="cv-section">
-      <h2 class="cv-section-title">
-        <span class="lang-pl">Umiejętności i Stos Technologiczny</span>
-        <span class="lang-en">Skills & Technical Stack</span>
-      </h2>
-
-      <div class="cv-skills-grid">
-        <div class="cv-skill-card">
-          <div class="cv-skill-title">ENTERPRISE & OPERATIONS</div>
-          <ul class="cv-skill-list">
-            <li>SAP APO / ECC (Capacity Leveling)</li>
-            <li>Sprinklr Enterprise SaaS</li>
-            <li>Global Supply Chain Operations</li>
-            <li>Root-Cause & Bottleneck Analysis</li>
-            <li>Demand Review & SRM Alignment</li>
-          </ul>
+    <!-- Embedded PDF Viewers -->
+    <div class="pdf-frame-wrapper">
+      <!-- Polish PDF Viewer -->
+      <iframe src="assets/CV_AdamSnihur_PL.pdf#toolbar=1&navpanes=0" class="pdf-viewer-frame lang-pl" title="Podgląd CV Adam Śnihur (PL)">
+        <div class="pdf-fallback-msg">
+          <p>Twoja przeglądarka nie obsługuje bezpośredniego podglądu plików PDF.</p>
+          <a href="assets/CV_AdamSnihur_PL.pdf" target="_blank" class="btn btn-primary">Otwórz dokument CV w formacie PDF ↗</a>
         </div>
+      </iframe>
 
-        <div class="cv-skill-card">
-          <div class="cv-skill-title">DATA & ENGINEERING</div>
-          <ul class="cv-skill-list">
-            <li>Python (Pandas, Data Science)</li>
-            <li>SQL & Relational Databases</li>
-            <li>Next.js, TypeScript, Supabase</li>
-            <li>Rest APIs & System Architecture</li>
-            <li>Git, CI/CD, Deployment</li>
-          </ul>
+      <!-- English PDF Viewer -->
+      <iframe src="assets/Adam_Snihur_CV_EN.pdf#toolbar=1&navpanes=0" class="pdf-viewer-frame lang-en" title="Adam Snihur CV Preview (EN)">
+        <div class="pdf-fallback-msg">
+          <p>Your browser does not support inline PDF previews.</p>
+          <a href="assets/Adam_Snihur_CV_EN.pdf" target="_blank" class="btn btn-primary">Open CV PDF Document ↗</a>
         </div>
-
-        <div class="cv-skill-card">
-          <div class="cv-skill-title">AI & PRODUCT MANAGEMENT</div>
-          <ul class="cv-skill-list">
-            <li>Agentic AI Workflows & LLM Automation</li>
-            <li>Scrum / Agile Product Delivery</li>
-            <li>Requirements & Spec Definition</li>
-            <li>Stakeholder Communication</li>
-            <li>Consultative B2B Negotiations</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      </iframe>
+    </div>
   </main>
 
-  <footer class="footer" style="padding: 40px 0; margin-top: 60px;">
-    <div class="container" style="text-align: center;">
+  <footer class="footer" style="padding: 30px 0; margin-top: 40px; text-align: center;">
+    <div class="container">
       <p>&copy; 2026 Adam Snihur. Technical Product Manager for AI-enabled operations.</p>
-      <div style="margin-top: 12px;">
-        <a href="index.html" class="text-link">← <span class="lang-pl">Powrót do strony głównej</span><span class="lang-en">Back to Portfolio Home</span></a>
+      <div style="margin-top: 8px;">
+        <a href="index.html" class="text-link">← <span class="lang-pl">Powrót do strony głównej portfolio</span><span class="lang-en">Back to main portfolio page</span></a>
       </div>
     </div>
   </footer>
@@ -452,7 +187,7 @@
     const langToggle = document.getElementById('lang-toggle');
     const body = document.body;
     
-    // Theme toggle
+    // Theme toggle logic
     themeToggle.addEventListener('click', () => {
       if (body.classList.contains('dark-theme')) {
         body.classList.replace('dark-theme', 'light-theme');
@@ -465,7 +200,7 @@
       }
     });
 
-    // Language toggle
+    // Language toggle logic
     langToggle.addEventListener('click', () => {
       if (body.classList.contains('lang-pl')) {
         body.classList.replace('lang-pl', 'lang-en');
