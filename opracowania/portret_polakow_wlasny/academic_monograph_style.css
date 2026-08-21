@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* --- POLAND BRAND DNA PREMIUM MONOGRAPH PALETTE --- */
+:root {
+    --bg-color: #FAF8F5;          /* ciepły alabastrowy pergamin */
+    --text-color: #22201E;        /* głęboki antracyt ze szlachetną sepią */
+    --primary-color: #821D2D;     /* karmin królewski / czerwień heraldyczna */
+    --primary-dark: #5C121E;      /* ciemny burgund */
+    --secondary-color: #B88942;   /* złoto piastowskie / ciepły bursztyn */
+    --secondary-light: #E8D5B5;  /* jasne złoto pergaminowe */
+    --accent-color: #1B354B;      /* głęboki granat niepodległościowy */
+    --accent-light: #EBF1F5;      /* chłodny błękit mglisty */
+    --border-color: #E2D7C5;      /* naturalny pergaminowy brzeg */
+    --card-bg: #FFFFFF;
+    --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    --font-display: 'Cinzel', Georgia, serif;
+    --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --max-width: 880px;
+}
+
+/* --- GLOBAL LAYOUT & ALIGNMENT --- */
+html {
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-serif);
+    font-size: 20.5px;
+    line-height: 1.76;
+    margin: 0 auto !important;
+    max-width: var(--max-width);
+    padding: 55px 32px;
+    box-sizing: border-box;
+    display: block;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+/* --- TYPOGRAPHY --- */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: var(--font-serif);
+    font-weight: 600;
+    margin-top: 2.2em;
+    margin-bottom: 0.8em;
+    line-height: 1.32;
+}
+
+h1 {
+    font-family: var(--font-display);
+    font-size: 2.8em;
+    text-align: center;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 22px;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+    letter-spacing: 1.5px;
+    page-break-before: always;
+    break-before: page;
+}
+
+h2 {
+    font-family: var(--font-serif);
+    font-size: 2.1em;
+    border-bottom: 1px dashed var(--secondary-color);
+    padding-bottom: 12px;
+    margin-top: 2.4em;
+    color: var(--primary-dark);
+}
+
+h3 {
+    font-family: var(--font-sans);
+    font-size: 1.38em;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-top: 1.9em;
+    letter-spacing: 0.5px;
+}
+
+h4 {
+    font-family: var(--font-sans);
+    font-size: 1.18em;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 1.5em;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1.8em;
+    margin: 0 0 1.2em 0;
+    hyphens: auto;
+}
+
+/* Drop Caps for Chapter Beginnings */
+p.chapter-start {
+    text-indent: 0;
+}
+
+p.chapter-start::first-letter {
+    font-family: var(--font-display);
+    font-size: 4.4em;
+    font-weight: bold;
+    float: left;
+    line-height: 0.82;
+    margin: 0.1em 0.14em 0 0;
+    color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    padding: 8px 12px;
+    background-color: #FFF;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.06);
+}
+
+li p {
+    text-indent: 0;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1.4em 0;
+    padding-left: 2.4em;
+}
+
+li {
+    margin-bottom: 0.65em;
+    line-height: 1.62;
+}
+
+/* --- TITLE PAGE --- */
+.title-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 95vh;
+    padding: 75px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 6px double var(--secondary-color);
+    background-color: #FFF;
+    margin-bottom: 6em;
+    page-break-after: always;
+    break-after: page;
+}
+
+.title-header {
+    margin-top: 10vh;
+}
+
+.title-header h1 {
+    font-family: var(--font-display);
+    font-size: 3.2em;
+    border: none;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    page-break-before: avoid;
+    break-before: avoid;
+}
+
+.title-header .subtitle {
+    font-family: var(--font-serif);
+    font-size: 1.65em;
+    font-style: italic;
+    color: var(--text-color);
+    margin-top: 20px;
+    line-height: 1.45;
+}
+
+.title-emblem {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: radial-gradient(circle, #FFF 0%, var(--bg-color) 100%);
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(130, 29, 45, 0.1);
+}
+
+.title-emblem svg {
+    width: 135px;
+    height: 135px;
+}
+
+.title-metadata {
+    margin-bottom: 8vh;
+    font-family: var(--font-sans);
+    font-size: 0.98em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4A4A4A;
+}
+
+.title-metadata p {
+    text-align: center;
+    text-indent: 0;
+    margin: 8px 0;
+}
+
+/* --- TABLE OF CONTENTS --- */
+.toc-container {
+    background-color: #FFF;
+    border: 1px solid var(--border-color);
+    padding: 45px 50px;
+    margin-bottom: 5em;
+    page-break-after: always;
+    break-after: page;
+}
+
+.toc-container h2 {
+    text-align: center;
+    margin-top: 0;
+    font-family: var(--font-display);
+    font-size: 2.1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 16px;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 32px 0 0 0;
+}
+
+.toc-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+    font-family: var(--font-serif);
+    font-size: 1.12em;
+}
+
+.toc-name {
+    font-weight: 600;
+}
+
+.toc-name a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.toc-name a:hover {
+    color: var(--primary-color);
+}
+
+.toc-dots {
+    flex-grow: 1;
+    border-bottom: 1px dotted var(--secondary-color);
+    margin: 0 16px;
+}
+
+.toc-page {
+    font-family: var(--font-sans);
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* --- BLOCKQUOTES & CALLOUTS --- */
+blockquote {
+    font-style: italic;
+    background-color: #F8F4EC;
+    border-left: 5px solid var(--primary-color);
+    margin: 2em 0;
+    padding: 22px 30px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+
+blockquote p {
+    text-align: left;
+    text-indent: 0;
+    margin: 0;
+}
+
+blockquote footer {
+    font-family: var(--font-sans);
+    font-size: 0.84em;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: right;
+    margin-top: 14px;
+    color: #666;
+}
+
+.callout-box {
+    background-color: #FFFFFF;
+    border: 1px solid var(--border-color);
+    border-left: 5px solid var(--secondary-color);
+    border-radius: 6px;
+    padding: 24px 28px;
+    margin: 2.4em 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+}
+
+.callout-box-title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.callout-box p {
+    text-align: justify;
+    text-indent: 0;
+    margin: 0 0 12px 0;
+    font-size: 0.98em;
+}
+
+.callout-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* --- ACADEMIC TABLES --- */
+table.academic-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2.8em 0;
+    font-size: 0.94em;
+    background-color: #FFF;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+}
+
+table.academic-table th {
+    background-color: #F3EBDD;
+    color: var(--primary-dark);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 16px 18px;
+    text-align: left;
+}
+
+table.academic-table td {
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+    line-height: 1.55;
+}
+
+table.academic-table tr:last-child td {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+table.academic-table tr:nth-child(even) {
+    background-color: rgba(244, 239, 230, 0.4);
+}
+
+/* --- DATA CARDS & STAT GRIDS --- */
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+    gap: 20px;
+    margin: 2.8em 0;
+}
+
+.stat-card {
+    background: #FFF;
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 22px 18px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+}
+
+.stat-card-number {
+    font-family: var(--font-display);
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.stat-card-label {
+    font-family: var(--font-sans);
+    font-size: 0.82em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.stat-card-desc {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.42;
+    margin: 0;
+}
+
+/* --- ARCHETYPE & PILLAR CARDS --- */
+.pillar-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    gap: 24px;
+    margin: 3em 0;
+}
+
+.pillar-card {
+    background: #FFF;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 26px 24px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    border-top: 4px solid var(--secondary-color);
+}
+
+.pillar-card-title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 1.02em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.pillar-card p {
+    text-indent: 0;
+    font-size: 0.94em;
+    line-height: 1.58;
+    margin-bottom: 12px;
+}
+
+/* --- FLOW & TIMELINE --- */
+.flow-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 16px;
+    margin: 3em 0;
+    flex-wrap: wrap;
+}
+
+.flow-step {
+    background-color: #FFF;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    padding: 20px 18px;
+    flex: 1;
+    min-width: 185px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.flow-step-title {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 0.9em;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+}
+
+.flow-step-desc {
+    font-size: 0.92em;
+    line-height: 1.52;
+}
+
+/* --- ORNAMENTS & SEPARATORS --- */
+.ornament {
+    display: block;
+    text-align: center;
+    margin: 3.5em auto;
+    color: var(--secondary-color);
+    font-size: 1.6em;
+}
+
+.ornament::before {
+    content: "❖   ✦   ❖";
+    letter-spacing: 18px;
+}
+
+hr.sep {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(184, 137, 66, 0), rgba(184, 137, 66, 0.75), rgba(184, 137, 66, 0));
+    margin: 3.8em 0;
+}
+
+/* --- FOOTNOTES --- */
+.footnotes {
+    font-size: 0.9em;
+    line-height: 1.58;
+    border-top: 1px solid var(--border-color);
+    padding-top: 35px;
+    margin-top: 5em;
+    color: #444;
+}
+
+.footnotes ol {
+    padding-left: 1.8em;
+}
+
+.footnotes li {
+    margin-bottom: 0.8em;
+}
+
+/* --- PRINT RULES FOR EXACT 80-PAGE A4 TARGET --- */
+@media print {
+    body {
+        background-color: #FFF !important;
+        color: #000 !important;
+        font-size: 12.5pt;
+        line-height: 1.72;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .title-page {
+        border-color: #000;
+        min-height: 96vh;
+        padding: 55px 40px;
+    }
+
+    .title-header h1 {
+        color: #000 !important;
+        font-size: 2.8em;
+    }
+
+    h1, h2, h3, h4 {
+        color: #000 !important;
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    h1 {
+        page-break-before: always;
+        break-before: page;
+        margin-top: 0;
+        font-size: 2.1em;
+        padding-bottom: 14px;
+        margin-bottom: 1.4em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+        margin-top: 2.0em;
+        margin-bottom: 0.8em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+        margin-top: 1.6em;
+    }
+
+    p {
+        orphans: 3;
+        widows: 3;
+        text-indent: 1.8em;
+        margin-bottom: 0.95em;
+    }
+
+    pre, blockquote, table, figure, .callout-box, .stat-grid, .pillar-container, .flow-container {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        margin: 1.8em 0;
+    }
+
+    @page {
+        size: A4;
+        margin: 28mm 25mm 28mm 25mm;
+    }
+}
