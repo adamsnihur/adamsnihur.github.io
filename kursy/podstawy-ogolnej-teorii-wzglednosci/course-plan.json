@@ -1,0 +1,400 @@
+{
+  "course": {
+    "title": "Podstawy Ogólnej Teorii Względności (General Relativity Foundations)",
+    "template": false,
+    "quality_profile": "certification",
+    "declared_minutes": 270,
+    "reading_wpm": 180,
+    "research": {
+      "openalex_queries": [
+        "Einstein General Relativity field equations",
+        "Schwarzschild metric ISCO light deflection",
+        "LIGO gravitational waves binary black hole merger"
+      ],
+      "openalex_exemption_reason": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "S-001",
+      "title": "Die Feldgleichungen der Gravitation",
+      "url": "https://api.openalex.org/W2112461159",
+      "kind": "peer_reviewed",
+      "year": 1915,
+      "identifiers": {
+        "openalex": "W2112461159"
+      },
+      "verified": true,
+      "license_checked": true,
+      "limitations": "Klasyczna publikacja źródłowa Einsteina wprowadzająca równania pola bez stałej kosmologicznej."
+    },
+    {
+      "id": "S-002",
+      "title": "A Determination of the Deflection of Light by the Sun's Gravitational Field...",
+      "url": "https://doi.org/10.1098/rsta.1920.0009",
+      "kind": "peer_reviewed",
+      "year": 1920,
+      "identifiers": {
+        "doi": "10.1098/rsta.1920.0009"
+      },
+      "verified": true,
+      "license_checked": true,
+      "limitations": "Obserwacje zaćmienia z 1919 roku, niepewność pomiarowa rzędu 10-15%."
+    },
+    {
+      "id": "S-003",
+      "title": "Apparent Weight of Photons",
+      "url": "https://doi.org/10.1103/PhysRevLett.4.337",
+      "kind": "peer_reviewed",
+      "year": 1960,
+      "identifiers": {
+        "doi": "10.1103/PhysRevLett.4.337"
+      },
+      "verified": true,
+      "license_checked": true,
+      "limitations": "Eksperyment laboratoryjny na wieży Jeffersona, efekt Mössbauera dla fotonów gamma Fe-57."
+    },
+    {
+      "id": "S-004",
+      "title": "Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie",
+      "url": "https://api.openalex.org/W2137688753",
+      "kind": "peer_reviewed",
+      "year": 1916,
+      "identifiers": {
+        "openalex": "W2137688753"
+      },
+      "verified": true,
+      "license_checked": true,
+      "limitations": "Ścisłe rozwiązanie próżniowe dla nierotującej, niesparowanej masy sferycznej."
+    },
+    {
+      "id": "S-005",
+      "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+      "url": "https://doi.org/10.1103/PhysRevLett.116.061102",
+      "kind": "peer_reviewed",
+      "year": 2016,
+      "identifiers": {
+        "doi": "10.1103/PhysRevLett.116.061102"
+      },
+      "verified": true,
+      "license_checked": true,
+      "limitations": "Detekcja koalescencji GW150914 przez interferometry LIGO."
+    },
+    {
+      "id": "S-006",
+      "title": "The Confrontation between General Relativity and Experiment",
+      "url": "https://doi.org/10.12942/lrr-2014-4",
+      "kind": "peer_reviewed",
+      "year": 2014,
+      "identifiers": {
+        "doi": "10.12942/lrr-2014-4"
+      },
+      "verified": true,
+      "license_checked": true,
+      "limitations": "Systematyczny przegląd testów empirycznych OTW i formalizmu PPN."
+    }
+  ],
+  "source_units": [
+    {"id": "U-001", "lesson_ids": ["L-101"], "excluded_reason": ""},
+    {"id": "U-002", "lesson_ids": ["L-102"], "excluded_reason": ""},
+    {"id": "U-003", "lesson_ids": ["L-201"], "excluded_reason": ""},
+    {"id": "U-004", "lesson_ids": ["L-202"], "excluded_reason": ""},
+    {"id": "U-005", "lesson_ids": ["L-301"], "excluded_reason": ""},
+    {"id": "U-006", "lesson_ids": ["L-302"], "excluded_reason": ""},
+    {"id": "U-007", "lesson_ids": ["L-401"], "excluded_reason": ""},
+    {"id": "U-008", "lesson_ids": ["L-402"], "excluded_reason": ""}
+  ],
+  "claims": [
+    {"id": "C-001", "source_ids": ["S-001", "S-003"], "lesson_ids": ["L-101"]},
+    {"id": "C-002", "source_ids": ["S-001"], "lesson_ids": ["L-102"]},
+    {"id": "C-003", "source_ids": ["S-001"], "lesson_ids": ["L-201"]},
+    {"id": "C-004", "source_ids": ["S-001"], "lesson_ids": ["L-202"]},
+    {"id": "C-005", "source_ids": ["S-004"], "lesson_ids": ["L-301"]},
+    {"id": "C-006", "source_ids": ["S-002", "S-006"], "lesson_ids": ["L-302"]},
+    {"id": "C-007", "source_ids": ["S-005"], "lesson_ids": ["L-401"]},
+    {"id": "C-008", "source_ids": ["S-005", "S-006"], "lesson_ids": ["L-402"]}
+  ],
+  "objectives": [
+    {
+      "id": "O-101",
+      "module_id": "M-100",
+      "statement": "Zdefiniować ograniczenia mechaniki newtonowskiej oraz słabą i silną zasadę równoważności.",
+      "critical": false
+    },
+    {
+      "id": "O-102",
+      "module_id": "M-100",
+      "statement": "Wyprowadzić symbole Christoffela oraz sformułować równanie geodezyjnych w geometrii Riemanna.",
+      "critical": false
+    },
+    {
+      "id": "O-201",
+      "module_id": "M-200",
+      "statement": "Zbudować tensor krzywizny Riemanna, tensor Ricciego oraz tensor energii-pędu.",
+      "critical": false
+    },
+    {
+      "id": "O-202",
+      "module_id": "M-200",
+      "statement": "Wyprowadzić równania pola Einsteina i stałą sprzężenia poprzez granicę newtonowską.",
+      "critical": false
+    },
+    {
+      "id": "O-301",
+      "module_id": "M-300",
+      "statement": "Przeanalizować metrykę Schwarzschilda, horyzont zdarzeń oraz promień ISCO.",
+      "critical": false
+    },
+    {
+      "id": "O-302",
+      "module_id": "M-300",
+      "statement": "Obliczyć relatywistyczną precesję peryhelium Merkurego, kąt ugięcia światła oraz redshift grawitacyjny.",
+      "critical": false
+    },
+    {
+      "id": "O-401",
+      "module_id": "M-400",
+      "statement": "Wyprowadzić równanie fal grawitacyjnych w cechowaniu TT oraz wzór kwadrupolowy Einsteina.",
+      "critical": false
+    },
+    {
+      "id": "O-402",
+      "module_id": "M-400",
+      "statement": "Przeprowadzić numeryczną rekonstrukcję parametrów układu podwójnego czarnych dziur GW150914 (Capstone).",
+      "critical": true
+    }
+  ],
+  "modules": [
+    {
+      "id": "M-100",
+      "title": "Od Zasady Równoważności do Geometrii Czasoprzestrzeni",
+      "declared_minutes": 60,
+      "lessons": [
+        {
+          "id": "L-101",
+          "title": "Ograniczenia mechaniki newtonowskiej i zasada równoważności",
+          "delivery": "case_study",
+          "content_path": "content/module-01/lesson-01.md",
+          "target_words": 950,
+          "planned_minutes": 25,
+          "objective_ids": ["O-101"],
+          "claim_ids": ["C-001"],
+          "media": [],
+          "activities": [
+            {
+              "kind": "case_study",
+              "minutes": 20,
+              "deliverable": "Wyliczenie numeryczne przesunięcia częstotliwości w eksperymencie Pounda-Rebki."
+            }
+          ]
+        },
+        {
+          "id": "L-102",
+          "title": "Równanie geodezyjnych i symbole Christoffela",
+          "delivery": "lab",
+          "content_path": "content/module-01/lesson-02.md",
+          "target_words": 900,
+          "planned_minutes": 25,
+          "objective_ids": ["O-102"],
+          "claim_ids": ["C-002"],
+          "media": [],
+          "activities": [
+            {
+              "kind": "lab",
+              "minutes": 20,
+              "deliverable": "Wyprowadzenie symboli Christoffela dla metryki biegunowej i granicy newtonowskiej."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "id": "A-101",
+          "type": "quiz",
+          "estimated_minutes": 10,
+          "objective_ids": ["O-101", "O-102"],
+          "item_count": 5,
+          "passing_score": 0.8,
+          "critical": false
+        }
+      ]
+    },
+    {
+      "id": "M-200",
+      "title": "Równania Pola Einsteina i Krzywizna Czasoprzestrzeni",
+      "declared_minutes": 60,
+      "lessons": [
+        {
+          "id": "L-201",
+          "title": "Krzywizna Riemanna, tensor Ricciego i tensor energii-pędu",
+          "delivery": "case_study",
+          "content_path": "content/module-02/lesson-01.md",
+          "target_words": 850,
+          "planned_minutes": 25,
+          "objective_ids": ["O-201"],
+          "claim_ids": ["C-003"],
+          "media": [],
+          "activities": [
+            {
+              "kind": "case_study",
+              "minutes": 20,
+              "deliverable": "Analiza krzywizny sfery dwuwymiarowej i roli tensora Weyla w próżni."
+            }
+          ]
+        },
+        {
+          "id": "L-202",
+          "title": "Równania pola Einsteina i stała kosmologiczna",
+          "delivery": "lab",
+          "content_path": "content/module-02/lesson-02.md",
+          "target_words": 850,
+          "planned_minutes": 25,
+          "objective_ids": ["O-202"],
+          "claim_ids": ["C-004"],
+          "media": [],
+          "activities": [
+            {
+              "kind": "lab",
+              "minutes": 20,
+              "deliverable": "Wyprowadzenie stałej sprzężenia kappa z newtonowskiego równania Poissona."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "id": "A-201",
+          "type": "quiz",
+          "estimated_minutes": 10,
+          "objective_ids": ["O-201", "O-202"],
+          "item_count": 5,
+          "passing_score": 0.8,
+          "critical": false
+        }
+      ]
+    },
+    {
+      "id": "M-300",
+      "title": "Rozwiązanie Schwarzschilda i Klasyczne Testy Empiryczne",
+      "declared_minutes": 60,
+      "lessons": [
+        {
+          "id": "L-301",
+          "title": "Metryka Schwarzschilda, horyzont zdarzeń i orbity ISCO",
+          "delivery": "simulation",
+          "content_path": "content/module-03/lesson-01.md",
+          "target_words": 900,
+          "planned_minutes": 25,
+          "objective_ids": ["O-301"],
+          "claim_ids": ["C-005"],
+          "media": [
+            {
+              "path": "images/orbity_schwarzschild_isco.png",
+              "duration_minutes": 3.0
+            }
+          ],
+          "activities": [
+            {
+              "kind": "simulation",
+              "minutes": 17,
+              "deliverable": "Wyznaczenie promienia sfery fotonowej r_ph = 1.5 r_s i promienia ISCO r = 3 r_s."
+            }
+          ]
+        },
+        {
+          "id": "L-302",
+          "title": "Trzy klasyczne testy empiryczne Ogólnej Teorii Względności",
+          "delivery": "case_study",
+          "content_path": "content/module-03/lesson-02.md",
+          "target_words": 1000,
+          "planned_minutes": 25,
+          "objective_ids": ["O-302"],
+          "claim_ids": ["C-006"],
+          "media": [
+            {
+              "path": "images/ugiecie_swiatla_porownanie.png",
+              "duration_minutes": 3.0
+            }
+          ],
+          "activities": [
+            {
+              "kind": "case_study",
+              "minutes": 17,
+              "deliverable": "Rozbicie kąta ugięcia światła na wkład dylatacji czasowej i krzywizny przestrzennej."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "id": "A-301",
+          "type": "quiz",
+          "estimated_minutes": 10,
+          "objective_ids": ["O-301", "O-302"],
+          "item_count": 5,
+          "passing_score": 0.8,
+          "critical": false
+        }
+      ]
+    },
+    {
+      "id": "M-400",
+      "title": "Fale Grawitacyjne i Relatywistyczny Capstone",
+      "declared_minutes": 90,
+      "lessons": [
+        {
+          "id": "L-401",
+          "title": "Linearyzacja równań pola, fale grawitacyjne i detekcja LIGO",
+          "delivery": "simulation",
+          "content_path": "content/module-04/lesson-01.md",
+          "target_words": 850,
+          "planned_minutes": 30,
+          "objective_ids": ["O-401"],
+          "claim_ids": ["C-007"],
+          "media": [
+            {
+              "path": "images/fala_grawitacyjna_chirp.png",
+              "duration_minutes": 3.0
+            }
+          ],
+          "activities": [
+            {
+              "kind": "simulation",
+              "minutes": 22,
+              "deliverable": "Wyprowadzenie odkształcenia interferometru delta L dla fali o amplitudzie 10^-21."
+            }
+          ]
+        },
+        {
+          "id": "L-402",
+          "title": "Relatywistyczny Projekt Końcowy (Capstone)",
+          "delivery": "capstone",
+          "content_path": "content/module-04/lesson-02.md",
+          "target_words": 950,
+          "planned_minutes": 45,
+          "objective_ids": ["O-402"],
+          "claim_ids": ["C-008"],
+          "media": [],
+          "activities": [
+            {
+              "kind": "capstone",
+              "minutes": 40,
+              "deliverable": "Skrypt numeryczny w Pythonie rekonstruujący masę chirpowa i promien horyzontu GW150914."
+            }
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "id": "A-401",
+          "type": "capstone",
+          "estimated_minutes": 15,
+          "objective_ids": ["O-401", "O-402"],
+          "rubric_path": "content/module-04/rubric_capstone.md",
+          "passing_score": 1.0,
+          "critical": true
+        }
+      ]
+    }
+  ]
+}
