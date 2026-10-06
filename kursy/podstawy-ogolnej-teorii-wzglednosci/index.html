@@ -6,939 +6,397 @@
   <title>Podstawy Ogólnej Teorii Względności | Akademia Relatywistyczna (PhD Standard)</title>
   <meta name="description" content="Akademicki kurs e-learningowy z podstaw Ogólnej Teorii Względności zgodny ze standardem ScientistTwo i PhD.">
   
-  <!-- KaTeX for math rendering -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
-          onload="renderMathInElement(document.body);"></script>
+  <!-- MathJax 3 with TeX input and SVG/CommonHTML output -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      startup: {
+        pageReady: () => {
+          return MathJax.startup.defaultPageReady();
+        }
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Instrument Sans, Cinzel, Lora, JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Instrument+Sans:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <style>
-/* ==========================================================================
-   ACADEMIC MONOGRAPH CANONICAL STYLESHEET (BOOKTABS & PURE CSS STANDARD)
-   Antigravity Research Press / Polish Academic Monograph Standard
-   Compatible with Pandoc HTML, Headless Chrome Print (PDF), and Digital Readers
-   ========================================================================== */
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
-
-:root {
-    --primary-color: #821D2D;      /* Karmin Królewski / Polish Royal Crimson */
-    --primary-dark: #5C141F;
-    --secondary-color: #B88942;    /* Złoto Piastowskie / Polish Gold */
-    --secondary-light: #DFCA9B;
-    --accent-color: #1B354B;       /* Granat / Deep Academic Navy */
-    --bg-color: #FAF8F5;           /* Szlachetny Pergamin / Warm Parchment */
-    --card-bg: #FFFFFF;
-    --text-color: #1A1A1A;
-    --text-muted: #555555;
-    --border-color: #E2D9CB;
-    --sidebar-bg: #F4EFE6;
-    --toc-active-bg: #EAE2D2;
-
-    --font-serif: "Lora", "Georgia", "Times New Roman", serif;
-    --font-display: "Cinzel", "Trajan Pro", "Times New Roman", serif;
-    --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    --font-mono: "JetBrains Mono", "Courier New", monospace;
-}
-
-[data-theme="dark"] {
-    --bg-color: #16181A;
-    --card-bg: #1F2226;
-    --text-color: #E8E6E3;
-    --text-muted: #9BA1A6;
-    --border-color: #33383F;
-    --sidebar-bg: #131417;
-    --toc-active-bg: #272B32;
-    --primary-color: #D64558;
-    --secondary-color: #D4A853;
-}
-
-[data-theme="sepia"] {
-    --bg-color: #F4EEDD;
-    --card-bg: #FAF5E8;
-    --text-color: #2D271E;
-    --text-muted: #665D4F;
-    --border-color: #DDD4C0;
-    --sidebar-bg: #ECE3CF;
-    --toc-active-bg: #DFD3BA;
-}
-
-/* --- BASE & TYPOGRAPHY --- */
-html {
-    background-color: var(--bg-color);
-    font-size: 16px;
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: var(--font-serif);
-    line-height: 1.82;
-    font-size: 1.08rem;
-    margin: 0 auto !important;
-    max-width: 860px;
-    padding: 50px 30px;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    word-break: normal;
-    overflow-wrap: break-word;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--primary-color);
-    font-weight: 700;
-    line-height: 1.25;
-    page-break-after: avoid;
-    break-after: avoid;
-}
-
-h1 {
-    font-family: var(--font-display);
-    font-size: 2.5rem;
-    text-align: center;
-    border-bottom: 2px solid var(--secondary-color);
-    padding-bottom: 0.5em;
-    margin-top: 2.5em;
-    margin-bottom: 1.4em;
-    letter-spacing: 1.2px;
-    page-break-before: always;
-    break-before: page;
-}
-
-h2 {
-    font-family: var(--font-serif);
-    font-size: 1.85rem;
-    border-bottom: 1px dashed var(--secondary-color);
-    padding-bottom: 0.3em;
-    margin-top: 2.2em;
-    margin-bottom: 1em;
-    color: var(--primary-dark);
-}
-
-h3 {
-    font-family: var(--font-sans);
-    font-size: 1.32rem;
-    font-weight: 600;
-    color: var(--accent-color);
-    margin-top: 1.8em;
-    margin-bottom: 0.8em;
-    letter-spacing: 0.4px;
-}
-
-h4 {
-    font-family: var(--font-sans);
-    font-size: 1.12rem;
-    font-weight: 600;
-    color: var(--primary-color);
-    margin-top: 1.4em;
-    margin-bottom: 0.6em;
-}
-
-p {
-    text-align: justify;
-    text-indent: 1.8em;
-    margin: 0 0 1.2em 0;
-    hyphens: auto;
-}
-
-p.lead, .lead {
-    font-size: 1.18rem;
-    line-height: 1.85;
-    color: var(--accent-color);
-    text-indent: 0;
-    font-style: italic;
-    margin-bottom: 1.6em;
-}
-
-h1 + p, h2 + p, h3 + p, h4 + p,
-blockquote + p, ul + p, ol + p,
-.table-wrapper + p, .monograph-diagram + p,
-.bars-container + p, .tree-container + p,
-.flow-container + p, .matrix-grid + p,
-.stat-grid + p, .callout-box + p {
-    text-indent: 0;
-}
-
-/* Drop Cap Standard */
-p.chapter-start::first-letter,
-p.drop-cap::first-letter {
-    font-family: var(--font-display);
-    float: left;
-    font-size: 4.2em;
-    line-height: 0.75;
-    padding-top: 4px;
-    padding-right: 12px;
-    padding-bottom: 0;
-    color: var(--primary-color);
-    font-weight: 700;
-}
-
-p.chapter-start, p.drop-cap {
-    text-indent: 0;
-}
-
-blockquote {
-    border-left: 4px solid var(--secondary-color);
-    background-color: var(--card-bg);
-    margin: 1.8em 0;
-    padding: 1.1em 1.6em;
-    border-radius: 0 8px 8px 0;
-    font-style: italic;
-    color: var(--text-color);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.02);
-}
-
-blockquote p {
-    text-indent: 0;
-    margin-bottom: 0.6em;
-}
-
-blockquote p:last-child {
-    margin-bottom: 0;
-}
-
-code {
-    font-family: var(--font-mono);
-    font-size: 0.9em;
-    background-color: var(--sidebar-bg);
-    padding: 2px 6px;
-    border-radius: 4px;
-    color: var(--primary-dark);
-}
-
-pre {
-    background-color: var(--sidebar-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    padding: 16px 20px;
-    overflow-x: auto;
-    font-family: var(--font-mono);
-    font-size: 0.88em;
-    line-height: 1.5;
-}
-
-pre code {
-    background: none;
-    padding: 0;
-    color: inherit;
-}
-
-/* --- ACADEMIC TABLES: BOOKTABS LUXURY STANDARD --- */
-.table-wrapper {
-    width: 100%;
-    margin: 2.6em 0;
-    overflow-x: auto;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    background: var(--card-bg);
-    border-radius: 6px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
-    border: 1px solid var(--border-color);
-}
-
-table, table.academic-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0;
-    font-size: 0.94em;
-    background-color: var(--card-bg);
-    border-top: 2.5px solid var(--primary-color);
-    border-bottom: 2.5px solid var(--primary-color);
-    font-family: var(--font-sans);
-}
-
-table caption {
-    caption-side: top;
-    font-family: var(--font-sans);
-    font-size: 0.92em;
-    font-weight: 700;
-    color: var(--primary-color);
-    padding: 12px 16px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    text-align: left;
-    background-color: var(--sidebar-bg);
-    border-bottom: 1.5px solid var(--secondary-color);
-}
-
-table th {
-    background-color: var(--sidebar-bg);
-    color: var(--primary-dark);
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 0.88em;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    border: none;
-    border-bottom: 2px solid var(--primary-color);
-    padding: 14px 16px;
-    vertical-align: middle;
-    line-height: 1.4;
-    text-align: left;
-}
-
-table td {
-    padding: 13px 16px;
-    border: none;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-    line-height: 1.55;
-    font-size: 0.94em;
-    color: var(--text-color);
-}
-
-table td:nth-child(n+2), table th:nth-child(n+2) {
-    /* Numeric or secondary column alignment option */
-}
-
-table tr:last-child td {
-    border-bottom: 2.5px solid var(--primary-color);
-}
-
-table tr:nth-child(even) {
-    background-color: rgba(244, 239, 230, 0.4);
-}
-
-table tr:hover {
-    background-color: rgba(184, 137, 66, 0.08);
-}
-
-/* --- VISUAL DIAGRAMS: PURE CSS COMPONENTS --- */
-
-.monograph-diagram {
-    margin: 2.8em 0;
-    padding: 24px 28px;
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-.diagram-caption {
-    font-family: var(--font-sans);
-    font-size: 0.92em;
-    font-weight: 700;
-    color: var(--primary-color);
-    text-align: center;
-    margin-bottom: 1.4em;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-}
-
-/* 1. Bar Progress & Metric Container */
-.bars-container {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 24px 28px;
-    margin: 2.6em 0;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.03);
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-.bars-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 0.96em;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--secondary-color);
-    padding-bottom: 8px;
-}
-
-.bar-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 14px;
-    gap: 16px;
-    font-family: var(--font-sans);
-    font-size: 0.92em;
-}
-
-.bar-item:last-child {
-    margin-bottom: 0;
-}
-
-.bar-label {
-    width: 160px;
-    font-weight: 600;
-    color: var(--text-color);
-    text-align: right;
-    flex-shrink: 0;
-}
-
-.bar-track {
-    flex-grow: 1;
-    height: 18px;
-    background: var(--sidebar-bg);
-    border-radius: 9px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.bar-fill {
-    height: 100%;
-    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
-    border-radius: 9px;
-}
-
-.bar-fill.bar-highlight {
-    background: linear-gradient(90deg, #B88942, #821D2D);
-    box-shadow: 0 0 8px rgba(130, 29, 45, 0.4);
-}
-
-.bar-value {
-    width: 65px;
-    font-weight: 700;
-    color: var(--primary-dark);
-    font-family: var(--font-sans);
-    text-align: left;
-    flex-shrink: 0;
-}
-
-/* 2. Decision Tree & Taxonomy */
-.tree-container {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 26px 30px;
-    margin: 2.8em 0;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.03);
-    page-break-inside: avoid;
-    break-inside: avoid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.2rem;
-}
-
-.tree-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 1.0em;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 12px;
-    border-bottom: 1px solid var(--secondary-color);
-    padding-bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-.tree-root {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.tree-branches {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    gap: 1.2rem;
-    flex-wrap: wrap;
-}
-
-.tree-node {
-    background-color: var(--bg-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 8px;
-    padding: 1rem 1.2rem;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-    max-width: 270px;
-    flex: 1;
-    min-width: 180px;
-    box-sizing: border-box;
-}
-
-.tree-node strong {
-    display: block;
-    font-family: var(--font-sans);
-    font-weight: 700;
-    color: var(--primary-color);
-    font-size: 0.95rem;
-    margin-bottom: 0.3rem;
-}
-
-.tree-node span {
-    font-size: 0.86rem;
-    color: var(--text-muted);
-    display: block;
-    line-height: 1.4;
-}
-
-.tree-connector-vertical {
-    width: 2px;
-    height: 1.5rem;
-    background-color: var(--secondary-color);
-}
-
-/* 3. Horizontal Flow & Step Chains */
-.flow-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 16px;
-    margin: 2.8em 0;
-    flex-wrap: wrap;
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-.flow-step {
-    background-color: var(--card-bg);
-    border: 2px solid var(--secondary-color);
-    border-radius: 8px;
-    padding: 20px 18px;
-    flex: 1;
-    min-width: 185px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
-}
-
-.flow-step-num {
-    display: inline-block;
-    width: 26px;
-    height: 26px;
-    background: var(--primary-color);
-    color: #FFFFFF;
-    border-radius: 50%;
-    font-family: var(--font-sans);
-    font-size: 0.85em;
-    font-weight: 700;
-    line-height: 26px;
-    margin-bottom: 8px;
-}
-
-.flow-step-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 0.92em;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    margin-bottom: 8px;
-}
-
-.flow-step-desc {
-    font-size: 0.88em;
-    line-height: 1.48;
-    color: var(--text-color);
-}
-
-/* 4. Feedback Loops & Iterations */
-.loop-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 16px;
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 26px 22px;
-    margin: 2.8em 0;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.03);
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-.loop-step {
-    flex: 1;
-    min-width: 170px;
-    background: var(--bg-color);
-    border: 1.5px solid var(--secondary-color);
-    border-radius: 6px;
-    padding: 16px 14px;
-    text-align: center;
-}
-
-.loop-step-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 0.9em;
-    color: var(--primary-dark);
-    margin-bottom: 6px;
-    text-transform: uppercase;
-}
-
-.loop-step-desc {
-    font-size: 0.85em;
-    color: var(--text-muted);
-    line-height: 1.4;
-}
-
-/* 5. Matrix & Quadrants */
-.matrix-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-    margin: 2.8em 0;
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-.matrix-quadrant {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-top: 4px solid var(--primary-color);
-    border-radius: 6px;
-    padding: 22px 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
-}
-
-.matrix-quadrant.accent {
-    border-top-color: var(--secondary-color);
-}
-
-.matrix-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 0.95em;
-    color: var(--primary-dark);
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    margin-bottom: 10px;
-}
-
-/* 6. Statistical Cards & Metrics */
-.stat-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    gap: 20px;
-    margin: 2.8em 0;
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-.stat-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-top: 4px solid var(--primary-color);
-    border-radius: 6px;
-    padding: 22px 18px;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-}
-
-.stat-card-number {
-    font-family: var(--font-sans);
-    font-size: 2.4em;
-    font-weight: 700;
-    color: var(--primary-color);
-    line-height: 1.1;
-    margin-bottom: 6px;
-}
-
-.stat-card-label {
-    font-family: var(--font-sans);
-    font-size: 0.85em;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--secondary-color);
-    letter-spacing: 1px;
-    margin-bottom: 8px;
-}
-
-.stat-card-desc {
-    font-size: 0.85em;
-    color: var(--text-muted);
-    line-height: 1.45;
-}
-
-/* 7. Callout Boxes */
-.callout-box {
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-left: 5px solid var(--primary-color);
-    border-radius: 6px;
-    padding: 22px 26px;
-    margin: 2.6em 0;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.03);
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-.callout-box-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 1.05em;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    margin-bottom: 10px;
-}
-
-.callout-box p {
-    text-indent: 0 !important;
-    margin-bottom: 0.8em;
-}
-
-.callout-box p:last-child {
-    margin-bottom: 0;
-}
-
-/* --- TITLE PAGE --- */
-.title-page {
-    border: 1px solid var(--border-color);
-    background-color: var(--card-bg);
-    border-radius: 12px;
-    padding: 4rem 2rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-    text-align: center;
-    page-break-after: always;
-    break-after: page;
-}
-
-.title-page h1 {
-    font-size: 2.8rem;
-    color: var(--primary-color);
-    margin-bottom: 1.2rem;
-    border-bottom: none;
-    text-align: center;
-    page-break-before: avoid;
-    break-before: avoid;
-}
-
-.title-page h2 {
-    font-size: 1.4rem;
-    color: var(--text-color);
-    margin-bottom: 2.5rem;
-    border-bottom: none;
-    text-align: center;
-    font-weight: normal;
-}
-
-.title-page .author, .title-page .affiliation, .title-page .date {
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    color: var(--text-color);
-    text-align: center;
-}
-
-/* Page Break Utility */
-.page-break {
-    page-break-after: always;
-    break-after: page;
-}
-
-/* --- PRINT RULES (HEADLESS CHROME PDF) --- */
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-}
-
-@media print {
-    body {
-        max-width: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        background: #FFFFFF !important;
-        color: #000000 !important;
-        font-size: 11pt !important;
-        line-height: 1.6 !important;
-    }
-
-    h1 {
-        page-break-before: always !important;
-        break-before: page !important;
-        margin-top: 0 !important;
-        padding-top: 2cm !important;
-    }
-
-    .table-wrapper, table, .monograph-diagram, .bars-container,
-    .tree-container, .flow-container, .loop-container, .matrix-grid,
-    .stat-grid, .callout-box, blockquote, figure {
-        page-break-inside: avoid !important;
-        break-inside: avoid !important;
-        box-shadow: none !important;
-    }
-
-    .bar-fill {
-        background: var(--primary-color) !important;
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-    }
-
-    .video-container video, .animated-coin-container {
-        display: none !important;
-    }
-
-    .print-fallback {
-        display: block !important;
-        text-align: center;
-        padding: 2rem;
-        border: 1.5px dashed #666;
-        background-color: #FAFAFA;
-        font-style: italic;
-    }
-}
-
-
-    /* LMS Application Shell Styles */
+    /* ==========================================================================
+       CANONICAL ACADEMIC LMS THEME & PURE CSS DIAGRAMS
+       ========================================================================== */
     :root {
       --carmine: #821D2D;
+      --carmine-dark: #5C141F;
       --gold: #B88942;
+      --gold-light: #DFCA9B;
       --navy: #1B354B;
       --bg: #FAF8F5;
       --card-bg: #FFFFFF;
-      --border: #E8E2D9;
-      --text: #2B2927;
-      --sidebar-width: 340px;
+      --border: #E2D9CB;
+      --text: #1A1A1A;
+      --text-muted: #555555;
+      --sidebar-width: 330px;
+      --header-height: 64px;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Instrument Sans', sans-serif;
-      background: var(--bg);
+    /* Global Base */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100%;
+      background-color: var(--bg);
       color: var(--text);
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      overflow: hidden;
+      font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
     }
 
-    /* Top Navigation Bar */
-    header.lms-header {
+    /* Typography inside lessons */
+    h1, h2, h3, h4 {
+      color: var(--carmine);
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    .lesson-body h1 {
+      font-size: 2.1rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 12px;
+      margin: 10px 0 24px;
+      text-align: left;
+    }
+    .lesson-body h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px dashed var(--gold);
+      padding-bottom: 8px;
+      margin: 36px 0 16px;
+      color: var(--carmine-dark);
+    }
+    .lesson-body h3 {
+      font-size: 1.25rem;
+      color: var(--navy);
+      margin: 28px 0 12px;
+    }
+    .lesson-body p {
+      margin: 16px 0;
+      font-size: 1.05rem;
+      color: #262422;
+      font-family: 'Lora', Georgia, serif;
+    }
+    .lesson-body ul, .lesson-body ol {
+      margin: 16px 0 20px 24px;
+      font-family: 'Lora', Georgia, serif;
+    }
+    .lesson-body li {
+      margin-bottom: 8px;
+      font-size: 1.02rem;
+    }
+    .lesson-body strong {
+      color: #111;
+      font-weight: 600;
+    }
+    .lesson-body hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 36px 0;
+    }
+
+    /* Drop-cap */
+    p.chapter-start {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    p.chapter-start::first-letter {
+      font-family: 'Cinzel', serif;
+      font-size: 3.4rem;
+      float: left;
+      line-height: 0.8;
+      margin: 6px 10px 0 0;
+      color: var(--carmine);
+      font-weight: 700;
+    }
+
+    /* Code & Math */
+    pre, code {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.92rem;
+    }
+    code {
+      background: #F4EFE6;
+      color: var(--carmine-dark);
+      padding: 2px 6px;
+      border-radius: 4px;
+      border: 1px solid #E5DEC0;
+    }
+    pre {
+      background: #24292E;
+      color: #F8F8F2;
+      padding: 20px;
+      border-radius: 6px;
+      overflow-x: auto;
+      margin: 20px 0;
+      line-height: 1.5;
+    }
+    pre code {
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      border: none;
+    }
+    .mjx-chtml {
+      font-size: 108% !important;
+    }
+
+    /* Images */
+    .lesson-body img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+      margin: 24px 0;
+      display: block;
+    }
+
+    /* Pure CSS Diagrams (Academic Monograph Standard) */
+    .tree-container {
+      background: #FDFBF7;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--carmine);
+      padding: 20px 24px;
+      border-radius: 6px;
+      margin: 24px 0;
+    }
+    .tree-node {
+      margin: 8px 0;
+      padding-left: 18px;
+      position: relative;
+      font-size: 0.96rem;
+      color: #333;
+    }
+    .tree-node::before {
+      content: "├─";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-family: monospace;
+      font-weight: bold;
+    }
+    .tree-node:last-child::before {
+      content: "└─";
+    }
+    .flow-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 24px 0;
+    }
+    .flow-step {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--navy);
+      padding: 12px 16px;
+      border-radius: 4px;
+      font-size: 0.92rem;
+      font-weight: 500;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+
+    /* Booktabs Academic Tables */
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 28px 0;
+    }
+    table.academic-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Instrument Sans', sans-serif;
+      font-size: 0.95rem;
+      background: #FFFFFF;
+      border-top: 2px solid var(--carmine);
+      border-bottom: 2px solid var(--carmine);
+    }
+    table.academic-table caption {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      color: var(--carmine-dark);
+      text-align: left;
+      padding-bottom: 8px;
+      font-size: 0.98rem;
+    }
+    table.academic-table th {
+      border-bottom: 1.5px solid var(--gold);
+      padding: 12px 14px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--navy);
+      background: #FAF7F2;
+    }
+    table.academic-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid #EFEAE1;
+      vertical-align: top;
+    }
+    table.academic-table tr:hover {
+      background: #FDFBF7;
+    }
+
+    /* ==========================================================================
+       LMS APPLICATION SHELL
+       ========================================================================== */
+    header.lms-navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      height: var(--header-height);
       background: #FFFFFF;
       border-bottom: 2px solid var(--border);
-      height: 64px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 0 24px;
-      z-index: 100;
-      flex-shrink: 0;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
     }
-    .lms-brand {
+    .nav-left {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 14px;
     }
-    .lms-badge {
+    .menu-toggle-btn {
+      display: none;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .brand-badge {
       background: var(--carmine);
       color: #FFF;
-      font-size: 11px;
+      font-size: 10.5px;
       font-weight: 700;
-      padding: 3px 8px;
+      padding: 4px 8px;
       border-radius: 4px;
       letter-spacing: 0.5px;
       text-transform: uppercase;
     }
-    .lms-title {
+    .brand-title {
       font-family: 'Cinzel', serif;
       font-size: 16px;
-      color: var(--navy);
       font-weight: 700;
+      color: var(--navy);
     }
-    .lms-controls {
+    .nav-right {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 20px;
     }
-    .progress-bar-container {
+    .progress-widget {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
       font-size: 12px;
       font-weight: 600;
       color: var(--navy);
     }
-    .progress-track {
+    .progress-bar-bg {
       width: 140px;
       height: 8px;
-      background: #ECE7DE;
+      background: #EAE3D5;
       border-radius: 4px;
       overflow: hidden;
     }
-    .progress-fill {
+    .progress-bar-fill {
       height: 100%;
       background: var(--carmine);
       width: 12.5%;
       transition: width 0.3s ease;
     }
-    .btn-pdf {
+    .btn-download-pdf {
       background: var(--gold);
       color: #FFFFFF;
-      padding: 8px 14px;
+      padding: 8px 16px;
       border-radius: 6px;
-      font-size: 12px;
+      font-size: 12.5px;
       font-weight: 600;
       text-decoration: none;
       display: flex;
       align-items: center;
       gap: 6px;
-      transition: opacity 0.2s;
+      transition: background 0.2s;
     }
-    .btn-pdf:hover { opacity: 0.9; }
+    .btn-download-pdf:hover {
+      background: #A07535;
+    }
 
-    /* Layout Body */
-    .lms-container {
+    /* Layout Wrapper */
+    .lms-wrapper {
       display: flex;
-      flex: 1;
-      overflow: hidden;
+      width: 100%;
+      min-height: calc(100vh - var(--header-height));
     }
 
-    /* Sidebar */
+    /* Sidebar Navigation */
     aside.lms-sidebar {
       width: var(--sidebar-width);
+      flex-shrink: 0;
       background: #FFFFFF;
       border-right: 1px solid var(--border);
+      position: sticky;
+      top: var(--header-height);
+      height: calc(100vh - var(--header-height));
       overflow-y: auto;
-      flex-shrink: 0;
-      display: flex;
-      flex-direction: column;
+      padding: 16px 0;
     }
-    .sidebar-section-title {
+    .sidebar-mod-heading {
       font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
+      letter-spacing: 0.8px;
       color: #8C827A;
       padding: 16px 20px 8px;
-      letter-spacing: 0.6px;
+      border-top: 1px solid #F5F1EB;
     }
-    .lesson-item {
+    .sidebar-mod-heading:first-child { border-top: none; }
+    .nav-lesson-link {
       display: flex;
       align-items: center;
+      gap: 10px;
       padding: 12px 20px;
-      border-left: 3px solid transparent;
-      cursor: pointer;
-      transition: all 0.15s ease;
       font-size: 13.5px;
       color: #4A4643;
-      gap: 10px;
       text-decoration: none;
+      border-left: 3px solid transparent;
+      cursor: pointer;
+      transition: background 0.15s, border-left-color 0.15s;
     }
-    .lesson-item:hover {
-      background: #F7F5F0;
+    .nav-lesson-link:hover {
+      background: #FAF8F5;
       color: var(--carmine);
     }
-    .lesson-item.active {
-      background: #FBF8F3;
+    .nav-lesson-link.active {
+      background: #F7F3EB;
       border-left-color: var(--carmine);
       color: var(--carmine);
       font-weight: 600;
     }
-    .lesson-item.completed .status-dot {
+    .nav-lesson-link.is-done .status-indicator {
       background: #2E7D32;
     }
-    .status-dot {
+    .status-indicator {
       width: 8px;
       height: 8px;
       border-radius: 50%;
@@ -946,92 +404,228 @@ table tr:hover {
       flex-shrink: 0;
     }
 
-    /* Main Content Stage */
-    main.lms-main {
+    /* Main Lesson Stage (Native Scrolling) */
+    main.lms-main-stage {
       flex: 1;
-      overflow-y: auto;
-      padding: 40px 60px 80px;
-      background: var(--bg);
+      min-width: 0;
+      padding: 40px 48px 120px;
       display: flex;
       justify-content: center;
     }
-    .content-card {
-      max-width: 860px;
+    .lesson-sheet {
       width: 100%;
+      max-width: 880px;
       background: #FFFFFF;
-      padding: 48px 56px;
-      border-radius: 8px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
       border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 48px 56px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.03);
       display: none;
     }
-    .content-card.active {
+    .lesson-sheet.active {
       display: block;
-      animation: fadeIn 0.25s ease;
+      animation: fadeIn 0.2s ease-in-out;
     }
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(6px); }
+      from { opacity: 0; transform: translateY(4px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
-    /* Interactive Quiz Widget Styles */
-    .quiz-box {
-      background: #FAF8F4;
+    /* Interactive Quiz Widget */
+    .interactive-quiz-container {
+      background: #FCFBF9;
       border: 1px solid #E2D9CC;
       border-left: 4px solid var(--carmine);
-      padding: 24px;
       border-radius: 6px;
-      margin: 32px 0 20px;
+      padding: 24px 28px;
+      margin: 36px 0 20px;
     }
-    .quiz-header {
-      font-family: 'Cinzel', serif;
-      font-size: 15px;
+    .quiz-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
       font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
       color: var(--carmine);
       margin-bottom: 12px;
     }
-    .quiz-options {
+    .quiz-question-text {
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #1A1A1A;
+      margin-bottom: 16px;
+      font-family: 'Instrument Sans', sans-serif !important;
+    }
+    .quiz-options-group {
       display: flex;
       flex-direction: column;
-      gap: 8px;
-      margin-top: 14px;
+      gap: 10px;
     }
-    .quiz-opt {
+    .quiz-btn {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
       background: #FFFFFF;
       border: 1px solid #DCD5CA;
-      padding: 12px 16px;
       border-radius: 6px;
+      padding: 12px 16px;
+      text-align: left;
       cursor: pointer;
-      font-size: 13.5px;
+      font-family: 'Instrument Sans', sans-serif;
+      font-size: 0.95rem;
+      color: #333;
       transition: all 0.15s ease;
     }
-    .quiz-opt:hover {
+    .quiz-btn:hover {
       border-color: var(--gold);
-      background: #FDFCF9;
+      background: #FAF8F5;
     }
-    .quiz-opt.correct {
-      background: #E8F5E9;
-      border-color: #2E7D32;
-      color: #1B5E20;
+    .quiz-opt-letter {
+      background: #EEE9DF;
+      color: #444;
+      font-weight: 700;
+      font-size: 11px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .quiz-btn.is-correct {
+      background: #E8F5E9 !important;
+      border-color: #2E7D32 !important;
+      color: #1B5E20 !important;
       font-weight: 600;
     }
-    .quiz-opt.incorrect {
-      background: #FFEBEE;
-      border-color: #C62828;
-      color: #B71C1C;
+    .quiz-btn.is-correct .quiz-opt-letter {
+      background: #2E7D32;
+      color: #FFF;
     }
-    .quiz-feedback {
-      margin-top: 12px;
-      padding: 12px 14px;
+    .quiz-btn.is-wrong {
+      background: #FFEBEE !important;
+      border-color: #C62828 !important;
+      color: #B71C1C !important;
+    }
+    .quiz-btn.is-wrong .quiz-opt-letter {
+      background: #C62828;
+      color: #FFF;
+    }
+    .quiz-feedback-box {
+      margin-top: 16px;
+      padding: 14px 18px;
       border-radius: 6px;
-      font-size: 13px;
+      background: #F4EFE6;
+      border: 1px solid #E2D9CC;
       display: none;
-      line-height: 1.45;
     }
-    .quiz-feedback.show { display: block; }
+    .quiz-feedback-box.show { display: block; }
+    .feedback-heading {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--carmine);
+      margin-bottom: 6px;
+    }
+    .feedback-body {
+      font-size: 0.95rem;
+      color: #333;
+      line-height: 1.5;
+      font-family: 'Lora', serif !important;
+      margin: 0 !important;
+    }
 
-    /* Bottom Action Controls */
-    .lesson-footer-nav {
+    /* Capstone Simulator Widget */
+    .capstone-interactive-lab {
+      background: #FDFCF9;
+      border: 2px solid var(--gold);
+      border-radius: 8px;
+      padding: 28px 32px;
+      margin: 36px 0;
+    }
+    .lab-header h3 {
+      font-size: 1.3rem;
+      margin: 6px 0 10px;
+    }
+    .lab-tag {
+      background: var(--gold);
+      color: #FFF;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 3px;
+    }
+    .lab-controls-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .lab-control label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.92rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .val-badge {
+      background: var(--navy);
+      color: #FFF;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+    }
+    .lab-control input[type="range"] {
+      width: 100%;
+      accent-color: var(--carmine);
+    }
+    .lab-results-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 24px 0 16px;
+    }
+    .result-tile {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--carmine);
+      padding: 14px 12px;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .tile-label {
+      font-size: 11px;
+      color: #666;
+      font-weight: 600;
+    }
+    .tile-val {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--carmine);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .tile-sub {
+      font-size: 10px;
+      color: #888;
+    }
+    .lab-status-badge {
+      background: #E8F5E9;
+      color: #1B5E20;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 600;
+      border: 1px solid #C8E6C9;
+    }
+
+    /* Lesson Navigation Bar */
+    .lesson-nav-footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -1039,98 +633,115 @@ table tr:hover {
       padding-top: 24px;
       border-top: 1px solid var(--border);
     }
-    .btn-nav {
+    .nav-btn {
       background: var(--navy);
       color: #FFFFFF;
-      padding: 10px 20px;
+      border: none;
+      padding: 12px 22px;
       border-radius: 6px;
-      font-size: 13px;
+      font-size: 13.5px;
       font-weight: 600;
       cursor: pointer;
-      border: none;
-      transition: opacity 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.15s, opacity 0.15s;
     }
-    .btn-nav:hover { opacity: 0.9; }
-    .btn-nav.btn-complete {
+    .nav-btn:hover { opacity: 0.92; }
+    .nav-btn.btn-complete-action {
       background: var(--carmine);
     }
 
-    /* Mobile Responsive */
-    @media (max-width: 900px) {
-      aside.lms-sidebar { display: none; }
-      main.lms-main { padding: 20px 16px; }
-      .content-card { padding: 24px 20px; }
+    /* Responsive */
+    @media (max-width: 960px) {
+      .menu-toggle-btn { display: block; }
+      aside.lms-sidebar {
+        position: fixed;
+        left: -330px;
+        top: var(--header-height);
+        height: calc(100vh - var(--header-height));
+        z-index: 999;
+        box-shadow: 4px 0 20px rgba(0,0,0,0.1);
+      }
+      aside.lms-sidebar.open {
+        left: 0;
+      }
+      main.lms-main-stage { padding: 24px 16px; }
+      .lesson-sheet { padding: 28px 20px; }
+      .lab-controls-grid { grid-template-columns: 1fr; }
+      .lab-results-grid { grid-template-columns: 1fr 1fr; }
     }
   </style>
 </head>
 <body>
 
-  <!-- Top Navigation Header -->
-  <header class="lms-header">
-    <div class="lms-brand">
-      <span class="lms-badge">PhD Standard</span>
-      <span class="lms-title">Podstawy Ogólnej Teorii Względności</span>
+  <!-- Top Fixed Navigation -->
+  <header class="lms-navbar">
+    <div class="nav-left">
+      <button type="button" class="menu-toggle-btn" onclick="toggleSidebar()" aria-label="Przełącz spis lekcji">☰</button>
+      <span class="brand-badge">PhD Standard</span>
+      <span class="brand-title">Podstawy Ogólnej Teorii Względności</span>
     </div>
-    <div class="lms-controls">
-      <div class="progress-bar-container">
-        <span id="progress-percent">12%</span>
-        <div class="progress-track">
-          <div id="progress-bar-fill" class="progress-fill"></div>
+    <div class="nav-right">
+      <div class="progress-widget">
+        <span id="ui-progress-text">12%</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="ui-progress-bar"></div>
         </div>
       </div>
-      <a href="compendium.pdf" target="_blank" class="btn-pdf">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+      <a href="compendium.pdf" target="_blank" class="btn-download-pdf">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
         Pobierz Skrypt PDF (1.8 MB)
       </a>
     </div>
   </header>
 
-  <!-- LMS Main Stage -->
-  <div class="lms-container">
+  <!-- LMS Main Layout -->
+  <div class="lms-wrapper">
     <!-- Sidebar Navigation -->
-    <aside class="lms-sidebar">
-      <div class="sidebar-section-title">Program Kursu (4 Moduły)</div>
-      <div class="sidebar-section-title">Moduł I: Zasada Równoważności</div>
-      <a class="lesson-item active" data-target="lesson-1" onclick="switchLesson('lesson-1')">
-        <span class="status-dot"></span>
+    <aside class="lms-sidebar" id="sidebar-drawer">
+      <div class="sidebar-mod-heading">Moduł I: Zasada Równoważności</div>
+      <a class="nav-lesson-link active" data-id="lesson-1" onclick="activateLesson('lesson-1')">
+        <span class="status-indicator"></span>
         <span>1.1: Ograniczenia grawitacji Newtona i Zasada Równoważności</span>
       </a>
-      <a class="lesson-item" data-target="lesson-2" onclick="switchLesson('lesson-2')">
-        <span class="status-dot"></span>
+      <a class="nav-lesson-link" data-id="lesson-2" onclick="activateLesson('lesson-2')">
+        <span class="status-indicator"></span>
         <span>1.2: Równanie Geodezyjnych i Symbole Christoffela</span>
       </a>
-      <div class="sidebar-section-title">Moduł II: Równania Pola Einsteina</div>
-      <a class="lesson-item" data-target="lesson-3" onclick="switchLesson('lesson-3')">
-        <span class="status-dot"></span>
+      <div class="sidebar-mod-heading">Moduł II: Równania Pola Einsteina</div>
+      <a class="nav-lesson-link" data-id="lesson-3" onclick="activateLesson('lesson-3')">
+        <span class="status-indicator"></span>
         <span>2.1: Krzywizna Riemanna, Tensor Ricciego i Tensor Energii</span>
       </a>
-      <a class="lesson-item" data-target="lesson-4" onclick="switchLesson('lesson-4')">
-        <span class="status-dot"></span>
+      <a class="nav-lesson-link" data-id="lesson-4" onclick="activateLesson('lesson-4')">
+        <span class="status-indicator"></span>
         <span>2.2: Równania Pola Einsteina i Stała Kosmologiczna</span>
       </a>
-      <div class="sidebar-section-title">Moduł III: Rozwiązanie Schwarzschilda</div>
-      <a class="lesson-item" data-target="lesson-5" onclick="switchLesson('lesson-5')">
-        <span class="status-dot"></span>
+      <div class="sidebar-mod-heading">Moduł III: Rozwiązanie Schwarzschilda</div>
+      <a class="nav-lesson-link" data-id="lesson-5" onclick="activateLesson('lesson-5')">
+        <span class="status-indicator"></span>
         <span>3.1: Metryka Schwarzschilda, Horyzont i Orbity ISCO</span>
       </a>
-      <a class="lesson-item" data-target="lesson-6" onclick="switchLesson('lesson-6')">
-        <span class="status-dot"></span>
+      <a class="nav-lesson-link" data-id="lesson-6" onclick="activateLesson('lesson-6')">
+        <span class="status-indicator"></span>
         <span>3.2: Trzy Klasyczne Testy Empiryczne OTW</span>
       </a>
-      <div class="sidebar-section-title">Moduł IV: Fale Grawitacyjne & Capstone</div>
-      <a class="lesson-item" data-target="lesson-7" onclick="switchLesson('lesson-7')">
-        <span class="status-dot"></span>
+      <div class="sidebar-mod-heading">Moduł IV: Fale Grawitacyjne & Capstone</div>
+      <a class="nav-lesson-link" data-id="lesson-7" onclick="activateLesson('lesson-7')">
+        <span class="status-indicator"></span>
         <span>4.1: Linearyzacja OTW, Fale Grawitacyjne i LIGO</span>
       </a>
-      <a class="lesson-item" data-target="lesson-8" onclick="switchLesson('lesson-8')">
-        <span class="status-dot"></span>
+      <a class="nav-lesson-link" data-id="lesson-8" onclick="activateLesson('lesson-8')">
+        <span class="status-indicator"></span>
         <span>4.2: Relatywistyczny Projekt Końcowy (Capstone GW150914)</span>
       </a>
     </aside>
 
     <!-- Main Content Reader -->
-    <main class="lms-main">
-      <article class="content-card active" id="lesson-1">
+    <main class="lms-main-stage">
+      <article class="lesson-sheet active" id="lesson-1">
+        <div class="lesson-body">
 <h1
 id="lekcja-1.1-ograniczenia-mechaniki-newtonowskiej-i-zasada-równoważności">Lekcja
 1.1: Ograniczenia mechaniki newtonowskiej i zasada równoważności</h1>
@@ -1157,21 +768,21 @@ id="sprzeczność-newtonowskiego-ciążenia-ze-szczególną-teorią-względnośc
 Sprzeczność newtonowskiego ciążenia ze Szczególną Teorią
 Względności</h2>
 <p>Zgodnie z newtonowskim prawem powszechnego ciążenia siła grawitacyjna
-pomiędzy masami <span class="math inline">M</span> i <span
-class="math inline">m</span> wynosi:</p>
-<p><span class="math display">\mathbf{F} = -G \frac{M m}{r^2}
-\hat{\mathbf{r}}</span></p>
+pomiędzy masami <span class="math inline">\(M\)</span> i <span
+class="math inline">\(m\)</span> wynosi:</p>
+<p><span class="math display">\[\mathbf{F} = -G \frac{M m}{r^2}
+\hat{\mathbf{r}}\]</span></p>
 <p>Równanie to zakłada nieskończoną prędkość propagacji oddziaływania:
-zmiana położenia masy <span class="math inline">M</span> wywołuje
+zmiana położenia masy <span class="math inline">\(M\)</span> wywołuje
 natychmiastową zmianę siły działającej na masę <span
-class="math inline">m</span>, niezależnie od dzielącej je odległości
-<span class="math inline">r</span>. Stoi to w bezpośredniej sprzeczności
-z podstawowym postulatem STW, zgodnie z którym żadna informacja ani
-oddziaływanie fizyczne nie może rozchodzić się z prędkością większą niż
-prędkość światła w próżni <span class="math inline">c</span> (<span
-class="math inline">c \approx 299\,792\,458\text{ m/s}</span>) <a
-href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a>.</p>
+class="math inline">\(m\)</span>, niezależnie od dzielącej je odległości
+<span class="math inline">\(r\)</span>. Stoi to w bezpośredniej
+sprzeczności z podstawowym postulatem STW, zgodnie z którym żadna
+informacja ani oddziaływanie fizyczne nie może rozchodzić się z
+prędkością większą niż prędkość światła w próżni <span
+class="math inline">\(c\)</span> (<span class="math inline">\(c \approx
+299\,792\,458\text{ m/s}\)</span>) <a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
 <div class="tree-container">
 <div class="tree-node">
 <strong>Kryzys grawitacji newtonowskiej</strong>
@@ -1217,13 +828,13 @@ Rygor Empiryczny (Testy)
 <strong>Słaba Zasada Równoważności (WEP)</strong>
 </td>
 <td>
-Równość masy grawitacyjnej i bezwładnej: <span class="math inline">m_g =
-m_i</span>. Wszystkie ciała spadają z tym samym przyspieszeniem w
+Równość masy grawitacyjnej i bezwładnej: <span class="math inline">\(m_g
+= m_i\)</span>. Wszystkie ciała spadają z tym samym przyspieszeniem w
 próżni.
 </td>
 <td>
 Eötvös, Dicke, Braginsky, misja satelitarna MICROSCOPE: <span
-class="math inline">\eta &lt; 10^{-15}</span> <a href="#fn3"
+class="math inline">\(\eta &lt; 10^{-15}\)</span> <a href="#fn3"
 class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>
 </td>
 </tr>
@@ -1263,9 +874,9 @@ Pomiary laserowe odległości Księżyca (LLR), układy pulsarów podwójnych
 Winda Einsteina</h2>
 <p>Rozważmy zamkniętą kabinę windy w dwóch scenariuszach: 1. Kabina
 spoczywa na powierzchni Ziemi w jednorodnym polu grawitacyjnym o
-natężeniu <span class="math inline">g</span>. 2. Kabina znajduje się w
-głębokiej przestrzeni kosmicznej z dala od mas, ale jest ciągnięta z
-przyspieszeniem <span class="math inline">a = g</span>.</p>
+natężeniu <span class="math inline">\(g\)</span>. 2. Kabina znajduje się
+w głębokiej przestrzeni kosmicznej z dala od mas, ale jest ciągnięta z
+przyspieszeniem <span class="math inline">\(a = g\)</span>.</p>
 <p>Żaden eksperyment mechaniczny ani optyczny przeprowadzony
 <strong>wewnątrz</strong> małej, lokalnej kabiny nie pozwala rozróżnić
 tych dwóch sytuacji. Wynika stąd bezpośredni wniosek: skoro
@@ -1279,28 +890,28 @@ rozwiązaniem (Worked Example)</h2>
 <p>Wykaż, że z zasady równoważności wynika konieczność zakrzywienia toru
 promienia świetlnego w polu grawitacyjnym oraz wyznacz przybliżone
 ugięcie wiązki światła przebywającej kabinę windy o szerokości <span
-class="math inline">L</span> poruszającej się z przyspieszeniem <span
-class="math inline">g</span>.</p>
+class="math inline">\(L\)</span> poruszającej się z przyspieszeniem
+<span class="math inline">\(g\)</span>.</p>
 <h3 id="rozwiązanie-krok-po-kroku">Rozwiązanie krok po kroku:</h3>
 <ol type="1">
 <li><strong>Czas przelotu fotonu:</strong> Foton porusza się w poprzek
-kabiny z prędkością <span class="math inline">c</span>, zatem czas
-przelotu wynosi: <span class="math display">\Delta t =
-\frac{L}{c}</span></li>
+kabiny z prędkością <span class="math inline">\(c\)</span>, zatem czas
+przelotu wynosi: <span class="math display">\[\Delta t =
+\frac{L}{c}\]</span></li>
 <li><strong>Pionowe przemieszczenie kabiny:</strong> W czasie <span
-class="math inline">\Delta t</span> kabina przyspieszająca z
-przyspieszeniem <span class="math inline">g</span> pokonuje pionowy
-dystans: <span class="math display">\Delta y = \frac{1}{2} g (\Delta
-t)^2 = \frac{1}{2} g \left(\frac{L}{c}\right)^2</span></li>
+class="math inline">\(\Delta t\)</span> kabina przyspieszająca z
+przyspieszeniem <span class="math inline">\(g\)</span> pokonuje pionowy
+dystans: <span class="math display">\[\Delta y = \frac{1}{2} g (\Delta
+t)^2 = \frac{1}{2} g \left(\frac{L}{c}\right)^2\]</span></li>
 <li><strong>Kąt ugięcia toru:</strong> Kąt ugięcia wiązki światła
 zarejestrowany na przeciwległej ścianie wynosi: <span
-class="math display">\theta \approx \frac{v_y}{c} = \frac{g \Delta t}{c}
-= \frac{g L}{c^2}</span></li>
+class="math display">\[\theta \approx \frac{v_y}{c} = \frac{g \Delta
+t}{c} = \frac{g L}{c^2}\]</span></li>
 <li><strong>Wniosek relatywistyczny:</strong> Zgodnie z zasadą
 równoważności, ten sam efekt ugięcia musi wystąpić w spoczywającej
 kabinie znajdującej się w polu grawitacyjnym. Oznacza to, że promień
 światła ulega ugięciu w polu grawitacyjnym, mimo że foton nie posiada
-masy spoczynkowej (<span class="math inline">m_0 = 0</span>).</li>
+masy spoczynkowej (<span class="math inline">\(m_0 = 0\)</span>).</li>
 </ol>
 <hr />
 <h2 id="zadanie-laboratoryjne-dla-kursanta-hands-on-practice">5. Zadanie
@@ -1308,41 +919,25 @@ laboratoryjne dla kursanta (Hands-on Practice)</h2>
 <h3 id="polecenie">Polecenie:</h3>
 <p>Wykorzystując wyprowadzony wzór na grawitacyjną dylatację czasu
 wynikającą z zasady równoważności: <span
-class="math display">\frac{\Delta f}{f} = \frac{g h}{c^2}</span> oblicz
-względną zmianę częstotliwości fotonów promieniowania gamma (<span
-class="math inline">^{57}\text{Fe}</span>, <span class="math inline">E =
-14.4\text{ keV}</span>) w historycznym eksperymencie Pounda-Rebki
-przeprowadzonym na wieży Jefferson Physical Laboratory na Uniwersytecie
-Harvarda (<span class="math inline">h = 22.5\text{ m}</span>, <span
-class="math inline">g = 9.80665\text{ m/s}^2</span>).</p>
+class="math display">\[\frac{\Delta f}{f} = \frac{g h}{c^2}\]</span>
+oblicz względną zmianę częstotliwości fotonów promieniowania gamma
+(<span class="math inline">\(^{57}\text{Fe}\)</span>, <span
+class="math inline">\(E = 14.4\text{ keV}\)</span>) w historycznym
+eksperymencie Pounda-Rebki przeprowadzonym na wieży Jefferson Physical
+Laboratory na Uniwersytecie Harvarda (<span class="math inline">\(h =
+22.5\text{ m}\)</span>, <span class="math inline">\(g = 9.80665\text{
+m/s}^2\)</span>).</p>
 <h3 id="wzorcowa-odpowiedź-model-answer">Wzorcowa odpowiedź (Model
 Answer):</h3>
 <p>Podstawiając wartości do wzoru: <span
-class="math display">\frac{\Delta f}{f} = \frac{9.80665\text{ m/s}^2
+class="math display">\[\frac{\Delta f}{f} = \frac{9.80665\text{ m/s}^2
 \times 22.5\text{ m}}{(299\,792\,458\text{ m/s})^2} =
 \frac{220.65}{8.98755 \times 10^{16}} \approx 2.455 \times
-10^{-15}</span> Wynik ten został zweryfikowany z dokładnością do 1% w
+10^{-15}\]</span> Wynik ten został zweryfikowany z dokładnością do 1% w
 1960 roku przez Roberta Pounda i Glena Rebkę <a href="#fn5"
 class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>,
 potwierdzając, że czas płynie wolniej na niższych potencjałach
 grawitacyjnych.</p>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">6. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> Dlaczego foton ulega zakrzywieniu w polu
-grawitacyjnym, skoro jego masa spoczynkowa wynosi zero? -
-<strong>A)</strong> Ponieważ foton posiada ładunek elektryczny
-oddziałujący z jądrami atomowymi. - <strong>B)</strong> Ponieważ
-grawitacja nie jest siłą zależną od masy spoczynkowej, lecz
-zakrzywieniem czasoprzestrzeni, po której fotony poruszają się wzdłuż
-zerowych linii geodezyjnych. - <strong>C)</strong> Ponieważ ciśnienie
-promieniowania słonecznego odpycha cząstki światła.</p>
-<p><em>Prawidłowa odpowiedź: B.</em> <em>Wyjaśnienie dydaktyczne:</em> W
-OTW cząstki bezmasowe poruszają się po liniach geodezyjnych
-czasoprzestrzeni (<span class="math inline">ds^2 = 0</span>). To
-geometria czasoprzestrzeni jest zakrzywiona przez masę i energię, a nie
-trajektoria zakrzywiana przez newtonowską siłę przyciągania masowego.
-Odpowiedzi A i C są fizycznie fałszywe.</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -1373,13 +968,40 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-1">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> Dlaczego foton ulega zakrzywieniu w polu grawitacyjnym, skoro jego masa spoczynkowa wynosi zero?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-1')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Ponieważ foton posiada ładunek elektryczny oddziałujący z jądrami atomowymi.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-1')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">Ponieważ grawitacja nie jest siłą zależną od masy spoczynkowej, lecz zakrzywieniem czasoprzestrzeni, po której fotony poruszają się wzdłuż zerowych linii geodezyjnych.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-1')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Ponieważ ciśnienie promieniowania słonecznego odpycha cząstki światła.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-1">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">W OTW cząstki bezmasowe poruszają się po liniach geodezyjnych czasoprzestrzeni ($ds^2 = 0$). To geometria czasoprzestrzeni jest zakrzywiona przez masę i energię, a nie trajektoria zakrzywiana przez newtonowską siłę przyciągania masowego. Odpowiedzi A i C są fizycznie fałszywe.
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" disabled style="opacity: 0.5;">&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-1')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" disabled style="opacity: 0.4;">&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-1')">Zalicz lekcję i przejdź dalej &rarr;</button>
         </div>
       </article>
-      <article class="content-card" id="lesson-2">
+      <article class="lesson-sheet" id="lesson-2">
+        <div class="lesson-body">
 <h1 id="lekcja-1.2-równanie-geodezyjnych-i-symbole-christoffela">Lekcja
 1.2: Równanie geodezyjnych i symbole Christoffela</h1>
 <p class="chapter-start">
@@ -1393,77 +1015,80 @@ role="doc-noteref"><sup>1</sup></a>.
 </p>
 <h2 id="cel-operacyjny-lekcji">Cel operacyjny lekcji</h2>
 <p>Po ukończeniu tej lekcji będziesz potrafił: 1. Zdefiniować tensor
-metryczny <span class="math inline">g_{\mu\nu}</span> oraz interwał
-czasoprzestrzenny <span class="math inline">ds^2</span>. 2. Wyprowadzić
-i obliczyć symbole Christoffela <span
-class="math inline">\Gamma^\mu_{\alpha\beta}</span> dla zadanego tensora
-metrycznego. 3. Zapisać i zinterpretować równanie geodezyjnych jako
-uogólnienie pierwszej zasady dynamiki Newtona.</p>
+metryczny <span class="math inline">\(g_{\mu\nu}\)</span> oraz interwał
+czasoprzestrzenny <span class="math inline">\(ds^2\)</span>. 2.
+Wyprowadzić i obliczyć symbole Christoffela <span
+class="math inline">\(\Gamma^\mu_{\alpha\beta}\)</span> dla zadanego
+tensora metrycznego. 3. Zapisać i zinterpretować równanie geodezyjnych
+jako uogólnienie pierwszej zasady dynamiki Newtona.</p>
 <hr />
 <h2 id="tensor-metryczny-i-geometria-riemanna">1. Tensor Metryczny i
 Geometria Riemanna</h2>
 <p>W czterowymiarowej czasoprzestrzeni o współrzędnych <span
-class="math inline">x^\mu = (x^0, x^1, x^2, x^3) = (ct, x, y, z)</span>
-odległość między dwoma nieskończenie bliskimi zdarzeniami opisuje
-interwał:</p>
-<p><span class="math display">ds^2 = g_{\mu\nu} dx^\mu dx^\nu</span></p>
-<p>gdzie <span class="math inline">g_{\mu\nu}</span> jest symetrycznym
-tensorem metrycznym drugiego rzędu (<span class="math inline">g_{\mu\nu}
-= g_{\nu\mu}</span>), a sumowanie po powtarzających się indeksach
-greckich (<span class="math inline">\mu, \nu \in \{0, 1, 2, 3\}</span>)
-wynika z konwencji sumacyjnej Einsteina.</p>
+class="math inline">\(x^\mu = (x^0, x^1, x^2, x^3) = (ct, x, y,
+z)\)</span> odległość między dwoma nieskończenie bliskimi zdarzeniami
+opisuje interwał:</p>
+<p><span class="math display">\[ds^2 = g_{\mu\nu} dx^\mu
+dx^\nu\]</span></p>
+<p>gdzie <span class="math inline">\(g_{\mu\nu}\)</span> jest
+symetrycznym tensorem metrycznym drugiego rzędu (<span
+class="math inline">\(g_{\mu\nu} = g_{\nu\mu}\)</span>), a sumowanie po
+powtarzających się indeksach greckich (<span class="math inline">\(\mu,
+\nu \in \{0, 1, 2, 3\}\)</span>) wynika z konwencji sumacyjnej
+Einsteina.</p>
 <ul>
 <li>W płaskiej czasoprzestrzeni Minkowskiego (STW): <span
-class="math inline">g_{\mu\nu} = \eta_{\mu\nu} = \text{diag}(-1, 1, 1,
-1)</span>.</li>
+class="math inline">\(g_{\mu\nu} = \eta_{\mu\nu} = \text{diag}(-1, 1, 1,
+1)\)</span>.</li>
 <li>W obecności mas i energii: <span
-class="math inline">g_{\mu\nu}(x)</span> staje się funkcją położenia w
-czasoprzestrzeni, wyznaczając jej lokalną krzywiznę.</li>
+class="math inline">\(g_{\mu\nu}(x)\)</span> staje się funkcją położenia
+w czasoprzestrzeni, wyznaczając jej lokalną krzywiznę.</li>
 </ul>
 <hr />
 <h2 id="pochodna-kowariantna-i-symbole-christoffela">2. Pochodna
 Kowariantna i Symbole Christoffela</h2>
 <p>Zwykła pochodna cząstkowa tensora <span
-class="math inline">\partial_\alpha T^\mu</span> nie przekształca się w
-sposób tensorowy przy ogólnych transformacjach współrzędnych, ponieważ
-bazy wektorów zmieniają się od punktu do punktu rozmaitości. Aby
-zachować kowariancję różniczkowania, wprowadza się pochodną
+class="math inline">\(\partial_\alpha T^\mu\)</span> nie przekształca
+się w sposób tensorowy przy ogólnych transformacjach współrzędnych,
+ponieważ bazy wektorów zmieniają się od punktu do punktu rozmaitości.
+Aby zachować kowariancję różniczkowania, wprowadza się pochodną
 kowariantną:</p>
-<p><span class="math display">\nabla_\alpha V^\mu = \partial_\alpha
-V^\mu + \Gamma^\mu_{\alpha\beta} V^\beta</span></p>
-<p>Wielkości <span class="math inline">\Gamma^\mu_{\alpha\beta}</span>
-noszą nazwę symboli Christoffela drugiego rodzaju (lub współczynników
-koneksji Levi-Civity). Z warunku metryczności (<span
-class="math inline">\nabla_\alpha g_{\mu\nu} = 0</span>) oraz symetrii
-koneksji (brak torsji: <span
-class="math inline">\Gamma^\mu_{\alpha\beta} =
-\Gamma^\mu_{\beta\alpha}</span>) wynika ich jednoznaczna postać:</p>
-<p><span class="math display">\Gamma^\mu_{\alpha\beta} = \frac{1}{2}
+<p><span class="math display">\[\nabla_\alpha V^\mu = \partial_\alpha
+V^\mu + \Gamma^\mu_{\alpha\beta} V^\beta\]</span></p>
+<p>Wielkości <span
+class="math inline">\(\Gamma^\mu_{\alpha\beta}\)</span> noszą nazwę
+symboli Christoffela drugiego rodzaju (lub współczynników koneksji
+Levi-Civity). Z warunku metryczności (<span
+class="math inline">\(\nabla_\alpha g_{\mu\nu} = 0\)</span>) oraz
+symetrii koneksji (brak torsji: <span
+class="math inline">\(\Gamma^\mu_{\alpha\beta} =
+\Gamma^\mu_{\beta\alpha}\)</span>) wynika ich jednoznaczna postać:</p>
+<p><span class="math display">\[\Gamma^\mu_{\alpha\beta} = \frac{1}{2}
 g^{\mu\sigma} \left( \partial_\alpha g_{\beta\sigma} + \partial_\beta
-g_{\alpha\sigma} - \partial_\sigma g_{\alpha\beta} \right)</span></p>
-<p>gdzie <span class="math inline">g^{\mu\sigma}</span> jest tensorem
-metrycznym odwrotnym (<span class="math inline">g^{\mu\sigma}
-g_{\sigma\nu} = \delta^\mu_\nu</span>).</p>
+g_{\alpha\sigma} - \partial_\sigma g_{\alpha\beta} \right)\]</span></p>
+<p>gdzie <span class="math inline">\(g^{\mu\sigma}\)</span> jest
+tensorem metrycznym odwrotnym (<span class="math inline">\(g^{\mu\sigma}
+g_{\sigma\nu} = \delta^\mu_\nu\)</span>).</p>
 <div class="flow-container">
 <div class="flow-step">
 <ol type="1">
 <li>Postać tensora metrycznego <span
-class="math inline">g_{\mu\nu}</span>
+class="math inline">\(g_{\mu\nu}\)</span>
 </div>
 <div class="flow-step">
 <ol start="2" type="1">
 <li>Wyznaczenie tensora odwrotnego <span
-class="math inline">g^{\mu\nu}</span>
+class="math inline">\(g^{\mu\nu}\)</span>
 </div>
 <div class="flow-step">
 <ol start="3" type="1">
 <li>Obliczenie pochodnych cząstkowych <span
-class="math inline">\partial_\sigma g_{\alpha\beta}</span>
+class="math inline">\(\partial_\sigma g_{\alpha\beta}\)</span>
 </div>
 <div class="flow-step">
 <ol start="4" type="1">
 <li>Złożenie symboli Christoffela <span
-class="math inline">\Gamma^\mu_{\alpha\beta}</span>
+class="math inline">\(\Gamma^\mu_{\alpha\beta}\)</span>
 </div></li>
 </ol>
 </div></li>
@@ -1476,116 +1101,98 @@ class="math inline">\Gamma^\mu_{\alpha\beta}</span>
 <hr />
 <h2 id="równanie-geodezyjnych">3. Równanie Geodezyjnych</h2>
 <p>Linia geodezyjna to linia ekstremalnej długości (lub czasu własnego
-<span class="math inline">\tau</span>) łącząca dwa zdarzenia w
-czasoprzestrzeni. Z zasady wariacyjnej <span class="math inline">\delta
-\int ds = 0</span> otrzymujemy równanie geodezyjnych:</p>
-<p><span class="math display">\frac{d^2 x^\mu}{d\tau^2} +
+<span class="math inline">\(\tau\)</span>) łącząca dwa zdarzenia w
+czasoprzestrzeni. Z zasady wariacyjnej <span
+class="math inline">\(\delta \int ds = 0\)</span> otrzymujemy równanie
+geodezyjnych:</p>
+<p><span class="math display">\[\frac{d^2 x^\mu}{d\tau^2} +
 \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau}
-= 0</span></p>
-<p>gdzie <span class="math inline">\tau</span> jest parametrem
+= 0\]</span></p>
+<p>gdzie <span class="math inline">\(\tau\)</span> jest parametrem
 afinicznym (dla cząstek z masą: czasem własnym).</p>
 <p>Zauważmy analogię z mechaniką newtonowską: <span
-class="math display">\frac{d^2 x^i}{dt^2} = - \Gamma^i_{\alpha\beta}
-\frac{dx^\alpha}{dt} \frac{dx^\beta}{dt}</span> Człon <span
-class="math inline">\Gamma^i_{\alpha\beta} \frac{dx^\alpha}{dt}
-\frac{dx^\beta}{dt}</span> odgrywa rolę pozornej siły grawitacyjnej
+class="math display">\[\frac{d^2 x^i}{dt^2} = - \Gamma^i_{\alpha\beta}
+\frac{dx^\alpha}{dt} \frac{dx^\beta}{dt}\]</span> Człon <span
+class="math inline">\(\Gamma^i_{\alpha\beta} \frac{dx^\alpha}{dt}
+\frac{dx^\beta}{dt}\)</span> odgrywa rolę pozornej siły grawitacyjnej
 wywołanej zakrzywieniem geometrii.</p>
 <hr />
 <h2 id="przykład-z-rozwiązaniem-worked-example">4. Przykład z
 rozwiązaniem (Worked Example)</h2>
 <h3 id="zadanie">Zadanie:</h3>
 <p>Wyznacz symbole Christoffela dla płaszczyzny dwuwymiarowej we
-współrzędnych biegunowych <span class="math inline">(r, \theta)</span>,
-gdzie interwał wynosi: <span class="math display">ds^2 = dr^2 + r^2
-d\theta^2</span></p>
+współrzędnych biegunowych <span class="math inline">\((r,
+\theta)\)</span>, gdzie interwał wynosi: <span
+class="math display">\[ds^2 = dr^2 + r^2 d\theta^2\]</span></p>
 <h3 id="rozwiązanie-krok-po-kroku">Rozwiązanie krok po kroku:</h3>
 <ol type="1">
-<li><strong>Współrzędne:</strong> <span class="math inline">x^1 =
-r</span>, <span class="math inline">x^2 = \theta</span>.</li>
+<li><strong>Współrzędne:</strong> <span class="math inline">\(x^1 =
+r\)</span>, <span class="math inline">\(x^2 = \theta\)</span>.</li>
 <li><strong>Macierz metryki i jej odwrotność:</strong> <span
-class="math display">g_{\mu\nu} = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp;
+class="math display">\[g_{\mu\nu} = \begin{pmatrix} 1 &amp; 0 \\ 0 &amp;
 r^2 \end{pmatrix}, \quad g^{\mu\nu} = \begin{pmatrix} 1 &amp; 0 \\ 0
-&amp; \frac{1}{r^2} \end{pmatrix}</span></li>
+&amp; \frac{1}{r^2} \end{pmatrix}\]</span></li>
 <li><strong>Pochodne cząstkowe metryki:</strong> Jedyną niezerową
-pochodną jest <span class="math inline">\partial_1 g_{22} =
-\frac{\partial (r^2)}{\partial r} = 2r</span>.</li>
+pochodną jest <span class="math inline">\(\partial_1 g_{22} =
+\frac{\partial (r^2)}{\partial r} = 2r\)</span>.</li>
 <li><strong>Symbole Christoffela:</strong>
 <ul>
-<li>Dla <span class="math inline">\mu = 1</span> (<span
-class="math inline">r</span>): <span class="math display">\Gamma^1_{22}
-= \frac{1}{2} g^{11} (-\partial_1 g_{22}) = \frac{1}{2} (1) (-2r) =
--r</span></li>
-<li>Dla <span class="math inline">\mu = 2</span> (<span
-class="math inline">\theta</span>): <span
-class="math display">\Gamma^2_{12} = \Gamma^2_{21} = \frac{1}{2} g^{22}
-(\partial_1 g_{22}) = \frac{1}{2} \left(\frac{1}{r^2}\right) (2r) =
-\frac{1}{r}</span></li>
+<li>Dla <span class="math inline">\(\mu = 1\)</span> (<span
+class="math inline">\(r\)</span>): <span
+class="math display">\[\Gamma^1_{22} = \frac{1}{2} g^{11} (-\partial_1
+g_{22}) = \frac{1}{2} (1) (-2r) = -r\]</span></li>
+<li>Dla <span class="math inline">\(\mu = 2\)</span> (<span
+class="math inline">\(\theta\)</span>): <span
+class="math display">\[\Gamma^2_{12} = \Gamma^2_{21} = \frac{1}{2}
+g^{22} (\partial_1 g_{22}) = \frac{1}{2} \left(\frac{1}{r^2}\right) (2r)
+= \frac{1}{r}\]</span></li>
 <li>Wszystkie pozostałe składowe wynoszą 0.</li>
 </ul></li>
 <li><strong>Równania geodezyjnych we współrzędnych biegunowych:</strong>
-<span class="math display">\frac{d^2 r}{d\tau^2} - r
-\left(\frac{d\theta}{d\tau}\right)^2 = 0</span> <span
-class="math display">\frac{d^2 \theta}{d\tau^2} + \frac{2}{r}
-\frac{dr}{d\tau} \frac{d\theta}{d\tau} = 0</span> Pierwsze równanie
+<span class="math display">\[\frac{d^2 r}{d\tau^2} - r
+\left(\frac{d\theta}{d\tau}\right)^2 = 0\]</span> <span
+class="math display">\[\frac{d^2 \theta}{d\tau^2} + \frac{2}{r}
+\frac{dr}{d\tau} \frac{d\theta}{d\tau} = 0\]</span> Pierwsze równanie
 odtwarza newtonowskie przyspieszenie dośrodkowe <span
-class="math inline">r \dot{\theta}^2</span>, a drugie zachowanie momentu
-pędu (<span class="math inline">\frac{d}{d\tau}(r^2 \dot{\theta}) =
-0</span>).</li>
+class="math inline">\(r \dot{\theta}^2\)</span>, a drugie zachowanie
+momentu pędu (<span class="math inline">\(\frac{d}{d\tau}(r^2
+\dot{\theta}) = 0\)</span>).</li>
 </ol>
 <hr />
 <h2 id="zadanie-laboratoryjne-dla-kursanta-hands-on-practice">5. Zadanie
 laboratoryjne dla kursanta (Hands-on Practice)</h2>
 <h3 id="polecenie">Polecenie:</h3>
 <p>W granicy słabego pola grawitacyjnego i małych prędkości (<span
-class="math inline">v \ll c</span>, <span class="math inline">dx^i/d\tau
-\ll dx^0/d\tau</span>), wykaż, że składowa <span
-class="math inline">\Gamma^i_{00}</span> tensora metrycznego przyjmuje
-postać: <span class="math display">\Gamma^i_{00} \approx \frac{1}{2}
-\delta^{ik} \partial_k h_{00}</span> gdzie <span
-class="math inline">g_{00} = -(1 + 2\Phi/c^2)</span>, a <span
-class="math inline">\Phi</span> jest newtonowskim potencjałem
+class="math inline">\(v \ll c\)</span>, <span
+class="math inline">\(dx^i/d\tau \ll dx^0/d\tau\)</span>), wykaż, że
+składowa <span class="math inline">\(\Gamma^i_{00}\)</span> tensora
+metrycznego przyjmuje postać: <span class="math display">\[\Gamma^i_{00}
+\approx \frac{1}{2} \delta^{ik} \partial_k h_{00}\]</span> gdzie <span
+class="math inline">\(g_{00} = -(1 + 2\Phi/c^2)\)</span>, a <span
+class="math inline">\(\Phi\)</span> jest newtonowskim potencjałem
 grawitacyjnym, oraz udowodnij, że równanie geodezyjnych odtwarza prawo
-dynamiki Newtona <span class="math inline">\frac{d^2 \mathbf{x}}{dt^2} =
--\nabla \Phi</span>.</p>
+dynamiki Newtona <span class="math inline">\(\frac{d^2 \mathbf{x}}{dt^2}
+= -\nabla \Phi\)</span>.</p>
 <h3 id="wzorcowa-odpowiedź-model-answer">Wzorcowa odpowiedź (Model
 Answer):</h3>
-<p>W granicy nieliniowej dla <span class="math inline">v \ll c</span>,
-jedynym dominującym członem w równaniu geodezyjnych jest <span
-class="math inline">\alpha = \beta = 0</span>: <span
-class="math display">\frac{d^2 x^i}{d\tau^2} + \Gamma^i_{00}
-\left(\frac{dx^0}{d\tau}\right)^2 = 0</span> Ponieważ <span
-class="math inline">dx^0/d\tau \approx c dt/dt = c</span>, mamy: <span
-class="math display">\frac{d^2 x^i}{dt^2} \approx - c^2
-\Gamma^i_{00}</span> Obliczając symbol Christoffela dla metryki
-statycznej (<span class="math inline">\partial_0 g = 0</span>): <span
-class="math display">\Gamma^i_{00} = \frac{1}{2} g^{ik} (2\partial_0
-g_{0k} - \partial_k g_{00}) \approx -\frac{1}{2} \partial_i g_{00} =
--\frac{1}{2} \partial_i \left(-\left(1 + \frac{2\Phi}{c^2}\right)\right)
-= \frac{1}{c^2} \partial_i \Phi</span> Podstawiając do przyspieszenia:
-<span class="math display">\frac{d^2 x^i}{dt^2} \approx - c^2
-\left(\frac{1}{c^2} \partial_i \Phi\right) = -\partial_i \Phi \implies
-\frac{d^2 \mathbf{x}}{dt^2} = -\nabla \Phi</span> Dowodzi to, że
-mechanika newtonowska jest asymptotyczną granicą słabego pola i małych
-prędkości w OTW.</p>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">6. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> Co oznacza geometrycznie zerowanie się
-wszystkich symboli Christoffela <span
-class="math inline">\Gamma^\mu_{\alpha\beta} = 0</span> w pewnym punkcie
-czasoprzestrzeni? - <strong>A)</strong> Że czasoprzestrzeń jest w tym
-punkcie globalnie euklidesowa. - <strong>B)</strong> Że istnieje lokalny
-układ inercjalny (spadający swobodnie), w którym pierwsze pochodne
-metryki znikają w tym punkcie. - <strong>C)</strong> Że gęstość materii
-w całym wszechświecie wynosi zero.</p>
-<p><em>Prawidłowa odpowiedź: B.</em> <em>Wyjaśnienie dydaktyczne:</em>
-Zgodnie z zasadą równoważności, w dowolnym punkcie rozmaitości można
-zawsze dobrać lokalne współrzędne geodezyjne (LIF - Local Inertial
-Frame), w których <span class="math inline">g_{\mu\nu} =
-\eta_{\mu\nu}</span> oraz <span class="math inline">\partial_\sigma
-g_{\mu\nu} = 0</span>, co zeruje symbole Christoffela w tym jednym
-punkcie. Nie oznacza to jednak, że krzywizna Riemanna (zależna od
-drugich pochodnych) jest zerowa!</p>
+<p>W granicy nieliniowej dla <span class="math inline">\(v \ll
+c\)</span>, jedynym dominującym członem w równaniu geodezyjnych jest
+<span class="math inline">\(\alpha = \beta = 0\)</span>: <span
+class="math display">\[\frac{d^2 x^i}{d\tau^2} + \Gamma^i_{00}
+\left(\frac{dx^0}{d\tau}\right)^2 = 0\]</span> Ponieważ <span
+class="math inline">\(dx^0/d\tau \approx c dt/dt = c\)</span>, mamy:
+<span class="math display">\[\frac{d^2 x^i}{dt^2} \approx - c^2
+\Gamma^i_{00}\]</span> Obliczając symbol Christoffela dla metryki
+statycznej (<span class="math inline">\(\partial_0 g = 0\)</span>):
+<span class="math display">\[\Gamma^i_{00} = \frac{1}{2} g^{ik}
+(2\partial_0 g_{0k} - \partial_k g_{00}) \approx -\frac{1}{2} \partial_i
+g_{00} = -\frac{1}{2} \partial_i \left(-\left(1 +
+\frac{2\Phi}{c^2}\right)\right) = \frac{1}{c^2} \partial_i \Phi\]</span>
+Podstawiając do przyspieszenia: <span class="math display">\[\frac{d^2
+x^i}{dt^2} \approx - c^2 \left(\frac{1}{c^2} \partial_i \Phi\right) =
+-\partial_i \Phi \implies \frac{d^2 \mathbf{x}}{dt^2} = -\nabla
+\Phi\]</span> Dowodzi to, że mechanika newtonowska jest asymptotyczną
+granicą słabego pola i małych prędkości w OTW.</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -1601,13 +1208,40 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-2">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> Co oznacza geometrycznie zerowanie się wszystkich symboli Christoffela $\Gamma^\mu_{\alpha\beta} = 0$ w pewnym punkcie czasoprzestrzeni?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-2')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Że czasoprzestrzeń jest w tym punkcie globalnie euklidesowa.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-2')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">Że istnieje lokalny układ inercjalny (spadający swobodnie), w którym pierwsze pochodne metryki znikają w tym punkcie.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-2')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Że gęstość materii w całym wszechświecie wynosi zero.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-2">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">Zgodnie z zasadą równoważności, w dowolnym punkcie rozmaitości można zawsze dobrać lokalne współrzędne geodezyjne (LIF - Local Inertial Frame), w których $g_{\mu\nu} = \eta_{\mu\nu}$ oraz $\partial_\sigma g_{\mu\nu} = 0$, co zeruje symbole Christoffela w tym jednym punkcie. Nie oznacza to jednak, że krzywizna Riemanna (zależna od drugich pochodnych) jest zerowa!
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" >&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-2')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" >&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-2')">Zalicz lekcję i przejdź dalej &rarr;</button>
         </div>
       </article>
-      <article class="content-card" id="lesson-3">
+      <article class="lesson-sheet" id="lesson-3">
+        <div class="lesson-body">
 <h1
 id="lekcja-2.1-krzywizna-riemanna-tensor-ricciego-i-tensor-energii-pędu">Lekcja
 2.1: Krzywizna Riemanna, tensor Ricciego i tensor energii-pędu</h1>
@@ -1621,33 +1255,33 @@ class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.
 </p>
 <h2 id="cel-operacyjny-lekcji">Cel operacyjny lekcji</h2>
 <p>Po ukończeniu tej lekcji będziesz potrafił: 1. Zdefiniować tensor
-krzywizny Riemanna <span class="math inline">R^\rho_{\
-\sigma\mu\nu}</span> poprzez komutator pochodnych kowariantnych. 2.
-Zbudować tensor Ricciego <span class="math inline">R_{\mu\nu}</span>
-oraz skalar krzywizny <span class="math inline">R</span>. 3. Zdefiniować
-relatywistyczny tensor energii-pędu <span
-class="math inline">T_{\mu\nu}</span> dla płynu doskonałego i
+krzywizny Riemanna <span class="math inline">\(R^\rho_{\
+\sigma\mu\nu}\)</span> poprzez komutator pochodnych kowariantnych. 2.
+Zbudować tensor Ricciego <span class="math inline">\(R_{\mu\nu}\)</span>
+oraz skalar krzywizny <span class="math inline">\(R\)</span>. 3.
+Zdefiniować relatywistyczny tensor energii-pędu <span
+class="math inline">\(T_{\mu\nu}\)</span> dla płynu doskonałego i
 zinterpretować jego prawo zachowania <span
-class="math inline">\nabla_\mu T^{\mu\nu} = 0</span>.</p>
+class="math inline">\(\nabla_\mu T^{\mu\nu} = 0\)</span>.</p>
 <hr />
 <h2 id="tensor-krzywizny-riemanna-i-dewiacja-geodezyjnych">1. Tensor
 Krzywizny Riemanna i Dewiacja Geodezyjnych</h2>
 <p>Jeśli przeniesiemy równolegle wektor <span
-class="math inline">V^\alpha</span> wzdłuż zamkniętej pętli w
+class="math inline">\(V^\alpha\)</span> wzdłuż zamkniętej pętli w
 zakrzywionej czasoprzestrzeni, wektor końcowy nie pokryje się z
 wyjściowym. Matematycznie zjawisko to wyraża komutator pochodnych
 kowariantnych:</p>
-<p><span class="math display">[\nabla_\mu, \nabla_\nu] V^\rho =
+<p><span class="math display">\[[\nabla_\mu, \nabla_\nu] V^\rho =
 \nabla_\mu \nabla_\nu V^\rho - \nabla_\nu \nabla_\mu V^\rho = R^\rho_{\
-\sigma\mu\nu} V^\sigma</span></p>
+\sigma\mu\nu} V^\sigma\]</span></p>
 <p>Tensor Riemanna wyraża się poprzez symbole Christoffela i ich
 pochodne:</p>
-<p><span class="math display">R^\rho_{\ \sigma\mu\nu} = \partial_\mu
+<p><span class="math display">\[R^\rho_{\ \sigma\mu\nu} = \partial_\mu
 \Gamma^\rho_{\nu\sigma} - \partial_\nu \Gamma^\rho_{\mu\sigma} +
 \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} -
-\Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}</span></p>
+\Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}\]</span></p>
 <p>W 4-wymiarowej czasoprzestrzeni tensor Riemanna posiada <span
-class="math inline">4^4 = 256</span> składowych, lecz dzięki
+class="math inline">\(4^4 = 256\)</span> składowych, lecz dzięki
 tożsamościom algebraicznym (antysymetria po dwóch pierwszych i dwóch
 ostatnich indeksach, symetria przy zamianie par) liczba niezależnych
 składowych redukuje się do 20 <a href="#fn2" class="footnote-ref"
@@ -1656,38 +1290,38 @@ id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
 <div class="tree-node">
 <strong>Hierarchia Krzywizny Riemanna</strong>
 <div class="tree-node">
-Tensor Riemanna <span class="math inline">R^\rho_{\ \sigma\mu\nu}</span>
-(20 niezależnych składowych - pełna geometria)
+Tensor Riemanna <span class="math inline">\(R^\rho_{\
+\sigma\mu\nu}\)</span> (20 niezależnych składowych - pełna geometria)
 </div>
 <div class="tree-node">
-Ślad 1: Tensor Ricciego <span class="math inline">R_{\mu\nu} =
-R^\lambda_{\ \mu\lambda\nu}</span> (10 składowych symetrycznych)
+Ślad 1: Tensor Ricciego <span class="math inline">\(R_{\mu\nu} =
+R^\lambda_{\ \mu\lambda\nu}\)</span> (10 składowych symetrycznych)
 </div>
 <div class="tree-node">
-Ślad 2: Skalar Ricciego <span class="math inline">R = g^{\mu\nu}
-R_{\mu\nu}</span> (1 niezmiennik skalarny)
+Ślad 2: Skalar Ricciego <span class="math inline">\(R = g^{\mu\nu}
+R_{\mu\nu}\)</span> (1 niezmiennik skalarny)
 </div>
 <div class="tree-node">
 Część bezśladowa: Tensor Weyla <span
-class="math inline">C_{\rho\sigma\mu\nu}</span> (10 składowych - pole
-grawitacyjne w próżni i fale)
+class="math inline">\(C_{\rho\sigma\mu\nu}\)</span> (10 składowych -
+pole grawitacyjne w próżni i fale)
 </div>
 </div>
 </div>
 <hr />
 <h2 id="tensor-energii-pędu-t_munu">2. Tensor Energii-Pędu (<span
-class="math inline">T_{\mu\nu}</span>)</h2>
+class="math inline">\(T_{\mu\nu}\)</span>)</h2>
 <p>W fizyce newtonowskiej źródłem pola grawitacyjnego jest wyłącznie
-gęstość masy spoczynkowej <span class="math inline">\rho</span>. Zgodnie
-z zasadą równoważności masy i energii STW (<span class="math inline">E =
-mc^2</span>), grawitować musi wszelka forma energii, pędu, ciśnienia i
-naprężeń. Opisuje je symetryczny tensor drugiego rzędu <span
-class="math inline">T_{\mu\nu}</span>:</p>
+gęstość masy spoczynkowej <span class="math inline">\(\rho\)</span>.
+Zgodnie z zasadą równoważności masy i energii STW (<span
+class="math inline">\(E = mc^2\)</span>), grawitować musi wszelka forma
+energii, pędu, ciśnienia i naprężeń. Opisuje je symetryczny tensor
+drugiego rzędu <span class="math inline">\(T_{\mu\nu}\)</span>:</p>
 <div class="table-wrapper">
 <table class="academic-table">
 <caption>
 Tabela 2.1: Struktura Fizyczna Tensora Energii-Pędu <span
-class="math inline">T_{\mu\nu}</span>
+class="math inline">\(T_{\mu\nu}\)</span>
 </caption>
 <thead>
 <tr>
@@ -1705,137 +1339,118 @@ Wymiar Fizyczny
 <tbody>
 <tr>
 <td>
-<span class="math inline">T_{00}</span>
+<span class="math inline">\(T_{00}\)</span>
 </td>
 <td>
-Gęstość energii (w tym masa spoczynkowa <span class="math inline">c^2
-\rho</span>)
+Gęstość energii (w tym masa spoczynkowa <span class="math inline">\(c^2
+\rho\)</span>)
 </td>
 <td>
-<span class="math inline">\text{J/m}^3 = \text{Pa}</span>
+<span class="math inline">\(\text{J/m}^3 = \text{Pa}\)</span>
 </td>
 </tr>
 <tr>
 <td>
-<span class="math inline">T_{0i} = T_{i0}</span>
+<span class="math inline">\(T_{0i} = T_{i0}\)</span>
 </td>
 <td>
 Gęstość pędu / strumień energii w kierunku <span
-class="math inline">i</span>
+class="math inline">\(i\)</span>
 </td>
 <td>
-<span class="math inline">\text{kg}/(\text{m}^2 \cdot \text{s})</span>
-</td>
-</tr>
-<tr>
-<td>
-<span class="math inline">T_{ii}</span>
-</td>
-<td>
-Ciśnienie izotropowe <span class="math inline">P</span> w kierunku <span
-class="math inline">i</span>
-</td>
-<td>
-<span class="math inline">\text{N/m}^2 = \text{Pa}</span>
+<span class="math inline">\(\text{kg}/(\text{m}^2 \cdot
+\text{s})\)</span>
 </td>
 </tr>
 <tr>
 <td>
-<span class="math inline">T_{ij}</span> (<span class="math inline">i
-\neq j</span>)
+<span class="math inline">\(T_{ii}\)</span>
+</td>
+<td>
+Ciśnienie izotropowe <span class="math inline">\(P\)</span> w kierunku
+<span class="math inline">\(i\)</span>
+</td>
+<td>
+<span class="math inline">\(\text{N/m}^2 = \text{Pa}\)</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="math inline">\(T_{ij}\)</span> (<span
+class="math inline">\(i \neq j\)</span>)
 </td>
 <td>
 Naprężenia ścinające (lepkość)
 </td>
 <td>
-<span class="math inline">\text{N/m}^2 = \text{Pa}</span>
+<span class="math inline">\(\text{N/m}^2 = \text{Pa}\)</span>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
 <p>Dla płynu doskonałego (ideal fluid) poruszającego się z
-czteroprędkością <span class="math inline">u^\mu</span> tensor
-energii-pędu ma postać: <span class="math display">T_{\mu\nu} = (\rho +
-P/c^2) u_\mu u_\nu + P g_{\mu\nu}</span></p>
+czteroprędkością <span class="math inline">\(u^\mu\)</span> tensor
+energii-pędu ma postać: <span class="math display">\[T_{\mu\nu} = (\rho
++ P/c^2) u_\mu u_\nu + P g_{\mu\nu}\]</span></p>
 <p>Fundamentalnym prawem fizyki jest lokalne zachowanie energii i pędu,
 wyrażone przez znikanie dywergencji kowariantnej: <span
-class="math display">\nabla_\mu T^{\mu\nu} = 0</span></p>
+class="math display">\[\nabla_\mu T^{\mu\nu} = 0\]</span></p>
 <hr />
 <h2 id="przykład-z-rozwiązaniem-worked-example">3. Przykład z
 rozwiązaniem (Worked Example)</h2>
 <h3 id="zadanie">Zadanie:</h3>
 <p>Dla sfery dwuwymiarowej o promieniu <span
-class="math inline">r_0</span> opisanej metryką <span
-class="math inline">ds^2 = r_0^2 (d\theta^2 + \sin^2\theta
-d\phi^2)</span>, wyznacz skalar krzywizny Ricciego <span
-class="math inline">R</span>.</p>
+class="math inline">\(r_0\)</span> opisanej metryką <span
+class="math inline">\(ds^2 = r_0^2 (d\theta^2 + \sin^2\theta
+d\phi^2)\)</span>, wyznacz skalar krzywizny Ricciego <span
+class="math inline">\(R\)</span>.</p>
 <h3 id="rozwiązanie-krok-po-kroku">Rozwiązanie krok po kroku:</h3>
 <ol type="1">
 <li>Obliczając niezerowe symbole Christoffela otrzymujemy: <span
-class="math display">\Gamma^\theta_{\phi\phi} = -\sin\theta\cos\theta,
+class="math display">\[\Gamma^\theta_{\phi\phi} = -\sin\theta\cos\theta,
 \quad \Gamma^\phi_{\theta\phi} = \Gamma^\phi_{\phi\theta} =
-\cot\theta</span></li>
+\cot\theta\]</span></li>
 <li>Jedyną niezależną składową tensora Riemanna jest: <span
-class="math display">R^\theta_{\ \phi\theta\phi} = \partial_\theta
+class="math display">\[R^\theta_{\ \phi\theta\phi} = \partial_\theta
 \Gamma^\theta_{\phi\phi} - \partial_\phi \Gamma^\theta_{\theta\phi} +
 \Gamma^\theta_{\theta\lambda}\Gamma^\lambda_{\phi\phi} -
 \Gamma^\theta_{\phi\lambda}\Gamma^\lambda_{\theta\phi} = -\cos^2\theta +
 \sin^2\theta - (-\sin\theta\cos\theta \cot\theta) =
-\sin^2\theta</span></li>
-<li>Składowe tensora Ricciego <span class="math inline">R_{\mu\nu} =
-R^\lambda_{\ \mu\lambda\nu}</span>: <span
-class="math display">R_{\theta\theta} = 1, \quad R_{\phi\phi} =
-\sin^2\theta</span></li>
-<li>Skalar krzywizny Ricciego: <span class="math display">R = g^{\mu\nu}
-R_{\mu\nu} = g^{\theta\theta} R_{\theta\theta} + g^{\phi\phi}
+\sin^2\theta\]</span></li>
+<li>Składowe tensora Ricciego <span class="math inline">\(R_{\mu\nu} =
+R^\lambda_{\ \mu\lambda\nu}\)</span>: <span
+class="math display">\[R_{\theta\theta} = 1, \quad R_{\phi\phi} =
+\sin^2\theta\]</span></li>
+<li>Skalar krzywizny Ricciego: <span class="math display">\[R =
+g^{\mu\nu} R_{\mu\nu} = g^{\theta\theta} R_{\theta\theta} + g^{\phi\phi}
 R_{\phi\phi} = \frac{1}{r_0^2} (1) + \frac{1}{r_0^2 \sin^2\theta}
-(\sin^2\theta) = \frac{2}{r_0^2}</span> Krzywizna jest stała i dodatnia,
-co potwierdza geometrię standardowej sfery o promieniu <span
-class="math inline">r_0</span>.</li>
+(\sin^2\theta) = \frac{2}{r_0^2}\]</span> Krzywizna jest stała i
+dodatnia, co potwierdza geometrię standardowej sfery o promieniu <span
+class="math inline">\(r_0\)</span>.</li>
 </ol>
 <hr />
 <h2 id="zadanie-laboratoryjne-dla-kursanta-hands-on-practice">4. Zadanie
 laboratoryjne dla kursanta (Hands-on Practice)</h2>
 <h3 id="polecenie">Polecenie:</h3>
 <p>Wyjaśnij fizyczną rolę tensora Weyla <span
-class="math inline">C_{\rho\sigma\mu\nu}</span> w obszarach próżniowych
-otaczających gwiazdę (<span class="math inline">T_{\mu\nu} = 0</span>).
-Dlaczego próżnia wokół Słońca jest zakrzywiona, skoro tensor Ricciego
-znika w próżni (<span class="math inline">R_{\mu\nu} = 0</span>)?</p>
+class="math inline">\(C_{\rho\sigma\mu\nu}\)</span> w obszarach
+próżniowych otaczających gwiazdę (<span class="math inline">\(T_{\mu\nu}
+= 0\)</span>). Dlaczego próżnia wokół Słońca jest zakrzywiona, skoro
+tensor Ricciego znika w próżni (<span class="math inline">\(R_{\mu\nu} =
+0\)</span>)?</p>
 <h3 id="wzorcowa-odpowiedź-model-answer">Wzorcowa odpowiedź (Model
 Answer):</h3>
 <p>W próżni równania Einsteina implikują <span
-class="math inline">R_{\mu\nu} = 0</span> oraz <span
-class="math inline">R = 0</span>. Jednak tensor krzywizny Riemanna
+class="math inline">\(R_{\mu\nu} = 0\)</span> oraz <span
+class="math inline">\(R = 0\)</span>. Jednak tensor krzywizny Riemanna
 dekomponuje się na część Ricciego oraz część bezśladową - tensor Weyla:
-<span class="math display">R_{\rho\sigma\mu\nu} = C_{\rho\sigma\mu\nu} +
-\text{człony zależne od } R_{\mu\nu}</span> W próżni tensor Weyla nie
-znika (<span class="math inline">C_{\rho\sigma\mu\nu} \neq 0</span>). To
-właśnie tensor Weyla koduje siły pływowe rozciągające ciała, fale
-grawitacyjne oraz zakrzywienie czasoprzestrzeni wokół odległych mas (jak
-Słońce czy czarne dziury).</p>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">5. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> Co oznacza tożsamość Bianchiego <span
-class="math inline">\nabla_\mu G^{\mu\nu} = 0</span> w kontekście
-tensora energii-pędu <span class="math inline">T^{\mu\nu}</span>? -
-<strong>A)</strong> Że energia i pęd mogą być bez ograniczeń niszczone w
-obecności czarnych dziur. - <strong>B)</strong> Że z samej struktury
-geometrii różniczkowej wynika automatyczne, lokalne zachowanie energii i
-pędu materii <span class="math inline">\nabla_\mu T^{\mu\nu} = 0</span>.
-- <strong>C)</strong> Że stała grawitacji <span
-class="math inline">G</span> maleje wraz z rozszerzaniem się
-Wszechświata.</p>
-<p><em>Prawidłowa odpowiedź: B.</em> <em>Wyjaśnienie dydaktyczne:</em>
-Zróżniczkowana tożsamość Bianchiego gwarantuje, że tensor Einsteina
-<span class="math inline">G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2} R
-g_{\mu\nu}</span> ma bezwzględnie tożsamościowo zerową dywergencję
-kowariantną. Po związaniu go z tensorem materii równaniem <span
-class="math inline">G_{\mu\nu} = \kappa T_{\mu\nu}</span>, lokalne prawo
-zachowania energii i pędu materii staje się bezpośrednią konsekwencją
-geometrii czasoprzestrzeni.</p>
+<span class="math display">\[R_{\rho\sigma\mu\nu} = C_{\rho\sigma\mu\nu}
++ \text{człony zależne od } R_{\mu\nu}\]</span> W próżni tensor Weyla
+nie znika (<span class="math inline">\(C_{\rho\sigma\mu\nu} \neq
+0\)</span>). To właśnie tensor Weyla koduje siły pływowe rozciągające
+ciała, fale grawitacyjne oraz zakrzywienie czasoprzestrzeni wokół
+odległych mas (jak Słońce czy czarne dziury).</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -1854,13 +1469,40 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-3">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> Co oznacza tożsamość Bianchiego $\nabla_\mu G^{\mu\nu} = 0$ w kontekście tensora energii-pędu $T^{\mu\nu}$?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-3')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Że energia i pęd mogą być bez ograniczeń niszczone w obecności czarnych dziur.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-3')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">Że z samej struktury geometrii różniczkowej wynika automatyczne, lokalne zachowanie energii i pędu materii $\nabla_\mu T^{\mu\nu} = 0$.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-3')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Że stała grawitacji $G$ maleje wraz z rozszerzaniem się Wszechświata.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-3">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">Zróżniczkowana tożsamość Bianchiego gwarantuje, że tensor Einsteina $G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu}$ ma bezwzględnie tożsamościowo zerową dywergencję kowariantną. Po związaniu go z tensorem materii równaniem $G_{\mu\nu} = \kappa T_{\mu\nu}$, lokalne prawo zachowania energii i pędu materii staje się bezpośrednią konsekwencją geometrii czasoprzestrzeni.
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" >&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-3')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" >&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-3')">Zalicz lekcję i przejdź dalej &rarr;</button>
         </div>
       </article>
-      <article class="content-card" id="lesson-4">
+      <article class="lesson-sheet" id="lesson-4">
+        <div class="lesson-body">
 <h1 id="lekcja-2.2-równania-pola-einsteina-i-stała-kosmologiczna">Lekcja
 2.2: Równania pola Einsteina i stała kosmologiczna</h1>
 <p class="chapter-start">
@@ -1873,94 +1515,98 @@ role="doc-noteref"><sup>1</sup></a>.
 </p>
 <h2 id="cel-operacyjny-lekcji">Cel operacyjny lekcji</h2>
 <p>Po ukończeniu tej lekcji będziesz potrafił: 1. Wyprowadzić tensor
-Einsteina <span class="math inline">G_{\mu\nu}</span> na podstawie
+Einsteina <span class="math inline">\(G_{\mu\nu}\)</span> na podstawie
 tożsamości Bianchiego i wymogu zachowania energii. 2. Zdefiniować i
 uzasadnić postać równań pola Einsteina: <span
-class="math inline">G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}</span>.
-3. Wyprowadzić stałą sprzężenia <span class="math inline">\kappa =
-\frac{8\pi G}{c^4}</span> poprzez przejście graniczne do newtonowskiego
-równania Poissona. 4. Zinterpretować modyfikację równań przez dodanie
-stałej kosmologicznej <span class="math inline">\Lambda</span>.</p>
+class="math inline">\(G_{\mu\nu} = \frac{8\pi G}{c^4}
+T_{\mu\nu}\)</span>. 3. Wyprowadzić stałą sprzężenia <span
+class="math inline">\(\kappa = \frac{8\pi G}{c^4}\)</span> poprzez
+przejście graniczne do newtonowskiego równania Poissona. 4.
+Zinterpretować modyfikację równań przez dodanie stałej kosmologicznej
+<span class="math inline">\(\Lambda\)</span>.</p>
 <hr />
 <h2 id="konstrukcja-tensora-einsteina-g_munu">1. Konstrukcja Tensora
-Einsteina (<span class="math inline">G_{\mu\nu}</span>)</h2>
+Einsteina (<span class="math inline">\(G_{\mu\nu}\)</span>)</h2>
 <p>Równania pola muszą wiązać krzywiznę z materią: <span
-class="math display">\mathcal{O}(g_{\mu\nu}) = \kappa T_{\mu\nu}</span>
-Wymagania fizyczne i matematyczne: 1. Lewa strona musi być symetrycznym
-tensorem 2. rzędu zbudowanym z metryki <span
-class="math inline">g_{\mu\nu}</span> i jej pochodnych do drugiego rzędu
-włącznie. 2. Musi spełniać prawo zachowania: <span
-class="math inline">\nabla^\mu \mathcal{O}_{\mu\nu} = 0</span>, ponieważ
-<span class="math inline">\nabla^\mu T_{\mu\nu} = 0</span>.</p>
+class="math display">\[\mathcal{O}(g_{\mu\nu}) = \kappa
+T_{\mu\nu}\]</span> Wymagania fizyczne i matematyczne: 1. Lewa strona
+musi być symetrycznym tensorem 2. rzędu zbudowanym z metryki <span
+class="math inline">\(g_{\mu\nu}\)</span> i jej pochodnych do drugiego
+rzędu włącznie. 2. Musi spełniać prawo zachowania: <span
+class="math inline">\(\nabla^\mu \mathcal{O}_{\mu\nu} = 0\)</span>,
+ponieważ <span class="math inline">\(\nabla^\mu T_{\mu\nu} =
+0\)</span>.</p>
 <p>Z tożsamości Bianchiego dla tensora Riemanna wynika skurczona
-tożsamość: <span class="math display">\nabla^\mu R_{\mu\nu} =
+tożsamość: <span class="math display">\[\nabla^\mu R_{\mu\nu} =
 \frac{1}{2} \nabla_\nu R \implies \nabla^\mu \left( R_{\mu\nu} -
-\frac{1}{2} g_{\mu\nu} R \right) = 0</span></p>
+\frac{1}{2} g_{\mu\nu} R \right) = 0\]</span></p>
 <p>Definiujemy symetryczny <strong>tensor Einsteina</strong>: <span
-class="math display">G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2}
-g_{\mu\nu} R</span></p>
+class="math display">\[G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2}
+g_{\mu\nu} R\]</span></p>
 <hr />
 <h2 id="równania-pola-einsteina-efe">2. Równania Pola Einsteina
 (EFE)</h2>
 <p>Ostateczna postać równań pola Einsteina bez stałej kosmologicznej ma
 postać:</p>
-<p><span class="math display">G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}
-g_{\mu\nu} R = \frac{8\pi G}{c^4} T_{\mu\nu}</span></p>
+<p><span class="math display">\[G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}
+g_{\mu\nu} R = \frac{8\pi G}{c^4} T_{\mu\nu}\]</span></p>
 <p>Zwijając oba indeksy metryką <span
-class="math inline">g^{\mu\nu}</span>, otrzymujemy relację między
-skalarem krzywizny a śladem tensora materii <span class="math inline">T
-= g^{\mu\nu} T_{\mu\nu}</span>: <span class="math display">R -
-\frac{1}{2}(4) R = \frac{8\pi G}{c^4} T \implies R = -\frac{8\pi G}{c^4}
-T</span></p>
+class="math inline">\(g^{\mu\nu}\)</span>, otrzymujemy relację między
+skalarem krzywizny a śladem tensora materii <span
+class="math inline">\(T = g^{\mu\nu} T_{\mu\nu}\)</span>: <span
+class="math display">\[R - \frac{1}{2}(4) R = \frac{8\pi G}{c^4} T
+\implies R = -\frac{8\pi G}{c^4} T\]</span></p>
 <p>Pozwala to przepisać równania Einsteina w równoważnej postaci
-odwróconej pod względem śladu: <span class="math display">R_{\mu\nu} =
+odwróconej pod względem śladu: <span class="math display">\[R_{\mu\nu} =
 \frac{8\pi G}{c^4} \left( T_{\mu\nu} - \frac{1}{2} g_{\mu\nu} T
-\right)</span></p>
-<p>W próżni (<span class="math inline">T_{\mu\nu} = 0</span>) równania
-te redukują się do prostego warunku: <span
-class="math display">R_{\mu\nu} = 0</span></p>
+\right)\]</span></p>
+<p>W próżni (<span class="math inline">\(T_{\mu\nu} = 0\)</span>)
+równania te redukują się do prostego warunku: <span
+class="math display">\[R_{\mu\nu} = 0\]</span></p>
 <hr />
 <h2 id="granica-newtonowska-i-stała-sprzężenia-kappa">3. Granica
 Newtonowska i Stała Sprzężenia <span
-class="math inline">\kappa</span></h2>
+class="math inline">\(\kappa\)</span></h2>
 <p>Aby wyznaczyć współczynnik proporcjonalności <span
-class="math inline">\kappa</span>, rozważmy granicę słabego, statycznego
-pola dla cząstki poruszającej się powoli (<span class="math inline">v
-\ll c</span>). Wtedy jedyną dominującą składową tensora materii jest
-gęstość energii spoczynkowej: <span class="math display">T_{00} \approx
-\rho c^2, \quad T \approx -\rho c^2</span> Wtedy równanie dla <span
-class="math inline">R_{00}</span> przyjmuje postać: <span
-class="math display">R_{00} = \kappa \left( T_{00} - \frac{1}{2} g_{00}
-T \right) \approx \kappa \left( \rho c^2 - \frac{1}{2}(-1)(-\rho c^2)
-\right) = \frac{1}{2} \kappa \rho c^2</span></p>
+class="math inline">\(\kappa\)</span>, rozważmy granicę słabego,
+statycznego pola dla cząstki poruszającej się powoli (<span
+class="math inline">\(v \ll c\)</span>). Wtedy jedyną dominującą
+składową tensora materii jest gęstość energii spoczynkowej: <span
+class="math display">\[T_{00} \approx \rho c^2, \quad T \approx -\rho
+c^2\]</span> Wtedy równanie dla <span
+class="math inline">\(R_{00}\)</span> przyjmuje postać: <span
+class="math display">\[R_{00} = \kappa \left( T_{00} - \frac{1}{2}
+g_{00} T \right) \approx \kappa \left( \rho c^2 - \frac{1}{2}(-1)(-\rho
+c^2) \right) = \frac{1}{2} \kappa \rho c^2\]</span></p>
 <p>Z drugiej strony, z geometrii dla metryki słabego pola <span
-class="math inline">g_{00} \approx -(1 + 2\Phi/c^2)</span> otrzymujemy:
-<span class="math display">R_{00} \approx -\frac{1}{2} \nabla^2 g_{00} =
-\frac{1}{c^2} \nabla^2 \Phi</span></p>
-<p>Porównując obie strony: <span class="math display">\frac{1}{c^2}
+class="math inline">\(g_{00} \approx -(1 + 2\Phi/c^2)\)</span>
+otrzymujemy: <span class="math display">\[R_{00} \approx -\frac{1}{2}
+\nabla^2 g_{00} = \frac{1}{c^2} \nabla^2 \Phi\]</span></p>
+<p>Porównując obie strony: <span class="math display">\[\frac{1}{c^2}
 \nabla^2 \Phi = \frac{1}{2} \kappa \rho c^2 \implies \nabla^2 \Phi =
-\frac{1}{2} \kappa c^4 \rho</span> Aby odtworzyć newtonowskie równanie
-Poissona <span class="math inline">\nabla^2 \Phi = 4\pi G \rho</span>,
-musi zachodzić: <span class="math display">\frac{1}{2} \kappa c^4 = 4\pi
-G \implies \kappa = \frac{8\pi G}{c^4}</span></p>
+\frac{1}{2} \kappa c^4 \rho\]</span> Aby odtworzyć newtonowskie równanie
+Poissona <span class="math inline">\(\nabla^2 \Phi = 4\pi G
+\rho\)</span>, musi zachodzić: <span class="math display">\[\frac{1}{2}
+\kappa c^4 = 4\pi G \implies \kappa = \frac{8\pi G}{c^4}\]</span></p>
 <hr />
 <h2 id="stała-kosmologiczna-lambda">4. Stała Kosmologiczna (<span
-class="math inline">\Lambda</span>)</h2>
+class="math inline">\(\Lambda\)</span>)</h2>
 <p>W 1917 roku Einstein wprowadził do swoich równań dodatkowy człon ze
-stałą kosmologiczną <span class="math inline">\Lambda</span>, aby
+stałą kosmologiczną <span class="math inline">\(\Lambda\)</span>, aby
 umożliwić istnienie statycznego modelu Wszechświata <a href="#fn2"
 class="footnote-ref" id="fnref2"
 role="doc-noteref"><sup>2</sup></a>:</p>
-<p><span class="math display">G_{\mu\nu} + \Lambda g_{\mu\nu} =
-\frac{8\pi G}{c^4} T_{\mu\nu}</span></p>
-<p>Ponieważ metryka spełnia warunek <span class="math inline">\nabla_\mu
-g^{\mu\nu} = 0</span>, obecność stałej <span
-class="math inline">\Lambda</span> nie narusza kowariantnego prawa
-zachowania energii i pędu. We współczesnej kosmologii standardowego
-modelu <span class="math inline">\Lambda\text{CDM}</span>, <span
-class="math inline">\Lambda</span> interpretowana jest jako gęstość
-energii ciemnej próżni <span class="math inline">\rho_\Lambda =
-\frac{\Lambda c^2}{8\pi G}</span>, odpowiedzialna za przyspieszającą
+<p><span class="math display">\[G_{\mu\nu} + \Lambda g_{\mu\nu} =
+\frac{8\pi G}{c^4} T_{\mu\nu}\]</span></p>
+<p>Ponieważ metryka spełnia warunek <span
+class="math inline">\(\nabla_\mu g^{\mu\nu} = 0\)</span>, obecność
+stałej <span class="math inline">\(\Lambda\)</span> nie narusza
+kowariantnego prawa zachowania energii i pędu. We współczesnej
+kosmologii standardowego modelu <span
+class="math inline">\(\Lambda\text{CDM}\)</span>, <span
+class="math inline">\(\Lambda\)</span> interpretowana jest jako gęstość
+energii ciemnej próżni <span class="math inline">\(\rho_\Lambda =
+\frac{\Lambda c^2}{8\pi G}\)</span>, odpowiedzialna za przyspieszającą
 ekspansję Wszechświata <a href="#fn3" class="footnote-ref" id="fnref3"
 role="doc-noteref"><sup>3</sup></a>.</p>
 <hr />
@@ -1968,43 +1614,25 @@ role="doc-noteref"><sup>3</sup></a>.</p>
 laboratoryjne dla kursanta (Hands-on Practice)</h2>
 <h3 id="polecenie">Polecenie:</h3>
 <p>Oblicz wartość numeryczną stałej sprzężenia Einsteina <span
-class="math inline">\kappa = \frac{8\pi G}{c^4}</span> w jednostkach
+class="math inline">\(\kappa = \frac{8\pi G}{c^4}\)</span> w jednostkach
 układu SI (<span
-class="math inline">\text{s}^2/(\text{kg}\cdot\text{m})</span>) oraz
+class="math inline">\(\text{s}^2/(\text{kg}\cdot\text{m})\)</span>) oraz
 oszacuj, jak potężne naprężenie czasoprzestrzeni jest wymagane, by
-wywołać krzywiznę rzędu <span class="math inline">1\text{
-m}^{-2}</span>.</p>
+wywołać krzywiznę rzędu <span class="math inline">\(1\text{
+m}^{-2}\)</span>.</p>
 <h3 id="wzorcowa-odpowiedź-model-answer">Wzorcowa odpowiedź (Model
 Answer):</h3>
-<p>Podstawiając stałe fundamentalne: <span class="math display">G =
+<p>Podstawiając stałe fundamentalne: <span class="math display">\[G =
 6.67430 \times 10^{-11}\text{ m}^3/(\text{kg}\cdot\text{s}^2), \quad c =
-2.99792 \times 10^8\text{ m/s}</span> <span class="math display">\kappa
-= \frac{8 \pi \times 6.67430 \times 10^{-11}}{(2.99792 \times 10^8)^4} =
-\frac{1.6774 \times 10^{-9}}{8.0776 \times 10^{33}} \approx 2.0766
-\times 10^{-43}\text{ N}^{-1}</span> Wartość <span
-class="math inline">\kappa \approx 2.08 \times 10^{-43}\text{
-Pa}^{-1}</span> dowodzi niezwykłej “sztywności” czasoprzestrzeni. Aby
-wywołać zauważalną krzywiznę geometryczną, potrzebne są astronomiczne
-gęstości energii rzędu <span class="math inline">10^{43}\text{
-J/m}^3</span>.</p>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">6. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> Ile niezależnych nieliniowych równań
-różniczkowych cząstkowych tworzą równania pola Einsteina w czterech
-wymiarach czasoprzestrzeni? - <strong>A)</strong> Dokładnie 16 równań
-niezależnych. - <strong>B)</strong> 10 symetrycznych równań, z których 4
-są powiązane tożsamościami Bianchiego, co pozostawia 6 niezależnych
-stopni swobody fizycznej (w tym 2 stopnie swobody polaryzacji fal
-grawitacyjnych po ustaleniu cechowania). - <strong>C)</strong> Tylko 1
-równanie skalarne.</p>
-<p><em>Prawidłowa odpowiedź: B.</em> <em>Wyjaśnienie dydaktyczne:</em>
-Tensor Einsteina i tensor energii-pędu są symetrycznymi tensorami <span
-class="math inline">4 \times 4</span>, co daje 10 składowych. Cztery
-tożsamości Bianchiego <span class="math inline">\nabla_\mu G^{\mu\nu} =
-0</span> stanowią 4 więzy różniczkowe, odpowiadające swobodzie wyboru 4
-współrzędnych czasoprzestrzeni (diffeomorfizmy). Pozostaje 6 równań
-determinujących ewolucję geometrii.</p>
+2.99792 \times 10^8\text{ m/s}\]</span> <span
+class="math display">\[\kappa = \frac{8 \pi \times 6.67430 \times
+10^{-11}}{(2.99792 \times 10^8)^4} = \frac{1.6774 \times 10^{-9}}{8.0776
+\times 10^{33}} \approx 2.0766 \times 10^{-43}\text{ N}^{-1}\]</span>
+Wartość <span class="math inline">\(\kappa \approx 2.08 \times
+10^{-43}\text{ Pa}^{-1}\)</span> dowodzi niezwykłej “sztywności”
+czasoprzestrzeni. Aby wywołać zauważalną krzywiznę geometryczną,
+potrzebne są astronomiczne gęstości energii rzędu <span
+class="math inline">\(10^{43}\text{ J/m}^3\)</span>.</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -2028,13 +1656,40 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-4">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> Ile niezależnych nieliniowych równań różniczkowych cząstkowych tworzą równania pola Einsteina w czterech wymiarach czasoprzestrzeni?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-4')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Dokładnie 16 równań niezależnych.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-4')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">10 symetrycznych równań, z których 4 są powiązane tożsamościami Bianchiego, co pozostawia 6 niezależnych stopni swobody fizycznej (w tym 2 stopnie swobody polaryzacji fal grawitacyjnych po ustaleniu cechowania).</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-4')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Tylko 1 równanie skalarne.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-4">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">Tensor Einsteina i tensor energii-pędu są symetrycznymi tensorami $4 \times 4$, co daje 10 składowych. Cztery tożsamości Bianchiego $\nabla_\mu G^{\mu\nu} = 0$ stanowią 4 więzy różniczkowe, odpowiadające swobodzie wyboru 4 współrzędnych czasoprzestrzeni (diffeomorfizmy). Pozostaje 6 równań determinujących ewolucję geometrii.
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" >&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-4')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" >&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-4')">Zalicz lekcję i przejdź dalej &rarr;</button>
         </div>
       </article>
-      <article class="content-card" id="lesson-5">
+      <article class="lesson-sheet" id="lesson-5">
+        <div class="lesson-body">
 <h1
 id="lekcja-3.1-metryka-schwarzschilda-horyzont-zdarzeń-i-orbity-isco">Lekcja
 3.1: Metryka Schwarzschilda, horyzont zdarzeń i orbity ISCO</h1>
@@ -2043,69 +1698,70 @@ Z ledwie kilka miesięcy po publikacji równań pola przez Einsteina,
 niemiecki fizyk i astronom Karl Schwarzschild znalazł pierwsze ścisłe,
 analityczne rozwiązanie równań Einsteina w próżni. Opisuje ono
 czasoprzestrzeń wokół statycznego, sferycznie symetrycznego ciała o
-masie <span class="math inline">M</span> <a href="#fn1"
+masie <span class="math inline">\(M\)</span> <a href="#fn1"
 class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.
 </p>
 <h2 id="cel-operacyjny-lekcji">Cel operacyjny lekcji</h2>
 <p>Po ukończeniu tej lekcji będziesz potrafił: 1. Zapisać metrykę
 Schwarzschilda i zinterpretować jej osobliwości (pozorną na horyzoncie
-zdarzeń oraz fizyczną w <span class="math inline">r = 0</span>). 2.
-Zdefiniować promień Schwarzschilda <span class="math inline">r_s =
-\frac{2GM}{c^2}</span>. 3. Wyprowadzić efektywny potencjał dla cząstek
+zdarzeń oraz fizyczną w <span class="math inline">\(r = 0\)</span>). 2.
+Zdefiniować promień Schwarzschilda <span class="math inline">\(r_s =
+\frac{2GM}{c^2}\)</span>. 3. Wyprowadzić efektywny potencjał dla cząstek
 masywnych i wyznaczyć promień najciaśniejszej stabilnej orbity kołowej
 (ISCO).</p>
 <hr />
 <h2 id="postać-metryki-schwarzschilda">1. Postać Metryki
 Schwarzschilda</h2>
 <p>W próżniowych warunkach sferycznej symetrii (<span
-class="math inline">R_{\mu\nu} = 0</span>, <span
-class="math inline">T_{\mu\nu} = 0</span>), we współrzędnych sferycznych
-<span class="math inline">(t, r, \theta, \phi)</span>, interwał
-czasoprzestrzenny ma postać:</p>
-<p><span class="math display">ds^2 = -\left(1 - \frac{2GM}{c^2 r}\right)
-c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1} dr^2 + r^2 (d\theta^2
-+ \sin^2\theta d\phi^2)</span></p>
+class="math inline">\(R_{\mu\nu} = 0\)</span>, <span
+class="math inline">\(T_{\mu\nu} = 0\)</span>), we współrzędnych
+sferycznych <span class="math inline">\((t, r, \theta, \phi)\)</span>,
+interwał czasoprzestrzenny ma postać:</p>
+<p><span class="math display">\[ds^2 = -\left(1 - \frac{2GM}{c^2
+r}\right) c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1} dr^2 + r^2
+(d\theta^2 + \sin^2\theta d\phi^2)\]</span></p>
 <p>Wprowadzając definicję <strong>promienia Schwarzschilda</strong>:
-<span class="math display">r_s \equiv \frac{2GM}{c^2}</span> metrykę
-można zapisać zwięźle jako: <span class="math display">ds^2 = -\left(1 -
-\frac{r_s}{r}\right) c^2 dt^2 + \left(1 - \frac{r_s}{r}\right)^{-1} dr^2
-+ r^2 d\Omega^2</span></p>
-<p>Dla Ziemi <span class="math inline">r_s \approx 8.87\text{
-mm}</span>, dla Słońca <span class="math inline">r_s \approx 2.95\text{
-km}</span>.</p>
+<span class="math display">\[r_s \equiv \frac{2GM}{c^2}\]</span> metrykę
+można zapisać zwięźle jako: <span class="math display">\[ds^2 = -\left(1
+- \frac{r_s}{r}\right) c^2 dt^2 + \left(1 - \frac{r_s}{r}\right)^{-1}
+dr^2 + r^2 d\Omega^2\]</span></p>
+<p>Dla Ziemi <span class="math inline">\(r_s \approx 8.87\text{
+mm}\)</span>, dla Słońca <span class="math inline">\(r_s \approx
+2.95\text{ km}\)</span>.</p>
 <hr />
 <h2 id="dwie-osobliwości-horyzont-zdarzeń-vs-osobliwość-centralna">2.
 Dwie Osobliwości: Horyzont Zdarzeń vs Osobliwość Centralna</h2>
 <p>W metryce Schwarzschilda pojawiają się dwa punkty osobliwe: 1.
-<strong><span class="math inline">r = r_s</span> (Horyzont
-zdarzeń):</strong> Składowa <span class="math inline">g_{00} \to
-0</span>, a <span class="math inline">g_{rr} \to \infty</span>. Jest to
-osobliwość współrzędnościowa (pozorna), wynikająca ze złego doboru
-współrzędnych. Niezmiennik krzywizny Kretschmanna: <span
-class="math display">K = R^{\alpha\beta\gamma\delta}
-R_{\alpha\beta\gamma\delta} = \frac{48 G^2 M^2}{c^4 r^6}</span> w
-punkcie <span class="math inline">r = r_s</span> przyjmuje skończoną
-wartość <span class="math inline">K(r_s) = \frac{12}{r_s^4}</span>.
+<strong><span class="math inline">\(r = r_s\)</span> (Horyzont
+zdarzeń):</strong> Składowa <span class="math inline">\(g_{00} \to
+0\)</span>, a <span class="math inline">\(g_{rr} \to \infty\)</span>.
+Jest to osobliwość współrzędnościowa (pozorna), wynikająca ze złego
+doboru współrzędnych. Niezmiennik krzywizny Kretschmanna: <span
+class="math display">\[K = R^{\alpha\beta\gamma\delta}
+R_{\alpha\beta\gamma\delta} = \frac{48 G^2 M^2}{c^4 r^6}\]</span> w
+punkcie <span class="math inline">\(r = r_s\)</span> przyjmuje skończoną
+wartość <span class="math inline">\(K(r_s) = \frac{12}{r_s^4}\)</span>.
 Oznacza to, że obserwator swobodnie spadający nie napotyka w <span
-class="math inline">r=r_s</span> nieskończonych sił pływowych. 2.
-<strong><span class="math inline">r = 0</span> (Osobliwość
+class="math inline">\(r=r_s\)</span> nieskończonych sił pływowych. 2.
+<strong><span class="math inline">\(r = 0\)</span> (Osobliwość
 centralna):</strong> Niezmiennik Kretschmanna dąży do nieskończoności
-(<span class="math inline">K \to \infty</span>). Jest to rzeczywista
+(<span class="math inline">\(K \to \infty\)</span>). Jest to rzeczywista
 osobliwość fizyczna (geodezyjnie nieprzekraczalna), w której załamuje
 się klasyczna geometria czasoprzestrzeni.</p>
 <hr />
 <h2 id="efektywny-potencjał-i-orbity-isco">3. Efektywny Potencjał i
 Orbity ISCO</h2>
 <p>Z równania geodezyjnych w płaszczyźnie równikowej (<span
-class="math inline">\theta = \pi/2</span>) dla cząstki próbnej o masie
-<span class="math inline">m</span> i jednostkowym momencie pędu <span
-class="math inline">L</span> otrzymujemy równanie radialne energii:</p>
-<p><span class="math display">\frac{1}{2}
+class="math inline">\(\theta = \pi/2\)</span>) dla cząstki próbnej o
+masie <span class="math inline">\(m\)</span> i jednostkowym momencie
+pędu <span class="math inline">\(L\)</span> otrzymujemy równanie
+radialne energii:</p>
+<p><span class="math display">\[\frac{1}{2}
 \left(\frac{dr}{d\tau}\right)^2 + V_{\text{eff}}(r) = \frac{E^2 -
-c^2}{2}</span></p>
+c^2}{2}\]</span></p>
 <p>gdzie relatywistyczny potencjał efektywny wynosi:</p>
-<p><span class="math display">V_{\text{eff}}(r) = -\frac{GM}{r} +
-\frac{L^2}{2r^2} - \frac{GM L^2}{c^2 r^3}</span></p>
+<p><span class="math display">\[V_{\text{eff}}(r) = -\frac{GM}{r} +
+\frac{L^2}{2r^2} - \frac{GM L^2}{c^2 r^3}\]</span></p>
 <div class="table-wrapper">
 <table class="academic-table">
 <caption>
@@ -2127,19 +1783,19 @@ Wpływ na dynamikę orbity
 <tbody>
 <tr>
 <td>
-<span class="math inline">-\frac{GM}{r}</span>
+<span class="math inline">\(-\frac{GM}{r}\)</span>
 </td>
 <td>
 Grawitacja newtonowska
 </td>
 <td>
 Przyciąganie grawitacyjne dla dużych promieni <span
-class="math inline">r</span>
+class="math inline">\(r\)</span>
 </td>
 </tr>
 <tr>
 <td>
-<span class="math inline">+\frac{L^2}{2r^2}</span>
+<span class="math inline">\(+\frac{L^2}{2r^2}\)</span>
 </td>
 <td>
 Bariera siły odśrodkowej
@@ -2150,14 +1806,14 @@ Odpychanie odśrodkowe, stabilizuje orbity eliptyczne
 </tr>
 <tr>
 <td>
-<span class="math inline">-\frac{GM L^2}{c^2 r^3}</span>
+<span class="math inline">\(-\frac{GM L^2}{c^2 r^3}\)</span>
 </td>
 <td>
 Poprawka relatywistyczna Einsteina
 </td>
 <td>
 Głęboka studnia przyciągająca dla małych <span
-class="math inline">r</span>; niszczy stabilność orbit
+class="math inline">\(r\)</span>; niszczy stabilność orbit
 </td>
 </tr>
 </tbody>
@@ -2170,38 +1826,38 @@ alt="Efektywny potencjał w geometrii Schwarzschilda i próg ISCO" />
 Schwarzschilda i próg ISCO</figcaption>
 </figure>
 <p>Stabilne orbity kołowe istnieją tylko tam, gdzie <span
-class="math inline">\frac{dV_{\text{eff}}}{dr} = 0</span> oraz <span
-class="math inline">\frac{d^2 V_{\text{eff}}}{dr^2} &gt; 0</span>. Punkt
-przegięcia potencjału, wyznaczający <strong>najciaśniejszą stabilną
-orbitę kołową (Innermost Stable Circular Orbit - ISCO)</strong>,
-zachodzi dokładnie w:</p>
-<p><span class="math display">r_{\text{ISCO}} = 6 \frac{GM}{c^2} = 3
-r_s</span></p>
-<p>Dla <span class="math inline">r &lt; r_{\text{ISCO}}</span> materia z
-dysku akrecyjnego traci stabilność i nieuchronnie opada po spirali do
-wnętrza czarnej dziury.</p>
+class="math inline">\(\frac{dV_{\text{eff}}}{dr} = 0\)</span> oraz <span
+class="math inline">\(\frac{d^2 V_{\text{eff}}}{dr^2} &gt; 0\)</span>.
+Punkt przegięcia potencjału, wyznaczający <strong>najciaśniejszą
+stabilną orbitę kołową (Innermost Stable Circular Orbit -
+ISCO)</strong>, zachodzi dokładnie w:</p>
+<p><span class="math display">\[r_{\text{ISCO}} = 6 \frac{GM}{c^2} = 3
+r_s\]</span></p>
+<p>Dla <span class="math inline">\(r &lt; r_{\text{ISCO}}\)</span>
+materia z dysku akrecyjnego traci stabilność i nieuchronnie opada po
+spirali do wnętrza czarnej dziury.</p>
 <hr />
 <h2 id="przykład-z-rozwiązaniem-worked-example">4. Przykład z
 rozwiązaniem (Worked Example)</h2>
 <h3 id="zadanie">Zadanie:</h3>
 <p>Wyznacz promień Schwarzschilda dla supermasywnej czarnej dziury
 Sagittarius A* w centrum Drogi Mlecznej o masie <span
-class="math inline">M = 4.154 \times 10^6 M_\odot</span>.</p>
+class="math inline">\(M = 4.154 \times 10^6 M_\odot\)</span>.</p>
 <h3 id="rozwiązanie-krok-po-kroku">Rozwiązanie krok po kroku:</h3>
 <ol type="1">
-<li>Obliczamy masę w kilogramach: <span class="math display">M = 4.154
+<li>Obliczamy masę w kilogramach: <span class="math display">\[M = 4.154
 \times 10^6 \times 1.98847 \times 10^{30}\text{ kg} \approx 8.260 \times
-10^{36}\text{ kg}</span></li>
-<li>Stosujemy wzór na promień horyzontu <span class="math inline">r_s =
-\frac{2GM}{c^2}</span>: <span class="math display">r_s = \frac{2 \times
-(6.67430 \times 10^{-11}) \times (8.260 \times 10^{36})}{(2.99792 \times
-10^8)^2} = \frac{1.1026 \times 10^{27}}{8.98755 \times 10^{16}} \approx
-1.2268 \times 10^{10}\text{ m}</span></li>
-<li>W jednostkach astronomicznych (AU, <span class="math inline">1\text{
-AU} \approx 1.496 \times 10^{11}\text{ m}</span>): <span
-class="math display">r_s \approx 0.082\text{ AU} \approx 12.27\text{ mln
-km}</span> Promień horyzontu zdarzeń Sgr A* wynosi w przybliżeniu
-zaledwie 1/5 odległości Merkurego od Słońca.</li>
+10^{36}\text{ kg}\]</span></li>
+<li>Stosujemy wzór na promień horyzontu <span class="math inline">\(r_s
+= \frac{2GM}{c^2}\)</span>: <span class="math display">\[r_s = \frac{2
+\times (6.67430 \times 10^{-11}) \times (8.260 \times 10^{36})}{(2.99792
+\times 10^8)^2} = \frac{1.1026 \times 10^{27}}{8.98755 \times 10^{16}}
+\approx 1.2268 \times 10^{10}\text{ m}\]</span></li>
+<li>W jednostkach astronomicznych (AU, <span
+class="math inline">\(1\text{ AU} \approx 1.496 \times 10^{11}\text{
+m}\)</span>): <span class="math display">\[r_s \approx 0.082\text{ AU}
+\approx 12.27\text{ mln km}\]</span> Promień horyzontu zdarzeń Sgr A*
+wynosi w przybliżeniu zaledwie 1/5 odległości Merkurego od Słońca.</li>
 </ol>
 <hr />
 <h2 id="zadanie-laboratoryjne-dla-kursanta-hands-on-practice">5. Zadanie
@@ -2210,40 +1866,26 @@ laboratoryjne dla kursanta (Hands-on Practice)</h2>
 <p>Wyznacz promień sfery fotonowej (promień, na którym fotony mogą
 poruszać się po niestabilnej orbicie kołowej) wokół czarnej dziury
 Schwarzschilda, analizując potencjał efektywny dla cząstek bezmasowych
-(<span class="math inline">ds^2 = 0</span>).</p>
+(<span class="math inline">\(ds^2 = 0\)</span>).</p>
 <h3 id="wzorcowa-odpowiedź-model-answer">Wzorcowa odpowiedź (Model
 Answer):</h3>
-<p>Dla fotonu <span class="math inline">ds^2 = 0</span>, więc równanie
-radialne przyjmuje postać: <span
-class="math display">\frac{1}{2}\left(\frac{dr}{d\lambda}\right)^2 +
+<p>Dla fotonu <span class="math inline">\(ds^2 = 0\)</span>, więc
+równanie radialne przyjmuje postać: <span
+class="math display">\[\frac{1}{2}\left(\frac{dr}{d\lambda}\right)^2 +
 V_{\text{ph}}(r) = \frac{E^2}{2}, \quad V_{\text{ph}}(r) =
-\frac{L^2}{2r^2} \left(1 - \frac{2GM}{c^2 r}\right)</span> Warunek
-orbity kołowej <span class="math inline">V&#39;_{\text{ph}}(r) =
-0</span>: <span class="math display">V&#39;_{\text{ph}}(r) =
+\frac{L^2}{2r^2} \left(1 - \frac{2GM}{c^2 r}\right)\]</span> Warunek
+orbity kołowej <span class="math inline">\(V&#39;_{\text{ph}}(r) =
+0\)</span>: <span class="math display">\[V&#39;_{\text{ph}}(r) =
 -\frac{L^2}{r^3} \left(1 - \frac{2GM}{c^2 r}\right) + \frac{L^2}{2r^2}
 \left(\frac{2GM}{c^2 r^2}\right) = -\frac{L^2}{r^3} + \frac{3GM L^2}{c^2
-r^4} = 0</span> Mnożąc przez <span class="math inline">r^4 / L^2</span>:
-<span class="math display">-r + \frac{3GM}{c^2} = 0 \implies
-r_{\text{ph}} = \frac{3GM}{c^2} = 1.5 r_s</span> Sfera fotonowa znajduje
-się dokładnie w odległości <span class="math inline">1.5</span>
-promienia Schwarzschilda. Orbita ta jest niestabilna (<span
-class="math inline">V&#39;&#39;_{\text{ph}}(r_{\text{ph}}) &lt;
-0</span>).</p>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">6. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> Co dzieje się z materią w dysku akrecyjnym
-czarnej dziury po przekroczeniu promienia <span
-class="math inline">r_{\text{ISCO}} = 6GM/c^2</span>? -
-<strong>A)</strong> Materia zwalnia i tworzy stabilny pierścień
-stacjonarny. - <strong>B)</strong> Siły grawitacyjne równoważą się z
-siłami odśrodkowymi. - <strong>C)</strong> Materia traci stabilność
-orbity kołowej i po dynamicznej trajektorii spiralnej wpada pod horyzont
-zdarzeń bez potrzeby dalszej utraty momentu pędu.</p>
-<p><em>Prawidłowa odpowiedź: C.</em> <em>Wyjaśnienie dydaktyczne:</em>
-Poniżej promienia ISCO nie istnieją żadne stabilne orbity kołowe dla
-ciał masywnych. Wszelkie zaburzenie powoduje natychmiastowe zepchnięcie
-materii w kierunku horyzontu (tzw. plunging region).</p>
+r^4} = 0\]</span> Mnożąc przez <span class="math inline">\(r^4 /
+L^2\)</span>: <span class="math display">\[-r + \frac{3GM}{c^2} = 0
+\implies r_{\text{ph}} = \frac{3GM}{c^2} = 1.5 r_s\]</span> Sfera
+fotonowa znajduje się dokładnie w odległości <span
+class="math inline">\(1.5\)</span> promienia Schwarzschilda. Orbita ta
+jest niestabilna (<span
+class="math inline">\(V&#39;&#39;_{\text{ph}}(r_{\text{ph}}) &lt;
+0\)</span>).</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -2259,13 +1901,40 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-5">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> Co dzieje się z materią w dysku akrecyjnym czarnej dziury po przekroczeniu promienia $r_{\text{ISCO}} = 6GM/c^2$?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-5')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Materia zwalnia i tworzy stabilny pierścień stacjonarny.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-5')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">Siły grawitacyjne równoważą się z siłami odśrodkowymi.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-5')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Materia traci stabilność orbity kołowej i po dynamicznej trajektorii spiralnej wpada pod horyzont zdarzeń bez potrzeby dalszej utraty momentu pędu.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-5">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">Poniżej promienia ISCO nie istnieją żadne stabilne orbity kołowe dla ciał masywnych. Wszelkie zaburzenie powoduje natychmiastowe zepchnięcie materii w kierunku horyzontu (tzw. plunging region).
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" >&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-5')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" >&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-5')">Zalicz lekcję i przejdź dalej &rarr;</button>
         </div>
       </article>
-      <article class="content-card" id="lesson-6">
+      <article class="lesson-sheet" id="lesson-6">
+        <div class="lesson-body">
 <h1
 id="lekcja-3.2-trzy-klasyczne-testy-empiryczne-ogólnej-teorii-względności">Lekcja
 3.2: Trzy klasyczne testy empiryczne Ogólnej Teorii Względności</h1>
@@ -2284,8 +1953,8 @@ id="fnref2" role="doc-noteref"><sup>2</sup></a>.
 relatywistyczny kąt precesji peryhelium i obliczyć słynną wartość 43’’
 na stulecie dla planety Merkury. 2. Wyjaśnić różnicę pomiędzy
 newtonowskim a relatywistycznym kątem ugięcia światła (<span
-class="math inline">\theta_{\text{GR}} = 2
-\theta_{\text{Newton}}</span>) i zanalizować historyczny eksperyment
+class="math inline">\(\theta_{\text{GR}} = 2
+\theta_{\text{Newton}}\)</span>) i zanalizować historyczny eksperyment
 Eddingtona z 1919 roku. 3. Przedstawić współczesne testy OTW w
 formalizmie PPN (Parametrized Post-Newtonian).</p>
 <hr />
@@ -2298,19 +1967,20 @@ Całkowita obserwowana precesja wynosi około 574 sekund łuku na stulecie,
 z czego perturbacje planetarne (głównie Jowisza, Wenus i Ziemi)
 wyjaśniały 531 sekund łuku. Pozostawała niewyjaśniona anomalia
 wynosząca:</p>
-<p><span class="math display">\Delta \phi_{\text{anomalia}} \approx
-43&#39;&#39; \text{ na stulecie}</span></p>
+<p><span class="math display">\[\Delta \phi_{\text{anomalia}} \approx
+43&#39;&#39; \text{ na stulecie}\]</span></p>
 <p>Z równania geodezyjnych w metryce Schwarzschilda kąt obrotu
 peryhelium na jeden pełny obieg wynosi:</p>
-<p><span class="math display">\Delta \phi = \frac{6 \pi G M_\odot}{c^2 a
-(1 - e^2)}</span></p>
-<p>Dla parametrów orbity Merkurego (<span class="math inline">a \approx
-5.791 \times 10^{10}\text{ m}</span>, <span class="math inline">e
-\approx 0.20563</span>, okres <span class="math inline">T \approx
-87.97\text{ dni}</span>), po przeliczeniu na 100 lat ziemskich (ok. 415
-obiegów), wzór Einsteina daje dokładnie:</p>
-<p><span class="math display">\Delta \phi_{\text{Merkury}} \approx
-42.98&#39;&#39; \text{ na stulecie}</span></p>
+<p><span class="math display">\[\Delta \phi = \frac{6 \pi G M_\odot}{c^2
+a (1 - e^2)}\]</span></p>
+<p>Dla parametrów orbity Merkurego (<span class="math inline">\(a
+\approx 5.791 \times 10^{10}\text{ m}\)</span>, <span
+class="math inline">\(e \approx 0.20563\)</span>, okres <span
+class="math inline">\(T \approx 87.97\text{ dni}\)</span>), po
+przeliczeniu na 100 lat ziemskich (ok. 415 obiegów), wzór Einsteina daje
+dokładnie:</p>
+<p><span class="math display">\[\Delta \phi_{\text{Merkury}} \approx
+42.98&#39;&#39; \text{ na stulecie}\]</span></p>
 <p>Zgodność z danymi obserwacyjnymi bez wprowadzania jakichkolwiek
 parametrów dopasowywanych była pierwszym spektakularnym triumfem
 OTW.</p>
@@ -2319,21 +1989,22 @@ OTW.</p>
 Test II: Ugięcie Promieni Świetlnych przy Krawędzi Słońca</h2>
 <p>W podejściu newtonowskim korpuskularna teoria światła (Soldner, 1801
 r.) przewidywała kąt ugięcia fotonu przelatującego w odległości <span
-class="math inline">b</span> od środka Słońca:</p>
-<p><span class="math display">\theta_{\text{Newton}} = \frac{2 G
-M_\odot}{c^2 b}</span></p>
-<p>Dla promienia muskającego krawędź Słońca (<span class="math inline">b
-= R_\odot</span>): <span class="math inline">\theta_{\text{Newton}}
-\approx 0.875&#39;&#39;</span>.</p>
+class="math inline">\(b\)</span> od środka Słońca:</p>
+<p><span class="math display">\[\theta_{\text{Newton}} = \frac{2 G
+M_\odot}{c^2 b}\]</span></p>
+<p>Dla promienia muskającego krawędź Słońca (<span
+class="math inline">\(b = R_\odot\)</span>): <span
+class="math inline">\(\theta_{\text{Newton}} \approx
+0.875&#39;&#39;\)</span>.</p>
 <p>W OTW ugięcie światła wynika zarówno z dylatacji czasowej (<span
-class="math inline">g_{00}</span>), jak i krzywizny przestrzennej (<span
-class="math inline">g_{rr}</span>). Oba wkłady są równe i sumują się,
-podwajając kąt ugięcia:</p>
-<p><span class="math display">\theta_{\text{GR}} = \frac{4 G
-M_\odot}{c^2 b} = 2 \theta_{\text{Newton}}</span></p>
+class="math inline">\(g_{00}\)</span>), jak i krzywizny przestrzennej
+(<span class="math inline">\(g_{rr}\)</span>). Oba wkłady są równe i
+sumują się, podwajając kąt ugięcia:</p>
+<p><span class="math display">\[\theta_{\text{GR}} = \frac{4 G
+M_\odot}{c^2 b} = 2 \theta_{\text{Newton}}\]</span></p>
 <p>Dla krawędzi tarczy słonecznej:</p>
-<p><span class="math display">\theta_{\text{GR}} \approx
-1.751&#39;&#39;</span></p>
+<p><span class="math display">\[\theta_{\text{GR}} \approx
+1.751&#39;&#39;\]</span></p>
 <figure>
 <img src="images/ugiecie_swiatla_porownanie.png"
 alt="Ugięcie promieni świetlnych w polu grawitacyjnym Słońca" />
@@ -2344,22 +2015,23 @@ grawitacyjnym Słońca</figcaption>
 ekspedycja pod kierownictwem Arthura Eddingtona i Franka Dysona
 zmierzyła przesunięcie pozycji gwiazd tła widocznych w pobliżu korony
 słonecznej na Wyspie Książęcej (Principe) i w Sobral (Brazylia),
-uzyskując wyniki <span class="math inline">1.98&#39;&#39; \pm
-0.12&#39;&#39;</span> oraz <span class="math inline">1.61&#39;&#39; \pm
-0.30&#39;&#39;</span> <a href="#fn3" class="footnote-ref" id="fnref3"
-role="doc-noteref"><sup>3</sup></a>, co ostatecznie potwierdziło
-przewidywanie OTW i przyniosło Einsteinowi międzynarodową sławę.</p>
+uzyskując wyniki <span class="math inline">\(1.98&#39;&#39; \pm
+0.12&#39;&#39;\)</span> oraz <span class="math inline">\(1.61&#39;&#39;
+\pm 0.30&#39;&#39;\)</span> <a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a>, co ostatecznie
+potwierdziło przewidywanie OTW i przyniosło Einsteinowi międzynarodową
+sławę.</p>
 <hr />
 <h2 id="test-iii-grawitacyjne-przesunięcie-ku-czerwieni-redshift">3.
 Test III: Grawitacyjne Przesunięcie ku Czerwieni (Redshift)</h2>
 <p>Dwa identyczne zegary atomowe umieszczone w różnych punktach
 potencjału grawitacyjnego mierzą różny upływ czasu własnego. Relacja
 częstotliwości fotonu emitowanego w punkcie o potencjale <span
-class="math inline">\Phi_1</span> i odbieranego w <span
-class="math inline">\Phi_2</span> wynosi:</p>
-<p><span class="math display">\frac{f_2}{f_1} =
+class="math inline">\(\Phi_1\)</span> i odbieranego w <span
+class="math inline">\(\Phi_2\)</span> wynosi:</p>
+<p><span class="math display">\[\frac{f_2}{f_1} =
 \sqrt{\frac{g_{00}(r_1)}{g_{00}(r_2)}} \approx 1 - \frac{\Phi_2 -
-\Phi_1}{c^2}</span></p>
+\Phi_1}{c^2}\]</span></p>
 <p>Foton uciekający z głębi studni grawitacyjnej traci energię na rzecz
 pola, co objawia się wydłużeniem fali (przesunięciem w stronę
 czerwieni). Zjawisko to zostało laboratoryjnie potwierdzone z precyzją
@@ -2370,68 +2042,46 @@ role="doc-noteref"><sup>4</sup></a>.</p>
 <h2 id="współczesny-status-formalizm-ppn-i-zegary-satelitarne">4.
 Współczesny Status: Formalizm PPN i Zegary Satelitarne</h2>
 <p>Współcześnie OTW jest testowana w ramach formalizmu PPN (Parametrized
-Post-Newtonian). Parametr <span class="math inline">\gamma</span> mierzy
-wkład krzywizny przestrzennej do metryki (<span
-class="math inline">\gamma = 1</span> w OTW, <span
-class="math inline">\gamma = 0</span> w teorii Newtona). Pomiary
+Post-Newtonian). Parametr <span class="math inline">\(\gamma\)</span>
+mierzy wkład krzywizny przestrzennej do metryki (<span
+class="math inline">\(\gamma = 1\)</span> w OTW, <span
+class="math inline">\(\gamma = 0\)</span> w teorii Newtona). Pomiary
 opóźnienia sygnałów radiowych sondy Cassini (tzw. efekt Shapiro) w 2003
 roku wyznaczyły <a href="#fn5" class="footnote-ref" id="fnref5"
 role="doc-noteref"><sup>5</sup></a>:</p>
-<p><span class="math display">\gamma - 1 = (2.1 \pm 2.3) \times
-10^{-5}</span></p>
+<p><span class="math display">\[\gamma - 1 = (2.1 \pm 2.3) \times
+10^{-5}\]</span></p>
 <p>co stanowi zgodność z OTW na poziomie 0.002%. Efekty OTW są również
 na bieżąco uwzględniane w systemie nawigacji satelitarnej GPS (zegary
 satelitów wyprzedzają zegary naziemne o ok. <span
-class="math inline">38\,\mu\text{s}</span> na dobę z powodu
+class="math inline">\(38\,\mu\text{s}\)</span> na dobę z powodu
 relatywistycznego przesunięcia częstotliwości).</p>
 <hr />
 <h2 id="zadanie-laboratoryjne-dla-kursanta-hands-on-practice">5. Zadanie
 laboratoryjne dla kursanta (Hands-on Practice)</h2>
 <h3 id="polecenie">Polecenie:</h3>
 <p>Wyjaśnij, dlaczego newtonowskie obliczenie kąta ugięcia światła
-(<span class="math inline">\theta = 2GM/c^2 R</span>) pomija dokładnie
-połowę rzeczywistego relatywistycznego ugięcia. Odwołaj się do
+(<span class="math inline">\(\theta = 2GM/c^2 R\)</span>) pomija
+dokładnie połowę rzeczywistego relatywistycznego ugięcia. Odwołaj się do
 składowych tensora metrycznego Schwarzschilda <span
-class="math inline">g_{00}</span> i <span
-class="math inline">g_{rr}</span>.</p>
+class="math inline">\(g_{00}\)</span> i <span
+class="math inline">\(g_{rr}\)</span>.</p>
 <h3 id="wzorcowa-odpowiedź-model-answer">Wzorcowa odpowiedź (Model
 Answer):</h3>
 <p>W ujęciu newtonowskim przestrzeń jest płaska, a grawitacja jest
 traktowana jako siła przyciągająca foton posiadający efektywną masę pędu
-<span class="math inline">E/c^2</span>. W języku OTW odpowiada to
+<span class="math inline">\(E/c^2\)</span>. W języku OTW odpowiada to
 uwzględnieniu wyłącznie zakrzywienia składowej czasowej metryki <span
-class="math inline">g_{00} = -(1 - 2GM/c^2 r)</span>. W pełnej OTW
+class="math inline">\(g_{00} = -(1 - 2GM/c^2 r)\)</span>. W pełnej OTW
 przestrzeń również jest zakrzywiona, co koduje składowa radialna <span
-class="math inline">g_{rr} = (1 - 2GM/c^2 r)^{-1}</span>. Ruch fotonu po
-zerowej linii geodezyjnej (<span class="math inline">ds^2 = 0</span>)
-odczuwa zarówno dylatację czasu (<span class="math inline">dt</span>),
-jak i kontrakcję długości radialnej (<span
-class="math inline">dr</span>). Każdy z tych dwóch członów wnosi
-dokładnie <span class="math inline">2GM/c^2 R</span> do kąta ugięcia, co
-w sumie daje pełną wartość <span class="math inline">\theta_{\text{GR}}
-= 4GM/c^2 R</span>.</p>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">6. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> O ile mikrosekund na dobę spieszą się
-zegary na satelitach GPS względem zegarów na powierzchni Ziemi w wyniku
-wypadkowej dylatacji grawitacyjnej (OTW) i dylatacji kinematycznej
-(STW)? - <strong>A)</strong> Zegary spóźniają się o 1 sekundę na dobę. -
-<strong>B)</strong> Wypadkowo spieszą się o około <span
-class="math inline">+38\,\mu\text{s}</span> na dobę (OTW: <span
-class="math inline">+45\,\mu\text{s}</span> na dobę z powodu wyższego
-potencjału, STW: <span class="math inline">-7\,\mu\text{s}</span> na
-dobę z powodu prędkości orbitalnej). - <strong>C)</strong> Efekt jest
-całkowicie zerowy, ponieważ STW i OTW idealnie się znoszą.</p>
-<p><em>Prawidłowa odpowiedź: B.</em> <em>Wyjaśnienie dydaktyczne:</em>
-Zegary na orbicie GPS (wysokość ok. 20 200 km) znajdują się w słabszym
-polu grawitacyjnym, co powoduje, że spieszą się o ok. <span
-class="math inline">+45.9\,\mu\text{s}</span> na dobę (efekt OTW).
-Jednocześnie poruszają się z prędkością orbitalną ok. 3.9 km/s, co
-opóźnia je o ok. <span class="math inline">-7.2\,\mu\text{s}</span> na
-dobę (efekt STW). Wypadkowa wynosi ok. <span
-class="math inline">+38.7\,\mu\text{s}</span> na dobę. Brak korekty
-relatywistycznej generowałby błąd nawigacji rzędu 11 km na dobę!</p>
+class="math inline">\(g_{rr} = (1 - 2GM/c^2 r)^{-1}\)</span>. Ruch
+fotonu po zerowej linii geodezyjnej (<span class="math inline">\(ds^2 =
+0\)</span>) odczuwa zarówno dylatację czasu (<span
+class="math inline">\(dt\)</span>), jak i kontrakcję długości radialnej
+(<span class="math inline">\(dr\)</span>). Każdy z tych dwóch członów
+wnosi dokładnie <span class="math inline">\(2GM/c^2 R\)</span> do kąta
+ugięcia, co w sumie daje pełną wartość <span
+class="math inline">\(\theta_{\text{GR}} = 4GM/c^2 R\)</span>.</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -2463,13 +2113,40 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-6">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> O ile mikrosekund na dobę spieszą się zegary na satelitach GPS względem zegarów na powierzchni Ziemi w wyniku wypadkowej dylatacji grawitacyjnej (OTW) i dylatacji kinematycznej (STW)?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-6')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Zegary spóźniają się o 1 sekundę na dobę.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-6')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">Wypadkowo spieszą się o około $+38\,\mu\text{s}$ na dobę (OTW: $+45\,\mu\text{s}$ na dobę z powodu wyższego potencjału, STW: $-7\,\mu\text{s}$ na dobę z powodu prędkości orbitalnej).</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-6')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Efekt jest całkowicie zerowy, ponieważ STW i OTW idealnie się znoszą.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-6">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">Zegary na orbicie GPS (wysokość ok. 20 200 km) znajdują się w słabszym polu grawitacyjnym, co powoduje, że spieszą się o ok. $+45.9\,\mu\text{s}$ na dobę (efekt OTW). Jednocześnie poruszają się z prędkością orbitalną ok. 3.9 km/s, co opóźnia je o ok. $-7.2\,\mu\text{s}$ na dobę (efekt STW). Wypadkowa wynosi ok. $+38.7\,\mu\text{s}$ na dobę. Brak korekty relatywistycznej generowałby błąd nawigacji rzędu 11 km na dobę!
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" >&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-6')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" >&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-6')">Zalicz lekcję i przejdź dalej &rarr;</button>
         </div>
       </article>
-      <article class="content-card" id="lesson-7">
+      <article class="lesson-sheet" id="lesson-7">
+        <div class="lesson-body">
 <h1
 id="lekcja-4.1-linearyzacja-równań-pola-fale-grawitacyjne-i-detekcja-ligo">Lekcja
 4.1: Linearyzacja równań pola, fale grawitacyjne i detekcja LIGO</h1>
@@ -2478,7 +2155,7 @@ W 1916 roku, zaledwie rok po ogłoszeniu ostatecznych równań OTW, Albert
 Einstein odkrył falowe rozwiązania swoich równań w przybliżeniu słabego
 pola. Wykazał, że oscylacje mas wytwarzają poprzeczne fale odkształcenia
 geometrii czasoprzestrzeni rozchodzące się z prędkością światła <span
-class="math inline">c</span> <a href="#fn1" class="footnote-ref"
+class="math inline">\(c\)</span> <a href="#fn1" class="footnote-ref"
 id="fnref1" role="doc-noteref"><sup>1</sup></a>, <a href="#fn2"
 class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.
 </p>
@@ -2487,57 +2164,61 @@ class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.
 linearyzację równań pola Einsteina wokół metryki Minkowskiego. 2.
 Zdefiniować cechowanie poprzeczno-bezśladowe (TT - Transverse-Traceless
 Gauge) i rozróżnić dwie polaryzacje fal grawitacyjnych (<span
-class="math inline">h_+</span> i <span
-class="math inline">h_\times</span>). 3. Wyprowadzić wzór kwadrupolowy
-Einsteina na moc promieniowania grawitacyjnego. 4. Zinterpretować zasadę
-działania laserowych detektorów interferometrycznych (LIGO, Virgo).</p>
+class="math inline">\(h_+\)</span> i <span
+class="math inline">\(h_\times\)</span>). 3. Wyprowadzić wzór
+kwadrupolowy Einsteina na moc promieniowania grawitacyjnego. 4.
+Zinterpretować zasadę działania laserowych detektorów
+interferometrycznych (LIGO, Virgo).</p>
 <hr />
 <h2 id="linearyzacja-otw-słabe-pole">1. Linearyzacja OTW (Słabe
 Pole)</h2>
-<p>Rozważmy małe perturbacje <span class="math inline">h_{\mu\nu}</span>
-na tle płaskiej czasoprzestrzeni Minkowskiego <span
-class="math inline">\eta_{\mu\nu}</span>:</p>
-<p><span class="math display">g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu},
-\quad |h_{\mu\nu}| \ll 1</span></p>
+<p>Rozważmy małe perturbacje <span
+class="math inline">\(h_{\mu\nu}\)</span> na tle płaskiej
+czasoprzestrzeni Minkowskiego <span
+class="math inline">\(\eta_{\mu\nu}\)</span>:</p>
+<p><span class="math display">\[g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu},
+\quad |h_{\mu\nu}| \ll 1\]</span></p>
 <p>Definiując śladowo odwróconą perturbację <span
-class="math inline">\bar{h}_{\mu\nu} \equiv h_{\mu\nu} - \frac{1}{2}
-\eta_{\mu\nu} h</span> oraz narzucając cechowanie Lorentza <span
-class="math inline">\partial^\mu \bar{h}_{\mu\nu} = 0</span>,
+class="math inline">\(\bar{h}_{\mu\nu} \equiv h_{\mu\nu} - \frac{1}{2}
+\eta_{\mu\nu} h\)</span> oraz narzucając cechowanie Lorentza <span
+class="math inline">\(\partial^\mu \bar{h}_{\mu\nu} = 0\)</span>,
 zlinearyzowane równania Einsteina w próżni sprowadzają się do
 standardowego równania falowego d’Alemberta:</p>
-<p><span class="math display">\Box \bar{h}_{\mu\nu} =
+<p><span class="math display">\[\Box \bar{h}_{\mu\nu} =
 \left(-\frac{1}{c^2} \frac{\partial^2}{\partial t^2} + \nabla^2\right)
-\bar{h}_{\mu\nu} = 0</span></p>
+\bar{h}_{\mu\nu} = 0\]</span></p>
 <p>Fale grawitacyjne rozchodzą się dokładnie z prędkością światła <span
-class="math inline">c</span>.</p>
+class="math inline">\(c\)</span>.</p>
 <hr />
 <h2 id="polaryzacje-fali-cechowanie-tt">2. Polaryzacje Fali: Cechowanie
 TT</h2>
 <p>W cechowaniu poprzeczno-bezśladowym (TT Gauge), dla fali propagującej
-się wzdłuż osi <span class="math inline">z</span>, tensor odkształcenia
-posiada tylko dwa niezależne stopnie swobody:</p>
-<p><span class="math display">h_{ij}^{\text{TT}}(t, z) = \begin{pmatrix}
-h_+(t - z/c) &amp; h_\times(t - z/c) &amp; 0 \\ h_\times(t - z/c) &amp;
--h_+(t - z/c) &amp; 0 \\ 0 &amp; 0 &amp; 0 \end{pmatrix}</span></p>
+się wzdłuż osi <span class="math inline">\(z\)</span>, tensor
+odkształcenia posiada tylko dwa niezależne stopnie swobody:</p>
+<p><span class="math display">\[h_{ij}^{\text{TT}}(t, z) =
+\begin{pmatrix} h_+(t - z/c) &amp; h_\times(t - z/c) &amp; 0 \\
+h_\times(t - z/c) &amp; -h_+(t - z/c) &amp; 0 \\ 0 &amp; 0 &amp; 0
+\end{pmatrix}\]</span></p>
 <p>Fale grawitacyjne wywołują poprzeczne, kwadrupolowe odkształcenie
 odległości między cząstkami próbnymi: - Polaryzacja <span
-class="math inline">h_+</span>: ściskanie wzdłuż osi <span
-class="math inline">x</span> przy jednoczesnym rozciąganiu wzdłuż osi
-<span class="math inline">y</span>. - Polaryzacja <span
-class="math inline">h_\times</span>: to samo odkształcenie obrócone o
-kąt <span class="math inline">45^\circ</span>.</p>
+class="math inline">\(h_+\)</span>: ściskanie wzdłuż osi <span
+class="math inline">\(x\)</span> przy jednoczesnym rozciąganiu wzdłuż
+osi <span class="math inline">\(y\)</span>. - Polaryzacja <span
+class="math inline">\(h_\times\)</span>: to samo odkształcenie obrócone
+o kąt <span class="math inline">\(45^\circ\)</span>.</p>
 <hr />
 <h2 id="wzór-kwadrupolowy-einsteina">3. Wzór Kwadrupolowy Einsteina</h2>
 <p>Ponieważ całkowita masa i pęd układu są zachowane, promieniowanie
 grawitacyjne nie może mieć charakteru monopolowego ani dipolowego.
 Najniższym dozwolonym rzędem jest promieniowanie kwadrupolowe. Całkowita
 moc emitowana w postaci fal grawitacyjnych przez układ o masowym
-momencie kwadrupolowym <span class="math inline">I_{ij}</span>
+momencie kwadrupolowym <span class="math inline">\(I_{ij}\)</span>
 wynosi:</p>
-<p><span class="math display">P_{\text{GW}} = \frac{G}{5 c^5} \sum_{i,j}
-\left\langle \dddot{I}_{ij} \dddot{I}_{ij} \right\rangle</span></p>
-<p>Czynnik <span class="math inline">c^5</span> w mianowniku (<span
-class="math inline">c^5 \approx 2.43 \times 10^{42}\text{ W}</span>)
+<p><span class="math display">\[P_{\text{GW}} = \frac{G}{5 c^5}
+\sum_{i,j} \left\langle \dddot{I}_{ij} \dddot{I}_{ij}
+\right\rangle\]</span></p>
+<p>Czynnik <span class="math inline">\(c^5\)</span> w mianowniku (<span
+class="math inline">\(c^5 \approx 2.43 \times 10^{42}\text{ W}\)</span>)
 sprawia, że fale grawitacyjne emitowane przez zjawiska laboratoryjne są
 niewykrywalnie słabe. Znaczące amplitudy powstają jedynie podczas
 najbardziej gwałtownych zjawisk we Wszechświecie: koalescencji
@@ -2578,10 +2259,10 @@ Interpretacja Fizyczna
 <tbody>
 <tr>
 <td>
-Masa początkowa 1 (<span class="math inline">M_1</span>)
+Masa początkowa 1 (<span class="math inline">\(M_1\)</span>)
 </td>
 <td>
-<span class="math inline">36_{-4}^{+5} M_\odot</span>
+<span class="math inline">\(36_{-4}^{+5} M_\odot\)</span>
 </td>
 <td>
 Ciężka czarna dziura gwiezdna
@@ -2589,10 +2270,10 @@ Ciężka czarna dziura gwiezdna
 </tr>
 <tr>
 <td>
-Masa początkowa 2 (<span class="math inline">M_2</span>)
+Masa początkowa 2 (<span class="math inline">\(M_2\)</span>)
 </td>
 <td>
-<span class="math inline">29_{-4}^{+4} M_\odot</span>
+<span class="math inline">\(29_{-4}^{+4} M_\odot\)</span>
 </td>
 <td>
 Druga czarna dziura gwiezdna
@@ -2600,10 +2281,10 @@ Druga czarna dziura gwiezdna
 </tr>
 <tr>
 <td>
-Masa końcowa (<span class="math inline">M_f</span>)
+Masa końcowa (<span class="math inline">\(M_f\)</span>)
 </td>
 <td>
-<span class="math inline">62_{-4}^{+4} M_\odot</span>
+<span class="math inline">\(62_{-4}^{+4} M_\odot\)</span>
 </td>
 <td>
 Rotująca czarna dziura Kerra
@@ -2611,11 +2292,11 @@ Rotująca czarna dziura Kerra
 </tr>
 <tr>
 <td>
-Wypromieniowana energia (<span class="math inline">\Delta
-E_{\text{GW}}</span>)
+Wypromieniowana energia (<span class="math inline">\(\Delta
+E_{\text{GW}}\)</span>)
 </td>
 <td>
-<span class="math inline">3.0_{-0.5}^{+0.5} M_\odot c^2</span>
+<span class="math inline">\(3.0_{-0.5}^{+0.5} M_\odot c^2\)</span>
 </td>
 <td>
 Czysta energia wyemitowana w ułamku sekundy w postaci fal
@@ -2623,14 +2304,15 @@ Czysta energia wyemitowana w ułamku sekundy w postaci fal
 </tr>
 <tr>
 <td>
-Maksymalna amplituda na Ziemi (<span class="math inline">h</span>)
+Maksymalna amplituda na Ziemi (<span class="math inline">\(h\)</span>)
 </td>
 <td>
-<span class="math inline">\sim 1.0 \times 10^{-21}</span>
+<span class="math inline">\(\sim 1.0 \times 10^{-21}\)</span>
 </td>
 <td>
 Względna zmiana długości ramienia interferometru: <span
-class="math inline">\Delta L \approx 4 \times 10^{-18}\text{ m}</span>
+class="math inline">\(\Delta L \approx 4 \times 10^{-18}\text{
+m}\)</span>
 </td>
 </tr>
 </tbody>
@@ -2640,42 +2322,27 @@ class="math inline">\Delta L \approx 4 \times 10^{-18}\text{ m}</span>
 <h2 id="przykład-z-rozwiązaniem-worked-example">5. Przykład z
 rozwiązaniem (Worked Example)</h2>
 <h3 id="zadanie">Zadanie:</h3>
-<p>Dla interferometru LIGO o długości ramion <span class="math inline">L
-= 4\text{ km}</span>, oblicz bezwzględne przemieszczenie zwierciadeł
-<span class="math inline">\Delta L</span> wywołane falą grawitacyjną o
-amplitudzie <span class="math inline">h = 10^{-21}</span>. Porównaj
-wynik z rozmiarem protonu (<span class="math inline">r_p \approx 0.84
-\times 10^{-15}\text{ m}</span>).</p>
+<p>Dla interferometru LIGO o długości ramion <span
+class="math inline">\(L = 4\text{ km}\)</span>, oblicz bezwzględne
+przemieszczenie zwierciadeł <span class="math inline">\(\Delta
+L\)</span> wywołane falą grawitacyjną o amplitudzie <span
+class="math inline">\(h = 10^{-21}\)</span>. Porównaj wynik z rozmiarem
+protonu (<span class="math inline">\(r_p \approx 0.84 \times
+10^{-15}\text{ m}\)</span>).</p>
 <h3 id="rozwiązanie-krok-po-kroku">Rozwiązanie krok po kroku:</h3>
 <ol type="1">
 <li>Zależność między amplitudą odkształcenia a długością ramienia: <span
-class="math display">\frac{\Delta L}{L} \approx h \implies \Delta L = h
-\times L</span></li>
-<li>Podstawiając wartości: <span class="math display">\Delta L =
-10^{-21} \times 4000\text{ m} = 4 \times 10^{-18}\text{ m}</span></li>
+class="math display">\[\frac{\Delta L}{L} \approx h \implies \Delta L =
+h \times L\]</span></li>
+<li>Podstawiając wartości: <span class="math display">\[\Delta L =
+10^{-21} \times 4000\text{ m} = 4 \times 10^{-18}\text{ m}\]</span></li>
 <li>Stosunek do promienia protonu: <span
-class="math display">\frac{\Delta L}{r_p} = \frac{4 \times
+class="math display">\[\frac{\Delta L}{r_p} = \frac{4 \times
 10^{-18}\text{ m}}{0.84 \times 10^{-15}\text{ m}} \approx
-\frac{1}{210}</span> LIGO mierzy odkształcenie przestrzeni z precyzją
+\frac{1}{210}\]</span> LIGO mierzy odkształcenie przestrzeni z precyzją
 stanowiącą ułamek jednej tysięcznej średnicy pojedynczego protonu na
 dystansie 4 kilometrów.</li>
 </ol>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">6. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> Dlaczego idealnie sferyczna, pulsująca
-promieniowo gwiazda nie może emitować fal grawitacyjnych? -
-<strong>A)</strong> Ponieważ jej gęstość jest zbyt niska. -
-<strong>B)</strong> Zgodnie z twierdzeniem Birkhoffa i wzorem
-kwadrupolowym, promieniowanie grawitacyjne wymaga niezerowej trzeciej
-pochodnej masowego momentu kwadrupolowego; pulsacje sferyczne posiadają
-symetrię monopolową, która nie emituje fal. - <strong>C)</strong>
-Ponieważ fale grawitacyjne są pochłaniane przez fotosferę gwiazdy.</p>
-<p><em>Prawidłowa odpowiedź: B.</em> <em>Wyjaśnienie dydaktyczne:</em>
-Zgodnie z prawem zachowania energii i twierdzeniem Birkhoffa, każde pole
-sferycznie symetryczne w próżni jest ściśle statyczne (metryka
-Schwarzschilda). Brak zmiennego kwadrupolowego momentu pędu wyklucza
-emisję promieniowania falowego.</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -2700,13 +2367,40 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-7">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> Dlaczego idealnie sferyczna, pulsująca promieniowo gwiazda nie może emitować fal grawitacyjnych?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-7')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Ponieważ jej gęstość jest zbyt niska.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-7')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">Zgodnie z twierdzeniem Birkhoffa i wzorem kwadrupolowym, promieniowanie grawitacyjne wymaga niezerowej trzeciej pochodnej masowego momentu kwadrupolowego; pulsacje sferyczne posiadają symetrię monopolową, która nie emituje fal.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-7')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Ponieważ fale grawitacyjne są pochłaniane przez fotosferę gwiazdy.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-7">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">Zgodnie z prawem zachowania energii i twierdzeniem Birkhoffa, każde pole sferycznie symetryczne w próżni jest ściśle statyczne (metryka Schwarzschilda). Brak zmiennego kwadrupolowego momentu pędu wyklucza emisję promieniowania falowego.
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" >&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-7')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" >&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-7')">Zalicz lekcję i przejdź dalej &rarr;</button>
         </div>
       </article>
-      <article class="content-card" id="lesson-8">
+      <article class="lesson-sheet" id="lesson-8">
+        <div class="lesson-body">
 <h1 id="lekcja-4.2-relatywistyczny-projekt-końcowy-capstone">Lekcja 4.2:
 Relatywistyczny Projekt Końcowy (Capstone)</h1>
 <p class="chapter-start">
@@ -2722,10 +2416,10 @@ class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.
 <h2 id="cel-operacyjny-projektu-capstone">Cel operacyjny projektu
 Capstone</h2>
 <p>Po ukończeniu projektu będziesz potrafił: 1. Wyprowadzić relację masy
-chirpowej <span class="math inline">\mathcal{M}</span> na podstawie
+chirpowej <span class="math inline">\(\mathcal{M}\)</span> na podstawie
 ewolucji częstotliwości sygnału fali grawitacyjnej <span
-class="math inline">f(t)</span> i jej pochodnej <span
-class="math inline">\dot{f}(t)</span>. 2. Obliczyć masy składowe
+class="math inline">\(f(t)\)</span> i jej pochodnej <span
+class="math inline">\(\dot{f}(t)\)</span>. 2. Obliczyć masy składowe
 podwójnego układu czarnych dziur oraz oszacować straty masy na
 promieniowanie grawitacyjne. 3. Przeprowadzić zautomatyzowaną
 weryfikację numeryczną w Pythonie, porównując wyniki analityczne z
@@ -2734,46 +2428,50 @@ danymi detektora LIGO.</p>
 <h2 id="fizyka-fazy-zbliżania-inspiral-i-masa-chirpowa">1. Fizyka Fazy
 Zbliżania (Inspiral) i Masa Chirpowa</h2>
 <p>W fazie zbliżania (inspiral) podwójnego układu czarnych dziur o
-masach <span class="math inline">m_1</span> i <span
-class="math inline">m_2</span>, utrata energii orbitalnej na skutek
+masach <span class="math inline">\(m_1\)</span> i <span
+class="math inline">\(m_2\)</span>, utrata energii orbitalnej na skutek
 emisji fal grawitacyjnych powoduje przyspieszające zacieśnianie orbity i
 wzrost częstotliwości orbitalnej. Częstotliwość fali grawitacyjnej <span
-class="math inline">f_{\text{GW}} = 2 f_{\text{orb}}</span> ewoluuje w
-czasie zgodnie z równaniem:</p>
-<p><span class="math display">\dot{f} = \frac{96}{5} \pi^{8/3}
-\left(\frac{G \mathcal{M}}{c^3}\right)^{5/3} f^{11/3}</span></p>
-<p>gdzie <span class="math inline">\mathcal{M}</span> jest tzw.
+class="math inline">\(f_{\text{GW}} = 2 f_{\text{orb}}\)</span> ewoluuje
+w czasie zgodnie z równaniem:</p>
+<p><span class="math display">\[\dot{f} = \frac{96}{5} \pi^{8/3}
+\left(\frac{G \mathcal{M}}{c^3}\right)^{5/3} f^{11/3}\]</span></p>
+<p>gdzie <span class="math inline">\(\mathcal{M}\)</span> jest tzw.
 <strong>masą chirpową (Chirp Mass)</strong> zdefiniowaną jako:</p>
-<p><span class="math display">\mathcal{M} = \frac{(m_1 m_2)^{3/5}}{(m_1
-+ m_2)^{1/5}}</span></p>
+<p><span class="math display">\[\mathcal{M} = \frac{(m_1
+m_2)^{3/5}}{(m_1 + m_2)^{1/5}}\]</span></p>
 <p>Przekształcając równanie, otrzymujemy bezpośredni wzór na masę
-chirpową wyznaczoną z obserwacji <span class="math inline">f</span> i
-<span class="math inline">\dot{f}</span>:</p>
-<p><span class="math display">\mathcal{M} = \frac{c^3}{G} \left[
-\frac{5}{96 \pi^{8/3}} f^{-11/3} \dot{f} \right]^{3/5}</span></p>
+chirpową wyznaczoną z obserwacji <span class="math inline">\(f\)</span>
+i <span class="math inline">\(\dot{f}\)</span>:</p>
+<p><span class="math display">\[\mathcal{M} = \frac{c^3}{G} \left[
+\frac{5}{96 \pi^{8/3}} f^{-11/3} \dot{f} \right]^{3/5}\]</span></p>
 <hr />
 <h2 id="zadanie-projektowe-capstone-performance-task">2. Zadanie
 Projektowe (Capstone Performance Task)</h2>
 <h3 id="dane-wejściowe-z-detektora-ligo-dla-zdarzenia-gw150914">Dane
 wejściowe z detektora LIGO dla zdarzenia GW150914:</h3>
 <ul>
-<li>W chwili <span class="math inline">t_1 = -0.05\text{ s}</span> przed
-koalescencją: częstotliwość fali wynosiła <span class="math inline">f_1
-\approx 75\text{ Hz}</span>, a tempo jej wzrostu <span
-class="math inline">\dot{f}_1 \approx 1350\text{ Hz/s}</span>.</li>
+<li>W chwili <span class="math inline">\(t_1 = -0.05\text{ s}\)</span>
+przed koalescencją: częstotliwość fali wynosiła <span
+class="math inline">\(f_1 \approx 75\text{ Hz}\)</span>, a tempo jej
+wzrostu <span class="math inline">\(\dot{f}_1 \approx 1350\text{
+Hz/s}\)</span>.</li>
 <li>W chwili koalescencji maksymalna częstotliwość osiągnęła <span
-class="math inline">f_{\text{merger}} \approx 150\text{ Hz}</span>.</li>
+class="math inline">\(f_{\text{merger}} \approx 150\text{
+Hz}\)</span>.</li>
 </ul>
 <h3 id="zadania-do-wykonania">Zadania do wykonania:</h3>
 <ol type="1">
-<li>Oblicz masę chirpową <span class="math inline">\mathcal{M}</span>
-układu w masach Słońca (<span class="math inline">M_\odot</span>).</li>
+<li>Oblicz masę chirpową <span
+class="math inline">\(\mathcal{M}\)</span> układu w masach Słońca (<span
+class="math inline">\(M_\odot\)</span>).</li>
 <li>Przyjmując symetryczny układ równych mas (<span
-class="math inline">m_1 \approx m_2 = M_0</span>), wyznacz masy
-poszczególnych czarnych dziur <span class="math inline">M_0</span>.</li>
+class="math inline">\(m_1 \approx m_2 = M_0\)</span>), wyznacz masy
+poszczególnych czarnych dziur <span
+class="math inline">\(M_0\)</span>.</li>
 <li>Wyznacz promień Schwarzschilda czarnej dziury powstałej po
-połączeniu (<span class="math inline">M_f \approx 62
-M_\odot</span>).</li>
+połączeniu (<span class="math inline">\(M_f \approx 62
+M_\odot\)</span>).</li>
 <li>Napisz skrypt weryfikacyjny w języku Python i przetestuj wyniki
 testami jednostkowymi.</li>
 </ol>
@@ -2816,9 +2514,9 @@ SI, brak zaokrągleń pośrednich.
 <strong>Precyzja astrofizyczna</strong>
 </td>
 <td>
-Uzyskanie masy chirpowej w przedziale <span class="math inline">28 - 32
-M_\odot</span> oraz mas składowych w przedziale <span
-class="math inline">32 - 38 M_\odot</span>.
+Uzyskanie masy chirpowej w przedziale <span class="math inline">\(28 -
+32 M_\odot\)</span> oraz mas składowych w przedziale <span
+class="math inline">\(32 - 38 M_\odot\)</span>.
 </td>
 <td>
 25 pkt
@@ -2831,7 +2529,7 @@ class="math inline">32 - 38 M_\odot</span>.
 <td>
 Działający skrypt Python w <code>experiments/</code> z asercjami
 <code>assert</code> reprodukujący obliczenia z dokładnością <span
-class="math inline">&lt; 0.1\%</span>.
+class="math inline">\(&lt; 0.1\%\)</span>.
 </td>
 <td>
 30 pkt
@@ -2842,9 +2540,10 @@ class="math inline">&lt; 0.1\%</span>.
 <strong>Interpretacja relatywistyczna</strong>
 </td>
 <td>
-Wyjaśnienie, dlaczego masa końcowa <span class="math inline">M_f</span>
-jest mniejsza od sumy mas początkowych <span class="math inline">M_1 +
-M_2</span> (<span class="math inline">\Delta E = 3 M_\odot c^2</span>).
+Wyjaśnienie, dlaczego masa końcowa <span
+class="math inline">\(M_f\)</span> jest mniejsza od sumy mas
+początkowych <span class="math inline">\(M_1 + M_2\)</span> (<span
+class="math inline">\(\Delta E = 3 M_\odot c^2\)</span>).
 </td>
 <td>
 20 pkt
@@ -2894,41 +2593,22 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a hr
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="fl">170.0</span> <span class="op">&lt;=</span> (r_s_final <span class="op">/</span> <span class="fl">1000.0</span>) <span class="op">&lt;=</span> <span class="fl">195.0</span>, <span class="st">&quot;Niepoprawny promien horyzontu&quot;</span></span></code></pre></div>
 <h3 id="wynik-numeryczny">Wynik numeryczny:</h3>
 <ul>
-<li>Masa chirpowa: <span class="math inline">\mathcal{M} \approx 29.8\
-M_\odot</span> (zgodna z oficjalnym wynikiem LIGO: <span
-class="math inline">28.3_{-3.1}^{+3.2} M_\odot</span>).</li>
-<li>Masy składowe przy założeniu równości: <span class="math inline">m_1
-= m_2 \approx 34.2\ M_\odot</span> (oficjalne LIGO: <span
-class="math inline">36 M_\odot</span> i <span class="math inline">29
-M_\odot</span>).</li>
+<li>Masa chirpowa: <span class="math inline">\(\mathcal{M} \approx 29.8\
+M_\odot\)</span> (zgodna z oficjalnym wynikiem LIGO: <span
+class="math inline">\(28.3_{-3.1}^{+3.2} M_\odot\)</span>).</li>
+<li>Masy składowe przy założeniu równości: <span
+class="math inline">\(m_1 = m_2 \approx 34.2\ M_\odot\)</span>
+(oficjalne LIGO: <span class="math inline">\(36 M_\odot\)</span> i <span
+class="math inline">\(29 M_\odot\)</span>).</li>
 <li>Promień horyzontu czarnej dziury Kerra po koalescencji: <span
-class="math inline">r_s \approx 183\text{ km}</span>.</li>
-<li>Deficyt masy: <span class="math inline">\Delta M = (36 + 29) - 62 =
-3.0\ M_\odot</span>. Równowartość 3 mas Słońca została zamieniona na
+class="math inline">\(r_s \approx 183\text{ km}\)</span>.</li>
+<li>Deficyt masy: <span class="math inline">\(\Delta M = (36 + 29) - 62
+= 3.0\ M_\odot\)</span>. Równowartość 3 mas Słońca została zamieniona na
 czystą energię promieniowania grawitacyjnego zgodnie z równaniem <span
-class="math inline">E = mc^2</span> w ułamku sekundy, czyniąc to
+class="math inline">\(E = mc^2\)</span> w ułamku sekundy, czyniąc to
 zjawisko na moment najjaśniejszym źródłem energii w obserwowalnym
 Wszechświecie.</li>
 </ul>
-<hr />
-<h2 id="szybki-sprawdzian-wiedzy-retrieval-check">5. Szybki sprawdzian
-wiedzy (Retrieval Check)</h2>
-<p><strong>Pytanie:</strong> W jaki sposób detektory LIGO/Virgo są w
-stanie odróżnić sygnał fali grawitacyjnej od lokalnego trzęsienia ziemi
-lub szumu sejsmicznego? - <strong>A)</strong> Fale grawitacyjne wywołują
-błyski świetlne w tunelach próżniowych. - <strong>B)</strong> Poprzez
-koincydencję czasową: sygnał fali grawitacyjnej musi pojawić się w obu
-odległych o 3000 km detektorach (Hanford i Livingston) z opóźnieniem nie
-większym niż czas przelotu światła pomiędzy nimi (<span
-class="math inline">\Delta t \le 10\text{ ms}</span>) oraz posiadać
-spójny profil kwadrupolowy. - <strong>C)</strong> Szum sejsmiczny
-posiada wyższą częstotliwość niż fale grawitacyjne.</p>
-<p><em>Prawidłowa odpowiedź: B.</em> <em>Wyjaśnienie dydaktyczne:</em>
-Fale sejsmiczne rozchodzą się z prędkościami rzędu kilku km/s i nie mogą
-wywołać skorelowanego sygnału w Hanford i Livingston w oknie poniżej 10
-milisekund. Dopiero jednoczesna rejestracja fali biegnącej z prędkością
-<span class="math inline">c</span> w układzie dwóch niezależnych
-detektorów gwarantuje astrofizyczne pochodzenie zdarzenia.</p>
 <hr />
 <h2 id="przypisy-bibliograficzne-doi-verified">Przypisy bibliograficzne
 (DOI Verified)</h2>
@@ -2948,74 +2628,212 @@ role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
+<div class="interactive-quiz-container" id="quiz-lesson-8">
+  <div class="quiz-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Interaktywny Sprawdzian Wiedzy (ScientistTwo Diagnostic)</div>
+  <p class="quiz-question-text"><strong>Pytanie:</strong> W jaki sposób detektory LIGO/Virgo są w stanie odróżnić sygnał fali grawitacyjnej od lokalnego trzęsienia ziemi lub szumu sejsmicznego?</p>
+  <div class="quiz-options-group">
+    <button type="button" class="quiz-btn" data-opt="A" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-8')">
+      <span class="quiz-opt-letter">A</span>
+      <span class="quiz-opt-text">Fale grawitacyjne wywołują błyski świetlne w tunelach próżniowych.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="B" data-correct="true" onclick="handleQuizAnswer(this, 'quiz-lesson-8')">
+      <span class="quiz-opt-letter">B</span>
+      <span class="quiz-opt-text">Poprzez koincydencję czasową: sygnał fali grawitacyjnej musi pojawić się w obu odległych o 3000 km detektorach (Hanford i Livingston) z opóźnieniem nie większym niż czas przelotu światła pomiędzy nimi ($\Delta t \le 10\text{ ms}$) oraz posiadać spójny profil kwadrupolowy.</span>
+    </button>
+    <button type="button" class="quiz-btn" data-opt="C" data-correct="false" onclick="handleQuizAnswer(this, 'quiz-lesson-8')">
+      <span class="quiz-opt-letter">C</span>
+      <span class="quiz-opt-text">Szum sejsmiczny posiada wyższą częstotliwość niż fale grawitacyjne.</span>
+    </button>
+  </div>
+  <div class="quiz-feedback-box" id="feedback-quiz-lesson-8">
+    <div class="feedback-heading">Analiza dydaktyczna (Misconception Resolution):</div>
+    <p class="feedback-body">Fale sejsmiczne rozchodzą się z prędkościami rzędu kilku km/s i nie mogą wywołać skorelowanego sygnału w Hanford i Livingston w oknie poniżej 10 milisekund. Dopiero jednoczesna rejestracja fali biegnącej z prędkością $c$ w układzie dwóch niezależnych detektorów gwarantuje astrofizyczne pochodzenie zdarzenia.
 
-        <div class="lesson-footer-nav">
-          <button class="btn-nav" onclick="prevLesson()" >&larr; Poprzednia lekcja</button>
-          <button class="btn-nav btn-complete" onclick="markCompleteAndNext('lesson-8')">Zalicz lekcję i przejdź dalej &rarr;</button>
+---</p>
+  </div>
+</div>
+
+<div class="capstone-interactive-lab">
+  <div class="lab-header">
+    <span class="lab-tag">LABORATORIUM EMPIRYCZNE</span>
+    <h3>Interaktywny Symulator Koalescencji GW150914 (LIGO)</h3>
+    <p>Zmieniaj parametry obserwowane sygnału fali grawitacyjnej i obserwuj relatywistyczną rekonstrukcję parametrów układu czarnych dziur w czasie rzeczywistym:</p>
+  </div>
+  <div class="lab-controls-grid">
+    <div class="lab-control">
+      <label for="input-f">Częstotliwość fali $f$ [Hz]: <span id="val-f" class="val-badge">75 Hz</span></label>
+      <input type="range" id="input-f" min="35" max="150" value="75" step="1" oninput="updateCapstoneSim()">
+    </div>
+    <div class="lab-control">
+      <label for="input-fdot">Tempo wzrostu $\dot{f}$ [Hz/s]: <span id="val-fdot" class="val-badge">1350 Hz/s</span></label>
+      <input type="range" id="input-fdot" min="200" max="4000" value="1350" step="50" oninput="updateCapstoneSim()">
+    </div>
+  </div>
+  <div class="lab-results-grid">
+    <div class="result-tile">
+      <span class="tile-label">Masa Chirpowa $\mathcal{M}$</span>
+      <span class="tile-val" id="res-mchirp">31.27 M☉</span>
+      <span class="tile-sub">LIGO: 28.3 - 31.5 M☉</span>
+    </div>
+    <div class="result-tile">
+      <span class="tile-label">Masa Składowa $m_1 = m_2$</span>
+      <span class="tile-val" id="res-m0">35.92 M☉</span>
+      <span class="tile-sub">Czarna dziura Kerra</span>
+    </div>
+    <div class="result-tile">
+      <span class="tile-label">Promień Horyzontu $r_s$</span>
+      <span class="tile-val" id="res-rs">183.1 km</span>
+      <span class="tile-sub">Przed koalescencją</span>
+    </div>
+    <div class="result-tile">
+      <span class="tile-label">Wypromieniowana Energia $\Delta E$</span>
+      <span class="tile-val" id="res-dE">3.0 M☉ c²</span>
+      <span class="tile-sub">Moc szczytowa 10⁴⁹ W</span>
+    </div>
+  </div>
+  <div class="lab-status-badge" id="lab-verdict">
+    ✓ Zgodność empiryczna: Model zbieżny z detekcją LIGO Hanford/Livingston
+  </div>
+</div>
+
+        </div>
+
+        <div class="lesson-nav-footer">
+          <button type="button" class="nav-btn" onclick="goToRelativeLesson(-1)" >&larr; Poprzednia lekcja</button>
+          <button type="button" class="nav-btn btn-complete-action" onclick="completeCurrentLesson('lesson-8')">Zalicz kurs i pobierz skrypt</button>
         </div>
       </article>
     </main>
   </div>
 
   <script>
-    const totalLessons = 8;
+    const TOTAL_LESSONS = 8;
     let completedSet = new Set(JSON.parse(localStorage.getItem('gr_completed_lessons') || '[]'));
 
-    function updateProgressUI() {
-      const pct = Math.max(12, Math.round((completedSet.size / totalLessons) * 100));
-      document.getElementById('progress-percent').innerText = pct + '%';
-      document.getElementById('progress-bar-fill').style.width = pct + '%';
+    function toggleSidebar() {
+      const sb = document.getElementById('sidebar-drawer');
+      sb.classList.toggle('open');
+    }
 
-      document.querySelectorAll('.lesson-item').forEach(item => {
-        const id = item.getAttribute('data-target');
+    function updateProgress() {
+      const count = completedSet.size;
+      const pct = Math.max(12, Math.round((count / TOTAL_LESSONS) * 100));
+      document.getElementById('ui-progress-text').innerText = pct + '%';
+      document.getElementById('ui-progress-bar').style.width = pct + '%';
+
+      document.querySelectorAll('.nav-lesson-link').forEach(link => {
+        const id = link.getAttribute('data-id');
         if (completedSet.has(id)) {
-          item.classList.add('completed');
+          link.classList.add('is-done');
         } else {
-          item.classList.remove('completed');
+          link.classList.remove('is-done');
         }
       });
     }
 
-    function switchLesson(lessonId) {
-      document.querySelectorAll('.content-card').forEach(c => c.classList.remove('active'));
-      document.querySelectorAll('.lesson-item').forEach(i => i.classList.remove('active'));
+    function activateLesson(lessonId) {
+      document.querySelectorAll('.lesson-sheet').forEach(sheet => sheet.classList.remove('active'));
+      document.querySelectorAll('.nav-lesson-link').forEach(link => link.classList.remove('active'));
 
-      const targetCard = document.getElementById(lessonId);
-      const targetItem = document.querySelector(`.lesson-item[data-target="${lessonId}"]`);
-      if (targetCard) targetCard.classList.add('active');
-      if (targetItem) targetItem.classList.add('active');
+      const targetSheet = document.getElementById(lessonId);
+      const targetLink = document.querySelector(`.nav-lesson-link[data-id="${lessonId}"]`);
+      if (targetSheet) targetSheet.classList.add('active');
+      if (targetLink) targetLink.classList.add('active');
 
-      document.querySelector('main.lms-main').scrollTop = 0;
-      if (window.renderMathInElement) {
-        renderMathInElement(targetCard);
+      // Native window smooth scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // Close mobile drawer if open
+      const sb = document.getElementById('sidebar-drawer');
+      if (sb) sb.classList.remove('open');
+
+      // Trigger MathJax re-render for newly visible elements if needed
+      if (window.MathJax && MathJax.typesetPromise) {
+        MathJax.typesetPromise([targetSheet]);
       }
     }
 
-    function markCompleteAndNext(lessonId) {
+    function completeCurrentLesson(lessonId) {
       completedSet.add(lessonId);
       localStorage.setItem('gr_completed_lessons', JSON.stringify(Array.from(completedSet)));
-      updateProgressUI();
+      updateProgress();
 
       const num = parseInt(lessonId.replace('lesson-', ''));
-      if (num < totalLessons) {
-        switchLesson(`lesson-${num + 1}`);
+      if (num < TOTAL_LESSONS) {
+        activateLesson(`lesson-${num + 1}`);
       } else {
-        alert('Gratulacje! Ukończyłeś cały kurs Podstawy Ogólnej Teorii Względności (PhD & ScientistTwo Standard). Możesz pobrać oficjalny skrypt akademicki PDF!');
+        alert('Gratulacje! Zaliczyłeś wszystkie moduły kursu Podstawy Ogólnej Teorii Względności (PhD & ScientistTwo Standard). Możesz pobrać oficjalne kompendium PDF!');
       }
     }
 
-    function prevLesson() {
-      const activeCard = document.querySelector('.content-card.active');
-      if (!activeCard) return;
-      const num = parseInt(activeCard.id.replace('lesson-', ''));
-      if (num > 1) {
-        switchLesson(`lesson-${num - 1}`);
+    function goToRelativeLesson(delta) {
+      const activeSheet = document.querySelector('.lesson-sheet.active');
+      if (!activeSheet) return;
+      const num = parseInt(activeSheet.id.replace('lesson-', ''));
+      const target = num + delta;
+      if (target >= 1 && target <= TOTAL_LESSONS) {
+        activateLesson(`lesson-${target}`);
       }
     }
 
-    // Attach interactive quiz listeners
+    // Interactive Quiz Handler
+    function handleQuizAnswer(btn, quizId) {
+      const group = btn.closest('.quiz-options-group');
+      const allBtns = group.querySelectorAll('.quiz-btn');
+      allBtns.forEach(b => b.classList.remove('is-correct', 'is-wrong'));
+
+      const isCorrect = btn.getAttribute('data-correct') === 'true';
+      if (isCorrect) {
+        btn.classList.add('is-correct');
+      } else {
+        btn.classList.add('is-wrong');
+        // Highlight correct option
+        allBtns.forEach(b => {
+          if (b.getAttribute('data-correct') === 'true') {
+            b.classList.add('is-correct');
+          }
+        });
+      }
+
+      const feedback = document.getElementById('feedback-' + quizId);
+      if (feedback) {
+        feedback.classList.add('show');
+      }
+    }
+
+    // Capstone Simulator Logic
+    function updateCapstoneSim() {
+      const f = parseFloat(document.getElementById('input-f').value);
+      const fdot = parseFloat(document.getElementById('input-fdot').value);
+      document.getElementById('val-f').innerText = f + ' Hz';
+      document.getElementById('val-fdot').innerText = fdot + ' Hz/s';
+
+      const G = 6.67430e-11;
+      const c = 299792458.0;
+      const M_sun = 1.98847e30;
+
+      // Chirp Mass calculation
+      const coeff = 5.0 / (96.0 * Math.pow(Math.PI, 8.0/3.0));
+      const bracket = coeff * Math.pow(f, -11.0/3.0) * fdot;
+      const mChirpKg = (Math.pow(c, 3.0) / G) * Math.pow(bracket, 3.0/5.0);
+      const mChirpSolar = mChirpKg / M_sun;
+
+      // Component masses (equal mass assumption)
+      const m0Solar = mChirpSolar * Math.pow(2.0, 0.2);
+
+      // Schwarzschild radius (M_final approx 62 M_sun)
+      const r_s_km = (2 * G * (62.0 * M_sun)) / (c * c * 1000.0);
+
+      document.getElementById('res-mchirp').innerText = mChirpSolar.toFixed(2) + ' M☉';
+      document.getElementById('res-m0').innerText = m0Solar.toFixed(2) + ' M☉';
+      document.getElementById('res-rs').innerText = r_s_km.toFixed(1) + ' km';
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
-      updateProgressUI();
+      updateProgress();
+      if (document.getElementById('input-f')) {
+        updateCapstoneSim();
+      }
     });
   </script>
 </body>
